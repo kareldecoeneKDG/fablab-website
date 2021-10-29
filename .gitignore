@@ -50,3 +50,4 @@ Icon
 /site/config/.license
 
 node_modules
+/config/config.php
