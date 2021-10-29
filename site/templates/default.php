@@ -9,6 +9,6 @@
     <?= css('build/css/style.css') ?>
 </head>
 <body>
-    <h1><?= $page->title() ?></h1>
+    <h1><?= $page->title() ?> Test</h1>
 </body>
 </html>
