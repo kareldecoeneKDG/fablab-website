@@ -35,12 +35,12 @@
         <div class="introduction__flexbox__right">
             <div class="introduction__flexbox__right__openhours">
                 <h3 class="introduction__flexbox__right__openhours__title">Title</h3>
-                <p class="introduction__flexbox__right__openhours__p">Uren</p>
+                <p class="introduction__flexbox__right__openhours__paragraph">Uren</p>
             </div>
 
             <div class="introduction__flexbox__right__openhours">
                 <h3 class="introduction__flexbox__right__openhours__title">Title</h3>
-                <p class="introduction__flexbox__right__openhours__p">Uren</p>
+                <p class="introduction__flexbox__right__openhours__paragraph">Uren</p>
             </div>
         </div>
     </div>
