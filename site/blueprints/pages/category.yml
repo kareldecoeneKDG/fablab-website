@@ -1,0 +1,8 @@
+title: Categorie
+preset: page
+template: Machine Detail Page
+fields:
+  text:
+    label: Text
+    type: textarea
+    size: large

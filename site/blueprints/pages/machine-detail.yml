@@ -1,0 +1,56 @@
+title: Machine Detail Page
+
+columns:
+  - width: 1/2
+    sections:
+      info:
+        type: fields
+        template: machine-detail
+        fields:
+          Manufacturer:
+            type: text
+          Build volume:
+            type: text
+          Nozzle:
+            type: text
+          Filament:
+            type: text
+          Layer heights:
+            type: text
+          Bed:
+            type: text
+          Supported file types:
+            type: text
+          Manual instruction:
+            type: url
+
+  - width: 1/2
+    sections:
+      image:
+        type: files
+        layout: cards
+        image:
+          ratio: 1/1
+  
+  
+
+
+# preset: page
+# fields:
+  # text:
+    # label: Manifactor
+    # type: text
+    # size: large
+
+  # text:
+    # label: Nozlle
+    # type: text
+    # size: large
+
+    # nozlle: Text
+    # filament: Text
+    # layer heights: Text
+    # bed: Text
+
+    # supported file types: Text
+    # handleiding: Text
