@@ -1,8 +1,31 @@
-title: Categorie
-preset: page
-template: Machine Detail Page
-fields:
-  text:
-    label: Text
-    type: textarea
-    size: large
+title: Category
+
+columns:
+  - width: 1/2
+    sections:
+      info:
+        type: fields
+        template: Category
+        fields:
+          Manufacturer:
+            type: text
+          Build volume:
+            type: text
+          Nozzle:
+            type: text
+          Filament:
+            type: text
+          Layer heights:
+            type: text
+          Bed:
+            type: text
+          Supported file types:
+            type: text
+          Manual instruction:
+            type: url
+
+  - width: 1/2
+    sections:
+      pages:
+        template: Category
+        layout: cards
