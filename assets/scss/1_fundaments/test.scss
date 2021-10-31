@@ -1,3 +1,49 @@
 body {
     background-color: blue;
 }
+
+.machines {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5rem;
+    list-style-type: none;
+}
+
+.machines {
+    width: 100%;
+}
+
+.machine-layout {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 6rem;
+}
+
+.machine-info {
+    line-height: 1.5rem;
+}
+
+.machine-info dt {
+    font-weight: bold;
+}
+
+.machine-text {
+    margin-bottom: 1.5rem;
+}
+
+.machine-gallery ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.5rem;
+    align-items: center;
+}
+
+.machine-gallery li:first-child {
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+.machine-gallery img {
+    width: 100%;
+}

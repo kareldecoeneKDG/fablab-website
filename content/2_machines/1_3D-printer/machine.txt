@@ -1,0 +1,19 @@
+Title: 3D printer
+
+----
+
+Category: 3D printing
+
+----
+
+Client: Bose
+
+----
+
+Link: https://google.com
+
+----
+
+Text:
+
+Dit is de tekst van de eerste machine. Hierin komt wat info die Mark graag op de website had gezien. Groetjes Team FabLab.

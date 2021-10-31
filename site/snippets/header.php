@@ -14,7 +14,7 @@
         <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
         <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
 
-        <!-- FONTS -->
+        <!-- FONTS - GET PROXIMA NOVA FROM MARK -->
         <link rel="stylesheet" href="https://use.typekit.net/zxe6lkl.css">
 
         <!-- FONT AWESOME -->
