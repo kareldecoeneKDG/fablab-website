@@ -45,7 +45,7 @@
             </section>
 
             <section class="footer__copyright">
-                2021 FabLab KdG.
+            &#169; 2021 FabLab KdG.
             </section>
         </footer>
     </body>
