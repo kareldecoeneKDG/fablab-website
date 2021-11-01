@@ -1,0 +1,49 @@
+Title: 3D Printer - Prusa i3 MK3S
+
+----
+
+Category: 3D printing
+
+----
+
+Manufactur: Prusa
+
+----
+
+Buildvolume: temp
+
+----
+
+Nozzle: 0.4mm
+
+----
+
+Filament: 1.75mm
+
+----
+
+Layerheights: vanaf 0.05mm
+
+----
+
+Bed: Heated spring steel sheets
+
+----
+
+Supported-file-types: STL, OBJ
+
+----
+
+Software: https://www.makerbot.com/3d-printers/apps/makerbot-print/
+
+----
+
+Manual: https://www.prusa3d.com/drivers/
+
+----
+
+Tutorial: link
+
+----
+
+Creation: link

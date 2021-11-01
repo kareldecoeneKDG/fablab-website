@@ -1,0 +1,34 @@
+title: Machines
+
+sections:
+  published:
+    headline: Published Machines
+    type: pages
+    layout:  cards
+    template: machine
+    text: "{{ page.title }} by {{ page.client }}"
+    info: "Category: {{ page.category }}"
+    status: listed
+    #status: unlisted
+    #status: drafts
+    #status: published
+    limit: 3
+    image:
+      ratio: 3/2
+      cover: true
+
+  drafts:
+    headline: Drafts
+    type: pages
+    layout:  list
+    template: machine
+    text: "{{ page.title }} by {{ page.client }}"
+    info: "Category: {{ page.category }}"
+    status: drafts
+    help: Always upload a nice cover first
+    #status: unlisted
+    #status: listed
+    #status: published
+    image:
+      ratio: 3/2
+      cover: true

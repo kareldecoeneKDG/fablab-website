@@ -1,0 +1,45 @@
+title: Machine
+
+columns:
+  - width: 1/2
+    sections:
+      info:
+        type: fields
+        fields:
+          category:
+            type: text
+          manufactur:
+            type: text
+          buildVolume:
+            type: text
+          nozzle:
+            type: text
+          filament:
+            type: text
+          layerHeights:
+            type: text
+          bed:
+            type: text
+          supprtedFileTypes:
+            type: text
+          software:
+            type: url
+          manual:
+            type: url
+          tutorial:
+            type: url
+          creation:
+            type: url
+
+  - width: 1/2
+    sections:
+      gallery:
+        type: files
+        layout: cards
+        image:
+          ratio: 1/1
+
+
+
+
+  
