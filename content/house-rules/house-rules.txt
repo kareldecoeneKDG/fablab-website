@@ -1,1 +1,17 @@
 Title: Huisregels
+----
+Intro: In het KdG FabLab is iedereen welkom. We vragen je wel aan enkele afspraken te houden.
+Door het betreden van de ruimte verklaar je je automatisch akkoord met deze huisregels. Alle activiteiten binnen het KdG FabLab dienen te stroken met de missie, visie en waarden van de Karel de Grote Hogeschool (www.kdg.be). De toegang tot het FabLab kan je worden ontzegd bij niet naleven van deze huisregels of de ter beschikking gestelde informatie of wanneer je handelingen en/of je gedrag ingaan tegen onze missie, visie en waarden.
+----
+Openingsuren: We vragen elke bezoeker om de openingstijden te respecteren. We starten geen nieuwe taken meer op een half uur voor sluitingstijd. Een kwartier voor sluitingstijd sluiten we de machines af en zorg je ervoor dat je je werkomgeving netjes achterlaat voor de volgende gebruiker. Volg hiervoor de beschikbaar handleiding van de gebruikte machine.
+----
+Aanmelden: Het KdG FabLab bevindt zich op verdieping -1 van gebouw B, Salesianenlaan 90, 2660 HOBOKEN.
+Bezoekers melden zich eerst aan bij een FabLab medewerker alvorens ze aan de slag gaan.
+Je overloopt met de FabLab medewerker je opdracht.
+De FabLab medewerker controleert of je beschikt over de juiste en voldoende competenties om de machine(s) te gebruiken.
+----
+GebruikMachines: Gebruik machines tekstje
+----
+OrdeNetheid: Orde & netheid tekstje
+----
+MachinekostMaterialen: Machinekost & materialen tekstje

@@ -1,0 +1,21 @@
+title: Huisregels
+
+sections:
+  info:
+    type: fields
+    fields:
+      intro:
+        type: textarea
+      openingsuren:
+        type: textarea
+      aanmelden:
+        type: textarea
+      gebruikmachines:
+        label: Gebruik Machines
+        type: textarea
+      ordenetheid:
+        label: Orde & Netheid
+        type: textarea
+      machinekostmaterialen:
+        label: Machinekost & Materialen
+        type: textarea
