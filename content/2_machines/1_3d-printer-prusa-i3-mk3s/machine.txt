@@ -26,6 +26,10 @@ Layerheights: vanaf 0.05mm
 
 ----
 
+Layerresolution: vanaf 0.05mm
+
+----
+
 Bed: Heated spring steel sheets
 
 ----

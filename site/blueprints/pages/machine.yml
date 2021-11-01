@@ -18,6 +18,8 @@ columns:
             type: text
           layerHeights:
             type: text
+          layerResolution:
+            type: text
           bed:
             type: text
           supprtedFileTypes:

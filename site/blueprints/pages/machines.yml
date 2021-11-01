@@ -6,13 +6,14 @@ sections:
     type: pages
     layout:  cards
     template: machine
-    text: "{{ page.title }} by {{ page.client }}"
-    info: "Category: {{ page.category }}"
+    text: "{{ page.title }} by {{ page.manufactur }}"
+    info: "{{ page.category }}"
     status: listed
+    help: Voeg eerst een draft toe. Vervolledig deze en verander dan status naar 'listed' om een project toe te voegen.
     #status: unlisted
     #status: drafts
     #status: published
-    limit: 3
+    limit: 6
     image:
       ratio: 3/2
       cover: true

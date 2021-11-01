@@ -43,6 +43,11 @@
                             <dd><?= $page->layerHeights() ?></dd>
                         <?php endif ?>
 
+                        <?php if ($page->layerResolution()->isNotEmpty()): ?>
+                            <dt>Layer Resolution</dt>
+                            <dd><?= $page->layerResolution() ?></dd>
+                        <?php endif ?>
+
                         <?php if ($page->bed()->isNotEmpty()): ?>
                             <dt>Bed</dt>
                             <dd><?= $page->bed() ?></dd>
