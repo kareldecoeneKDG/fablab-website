@@ -1,1 +1,17 @@
 Title: KdG FabLab | Make Share Learn
+----
+WatIsEenFablab: Het KdG Fablab is een maakplaats voor iedereen. 
+Je vindt er onder andere 3D-printers, een Makerbot tot educatieve tools zoals Makey Makeys. 
+Je kan er je ideeën omzetten naar tastbare producten, studenten en andere makers ontmoeten, je laten inspireren, kennis en ideeën uitwisselen en zoveel meer. 
+----
+WerkingFablab: Het KdG Fablab is geopend van maandag tot donderdag tijdens campusuren voor KdG-medewerkers en studenten. Woensdag en donderdag is het Fablab ook open voor externen. 
+We werken liefst op reservatie, zo kunnen we jou steeds de juiste begeleiding bieden en van de nodige materialen voorzien. Ons team is steeds aanwezig voor vragen en inlichtingen en helpen je graag bij het omzetten van jouw ideeën naar een prototype of een eindproduct.
+----
+Toolsquare: Toolsquare
+Elke machine in het KdG Fablab is uitgerust met een gebruiksvriendelijke Toolsquare unit. Een gebruiker heeft alleen toegang tot de specifieke machine als hij/zij over de juiste toegangsrechten beschikt (bijv. training, ervaring).
+----
+Biolab: Naast het Fablab is er ook nog het Biolab, dit is een initiatief van KdG Fablab en de bacheloropleiding Chemie. 
+
+Ben je geïnteresseerd in innovatieve, duurzame biochemische design-processen? Neem dan zeker eens een kijkje op hun website! 
+Biolab biedt immers de mogelijkheid tot het opzetten van onderzoeksprojecten in een Fablab omgeving. Je kan onder begeleiding van ervaren mentoren hands-on industriële toepassingen onderzoeken en levensvatbare concepten uittekenen.
+----
