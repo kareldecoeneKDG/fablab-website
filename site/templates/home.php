@@ -24,11 +24,11 @@
 
 
 <section class="introduction">
-    <h2 class="introduction__title">Title</h2>
+    <h2 class="introduction__title"><?= $page->title() ?></h2>
 
     <div class="introduction__flexbox">
         <div class="introduction__flexbox__left">
-            <p class="introduction__flexbox__left__paragraph">Paragraph</p>
+            <p class="introduction__flexbox__left__paragraph"><?= $page->WatIsEenFablab() ?></p>
             <a class="introduction__flexbox__left__button" href="#">Button</a>
         </div>
 
@@ -53,7 +53,7 @@
 
     <div class="working__flexbox">
         <div class="working__flexbox__left">
-            <p class="working__flexbox__left__paragraph">Paragraph</p>
+            <p class="working__flexbox__left__paragraph"><?= $page->WerkingFablab() ?></p>
 
             <h3 class="working__flexbox__left__title"></h3>
             <p class="working__flexbox__left__paragraph">Paragraph</p>
@@ -72,7 +72,7 @@
 
     <div class="biolab__flexbox">
         <div class="biolab__flexbox__left">
-            <p class="biolab__flexbox__left__paragraph">Paragraph</p>
+            <p class="biolab__flexbox__left__paragraph"><?= $page->Biolab()?></p>
             <a class="biolab__flexbox__left__button" href="#"></a>
         </div>
 

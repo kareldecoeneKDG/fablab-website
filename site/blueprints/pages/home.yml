@@ -1,0 +1,15 @@
+title: Homepage
+
+sections:
+  info:
+    type: fields
+    fields:
+      WatIsEenFablab:
+        label: Wat Is Een Fablab
+        type: textarea
+      Toolsquare:
+        type: textarea
+      WerkingFablab:
+        type: textarea
+      Biolab:
+        type: textarea
