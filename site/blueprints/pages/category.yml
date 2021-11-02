@@ -1,31 +1,29 @@
 title: Category
 
-columns:
-  - width: 1/2
-    sections:
-      info:
-        type: fields
-        template: Category
-        fields:
-          Manufacturer:
-            type: text
-          Build volume:
-            type: text
-          Nozzle:
-            type: text
-          Filament:
-            type: text
-          Layer heights:
-            type: text
-          Bed:
-            type: text
-          Supported file types:
-            type: text
-          Manual instruction:
-            type: url
+sections:
+  published:
+    headline: Published Machines
+    type: pages
+    layout:  cards
+    template: 3d printing machine
+    text: "{{ page.title }}"
+    info: "{{ page.category }}"
+    status: listed
+    help: Voeg eerst een draft toe. Vervolledig deze en verander dan status naar 'listed' om een project toe te voegen.
+    limit: 6
+    image:
+      ratio: 3/2
+      cover: true
 
-  - width: 1/2
-    sections:
-      pages:
-        template: Category
-        layout: cards
+  drafts:
+    headline: Drafts
+    type: pages
+    layout:  list
+    template: 3d printing machine
+    text: "{{ page.title }}"
+    info: "Category: {{ page.category }}"
+    status: drafts
+    help: Always upload a nice cover first
+    image:
+      ratio: 3/2
+      cover: true
