@@ -48,5 +48,7 @@
             &#169; 2021 FabLab KdG.
             </section>
         </footer>
+
+        <script src="build/js/app.js"></script>
     </body>
 </html>

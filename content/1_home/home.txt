@@ -1,4 +1,4 @@
-Title: KdG FabLab | Make Share Learn
+Title: Home
 ----
 WatIsEenFablab: Het KdG Fablab is een maakplaats voor iedereen. 
 Je vindt er onder andere 3D-printers, een Makerbot tot educatieve tools zoals Makey Makeys. 

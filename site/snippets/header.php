@@ -35,13 +35,13 @@
     </head>
     <body>
         <header class="header">
-            <a class="header__logo" href="<?= $site->url() ?>">FABLAB LOGO</a>
-
             <nav class="header__menu">
-                <?php snippet('pages-list') ?>
-            </nav>
+                <a class="header__logo logo" href="<?= $site->url() ?>">FABLAB LOGO</a>
 
-            <button class="header__languageButton">
-                NL
-            </button>
+                <?php snippet('pages-list') ?>
+
+                <button class="header__languageButton">
+                    NL
+                </button>
+            </nav>
         </header>
