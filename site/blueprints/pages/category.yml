@@ -5,7 +5,7 @@ sections:
     headline: Published Machines
     type: pages
     layout:  cards
-    template: 3d printing machine
+    template: 3d-printing-machine
     text: "{{ page.title }}"
     info: "{{ page.category }}"
     status: listed
@@ -19,7 +19,7 @@ sections:
     headline: Drafts
     type: pages
     layout:  list
-    template: 3d printing machine
+    template: 3d-printing-machine
     text: "{{ page.title }}"
     info: "Category: {{ page.category }}"
     status: drafts
