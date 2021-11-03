@@ -1,1 +1,153 @@
 Title: Contact
+
+----
+
+Page-title: Contacteer ons
+
+----
+
+Address: Salesianenlaan 90 2660 Hoboken
+
+----
+
+Email: fablab@kdg.be
+
+----
+
+Facebooklink: facebook.com
+
+----
+
+Instagramlink: instagram.com
+
+----
+
+Kdgwebsite: kdg.be
+
+----
+
+Reserve: Wilt u een toestel reserveren?  Reserveren kan via de reservatiemodule  of e-mail.
+
+----
+
+Generalinfo: Partnerschappen, samenwerken, professioneel advies. Op zoek naar onderzoeksactiviteiten, workshops of een locatie voor evenementen?
+
+----
+
+Employee1: Mark Vekemans
+
+----
+
+Employee1 function: Coördinator KdG Fablab & Biolab
+
+----
+
+Employee1telephone: 0032(0)495 123 100
+
+----
+
+Employee1email: mark.vekemans@kdg.be
+
+----
+
+Employee2: Esther van de Poll
+
+----
+
+Employee2-function: Digital Designer & Maker / technisch medewerker Fablab
+
+----
+
+Employee2telephone: 0032(0)495 123 100
+
+----
+
+Employee2email: esther.vandepoll@kdg.be
+
+----
+
+Accessibilitybike:
+
+Fiets je vanuit station Antwerpen-Zuid naar de campus? Dan moet je op ongeveer 15 minuten trappen rekenen.
+Liever met de Velo? Er is 1 station vlakbij: aan de Coöperatielaan (290) en Den Brem (320).
+ 
+Meer info: www.velo-antwerpen.be
+
+----
+
+Accessibilitytram:
+
+Fiets je vanuit station Antwerpen-Zuid naar de campus? Dan moet je op ongeveer 15 minuten trappen rekenen.
+Liever met de Velo? Er is 1 station vlakbij: aan de Coöperatielaan (290) en Den Brem (320).
+ 
+Meer info: www.velo-antwerpen.be
+
+----
+
+Accessibilitybus:
+
+Fiets je vanuit station Antwerpen-Zuid naar de campus? Dan moet je op ongeveer 15 minuten trappen rekenen.
+Liever met de Velo? Er is 1 station vlakbij: aan de Coöperatielaan (290) en Den Brem (320).
+ 
+Meer info: www.velo-antwerpen.be
+
+----
+
+Accessibilitycar:
+
+Fiets je vanuit station Antwerpen-Zuid naar de campus? Dan moet je op ongeveer 15 minuten trappen rekenen.
+Liever met de Velo? Er is 1 station vlakbij: aan de Coöperatielaan (290) en Den Brem (320).
+ 
+Meer info: www.velo-antwerpen.be
+
+----
+
+Facebook-link: facebook.com
+
+----
+
+Instagram-link: instagram.com
+
+----
+
+Kdg: kdg.be
+
+----
+
+General-info-and-questions:
+
+text
+
+Employee1: text
+
+----
+
+Employee1-telephone: 0455 55 66 88
+
+----
+
+Employee1-email: email
+
+----
+
+Employee2-telephone: 5566 22 33 55
+
+----
+
+Employee2-email: email
+
+----
+
+Accessibility-bike: textarea
+
+----
+
+Accessibility-tram: textarea
+
+----
+
+Accessibility-bus: textarea
+
+----
+
+Accessibility-car: textarea
