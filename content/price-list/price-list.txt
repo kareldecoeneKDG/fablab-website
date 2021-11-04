@@ -1,1 +1,5 @@
 Title: Prijslijst
+----
+StandardMaterials: Het KdG FabLab heeft een aantal standaardmaterialen in stock. De aankoop dient onmiddellijk met Bancontact betaald te worden aan één van de FabLab medewerkers, betalen met cash is niet mogelijk.
+----
+OwnMaterials: Eigen materialen kunnen meegebracht en gebruikt worden, steeds na controle van één van de FabLab medewerkers. De instellingen van onze materialen kennen we, houd er rekening mee dat je de juiste instellingen van je eigen materialen nog even zal moeten uitzoeken.

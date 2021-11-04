@@ -25,7 +25,7 @@
                     <h3 class="footer__content__block__title">Info</h3>
                     <a class="footer__content__block__link" href="#">FAQ</a>
                     <a class="footer__content__block__link" href="#">Huisregels</a>
-                    <a class="footer__content__block__link" href="#">Prijslijst</a>
+                    <a class="footer__content__block__link" href="./price-list">Prijslijst</a>
                     <a class="footer__content__block__link" href="#">Wat is FabLab</a> 
                 </div>
 

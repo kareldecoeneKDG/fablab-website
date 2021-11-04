@@ -1,0 +1,12 @@
+title: Prijslijst
+
+sections:
+  info:
+    type: fields
+    fields:
+      StandardMaterials:
+        label: Standaard Materialen Tekst
+        type: textarea
+      OwnMaterials:
+        label: Eigen Materialen Tekst
+        type: textarea
