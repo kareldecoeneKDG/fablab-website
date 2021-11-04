@@ -10,3 +10,37 @@ sections:
       OwnMaterials:
         label: Eigen Materialen Tekst
         type: textarea
+
+      mdf:
+        label: MDF
+        type: structure
+        fields:
+          thickness:
+            label: dikte (mm)
+            type: text
+          size:
+            label: Afmetingen (l x b)
+            type: text
+          pricekdg:
+            label: Prijs KdG
+            type: text
+          priceextern:
+            label: Prijs Extern
+            type: text
+
+      3dfilaments:
+        label: 3D Filamenten
+        type: structure
+        fields:
+          material:
+            label: Materiaal
+            type: text
+          color:
+            label: Kleur
+            type: text
+          pricekdg:
+            label: Prijs KdG
+            type: text
+          priceextern:
+            label: Prijs Extern
+            type: text      
