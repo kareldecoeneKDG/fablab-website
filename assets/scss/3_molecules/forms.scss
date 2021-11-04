@@ -1,0 +1,51 @@
+.contact-container {
+    &__contact {
+        &__flexbox {
+            &__contactform {
+                &__form {
+                    padding-left: $margin-side-mobile;
+                    padding-right: $margin-side-mobile;
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+
+                    &__label {
+                        display: block;
+                        font-family: $verdana;
+                        font-size: $p-small-font-size-mobile;
+                        font-weight: 700;
+                        margin: $label-margin-mobile;
+                    }
+
+                    &__input {
+                        display: block;
+                        font-family: $verdana;
+                        font-size: $p-small-font-size-mobile;
+                        font-weight: 500;
+                        margin: $input-margin-mobile;
+                        padding: $input-padding-mobile;
+                        border-radius: $border-radius-small;
+                        border: none;
+                        width: 100%;
+                    }
+
+                    .textarea {
+                        resize: none;
+                        height: 300px;
+                    }
+
+                    &__submit {
+                        padding: $button-big-padding;
+                        border: none;
+                        background-color: $black;
+                        color: white;
+
+                        font-family: $verdana;
+                        font-size: $button-big-font-size-mobile;
+                        font-weight: 700;
+                        border-radius: $border-radius-small;
+                    }
+                }
+            }
+        }
+    }
+}

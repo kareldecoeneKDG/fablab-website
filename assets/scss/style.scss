@@ -4,8 +4,14 @@
 @import './1_fundaments/colors';
 @import './1_fundaments/spacers';
 
+@import './2_atoms/titles';
+@import './2_atoms/paragraphs';
+@import './2_atoms/icons';
+@import './2_atoms/images';
+
 @import './3_molecules/menu';
 @import './3_molecules/responsive-nav';
+@import './3_molecules/forms';
 
 @import './4_organisms/header';
 @import './4_organisms/footer';

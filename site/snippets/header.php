@@ -36,7 +36,7 @@
     <body>
         <header class="header">
             <nav class="header__menu">
-                <a class="header__logo logo" href="<?= $site->url() ?>">FABLAB LOGO</a>
+                <a class="header__logo logo" href="<?= $site->url() ?>"><img class="header__logo__img" src="assets/images/logo/fablab_logo.svg" alt="logo Fablab"></a>
 
                 <?php snippet('pages-list') ?>
 

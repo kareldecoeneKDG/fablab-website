@@ -28,11 +28,12 @@ nav{
     text-decoration: none;
     font-family: $verdana;
     font-weight: bold;
-    color: $white;
+    color: $black;
 }
 
 .burger {
     display: none;
+    z-index: 1;
 }
 
 .burger div {
@@ -63,19 +64,23 @@ nav{
     .nav-links {
         position: absolute;
         right: 0px;
-        height: 92vh;
-        top: 8vh;
+        height: 100vh;
+        top: 0;
         background-color: $black;
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 50%;
+        width: 75%;
         transform: translateX(-200%);
         transition: transform 0.5s ease-in;
     }
 
     .nav-links li {
         opacity: 0;
+    }
+
+    .nav-links a {
+        color: $white;
     }
 
     .burger {
@@ -91,7 +96,9 @@ nav{
 
 /* BRING MENU ITEMS IN SCREEN VIA NAV-ACTIVE CLASS */
 .nav-active {
-    transform: translateX(-100%);
+    transform: translateX(-35%);
+    padding-top: 15vh;
+    padding-bottom: 15vh;
 }
 
 
@@ -111,6 +118,7 @@ nav{
 /* ANIMATE DIFFERENT LINES OF BURGER VIA TOGGLE CLASS */
 .toggle .line1 {
     transform: rotate(-45deg) translate(-5px,6px);
+    background-color: white;
 }
 
 .toggle .line2 {
@@ -119,4 +127,5 @@ nav{
 
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px,-6px);
+    background-color: white;
 }

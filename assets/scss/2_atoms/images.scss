@@ -1,0 +1,25 @@
+.contact-container {
+    &__general {
+        &__flexbox {
+            &__left {
+                &__img {
+                    width: 100px;
+                    height: 100px;
+                    object-fit: cover;
+                    transform: skewY(5deg);
+                    border-radius: $border-radius-big;
+                    margin-left: 14px;
+                }
+            }
+        }
+    }
+}
+
+.header {
+    &__logo {
+        &__img {
+            width: 70px;
+            margin-top: 5px;
+        }
+    }
+}

@@ -1,17 +1,5 @@
 .contact-container {
-    //margin-left: $margin-side-mobile;
-    //margin-right: $margin-side-mobile;
-
     &__contact {
-        &__title {
-            font-family: $verdana;
-            margin: $h1-margin-mobile;
-            font-size: $h1-font-size-mobile;
-            font-weight: $h1-font-weight;
-            margin-left: $margin-side-mobile;
-            margin-right: $margin-side-mobile;
-        }
-
         &__flexbox {
             &__data {
                 margin-left: $margin-side-mobile;
@@ -24,16 +12,6 @@
                 &__link {
                     display: block;
                     font-size: $p-big-font-size-mobile;
-
-                    .location-icon {
-                        padding-left: 5px;
-                    }
-
-                    i {
-                        color: $grey;
-                        font-size: 25px;
-                        width: 40px;
-                    }
                 }
 
                 &__socials {
@@ -41,12 +19,6 @@
 
                     &__item {
                         display: inline;
-
-                        i {
-                            color: $grey;
-                            font-size: 25px;
-                            width: 30px;
-                        }
                     }
                 }
             }
@@ -55,51 +27,38 @@
                 margin-top: 30px;
                 background-color: $lightgrey;
                 border-radius: $border-radius-big;
+            }
+        }
+    }
 
-                &__form {
-                    padding-left: $margin-side-mobile;
-                    padding-right: $margin-side-mobile;
-                    padding-top: 30px;
-                    padding-bottom: 30px;
+    &__reserve {
+        padding-left: $margin-side-mobile;
+        padding-right: $margin-side-mobile;
+    }
 
-                    &__label {
-                        display: block;
-                        font-family: $verdana;
-                        font-size: $p-small-font-size-mobile;
-                        font-weight: 700;
-                        margin: $label-margin-mobile;
-                    }
+    &__general {
+        padding-left: $margin-side-mobile;
+        padding-right: $margin-side-mobile;
 
-                    &__input {
-                        display: block;
-                        font-family: $verdana;
-                        font-size: $p-small-font-size-mobile;
-                        font-weight: 500;
-                        margin: $input-margin-mobile;
-                        padding: $input-padding-mobile;
-                        border-radius: $border-radius-small;
-                        border: none;
-                        width: 100%;
-                    }
+        &__flexbox {
+            margin-top: 30px;
 
-                    .textarea {
-                        resize: none;
-                        height: 300px;
-                    }
-
-                    &__submit {
-                        padding: $button-big-padding;
-                        border: none;
-                        background-color: $black;
-                        color: white;
-
-                        font-family: $verdana;
-                        font-size: $button-big-font-size-mobile;
-                        font-weight: 700;
-                        border-radius: $border-radius-small;
-                    }
+            &__left {
+                &__contact {
+                    display: block;
+                    font-size: $p-big-font-size-mobile;
                 }
             }
         }
+    }
+
+    &__accessibility {
+        padding-left: $margin-side-mobile;
+        padding-right: $margin-side-mobile;
+    }
+
+    &__maps {
+        margin: 0;
+        padding: 0;
     }
 }

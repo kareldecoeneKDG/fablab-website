@@ -1,0 +1,43 @@
+.contact-container {
+    &__contact {
+        &__flexbox {
+            &__data {
+                &__link {
+                    .location-icon {
+                        padding-left: 5px;
+                    }
+
+                    i {
+                        color: $grey;
+                        font-size: 25px;
+                        width: 40px;
+                    }
+                }
+
+                &__socials {
+                    &__item {
+                        i {
+                            color: $grey;
+                            font-size: 25px;
+                            width: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &__general {
+        &__flexbox {
+            &__left {
+                &__contact {
+                    i {
+                        color: $grey;
+                        font-size: 25px;
+                        width: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
