@@ -1,11 +1,11 @@
 <?php snippet('header') ?>
 
-<section class="content article">
+<section class="content-article">
   <article>
     <h1><?= $page->title()->html() ?></h1>
-    <?= $page->image()  ?>
+    <img src="<?= $page->image()->url()?>" alt="">
     <div style="display:flex" class="share">
-        <div  class="icon">icon</div>
+        <a  class="icon" href=""><i class="fa fa-share"></i></a>
         <h4 >Delen</h4>
     </div>
     <?= $page->text()->kirbytext() ?>
