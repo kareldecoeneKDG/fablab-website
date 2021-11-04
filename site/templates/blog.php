@@ -4,15 +4,15 @@
 
 <h1><?= $page->Subtitle()->html() ?></h1>
 
-
+<div class="tag-filter">
     <?php foreach($tags as $tag): ?>
-        <button>
-      <a href="<?= url($page->url(), ['params' => ['tag' => $tag]]) ?>">
+  
+      <a class="button-tag" href="<?= url($page->url(), ['params' => ['tag' => $tag]]) ?>">
         <?= html($tag) ?>
       </a>
-      </button>
-    <?php endforeach ?>
 
+    <?php endforeach ?>
+</div>
 
 <div class="blog-wrapper">
 <?php foreach($page->children()->listed()->flip() as $article): ?>
