@@ -8,13 +8,13 @@
 
             <div class="contact-container__contact__flexbox">
                 <div class="contact-container__contact__flexbox__data">
-                    <a class="contact-container__contact__flexbox__data__link" href="#">icon <?= $page->address() ?></a>
-                    <a class="contact-container__contact__flexbox__data__link" href="#">icon <?= $page->email() ?></a>
+                    <a class="contact-container__contact__flexbox__data__link" href="#"><i class="fa fa-map-marker location-icon" aria-hidden="true"></i> <?= $page->address() ?></a>
+                    <a class="contact-container__contact__flexbox__data__link" href="#"><i class="fa fa-envelope" aria-hidden="true"></i> <?= $page->email() ?></a>
 
                     <div class="contact-container__contact__flexbox__data__socials">
-                        <a class="contact-container__contact__flexbox__data__socials__item" href="#">iconF</a>
-                        <a class="contact-container__contact__flexbox__data__socials__item" href="#">iconI</a>
-                        <a class="contact-container__contact__flexbox__data__socials__item" href="#">iconKDG</a>
+                        <a class="contact-container__contact__flexbox__data__socials__item" href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                        <a class="contact-container__contact__flexbox__data__socials__item" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        <a class="contact-container__contact__flexbox__data__socials__item" href="#"><i class="fa fa-globe" aria-hidden="true"></i></a>
                     </div>
                 </div>
 
@@ -27,7 +27,7 @@
                         <input class="contact-container__contact__flexbox__contactform__form__input" type="text" name="email">
 
                         <label class="contact-container__contact__flexbox__contactform__form__label">Uw bericht</label>
-                        <textarea class="contact-container__contact__flexbox__contactform__form__input" type="text" name="message"></textarea>
+                        <textarea class="contact-container__contact__flexbox__contactform__form__input textarea" type="text" name="message"></textarea>
 
                         <input class="contact-container__contact__flexbox__contactform__form__submit button-big" type="submit" value="Verzend">
                     </form>

@@ -2,9 +2,12 @@
 @import './1_fundaments/setup';
 @import './1_fundaments/fonts';
 @import './1_fundaments/colors';
+@import './1_fundaments/spacers';
 
 @import './3_molecules/menu';
 @import './3_molecules/responsive-nav';
 
 @import './4_organisms/header';
 @import './4_organisms/footer';
+
+@import './5_pages/contact';

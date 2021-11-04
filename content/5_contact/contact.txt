@@ -2,11 +2,11 @@ Title: Contact
 
 ----
 
-Page-title: Contacteer ons
+Page-title: Contacteer ons!
 
 ----
 
-Address: Salesianenlaan 90 2660 Hoboken
+Address: Salesianenlaan 90, 2660 Hoboken
 
 ----
 
@@ -26,7 +26,7 @@ Kdgwebsite: kdg.be
 
 ----
 
-Reserve: Wilt u een toestel reserveren?  Reserveren kan via de reservatiemodule  of e-mail.
+Reserve: Wilt u een toestel reserveren? Reserveren kan via de reservatiemodule of e-mail.
 
 ----
 
@@ -38,15 +38,15 @@ Employee1: Mark Vekemans
 
 ----
 
-Employee1 function: Coördinator KdG Fablab & Biolab
+Employee1-function: Coördinator KdG Fablab & Biolab
 
 ----
 
-Employee1telephone: 0032(0)495 123 100
+Employee1-telephone: 0455 55 66 88
 
 ----
 
-Employee1email: mark.vekemans@kdg.be
+Employee1-email: email
 
 ----
 
@@ -58,11 +58,11 @@ Employee2-function: Digital Designer & Maker / technisch medewerker Fablab
 
 ----
 
-Employee2telephone: 0032(0)495 123 100
+Employee2-telephone: 5566 22 33 55
 
 ----
 
-Employee2email: esther.vandepoll@kdg.be
+Employee2-email: email
 
 ----
 
@@ -70,7 +70,7 @@ Accessibilitybike:
 
 Fiets je vanuit station Antwerpen-Zuid naar de campus? Dan moet je op ongeveer 15 minuten trappen rekenen.
 Liever met de Velo? Er is 1 station vlakbij: aan de Coöperatielaan (290) en Den Brem (320).
- 
+
 Meer info: www.velo-antwerpen.be
 
 ----
@@ -79,7 +79,7 @@ Accessibilitytram:
 
 Fiets je vanuit station Antwerpen-Zuid naar de campus? Dan moet je op ongeveer 15 minuten trappen rekenen.
 Liever met de Velo? Er is 1 station vlakbij: aan de Coöperatielaan (290) en Den Brem (320).
- 
+
 Meer info: www.velo-antwerpen.be
 
 ----
@@ -88,7 +88,7 @@ Accessibilitybus:
 
 Fiets je vanuit station Antwerpen-Zuid naar de campus? Dan moet je op ongeveer 15 minuten trappen rekenen.
 Liever met de Velo? Er is 1 station vlakbij: aan de Coöperatielaan (290) en Den Brem (320).
- 
+
 Meer info: www.velo-antwerpen.be
 
 ----
@@ -97,8 +97,24 @@ Accessibilitycar:
 
 Fiets je vanuit station Antwerpen-Zuid naar de campus? Dan moet je op ongeveer 15 minuten trappen rekenen.
 Liever met de Velo? Er is 1 station vlakbij: aan de Coöperatielaan (290) en Den Brem (320).
- 
+
 Meer info: www.velo-antwerpen.be
+
+----
+
+Employee1telephone: 0032(0)495 123 100
+
+----
+
+Employee1email: mark.vekemans@kdg.be
+
+----
+
+Employee2telephone: 0032(0)495 123 100
+
+----
+
+Employee2email: esther.vandepoll@kdg.be
 
 ----
 
@@ -119,22 +135,6 @@ General-info-and-questions:
 text
 
 Employee1: text
-
-----
-
-Employee1-telephone: 0455 55 66 88
-
-----
-
-Employee1-email: email
-
-----
-
-Employee2-telephone: 5566 22 33 55
-
-----
-
-Employee2-email: email
 
 ----
 

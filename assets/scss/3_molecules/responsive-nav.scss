@@ -1,20 +1,21 @@
+/* GENERAL + DESKTOP */
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     min-height: 8vh;
-    background-color: red;
+    background-color: $white;
     font-family: $verdana;
 }
 
 .logo {
-    color: white;
+    color: $black;
     text-transform: uppercase;
 }
 
 .nav-links {
     display: flex;
-    background-color: blue;
+    background-color: $white;
     justify-content: space-around;
     width: 40%;
 }
@@ -25,6 +26,9 @@ nav{
 
 .nav-links a {
     text-decoration: none;
+    font-family: $verdana;
+    font-weight: bold;
+    color: $white;
 }
 
 .burger {
@@ -34,29 +38,39 @@ nav{
 .burger div {
     width: 25px;
     height: 3px;
-    background-color: white;
+    background-color: $black;
     margin: 5px;
     transition: all 0.3s ease;
 }
 
+
+/* TABLET PORTRAIT */
 @media screen and (max-width: 1024px) {
     .nav-links {
         width: 50%;
     }
 }
 
+
+/* MOBILE */
 @media screen and (max-width: 768px) {
+    nav {
+        flex-direction: row-reverse;
+        padding-left: $margin-side-mobile;
+        padding-right: $margin-side-mobile;
+    }
+    
     .nav-links {
         position: absolute;
         right: 0px;
         height: 92vh;
         top: 8vh;
-        background-color: red;
+        background-color: $black;
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 50%;
-        transform: translateX(100%);
+        transform: translateX(-200%);
         transition: transform 0.5s ease-in;
     }
 
@@ -74,14 +88,18 @@ nav{
     }
 }
 
+
+/* BRING MENU ITEMS IN SCREEN VIA NAV-ACTIVE CLASS */
 .nav-active {
-    transform: translateX(0%);
+    transform: translateX(-100%);
 }
 
+
+/* FADE ANIMATION MENU ITEM */
 @keyframes navLinkFade {
     from{
         opacity: 0;
-        transform: translateX(50px);
+        transform: translateX(-50px);
     }
     to{
         opacity: 1;
@@ -89,6 +107,8 @@ nav{
     }
 }
 
+
+/* ANIMATE DIFFERENT LINES OF BURGER VIA TOGGLE CLASS */
 .toggle .line1 {
     transform: rotate(-45deg) translate(-5px,6px);
 }
