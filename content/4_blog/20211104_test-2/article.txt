@@ -1,4 +1,4 @@
-Title: test 2
+Title: Vanalles
 
 ----
 
@@ -16,4 +16,4 @@ Author:
 
 ----
 
-Tags: test, 3d-printer, laser cutter, vr bril, boeken
+Tags: test, 3d-printer, vr bril, boeken, laser-cutter

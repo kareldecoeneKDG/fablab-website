@@ -1,7 +1,13 @@
 .tag-filter {
   overflow: auto;
   white-space: nowrap;
+
   .button-tag {
     display: inline-block;
+    scrollbar-width: none; /* for Firefox */
+    -ms-overflow-style: none;
+    ::-webkit-scrollbar {
+      display: none;
+    }
   }
 }

@@ -15,19 +15,15 @@
 </div>
 
 <div class="blog-wrapper">
-<?php foreach($page->children()->listed()->flip() as $article): ?>
-
-<article class="blog-overview">
+    <?php foreach($articles as $article): ?>
+    <article class="blog-overview">
    
-    <img src="<?= $article->image()->url()?>" alt="">
-        
-        <h1><?= $article->title()->html() ?></h1>
-        <p><?= $article->text()->excerpt(70) ?></p>
-        <p><?= $article->tags() ?></p>
-        <a href="<?= $article->url() ?>">Lees meer ></a>
-</article>
-
-<?php endforeach ?>
+        <img src="<?= $article->image()->url()?>" alt="">
+       <h1><?= $article->title()->html() ?></h1>
+       <p><?= $article->text()->excerpt(70) ?></p>
+       <a href="<?= $article->url() ?>">Lees meer ></a>
+    </article>
+    <?php endforeach ?>
 </div>
 </section>
     
