@@ -1,51 +1,54 @@
         <footer class="footer">
             <section class="footer__content">
-                <div class="footer__content__block">
-                    <h3 class="footer__content__block__title">Title</h3>
-                    <a class="footer__content__block__link" href="#"><i class="footer__content__block__link__icon"></i>Adres</a>
-                    <a class="footer__content__block__link" href="#"><i class="footer__content__block__link__icon"></i>Mail</a>
 
-                    <div class="footer__content__block__socialsflexbox">
-                        <i class="footer__content__block__socialsflexbox__social"></i>
-                        <i class="footer__content__block__socialsflexbox__social"></i>
-                        <i class="footer__content__block__socialsflexbox__social"></i>
-                    </div>
+                <!-- BLOCK -->
+                <div class="footer__content__block">
+                    <h4 class="footer__content__block__title h4 first-title">Contact</h4>
+                    <a class="footer__content__block__link" href="#"><i class="fa fa-map-marker location-icon" aria-hidden="true"></i> Adres</a>
+                    <a class="footer__content__block__link" href="#"><i class="fa fa-envelope" aria-hidden="true"></i> Mail</a>
+
+                    <!-- SOCIALS SNIPPET -->
+                    <?php snippet('socials') ?>
                 </div>
 
+                <!-- BLOCK -->
                 <div class="footer__content__block">
-                    <h3 class="footer__content__block__title">Navigatie</h3>
-                    <a class="footer__content__block__link" href="#">Home</a>
-                    <a class="footer__content__block__link" href="#">Machines</a>
-                    <a class="footer__content__block__link" href="#">Reserveren</a>
-                    <a class="footer__content__block__link" href="#">Blog</a>
-                    <a class="footer__content__block__link" href="#">Contact</a>
-                </div>
-
-                <div class="footer__content__block">
-                    <h3 class="footer__content__block__title">Info</h3>
-                    <a class="footer__content__block__link" href="#">FAQ</a>
-                    <a class="footer__content__block__link" href="#">Huisregels</a>
-                    <a class="footer__content__block__link" href="./price-list">Prijslijst</a>
-                    <a class="footer__content__block__link" href="#">Wat is FabLab</a> 
-                </div>
-
-                <div class="footer__content__block">
-                    <h3 class="footer__content__block__title">Openingsuren</h3>
+                    <h4 class="footer__content__block__title h4">Openingsuren</h4>
 
                     <div class="footer__content__block__openhours">
-                        <h4 class="footer__content__block__openhours__title">KdG-medewerkers/studenten</h4>
+                        <h5 class="footer__content__block__openhours__title h5">KdG-medewerkers/studenten</h5>
                         <p class="footer__content__block__openhours__paragraph">ma - do: 9.00u - 17.00u</p>
                     </div>
 
                     <div class="footer__content__block__openhours">
-                        <h4 class="footer__content__block__openhours__title">Open lab momenten</h4>
+                        <h5 class="footer__content__block__openhours__title h5">Open lab momenten</h5>
                         <p class="footer__content__block__openhours__paragraph">woe - do: 13.00u - 17.00u</p>
+                    </div>
+                </div>
+
+                <!-- FLEXBOX -->
+                <div class="footer__content__flexbox">
+                    <div class="footer__content__flexbox__block">
+                        <h4 class="footer__content__block__title h4">Navigatie</h4>
+                        <a class="footer__content__block__link" href="#">Home</a>
+                        <a class="footer__content__block__link" href="#">Machines</a>
+                        <a class="footer__content__block__link" href="#">Reserveren</a>
+                        <a class="footer__content__block__link" href="#">Blog</a>
+                        <a class="footer__content__block__link" href="#">Contact</a>
+                    </div>
+
+                    <div class="footer__content__flexbox__block">
+                        <h4 class="footer__content__block__title h4">Info</h4>
+                        <a class="footer__content__block__link" href="#">FAQ</a>
+                        <a class="footer__content__block__link" href="#">Huisregels</a>
+                        <a class="footer__content__block__link" href="./price-list">Prijslijst</a>
+                        <a class="footer__content__block__link" href="#">Wat is FabLab</a> 
                     </div>
                 </div>
             </section>
 
             <section class="footer__copyright">
-            &#169; 2021 FabLab KdG.
+                &#169; 2021 FabLab KdG.
             </section>
         </footer>
 

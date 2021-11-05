@@ -9,5 +9,4 @@
           echo $product->name();
         }*/
     ?>
-    
 <?php snippet('footer') ?>

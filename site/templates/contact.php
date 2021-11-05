@@ -11,11 +11,8 @@
                     <a class="contact-container__contact__flexbox__data__link" href="#"><i class="fa fa-map-marker location-icon" aria-hidden="true"></i> <?= $page->address() ?></a>
                     <a class="contact-container__contact__flexbox__data__link" href="#"><i class="fa fa-envelope" aria-hidden="true"></i> <?= $page->email() ?></a>
 
-                    <div class="contact-container__contact__flexbox__data__socials">
-                        <a class="contact-container__contact__flexbox__data__socials__item" href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-                        <a class="contact-container__contact__flexbox__data__socials__item" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                        <a class="contact-container__contact__flexbox__data__socials__item" href="#"><i class="fa fa-globe" aria-hidden="true"></i></a>
-                    </div>
+                    <!-- SOCIALS SNIPPET -->
+                    <?php snippet('socials') ?>
                 </div>
 
                 <div class="contact-container__contact__flexbox__contactform">

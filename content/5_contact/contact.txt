@@ -2,6 +2,27 @@ Title: Contact
 
 ----
 
+Socials:
+
+- 
+  icon: [ ]
+  social: facebook
+  url: https://www.facebook.com
+  socials: https://www.facebook.com
+  facebook: https://www.facebook.com/
+  instagram: https://www.instagram.com/
+  kdgwebsite: https://www.kdg.be
+- 
+  icon: [ ]
+  social: instagram
+  url: https://www.instagram.com
+- 
+  icon: [ ]
+  social: kdgWebsite
+  url: https://www.kdg.be
+
+----
+
 Page-title: Contacteer ons!
 
 ----
@@ -151,3 +172,13 @@ Accessibility-bus: textarea
 ----
 
 Accessibility-car: textarea
+
+----
+
+Holidays:
+
+- 
+  title: holiday1
+  images: [ ]
+  description: hallo
+  price: 1200

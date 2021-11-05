@@ -1,56 +1,30 @@
 title: Contact
 
-columns:
-  - width: 1/2
-    sections:
-      info:
-        type: fields
+fields:
+    socials:
+        label: Socials
+        type: structure
+        default:
+          - social: facebook
+          - social: instagram
+          - social: snapchat
+          - social: tiktok
+          - social: twitter
+          - social: pinterest
+          - social: linkedin
+          - social: reddit
+          - social: kdgwebsite
+        columns:
+            icon:
+                width: 1/4
+            social:
+                width: 1/4
+            url:
+                width: 1/2
         fields:
-          Page title:
-            type: text
-          address:
-            type: text
-          email:
-            type: text
-          facebookLink:
-            type: text
-          instagramLink:
-            type: text
-          kdgWebsite:
-            type: text
-          reserve:
-            type: textarea
-          generalInfo:
-            type: textarea
-          employee1:
-            type: text
-          employee1 function:
-            type: text
-          employee1 telephone:
-            type: text
-          employee1 email:
-            type: text
-          employee2:
-            type: text
-          employee2 function:
-            type: text
-          employee2 telephone:
-            type: text
-          employee2 email:
-            type: text
-          accessibilityBike:
-            type: textarea
-          accessibilityTram:
-            type: textarea
-          accessibilityBus:
-            type: textarea
-          accessibilityCar:
-            type: textarea
-
-  - width: 1/2
-    sections:
-      gallery:
-        type: files
-        layout: cards
-        image:
-          ratio: 1/1
+          icon:
+            type: files
+          social:
+            type: social
+          url:
+            type: url

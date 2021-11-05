@@ -1,3 +1,64 @@
 .footer {
-    background-color: red;
+    padding: 30px 26px 20px 26px;
+    background-color: $lightgrey;
+
+    &__content {
+        &__block {
+            .first-title {
+                margin-top: 0;
+            }
+
+            &__link {
+                display: block;
+                font-size: $p-small-font-size-mobile;
+
+                .location-icon {
+                    padding-left: 5px;
+                }
+
+                i {
+                    color: $grey;
+                    font-size: 25px;
+                    width: 40px;
+                }
+            }
+
+            &__socialsflexbox {
+                margin-top: 30px;
+
+                &__social {
+                    i {
+                        color: $grey;
+                        font-size: 25px;
+                        width: 30px;
+                    }
+                }
+            }
+
+            &__openhours {
+                &__paragraph {
+                    font-family: $verdana;
+                    font-size: $p-small-font-size-mobile;
+                    font-weight: 500;
+                }
+            }
+        }
+
+        &__flexbox {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            &__block {
+                width: 50%;
+            }
+        }
+    }
+
+    &__copyright {
+        display: block;
+        text-align: center;
+        margin-top: 30px;
+        font-size: $p-small-font-size-mobile;
+    }
 }
