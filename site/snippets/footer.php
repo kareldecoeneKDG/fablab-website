@@ -1,4 +1,6 @@
         <footer class="footer">
+            
+            <!-- FLEXBOX -->
             <section class="footer__content">
 
                 <!-- BLOCK -->
@@ -7,11 +9,11 @@
                     <a class="footer__content__block__link" href="#"><i class="fa fa-map-marker location-icon" aria-hidden="true"></i> Adres</a>
                     <a class="footer__content__block__link footer__content__block__link-email" href="#"><i class="fa fa-envelope" aria-hidden="true"></i> Mail</a>
 
-                    <!-- SOCIALS SNIPPET -->
+                    <!-- SNIPPET - SOCIALS WHITE -->
                     <?php snippet('socials-white') ?>
                 </div>
 
-                <!-- MOBILE LAYOUT LINKS -->
+                <!-- BLOCK - DESKTOP LAYOUT SITEMAP -->
                 <div id="sitemap-desktop" class="footer__content__block">
                     <h4 class="footer__content__block__title footer-h4 h4">Navigatie</h4>
                     <a class="footer__content__block__link" href="#">Home</a>
@@ -21,6 +23,7 @@
                     <a class="footer__content__block__link" href="#">Contact</a>
                 </div>
 
+                <!-- BLOCK - DESKTOP LAYOUT PAGES -->
                 <div id="pages-desktop" class="footer__content__block">
                     <h4 class="footer__content__block__title footer-h4 h4">Info</h4>
                     <a class="footer__content__block__link" href="#">FAQ</a>
@@ -44,7 +47,7 @@
                     </div>
                 </div>
 
-                <!-- FLEXBOX -->
+                <!-- BLOCK - MOBILE LAYOUT SITEMAP + PAGES -->
                 <div class="footer__content__flexbox">
                     <div class="footer__content__flexbox__block">
                         <h4 class="footer__content__block__title footer-h4 h4">Navigatie</h4>
@@ -78,12 +81,14 @@
                 </div>
             </section>
 
+            <!-- COPYRIGHT -->
             <section class="footer__copyright">
                 &#169; 2021 FabLab KdG.
             </section>
         </footer>
 
-        <script src="build/js/app.js"></script>
-        </body>
 
-        </html>
+        <!-- JAVASCRIPT RESPONSIVE NAV -->
+        <script src="build/js/app.js"></script>
+    </body>
+</html>

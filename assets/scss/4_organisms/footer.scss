@@ -1,3 +1,4 @@
+// MOBILE
 .footer {
     padding: 30px 26px 20px 26px;
     background-color: $black-light;
@@ -12,24 +13,10 @@
         }
 
         &__block {
-            .first-title {
-                margin-top: 0;
-            }
-
             &__link {
                 display: block;
                 font-size: $p-small-font-size-mobile;
                 color: $white;
-
-                .location-icon {
-                    padding-left: 5px;
-                }
-
-                i {
-                    color: $white;
-                    font-size: 25px;
-                    width: 40px;
-                }
             }
 
             &__link-email {
@@ -38,26 +25,10 @@
 
             &__socialsflexbox-white {
                 margin-top: 30px;
-
-                &__social {
-                    i {
-                        color: $white;
-                        font-size: 25px;
-                        width: 30px;
-                    }
-                }
             }
 
             &__socialsflexbox-grey {
                 margin-top: 30px;
-
-                &__social {
-                    i {
-                        color: $grey;
-                        font-size: 25px;
-                        width: 30px;
-                    }
-                }
             }
 
             &__openhours {
@@ -66,16 +37,6 @@
                     font-size: $p-small-font-size-mobile;
                     font-weight: 500;
                     color: $white;
-                }
-            }
-
-            &__imageholder {
-                display: block;
-                width: 100%;
-                text-align: left;
-
-                &__img {
-                    width: 55%;
                 }
             }
         }
@@ -102,6 +63,9 @@
 
 
 
+
+
+// DESKTOP - 1280PX
 @media only screen and (min-width: 1280px) {
     .footer {
         padding-left: $margin-side-desktop;
@@ -122,12 +86,6 @@
 
             &__flexbox {
                 display: none;
-            }
-
-            &__block {
-                &__imageholder {
-                    text-align: left;
-                }
             }
         }
     }

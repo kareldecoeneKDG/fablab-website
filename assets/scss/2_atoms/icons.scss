@@ -1,3 +1,6 @@
+// MOBILE
+
+// CONTACT
 .contact-container {
     &__contact {
         &__flexbox {
@@ -36,6 +39,49 @@
                         font-size: 25px;
                         width: 30px;
                         color: $grey;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+// FOOTER
+.footer {
+    &__content {
+        &__block {
+            &__link {
+                .location-icon {
+                    padding-left: 5px;
+                }
+
+                i {
+                    color: $white;
+                    font-size: 25px;
+                    width: 40px;
+                }
+            }
+
+            &__socialsflexbox-white {
+                &__social {
+                    i {
+                        color: $white;
+                        font-size: 25px;
+                        width: 30px;
+                    }
+                }
+            }
+
+            &__socialsflexbox-grey {
+                &__social {
+                    i {
+                        color: $grey;
+                        font-size: 25px;
+                        width: 30px;
                     }
                 }
             }

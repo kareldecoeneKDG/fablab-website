@@ -1,3 +1,6 @@
+// MOBILE
+
+// CONTACT
 .contact-container {
     &__general {
         &__flexbox {
@@ -15,11 +18,62 @@
     }
 }
 
+// HEADER
 .header {
     &__logo {
         &__img {
             width: 70px;
             margin-top: 5px;
+        }
+    }
+}
+
+// FOOTER
+.footer {
+    &__content {
+        &__block {
+            &__imageholder {
+                display: block;
+                width: 100%;
+                text-align: left;
+
+                &__img {
+                    width: 55%;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+// DESKTOP - 1280PX
+@media only screen and (min-width: 1280px) {
+
+    // CONTACT
+    .contact-container {
+        &__general {
+            &__flexbox {
+                &__left {
+                    &__img {
+                        width: 120px;
+                        height: 120px;
+                    }
+                }
+            }
+        }
+    }
+
+    // FOOTER
+    .footer {
+        &__content {
+            &__block {
+                &__imageholder {
+                    text-align: left;
+                }
+            }
         }
     }
 }

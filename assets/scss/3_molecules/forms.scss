@@ -1,7 +1,13 @@
+// MOBILE
 .contact-container {
     &__contact {
         &__flexbox {
             &__contactform {
+                margin-top: 30px;
+                background-color: $white;
+                border-radius: $border-radius-big;
+                border: 2px solid $yellow;
+
                 &__form {
                     padding-left: $margin-side-mobile;
                     padding-right: $margin-side-mobile;
@@ -52,6 +58,10 @@
 }
 
 
+
+
+
+// DESKTOP - 1280PX
 @media only screen and (min-width: 1280px) {
     .contact-container {
         &__contact {
@@ -65,6 +75,17 @@
                         padding-right: $margin-side-mobile;
                         padding-top: 30px;
                         padding-bottom: 30px;
+
+                        &__flexbox {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            gap: 10px;
+                
+                            &__box {
+                                width: 100%;
+                            }
+                        }
                     }
                 }
             }

@@ -1,5 +1,5 @@
+<!-- SNIPPET HEADER -->
 <?php snippet('header') ?>
-
     <div class="contact-container">
 
         <!-- CONTACT -->
@@ -11,10 +11,10 @@
                     <a class="contact-container__contact__flexbox__data__link" href="#"><i class="fa fa-map-marker location-icon" aria-hidden="true"></i> <?= $page->address() ?></a>
                     <a class="contact-container__contact__flexbox__data__link" href="#"><i class="fa fa-envelope" aria-hidden="true"></i> <?= $page->email() ?></a>
 
-                    <!-- SOCIALS SNIPPET -->
+                    <!-- SNIPPET - SOCIALS GREY -->
                     <?php snippet('socials-grey') ?>
 
-                    <!-- RESERVEREN -->
+                    <!-- TO RESERVE -->
                     <div class="contact-container__reserve">
                         <h2 class="contact-container__reserve__title h2">Reserveren</h2>
 
@@ -24,6 +24,7 @@
                     </div>
                 </div>
 
+                <!-- CONTACTFORM -->
                 <div class="contact-container__contact__flexbox__contactform">
                     <form class="contact-container__contact__flexbox__contactform__form">
                         <div class="contact-container__contact__flexbox__contactform__form__flexbox">
@@ -47,8 +48,7 @@
             </div>
         </div>
 
-
-        <!-- ALGEMENE INFO EN VRAGEN -->
+        <!-- GENERAL INFO MARK + ESTHER -->
         <div class="contact-container__general">
             <h2 class="contact-container__general__title h2">Algemene info & vragen</h2>
 
@@ -84,7 +84,7 @@
         </div>
 
 
-        <!-- BEREIKBAARHEID -->
+        <!-- ACCESSIBILITY -->
         <?php snippet('accessibility') ?>
 
 
@@ -94,4 +94,5 @@
         </div>
     </div>
     
+<!-- SNIPPET - FOOTER -->
 <?php snippet('footer') ?>

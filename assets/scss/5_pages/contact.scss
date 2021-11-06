@@ -1,3 +1,4 @@
+// MOBILE
 .contact-container {
     background-color: $background-grey;
 
@@ -26,12 +27,6 @@
                     }
                 }
             }
-
-            &__contactform {
-                margin-top: 30px;
-                background-color: $white;
-                border-radius: $border-radius-big;
-            }
         }
     }
 
@@ -58,21 +53,13 @@
             }
         }
     }
-
-    &__accessibility {
-        padding-left: $margin-side-mobile;
-        padding-right: $margin-side-mobile;
-    }
-
-    &__maps {
-        margin: 0;
-        padding: 0;
-    }
 }
 
 
 
 
+
+// DESKTOP - 1280PX
 @media only screen and (min-width: 1280px) {
     .contact-container {
         &__contact {
@@ -107,24 +94,6 @@
                         }
                     }
                 }
-
-                &__contactform {
-                    margin-top: 0;
-                    border: 2px solid $yellow;
-
-                    &__form {
-                        &__flexbox {
-                            display: flex;
-                            flex-direction: row;
-                            justify-content: space-between;
-                            gap: 10px;
-
-                            &__box {
-                                width: 100%;
-                            }
-                        }
-                    }
-                }
             }
         }
 
@@ -141,11 +110,6 @@
                 &__left {
                     width: 100%;
 
-                    &__img {
-                        width: 120px;
-                        height: 120px;
-                    }
-
                     &__function {
                         width: 60%;
                     }
@@ -155,23 +119,6 @@
                     margin-top: 0px;
                 }
             }
-
-            &__paragraph {
-                width: 50%;
-            }
-        }
-
-        &__accessibility {
-            margin-top: 70px;
-            margin-left: $margin-side-desktop;
-            margin-right: 222px;
-        }
-
-        &__maps {
-            margin: 0;
-            margin-top: 70px;
-            padding: 0;
-            width: 100%;
         }
     }
 }

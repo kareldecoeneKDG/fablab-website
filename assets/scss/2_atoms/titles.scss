@@ -1,3 +1,6 @@
+// MOBILE
+
+// GENERAL TITLES
 .h1 {
     font-family: $verdana;
     margin: $h1-margin-mobile;
@@ -36,4 +39,38 @@
 
 .footer-h5 {
     color: $yellow;
+}
+
+
+
+
+
+// FOOTER
+.footer {
+    &__content {
+        &__block {
+            .first-title {
+                margin-top: 0;
+            }
+        }
+    }
+}
+
+
+
+
+
+// DESKTOP - 1280PX
+@media only screen and (min-width: 1280px) {
+
+    // FOOTER
+    .footer {
+        &__content {
+            &__block {
+                .first-title {
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
 }

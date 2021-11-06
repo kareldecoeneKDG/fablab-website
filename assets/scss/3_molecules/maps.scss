@@ -1,0 +1,23 @@
+// MOBILE
+.contact-container {
+    &__maps {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+
+
+
+// DESKTOP - 1280PX
+@media only screen and (min-width: 1280px) {
+    .contact-container {
+        &__maps {
+            margin: 0;
+            margin-top: 70px;
+            padding: 0;
+            width: 100%;
+        }
+    }
+}
