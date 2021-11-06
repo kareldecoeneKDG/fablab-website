@@ -1,17 +1,122 @@
 Title: Home
+
 ----
-WatIsEenFablab: Het KdG Fablab is een maakplaats voor iedereen. 
-Je vindt er onder andere 3D-printers, een Makerbot tot educatieve tools zoals Makey Makeys. 
-Je kan er je ideeën omzetten naar tastbare producten, studenten en andere makers ontmoeten, je laten inspireren, kennis en ideeën uitwisselen en zoveel meer. 
+
+Messagetitle: FabLab gesloten tot 20 november
+
 ----
-WerkingFablab: Het KdG Fablab is geopend van maandag tot donderdag tijdens campusuren voor KdG-medewerkers en studenten. Woensdag en donderdag is het Fablab ook open voor externen. 
+
+Messagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at consequat nibh, id iaculis magna. Nunc facilisis urna quis nisi sollicitudin, quis dignissim orci dignissim. Donec arcu nunc, viverra nec nisl et, tempor feugiat ante. Fusce condimentum sem in tincidunt interdum.
+
+----
+
+Whatisfablabtitle: Wat is Fablab
+
+----
+
+Whatisfablabtext: Het KdG FabLab is een maakplaats voor iedereen. Je vindt er onder andere 3D-printers, een Makerbot, lasercutters, een CNC-frees, AR/VR-space, een woodshop, een textielatelier, een elektronica-corner en educatieve tools zoals Makey Makeys, Microbits en Strawbees. Je kan er je ideeën omzetten naar tastbare producten, studenten en andere makers ontmoeten, je laten inspireren, kennis en ideeën uitwisselen en zoveel meer.
+
+----
+
+Whatisfablabbuttontext: Lees meer over FabLab
+
+----
+
+Openhourskdgtitle: Openingsuren voor KdG-medewerkers en studenten
+
+----
+
+Openhourskdgtext: Ma - do: 9.00u - 17.00u
+
+----
+
+Openhoursexterntitle: Open Lab Momenten (steeds op reservatie)
+
+----
+
+Openhoursexterntext: Woe - do: 13.00u - 17.00u
+
+----
+
+Workingfablabtitle: Werking FabLab
+
+----
+
+Workingfablabtext:
+
+Het KdG FabLab is geopend van maandag tot donderdag tijdens campusuren voor KdG-medewerkers en studenten. Woensdag en donderdag is het FabLab ook open voor externen. 
 We werken liefst op reservatie, zo kunnen we jou steeds de juiste begeleiding bieden en van de nodige materialen voorzien. Ons team is steeds aanwezig voor vragen en inlichtingen en helpen je graag bij het omzetten van jouw ideeën naar een prototype of een eindproduct.
+
+**Toolsquare**
+Elke machine in het KdG FabLab is uitgerust met een gebruiksvriendelijke Toolsquare unit. Een gebruiker heeft alleen toegang tot de specifieke machine als hij/zij over de juiste toegangsrechten beschikt (bijv. training, ervaring).
+De unit communiceert met de gebruiker over de staat van de machine, over veiligheidseisen en over noodzakelijke voorzorgsmaatregelen voor die machine. Via de unit kan de gebruiker feedback geven over de machine en de uitgevoerde klus.
+ 
+Om alvast wat tijd te besparen, meldt u zich voor uw eerstvolgende bezoek aan de Toolsquare registratiepagina.
+
 ----
-Toolsquare: Toolsquare
+
+Workingfablabbuttontext: Lees meer over de huisregels
+
+----
+
+Workingfablabimage:
+
+- lr-2.webp
+
+----
+
+Biolabtitle: BioLab
+
+----
+
+Biolabtext:
+
+Naast het FabLab is er ook nog het BioLab, dit is een initiatief van  KdG FabLab en de bacheloropleiding Chemie van KdG. 
+ 
+Ben je geïnteresseerd in innovatieve, duurzame biochemische design-processen? Neem dan zeker eens een kijkje op de website van BioLab! 
+BioLab biedt immers de mogelijkheid tot het opzetten van onderzoeksprojecten in een fablab omgeving.  Je kan onder begeleiding van ervaren mentoren hands-on industriële toepassingen onderzoeken en levensvatbare concepten uittekenen.
+
+----
+
+Biolabbuttontext: Bezoek BioLab website
+
+----
+
+Biolabimage:
+
+- lr-9.webp
+
+----
+
+Workingfablabsubtitle: Toolsquare
+
+----
+
+Watiseenfablab:
+
+Het KdG Fablab is een maakplaats voor iedereen. 
+Je vindt er onder andere 3D-printers, een Makerbot tot educatieve tools zoals Makey Makeys. 
+Je kan er je ideeën omzetten naar tastbare producten, studenten en andere makers ontmoeten, je laten inspireren, kennis en ideeën uitwisselen en zoveel meer.
+
+----
+
+Werkingfablab:
+
+Het KdG Fablab is geopend van maandag tot donderdag tijdens campusuren voor KdG-medewerkers en studenten. Woensdag en donderdag is het Fablab ook open voor externen. 
+We werken liefst op reservatie, zo kunnen we jou steeds de juiste begeleiding bieden en van de nodige materialen voorzien. Ons team is steeds aanwezig voor vragen en inlichtingen en helpen je graag bij het omzetten van jouw ideeën naar een prototype of een eindproduct.
+
+----
+
+Toolsquare:
+
+Toolsquare
 Elke machine in het KdG Fablab is uitgerust met een gebruiksvriendelijke Toolsquare unit. Een gebruiker heeft alleen toegang tot de specifieke machine als hij/zij over de juiste toegangsrechten beschikt (bijv. training, ervaring).
+
 ----
-Biolab: Naast het Fablab is er ook nog het Biolab, dit is een initiatief van KdG Fablab en de bacheloropleiding Chemie. 
+
+Biolab:
+
+Naast het Fablab is er ook nog het Biolab, dit is een initiatief van KdG Fablab en de bacheloropleiding Chemie. 
 
 Ben je geïnteresseerd in innovatieve, duurzame biochemische design-processen? Neem dan zeker eens een kijkje op hun website! 
 Biolab biedt immers de mogelijkheid tot het opzetten van onderzoeksprojecten in een Fablab omgeving. Je kan onder begeleiding van ervaren mentoren hands-on industriële toepassingen onderzoeken en levensvatbare concepten uittekenen.
-----

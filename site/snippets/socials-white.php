@@ -13,7 +13,7 @@
                 <a class="footer__content__block__socialsflexbox-white__social" href="<?= $social->url() ?>"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                 <?php
 
-            elseif ($social->social() == "kdgWebsite"):
+            elseif ($social->social() == "kdg"):
                 ?>
                     <a class="footer__content__block__socialsflexbox-white__social" href="<?= $social->url() ?>"><i class="fa fa-globe" aria-hidden="true"></i></a>
                 <?php 

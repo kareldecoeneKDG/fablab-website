@@ -1,15 +1,61 @@
 title: Homepage
 
-sections:
-  info:
-    type: fields
+columns:
+  - width: 1/2
+    sections:
     fields:
-      WatIsEenFablab:
-        label: Wat Is Een Fablab
+      messageTitle:
+        label: Boodschap titel
+        type: text
+      messageText:
+        label: Boodschap paragraaf
         type: textarea
-      Toolsquare:
+
+      whatIsFablabTitle:
+        label: Wat is Fablab titel
+        type: text
+      whatIsFablabText:
+        label: Wat is Fablab paragraaf
         type: textarea
-      WerkingFablab:
+      whatIsFablabButtonText:
+        label: Wat is Fablab knoptekst
+        type: text
+
+      openhoursKdGTitle:
+        label: Openingsuren intern titel
+        type: text
+      openhoursKdGText:
+        label: Openingsuren intern uren
+        type: text
+      openhoursExternTitle:
+        label: Openingsuren extern titel
+        type: text
+      openhoursExternText:
+        label: Openingsuren extern uren
+        type: text
+
+      workingFablabTitle:
+        label: Werking Fablab titel
+        type: text
+      workingFablabText:
+        label: Werking Fablab paragraaf
         type: textarea
-      Biolab:
+      workingFablabButtonText:
+        label: Werking Fablab knoptekst
+        type: text
+      workingFablabImage:
+        label: Werking Fablab image
+        type: files
+
+      biolabTitle:
+        label: Biolab titel
+        type: text
+      biolabText:
+        label: Biolab paragraaf
         type: textarea
+      biolabButtonText:
+        label: Biolab knoptekst
+        type: text
+      biolabImage:
+        label: Biolab image
+        type: files

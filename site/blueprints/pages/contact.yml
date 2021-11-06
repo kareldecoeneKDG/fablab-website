@@ -1,33 +1,109 @@
 title: Contact
 
-fields:
-    socials:
-        label: Socials
+columns:
+  - width: 1/2
+    sections:
+    fields:
+      pageTitle:
+        label: Pagina Titel
+        type: text
+      address:
+        label: Adres
+        type: text
+      email:
+        label: Email
+        type: text
+      
+      reserveTitle:
+        label: Reserveren titel
+        type: text
+      reserveText:
+        label: Reserveren paragraaf
+        type: text
+
+      generalTitle:
+        label: Algemene info & vragen titel
+        type: text
+      generalText:
+        label: Algemene info & vragen paragraaf
+        type: textarea
+        
+      employees:
+        label: Werknemers
+        type: structure
+        columns:
+          image:
+            width: 1/4
+          name:
+            width: 1/4
+          function:
+            width: 1/4
+          tel:
+            width: 1/4
+          email:
+            width: 1/4
+
+        fields:
+          image:
+            type: files
+          name:
+            type: text
+          function:
+            type: text
+          tel:
+            type: text
+          email:
+            type: text
+        
+      accessibility:
+        label: Bereikbaarheid
         type: structure
         default:
-          - social: facebook
-          - social: instagram
-          - social: snapchat
-          - social: tiktok
-          - social: twitter
-          - social: pinterest
-          - social: linkedin
-          - social: reddit
-          - social: kdgwebsite
+          - vehicle: fiets
+          - vehicle: tram
+          - vehicle: bus
+          - vehicle: auto
         columns:
-            social:
-                width: 1/4
-            url:
-                width: 1/2
+          vehicle:
+            width: 1/4
+          description:
+            width: 3/4
+        fields:
+          vehicle:
+            label: Vervoersmiddel
+            type: select
+            options:
+              bicycle: Fiets
+              train: Trein
+              bus: Bus
+              car: Auto
+          description:
+            label: Beschrijving
+            type: textarea
+
+  - width: 1/2
+    sections:
+    fields:
+      socials:
+        label: Socials
+        type: structure
+        columns:
+          social:
+            width: 1/4
+          url:
+            width: 1/2
         fields:
           social:
-            type: social
+            type: select
+            options:
+              facebook: Facebook
+              instagram: Instagram
+              linkedin: LinkedIn
+              tiktok: TikTok
+              youtube: YouTube
+              pinterest: Pinterest
+              reddit: Reddit
+              discord: Discord
+              kdg: KdG Website
           url:
             type: url
-    
-    #contact:
-        #label: Contact
-        #type: structure
-        #column:
-            #contact:
-                #width: 1/4

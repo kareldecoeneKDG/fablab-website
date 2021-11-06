@@ -2,28 +2,7 @@ Title: Contact
 
 ----
 
-Socials:
-
-- 
-  icon: [ ]
-  social: facebook
-  url: https://www.facebook.com
-  socials: https://www.facebook.com
-  facebook: https://www.facebook.com/
-  instagram: https://www.instagram.com/
-  kdgwebsite: https://www.kdg.be
-- 
-  icon: [ ]
-  social: instagram
-  url: https://www.instagram.com
-- 
-  icon: [ ]
-  social: kdgWebsite
-  url: https://www.kdg.be
-
-----
-
-Page-title: Contacteer ons!
+Pagetitle: Contacteer ons!
 
 ----
 
@@ -32,6 +11,134 @@ Address: Salesianenlaan 90, 2660 Hoboken
 ----
 
 Email: fablab@kdg.be
+
+----
+
+Reservetitle: Reserveren
+
+----
+
+Reservetext: Wilt u een toestel reserveren? Reserveren kan de via reservatiemodule of e-mail.
+
+----
+
+Generaltitle: Algemene info & vragen
+
+----
+
+Generaltext: Partnerschappen, samenwerken, professioneel advies. Op zoek naar onderzoeksactiviteiten, workshops of een locatie voor evenementen?
+
+----
+
+Employees:
+
+- 
+  image:
+    - mark.jpg
+  name: Mark Vekemans
+  function: >
+    Product Developer / Design consultant /
+    Coördinator Fablab
+  tel: 0487 25 36 36
+  email: markvekemans@telenet.be
+- 
+  image:
+    - esther.jpeg
+  name: Esther van de Poll
+  function: 'Digital Designer & Maker / technisch medewerker Fablab'
+  tel: 0458 52 62 32
+  email: esthervandepoll@test.com
+
+----
+
+Accessibility:
+
+- 
+  vehicle: bicycle
+  description: |
+    Fiets je vanuit station Antwerpen-Zuid naar de campus? Dan moet je op ongeveer 15 minuten trappen rekenen. 
+    Liever met de Velo? Er is 1 station vlakbij: aan de Coöperatielaan (290) en Den Brem (320).
+    Meer info: www.velo-antwerpen.be
+  vehicles: ""
+- 
+  vehicle: train
+  description: >
+    Station Antwerpen-Zuid ligt op 4km van
+    de campus.  Check de dienstregeling
+    van de NMBS!  Je stapt op station
+    Antwerpen-Zuid best over op de fiets of
+    openbaar vervoer.
+  vehicles: auto
+- 
+  vehicle: bus
+  description: |
+    In de onmiddellijke omgeving van de campus vind je meerdere tramlijnen en buslijnen.
+    De dichtstbijzijnde halte bij Campus Hoboken is Halte Hoboken Heidestraat (102795, 102800), op ca. 500 meter, ongeveer 5 minuten. wandelen.
+    
+    De bussen en tram die u van daar kan nemen zijn volgende:
+    Tram 10: Wijnegem – P+R Schoonselhof
+    Bus 33:  Hoboken – Wilrijk – Merksem – Ekeren
+    Bus 290: Boom – Niel – Antwerpen
+    Bus 295: Boom – Predikherenvelden – Niel – Antwerpen
+    
+    
+    Meer info over de regeling van tram en bus:
+    Tramnetwerk Antwerpen
+    Busnetten Antwerpen
+    Routeplanner en dienstregelingen van de Lijn
+- 
+  vehicle: car
+  description: |
+    Er is voldoende parkeerruimte op en in de buurt van de campus.
+     
+    Deze campus bevindt zich momenteel niet binnen de lage-emissiezone van de stad Antwerpen.
+
+----
+
+Socials:
+
+- 
+  social: facebook
+  url: https://www.facebook.com
+  icon: [ ]
+  socials: https://www.facebook.com
+  facebook: https://www.facebook.com/
+  instagram: https://www.instagram.com/
+  kdgwebsite: https://www.kdg.be
+- 
+  social: instagram
+  url: https://www.instagram.com
+  icon: [ ]
+- 
+  social: kdg
+  url: https://www.kdg.be
+  icon: [ ]
+- 
+  social: linkedin
+  url: https://www.linkedin.com/feed/
+
+----
+
+Reserve-title: 
+
+----
+
+Reserve-text: 
+
+----
+
+General-title: 
+
+----
+
+General-text: 
+
+----
+
+Emails:
+
+- 
+  email: karel.decoene@hotmail.com
 
 ----
 

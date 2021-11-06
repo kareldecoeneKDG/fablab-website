@@ -6,21 +6,39 @@
         <div class="contact-container__contact">
             <div class="contact-container__contact__flexbox">
                 <div class="contact-container__contact__flexbox__data">
-                    <h1 class="contact-container__contact__flexbox__title h1"><?= $page->page_title() ?></h1>
 
-                    <a class="contact-container__contact__flexbox__data__link" href="#"><i class="fa fa-map-marker location-icon" aria-hidden="true"></i> <?= $page->address() ?></a>
-                    <a class="contact-container__contact__flexbox__data__link" href="#"><i class="fa fa-envelope" aria-hidden="true"></i> <?= $page->email() ?></a>
+                    <!-- pageTitle -->
+                    <?php if($page->pageTitle()->isNotEmpty()): ?>
+                        <h1 class="contact-container__contact__flexbox__title h1"><?= $page->pageTitle() ?></h1>
+                    <?php endif; ?>
+
+                    <!-- address -->
+                    <?php if($page->address()->isNotEmpty()): ?>
+                        <a class="contact-container__contact__flexbox__data__link" href="#"><i class="fa fa-map-marker location-icon" aria-hidden="true"></i> <?= $page->address() ?></a>
+                    <?php endif; ?>
+
+                    <!-- email -->
+                    <?php if($page->email()->isNotEmpty()): ?>
+                        <a class="contact-container__contact__flexbox__data__link" href="#"><i class="fa fa-envelope" aria-hidden="true"></i> <?= $page->email() ?></a>
+                    <?php endif; ?>
 
                     <!-- SNIPPET - SOCIALS GREY -->
                     <?php snippet('socials-grey') ?>
 
                     <!-- TO RESERVE -->
                     <div class="contact-container__reserve">
-                        <h2 class="contact-container__reserve__title h2">Reserveren</h2>
 
-                        <p class="contact-container__reserve__paragraph p">
-                            <?= $page->reserve() ?>
-                        </p>
+                        <!-- reserveTitle -->
+                        <?php if($page->reserveTitle()->isNotEmpty()): ?>
+                            <h2 class="contact-container__reserve__title h2"><?= $page->reserveTitle() ?></h2>
+                        <?php endif; ?>
+
+                        <!-- reserveText -->
+                        <?php if($page->reserveText()->isNotEmpty()): ?>
+                            <p class="contact-container__reserve__paragraph p">
+                                <?= $page->reserveText() ?>
+                            </p>
+                        <?php endif; ?>
                     </div>
                 </div>
 
@@ -48,44 +66,77 @@
             </div>
         </div>
 
+
+
         <!-- GENERAL INFO MARK + ESTHER -->
         <div class="contact-container__general">
-            <h2 class="contact-container__general__title h2">Algemene info & vragen</h2>
 
-            <p class="contact-container__general__paragraph p">
-                <?= $page->generalinfo() ?>
-            </p>
+            <!-- generalTitle -->
+            <?php if($page->generalTitle()->isNotEmpty()): ?>
+                <h2 class="contact-container__general__title h2"><?= $page->generalTitle() ?></h2>
+            <?php endif; ?>
+
+            <!-- generalText -->
+            <?php if($page->generalText()->isNotEmpty()): ?>
+                <p class="contact-container__general__paragraph p">
+                    <?= $page->generalText() ?>
+                </p>
+            <?php endif; ?>
 
             <!-- FLEXBOX -->
             <div class="contact-container__general__flexbox">
+            
+                <!-- STRUCTURE FOR GETTING EMPLOYEES -->
+                <?php
+                    // PUT ALL DATA OUT OF STRUCTURE IN ARRAY
+                    $employees = $page->employees()->toStructure();
 
-                <!-- MARK VEKEMANS -->
-                <div class="contact-container__general__flexbox__left">
-                    <img class="contact-container__general__flexbox__left__img img" src="assets/images/mark.jpg" alt="Mark Vekemans">
+                    foreach ($employees as $employee):
 
-                    <h3 class="contact-container__general__flexbox__left__title h3"><?= $page->employee1() ?></h3>
-                    <p class="contact-container__general__flexbox__left__function p"><?= $page->employee1_function() ?></p>
+                        // MAKE IMAGE OBJECT TO USE URL AS SOURCE
+                        if($image = $employee->image()->toFile()):
+                            $image = $employee->image()->toFile();
+                        endif;
+                ?>
+                        <!-- EMPLOYEE -->
+                        <div class="contact-container__general__flexbox__left">
 
-                    <a class="contact-container__general__flexbox__left__contact" href="#"><i class="fa fa-phone" aria-hidden="true"></i> <?= $page->employee1_telephone() ?></a>
-                    <a class="contact-container__general__flexbox__left__contact" href="#"><i class="fa fa-envelope" aria-hidden="true"></i> <?= $page->employee1_email() ?></a>
-                </div>
+                            <!-- employeeImage -->
+                            <?php if($image->url() !== ''): ?>
+                                <img class="contact-container__general__flexbox__left__img img" src="<?= $image->url() ?>" alt="Employee image">
+                            <?php endif; ?>
 
-                <!-- ESTHER VAN DE POLL -->
-                <div class="contact-container__general__flexbox__left">
-                    <img class="contact-container__general__flexbox__left__img img" src="assets/images/esther.jpeg" alt="Esther van de Poll">
+                            <!-- employeeName -->
+                            <?php if($employee->name()->isNotEmpty()): ?>
+                                <h3 class="contact-container__general__flexbox__left__title h3"><?= $employee->name() ?></h3>
+                            <?php endif; ?>
 
-                    <h3 class="contact-container__general__flexbox__left__title h3"><?= $page->employee2() ?></h3>
-                    <p class="contact-container__general__flexbox__left__function p"><?= $page->employee2_function() ?></p>
+                            <!-- employeeFunction -->
+                            <?php if($employee->function()->isNotEmpty()): ?>
+                                <p class="contact-container__general__flexbox__left__function p"><?= $employee->function() ?></p>
+                            <?php endif; ?>
 
-                    <a class="contact-container__general__flexbox__left__contact" href="#"><i class="fa fa-phone" aria-hidden="true"></i> <?= $page->employee2_telephone() ?></a>
-                    <a class="contact-container__general__flexbox__left__contact" href="#"><i class="fa fa-envelope" aria-hidden="true"></i> <?= $page->employee2_email() ?></a>
-                </div>
+                            <!-- employeeTel -->
+                            <?php if($employee->tel()->isNotEmpty()): ?>
+                                <a class="contact-container__general__flexbox__left__contact" href="#"><i class="fa fa-phone" aria-hidden="true"></i> <?= $employee->tel() ?></a>
+                            <?php  endif; ?>
+
+                            <!-- employeeEmail -->
+                            <?php if($employee->email()->isNotEmpty()): ?>
+                                <a class="contact-container__general__flexbox__left__contact" href="#"><i class="fa fa-envelope" aria-hidden="true"></i> <?=$employee->email()?></a>
+                            <?php endif; ?>
+                        </div>
+                <?php
+                    endforeach;
+                ?>
             </div>
         </div>
 
 
+
         <!-- ACCESSIBILITY -->
         <?php snippet('accessibility') ?>
+
 
 
         <!-- GOOGLE MAPS -->
