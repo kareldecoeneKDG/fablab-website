@@ -15,16 +15,19 @@ fields:
           - social: reddit
           - social: kdgwebsite
         columns:
-            icon:
-                width: 1/4
             social:
                 width: 1/4
             url:
                 width: 1/2
         fields:
-          icon:
-            type: files
           social:
             type: social
           url:
             type: url
+    
+    #contact:
+        #label: Contact
+        #type: structure
+        #column:
+            #contact:
+                #width: 1/4

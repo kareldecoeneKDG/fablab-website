@@ -59,7 +59,7 @@ Employee1: Mark Vekemans
 
 ----
 
-Employee1-function: Coördinator KdG Fablab & Biolab
+Employee1-function: Product Developer / Design consultant / Coördinator Fablab
 
 ----
 

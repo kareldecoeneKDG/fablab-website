@@ -1,0 +1,21 @@
+.header {
+    &__menu {
+        background-color: $white;
+    }
+}
+
+
+
+@media only screen and (min-width: 1280px) {
+    .header {
+        &__menu {
+            height: 140px;
+        }
+
+        &__logo {
+            &__img {
+                width: 100px;
+            }
+        }
+    }
+}

@@ -1,10 +1,11 @@
 .h1 {
     font-family: $verdana;
     margin: $h1-margin-mobile;
+    margin-top: 0;
     font-size: $h1-font-size-mobile;
     font-weight: $h1-font-weight;
-    margin-left: $margin-side-mobile;
-    margin-right: $margin-side-mobile;
+    //margin-left: $margin-side-mobile;
+    //margin-right: $margin-side-mobile;
 }
 
 .h2 {
@@ -21,10 +22,18 @@
     margin: $h4-margin-mobile;
 }
 
+.footer-h4 {
+    color: $lightergrey;
+}
+
 .h5 {
     font-family: $verdana;
     font-size: $h5-font-size-mobile;
     font-weight: $h5-font-weight;
     margin: $h5-margin-mobile;
     color: $grey;
+}
+
+.footer-h5 {
+    color: $yellow;
 }

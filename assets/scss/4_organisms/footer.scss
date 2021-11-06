@@ -1,8 +1,16 @@
 .footer {
     padding: 30px 26px 20px 26px;
-    background-color: $lightgrey;
+    background-color: $black-light;
 
     &__content {
+        #sitemap-desktop {
+            display: none;
+        }
+
+        #pages-desktop {
+            display: none;
+        }
+
         &__block {
             .first-title {
                 margin-top: 0;
@@ -11,19 +19,36 @@
             &__link {
                 display: block;
                 font-size: $p-small-font-size-mobile;
+                color: $white;
 
                 .location-icon {
                     padding-left: 5px;
                 }
 
                 i {
-                    color: $grey;
+                    color: $white;
                     font-size: 25px;
                     width: 40px;
                 }
             }
 
-            &__socialsflexbox {
+            &__link-email {
+                color: $yellow;
+            }
+
+            &__socialsflexbox-white {
+                margin-top: 30px;
+
+                &__social {
+                    i {
+                        color: $white;
+                        font-size: 25px;
+                        width: 30px;
+                    }
+                }
+            }
+
+            &__socialsflexbox-grey {
                 margin-top: 30px;
 
                 &__social {
@@ -40,6 +65,17 @@
                     font-family: $verdana;
                     font-size: $p-small-font-size-mobile;
                     font-weight: 500;
+                    color: $white;
+                }
+            }
+
+            &__imageholder {
+                display: block;
+                width: 100%;
+                text-align: left;
+
+                &__img {
+                    width: 55%;
                 }
             }
         }
@@ -60,5 +96,39 @@
         text-align: center;
         margin-top: 30px;
         font-size: $p-small-font-size-mobile;
+        color: white;
+    }
+}
+
+
+
+@media only screen and (min-width: 1280px) {
+    .footer {
+        padding-left: $margin-side-desktop;
+        padding-right: $margin-side-desktop;
+
+        &__content {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            #sitemap-desktop {
+                display: inline-block;
+            }
+    
+            #pages-desktop {
+                display: inline-block;
+            }
+
+            &__flexbox {
+                display: none;
+            }
+
+            &__block {
+                &__imageholder {
+                    text-align: left;
+                }
+            }
+        }
     }
 }

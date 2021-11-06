@@ -26,6 +26,7 @@
                         border-radius: $border-radius-small;
                         border: none;
                         width: 100%;
+                        background-color: $background-grey;
                     }
 
                     .textarea {
@@ -36,13 +37,34 @@
                     &__submit {
                         padding: $button-big-padding;
                         border: none;
-                        background-color: $black;
-                        color: white;
+                        background-color: $yellow;
+                        color: $black;
 
                         font-family: $verdana;
                         font-size: $button-big-font-size-mobile;
                         font-weight: 700;
                         border-radius: $border-radius-small;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: 1280px) {
+    .contact-container {
+        &__contact {
+            &__flexbox {
+                &__contactform {
+                    margin-top: 0;
+                    width: 50%;
+
+                    &__form {
+                        padding-left: $margin-side-mobile;
+                        padding-right: $margin-side-mobile;
+                        padding-top: 30px;
+                        padding-bottom: 30px;
                     }
                 }
             }
