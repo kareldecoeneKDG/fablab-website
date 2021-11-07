@@ -5,8 +5,6 @@
         <!-- BANNER -->
         <div class="home-container__banner">
             <div class="home-container__banner__background">
-                background-img
-
                 <div class="home-container__banner__background__animation">
                     animation
                 </div>

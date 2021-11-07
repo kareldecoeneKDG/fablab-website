@@ -4,7 +4,7 @@
     &__banner {
         &__background {
             height: 92vh;
-            background-image: url(../../images/background.webp);
+            background-image: url("../../assets/images/background.webp");
             background-repeat: no-repeat;
             background-color: $lightergrey;
             background-position: center;
@@ -46,11 +46,16 @@
 
     &__working {
         &__banner {
-            background-image: url("../../images/fablab.webp");
+            height: 218px;
+            width: 100%;
+            background-image: url("../../assets/images/fablab.webp");
             background-repeat: no-repeat;
-            //background-color: $lightergrey;
+            background-color: $lightergrey;
             background-position: center;
             background-size: cover;
+            margin-bottom: 30px;
+            padding-top: 135px;
+            margin-top: 30px;
         }
 
         &__flexbox {
@@ -61,6 +66,19 @@
     }
 
     &__biolab {
+        &__banner {
+            height: 218px;
+            width: 100%;
+            background-image: url("../../assets/images/biolab.webp");
+            background-repeat: no-repeat;
+            background-color: $lightergrey;
+            background-position: center;
+            background-size: cover;
+            margin-bottom: 30px;
+            padding-top: 135px;
+            margin-top: 30px;
+        }
+
         &__flexbox {
             &__right {
                 display: none;

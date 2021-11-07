@@ -19,7 +19,7 @@
 
                     <!-- SNIPPET - SOCIALS -->
                     <div class="footer__content__block__socialsflexbox socials-white">
-                        <?php snippet('socials') ?>
+                        <?php snippet('socials') //snippet moet nog aangepast worden. ?>
                     </div>
                 </div>
 
