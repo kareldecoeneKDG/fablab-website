@@ -17,3 +17,19 @@
     }
   }
 }
+
+.button-small {
+    font-family: $verdana;
+    font-size: $p-big-font-size-mobile;
+    font-weight: 700;
+    background-color: $black;
+    color: $white;
+    border: none;
+    border-radius: $border-radius-small;
+
+    margin-left: $margin-side-mobile;
+    margin-right: $margin-side-mobile;
+
+    padding: $button-small-padding;
+    display: inline-block;
+}

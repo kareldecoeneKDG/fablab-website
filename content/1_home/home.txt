@@ -6,7 +6,7 @@ Messagetitle: FabLab gesloten tot 20 november
 
 ----
 
-Messagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at consequat nibh, id iaculis magna. Nunc facilisis urna quis nisi sollicitudin, quis dignissim orci dignissim. Donec arcu nunc, viverra nec nisl et, tempor feugiat ante. Fusce condimentum sem in tincidunt interdum.
+Messagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at consequat nibh, id iaculis magna. Nunc facilisis urna quis nisi sollicitudin, quis dignissim orci dignissim.
 
 ----
 
@@ -18,7 +18,7 @@ Whatisfablabtext: Het KdG FabLab is een maakplaats voor iedereen. Je vindt er on
 
 ----
 
-Whatisfablabbuttontext: Lees meer over FabLab
+Whatisfablabbuttontext: Meer over FabLab
 
 ----
 
@@ -26,7 +26,7 @@ Openhourskdgtitle: Openingsuren voor KdG-medewerkers en studenten
 
 ----
 
-Openhourskdgtext: Ma - do: 9.00u - 17.00u
+Openhourskdgtext: ma - do: 9.00u - 17.00u
 
 ----
 
@@ -34,7 +34,7 @@ Openhoursexterntitle: Open Lab Momenten (steeds op reservatie)
 
 ----
 
-Openhoursexterntext: Woe - do: 13.00u - 17.00u
+Openhoursexterntext: woe - do: 13.00u - 17.00u
 
 ----
 
@@ -55,13 +55,13 @@ Om alvast wat tijd te besparen, meldt u zich voor uw eerstvolgende bezoek aan de
 
 ----
 
-Workingfablabbuttontext: Lees meer over de huisregels
+Workingfablabbuttontext: Meer over huisregels
 
 ----
 
 Workingfablabimage:
 
-- lr-2.webp
+- fablab.webp
 
 ----
 
@@ -84,7 +84,7 @@ Biolabbuttontext: Bezoek BioLab website
 
 Biolabimage:
 
-- lr-9.webp
+- biolab.webp
 
 ----
 

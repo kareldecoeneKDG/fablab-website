@@ -7,9 +7,9 @@
     margin-top: 0;
     font-size: $h1-font-size-mobile;
     font-weight: $h1-font-weight;
-    //margin-left: $margin-side-mobile;
-    //margin-right: $margin-side-mobile;
 }
+
+
 
 .h2 {
     font-family: $verdana;
@@ -18,6 +18,15 @@
     margin: $h2-margin-mobile;
 }
 
+.h2-home {
+    background-color: $title-grey;
+    padding-left: $margin-side-mobile;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
 .h4 {
     font-family: $verdana;
     font-size: $h4-font-size-mobile;
@@ -25,9 +34,11 @@
     margin: $h4-margin-mobile;
 }
 
-.footer-h4 {
+.h4-footer {
     color: $lightergrey;
 }
+
+
 
 .h5 {
     font-family: $verdana;
@@ -37,7 +48,7 @@
     color: $grey;
 }
 
-.footer-h5 {
+.h5-footer {
     color: $yellow;
 }
 
