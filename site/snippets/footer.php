@@ -6,8 +6,16 @@
                 <!-- BLOCK -->
                 <div class="footer__content__block">
                     <h4 class="footer__content__block__title h4-footer first-title h4">Contact</h4>
-                    <a class="footer__content__block__link" href="#"><i class="fa fa-map-marker location-icon" aria-hidden="true"></i> Adres</a>
-                    <a class="footer__content__block__link footer__content__block__link-email" href="#"><i class="fa fa-envelope" aria-hidden="true"></i> Mail</a>
+
+                    <!-- address -->
+                    <?php if($site->address()->isNotEmpty()): ?>
+                        <a class="footer__content__block__link" href="#"><i class="fa fa-map-marker location-icon" aria-hidden="true"></i><?= $site->address() ?></a>
+                    <?php endif; ?>
+
+                    <!-- email -->
+                    <?php if($site->email()->isNotEmpty()): ?>
+                        <a class="footer__content__block__link footer__content__block__link-email" href="#"><i class="fa fa-envelope" aria-hidden="true"></i><?= $site->email() ?></a>
+                    <?php endif; ?>
 
                     <!-- SNIPPET - SOCIALS -->
                     <div class="footer__content__block__socialsflexbox socials-white">

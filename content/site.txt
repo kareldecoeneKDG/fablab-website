@@ -1,1 +1,75 @@
 Title: FabLab Website
+
+----
+
+Address: Salesianenlaan 90, 2660 Hoboken
+
+----
+
+Email: fablab@kdg.be
+
+----
+
+Socials:
+
+- 
+  social: facebook
+  url: https://www.facebook.com
+- 
+  social: instagram
+  url: https://www.instagram.com
+- 
+  social: kdg
+  url: https://www.kdg.be
+- 
+  social: linkedin
+  url: https://www.linkedin.com
+
+----
+
+Openhourstitle: Openingsuren
+
+----
+
+Openhourskdgtitle: KdG-medewerkers/studenten
+
+----
+
+Openhourskdgtext: ma - do: 9.00u - 17.00u
+
+----
+
+Openhoursexterntitle: Open lab momenten
+
+----
+
+Openhoursexterntext: woe - do: 13.00u - 17.00u
+
+----
+
+Navigationtitle: Navigatie
+
+----
+
+Navigationlinks:
+
+- 
+  anchor: Home
+  page:
+    - home
+- 
+  anchor: Machines
+  page:
+    - categories
+- 
+  anchor: Reserveren
+  page:
+    - reserve
+- 
+  anchor: Blog
+  page:
+    - blog
+- 
+  anchor: Contact
+  page:
+    - contact

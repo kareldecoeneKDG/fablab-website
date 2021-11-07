@@ -28,7 +28,6 @@ columns:
       email:
         label: Email
         type: text
-
       socials:
         label: Socials
         type: structure
@@ -40,16 +39,16 @@ columns:
         fields:
           social:
             type: select
-              options:
-                facebook: Facebook
-                instagram: Instagram
-                linkedin: LinkedIn
-                youtube: YouTube
-                pinterest: Pinterest
-                reddit: Reddit
-                kdg: KdG Website
-            url:
-              type: url
+            options:
+              facebook: Facebook
+              instagram: Instagram
+              linkedin: LinkedIn
+              youtube: YouTube
+              pinterest: Pinterest
+              reddit: Reddit
+              kdg: KdG Website
+          url:
+            type: url
 
       openhoursTitle:
         label: Openingsuren titel
@@ -72,4 +71,16 @@ columns:
         type: text
       navigationLinks:
         label: Pagina's
-        type: pages
+        type: structure
+        columns:
+          anchor:
+            width: 1/2
+          page:
+            width: 1/2
+        fields:
+          anchor:
+            label: Anker
+            type: text
+          page:
+            label: Pagina
+            type: pages
