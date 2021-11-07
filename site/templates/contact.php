@@ -22,8 +22,10 @@
                         <a class="contact-container__contact__flexbox__data__link" href="#"><i class="fa fa-envelope" aria-hidden="true"></i> <?= $page->email() ?></a>
                     <?php endif; ?>
 
-                    <!-- SNIPPET - SOCIALS GREY -->
-                    <?php snippet('socials-grey') ?>
+                    <!-- SNIPPET - SOCIALS -->
+                    <div class="footer__content__block__socialsflexbox socials-grey">
+                        <?php snippet('socials') ?>
+                    </div>
 
                     <!-- TO RESERVE -->
                     <div class="contact-container__reserve">

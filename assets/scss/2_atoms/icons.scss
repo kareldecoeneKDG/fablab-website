@@ -66,23 +66,20 @@
                 }
             }
 
-            &__socialsflexbox-white {
+            &__socialsflexbox {
                 &__social {
                     i {
-                        color: $white;
                         font-size: 25px;
                         width: 30px;
+                        margin-top: 30px;
+                        color: $grey;
                     }
                 }
             }
 
-            &__socialsflexbox-grey {
-                &__social {
-                    i {
-                        color: $grey;
-                        font-size: 25px;
-                        width: 30px;
-                    }
+            .socials-white {
+                .footer__content__block__socialsflexbox__social i {
+                    color: $white;
                 }
             }
         }

@@ -9,8 +9,10 @@
                     <a class="footer__content__block__link" href="#"><i class="fa fa-map-marker location-icon" aria-hidden="true"></i> Adres</a>
                     <a class="footer__content__block__link footer__content__block__link-email" href="#"><i class="fa fa-envelope" aria-hidden="true"></i> Mail</a>
 
-                    <!-- SNIPPET - SOCIALS WHITE -->
-                    <?php snippet('socials-white') ?>
+                    <!-- SNIPPET - SOCIALS -->
+                    <div class="footer__content__block__socialsflexbox socials-white">
+                        <?php snippet('socials') ?>
+                    </div>
                 </div>
 
                 <!-- BLOCK - DESKTOP LAYOUT SITEMAP -->
