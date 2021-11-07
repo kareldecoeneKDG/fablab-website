@@ -17,31 +17,12 @@
         padding-right: $margin-side-mobile;
         background-color: $lightgrey;
         padding-bottom: 30px;
-    
-        &__title {
-            margin-top: 0;
-            padding-top: 30px;
-        }
     }
     
     &__introduction {
-        &__title {
-            margin-right: 50%;
-        }
-    
         &__flexbox {
             &__left {
                 padding-bottom: 30px;
-    
-                &__paragraph {
-                    padding-left: $margin-side-mobile;
-                    padding-right: $margin-side-mobile;
-                    padding-bottom: 30px;
-                }
-
-                &__button {
-                    display: inline-block;
-                }
             }
     
             &__right {
@@ -70,21 +51,9 @@
             //background-color: $lightergrey;
             background-position: center;
             background-size: cover;
-
-            &__title {
-                margin-right: 40%;
-            }
         }
 
         &__flexbox {
-            &__left {
-                &__paragraph {
-                    padding-left: $margin-side-mobile;
-                    padding-right: $margin-side-mobile;
-                    padding-bottom: 30px;
-                }
-            }
-
             &__right {
                 display: none;
             }
@@ -92,25 +61,7 @@
     }
 
     &__biolab {
-        &__banner {
-            &__title {
-                margin-right: 67%;
-            }
-        }
-
         &__flexbox {
-            &__left {
-                &__paragraph {
-                    padding-left: $margin-side-mobile;
-                    padding-right: $margin-side-mobile;
-                    padding-bottom: 30px;
-                }
-
-                &__button {
-                    margin-bottom: 30px;
-                }
-            }
-
             &__right {
                 display: none;
             }

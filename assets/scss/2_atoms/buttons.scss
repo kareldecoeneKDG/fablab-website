@@ -1,4 +1,31 @@
 // MOBILE
+
+// GENERAL BUTTONS
+.button-small {
+  display: inline-block;
+
+  font-family: $verdana;
+  font-size: $p-big-font-size-mobile;
+  font-weight: 700;
+
+  color: $white;
+  background-color: $black;
+
+  border: none;
+  border-radius: $border-radius-small;
+
+  margin-left: $margin-side-mobile;
+  margin-right: $margin-side-mobile;
+  padding: $button-small-padding;
+}
+
+
+
+
+
+// PAGES
+
+// BLOG
 .content-blog {
   &__tag-filter {
     &__button-tag {
@@ -18,18 +45,15 @@
   }
 }
 
-.button-small {
-    font-family: $verdana;
-    font-size: $p-big-font-size-mobile;
-    font-weight: 700;
-    background-color: $black;
-    color: $white;
-    border: none;
-    border-radius: $border-radius-small;
-
-    margin-left: $margin-side-mobile;
-    margin-right: $margin-side-mobile;
-
-    padding: $button-small-padding;
-    display: inline-block;
+// HOME
+.home-container {
+    &__biolab {
+        &__flexbox {
+            &__left {
+                &__button {
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
 }

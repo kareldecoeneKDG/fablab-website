@@ -1,4 +1,6 @@
 // MOBILE
+
+// GENERAL PARAGRAPHS
 .p {
     font-family: $verdana;
     font-size: $p-big-font-size-mobile;
@@ -7,6 +9,50 @@
     line-height: $p-big-line-height;
 }
 
+
+
+
+
+// PAGES
+
+// HOME
+.home-container {
+    &__introduction {
+        &__flexbox {
+            &__left {
+                &__paragraph {
+                    padding-left: $margin-side-mobile;
+                    padding-right: $margin-side-mobile;
+                    padding-bottom: 30px;
+                }
+            }
+        }
+    }
+
+    &__working {
+        &__flexbox {
+            &__left {
+                &__paragraph {
+                    padding-left: $margin-side-mobile;
+                    padding-right: $margin-side-mobile;
+                    padding-bottom: 30px;
+                }
+            }
+        }
+    }
+
+    &__biolab {
+        &__flexbox {
+            &__left {
+                &__paragraph {
+                    padding-left: $margin-side-mobile;
+                    padding-right: $margin-side-mobile;
+                    padding-bottom: 30px;
+                }
+            }
+        }
+    }
+}
 
 
 
