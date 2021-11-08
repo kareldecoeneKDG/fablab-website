@@ -19,6 +19,10 @@ columns:
       text:
         type: textarea
         size: large
+      related:
+        label: Related articles
+        type: pages
+        query: page.siblings(true)
 
   sidebar:
     width: 1/3

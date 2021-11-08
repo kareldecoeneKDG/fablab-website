@@ -6,7 +6,14 @@ Text: Vandaag ben ik heir weer met een nieuwe blogpost voor jullie.
 
 ----
 
-Date: 2021-11-08 00:00:00
+Related:
+
+- blog/first-article
+- blog/second-article
+
+----
+
+Date: 2021-11-08
 
 ----
 
