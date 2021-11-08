@@ -48,7 +48,7 @@
 
 <section class="content-article">
   <article>
-    <h1 class="content-article__title" ><?= $page->title()->html() ?></h1>
+    <h1 class="h1"  ><?= $page->title()->html() ?></h1>
     <img src="<?= $page->image()->url()?>" alt="">
     <div style="display:flex; " class="share">
         <a  class="content-article__icon" href=""><i class="fa fa-share"></i></a>
@@ -72,7 +72,7 @@
     $related = $page->related()->toPages();
     if ($related->count() > 0):
     ?>
-    <h2>Gerelateerde blogposts</h2>
+    <h2 class="h2">Gerelateerde blogposts</h2>
     <div class="blog-wrapper">
     <?php foreach($related as $article): ?>
     <article class="blog-wrapper__blog-overview">
