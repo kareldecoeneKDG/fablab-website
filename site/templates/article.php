@@ -76,11 +76,8 @@
     <div class="blog-wrapper">
     <?php foreach($related as $article): ?>
     <article class="blog-wrapper__blog-overview">
-   
        <img src="<?= $article->image()->url()?>" alt="">
-       <h1><?= $article->title()->html() ?></h1>
-       <p><?= $article->text()->excerpt(70) ?></p>
-       <a href="<?= $article->url() ?>">Lees meer ></a>
+       <h2 class="h2-related"><?= $article->title()->html() ?></h2>
     </article>
     <?php endforeach ?>
 </div>

@@ -2,7 +2,7 @@
 
 <section class="content-blog">
 
-<h1><?= $page->Subtitle()->html() ?></h1>
+<h1 class="h1"><?= $page->Subtitle()->html() ?></h1>
 
 <div class="content-blog__tag-filter">
     <?php foreach($tags as $tag): ?>
@@ -20,11 +20,13 @@
     <article class="blog-wrapper__blog-overview">
    
        <img src="<?= $article->image()->url()?>" alt="">
-       <h1><?= $article->title()->html() ?></h1>
-       <p><?= $article->text()->excerpt(70) ?></p>
+       <div class="blog-wrapper__blog-overview__text-wrapper">
+       <h2 class="h2"><?= $article->title()->html() ?></h2>
+       <p class="p"><?= $article->text()->excerpt(70) ?></p>
        <a href="<?= $article->url() ?>">Lees meer ></a>
+       </div>
     </article>
-    <?php endforeach ?>
+    <?php endforeach ?> 
 </div>
 </section>
     
