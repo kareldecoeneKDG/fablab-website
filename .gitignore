@@ -51,3 +51,4 @@ Icon
 
 node_modules
 /site/config/config.php
+kirby/router.php

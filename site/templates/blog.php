@@ -19,7 +19,7 @@
     <?php foreach($articles as $article): ?>
     <article class="blog-wrapper__blog-overview">
    
-        <img src="<?= $article->image()->url()?>" alt="">
+       <img src="<?= $article->image()->url()?>" alt="">
        <h1><?= $article->title()->html() ?></h1>
        <p><?= $article->text()->excerpt(70) ?></p>
        <a href="<?= $article->url() ?>">Lees meer ></a>
