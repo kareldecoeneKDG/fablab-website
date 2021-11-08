@@ -28,8 +28,8 @@ columns:
         fields:
           date:
             type: date
-            time: true
-            default: now
+            display: DD/MM/YYYY
+            default: today
           author:
             type: users
           tags:

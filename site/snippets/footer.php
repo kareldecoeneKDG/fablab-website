@@ -99,6 +99,6 @@
 
 
         <!-- JAVASCRIPT RESPONSIVE NAV -->
-        <script src="build/js/app.js"></script>
+        <?= js('build/js/app.js') ?>
     </body>
 </html>
