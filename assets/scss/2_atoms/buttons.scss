@@ -57,3 +57,46 @@
         }
     }
 }
+
+
+
+
+
+// DESKTOP - 1280PX
+@media only screen and (min-width: 1280px) {
+
+  // HOME
+  .home-container {
+    &__introduction {
+      &__flexbox {
+        &__left {
+          &__button {
+            margin-left: $margin-side-desktop;
+            margin-right: $margin-side-desktop;
+          }
+        }
+      }
+    }
+
+    &__working {
+      &__flexbox {
+        &__left {
+          &__button {
+            margin-left: $margin-side-desktop;
+            margin-right: $margin-side-desktop;
+          }
+        }
+      }
+    }
+
+    &__biolab {
+        &__flexbox {
+            &__left {
+                &__button {
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+  }
+}

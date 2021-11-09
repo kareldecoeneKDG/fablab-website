@@ -10,7 +10,7 @@ Messagetext: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at con
 
 ----
 
-Whatisfablabtitle: Wat is Fablab
+Whatisfablabtitle: Wat is Fablab?
 
 ----
 

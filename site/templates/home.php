@@ -114,9 +114,9 @@
                 </div>
 
                 <!-- workingFablabImage DESKTOP-->
-                <?php if($page->workingFablabImage()->isNotEmpty()): ?>
+                <?php if($img = $page->workingFablabImage()->toFile()): ?>
                     <div class="home-container__working__flexbox__right">
-                        <img src="<?= $page->workingFablabImage()->url() ?>" alt="Werking Fablab image">
+                        <img class="home-container__working__flexbox__right__img" src="<?= $img->url() ?>" alt="Werking Fablab image">
                     </div>
                 <?php endif; ?>
             </div>

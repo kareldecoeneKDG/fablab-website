@@ -55,11 +55,38 @@
 
 // DESKTOP - 1280PX
 @media only screen and (min-width: 1280px) {
+
   // CONTACT
   .contact-container {
     &__general {
       &__paragraph {
         width: 50%;
+      }
+    }
+  }
+
+  // HOME
+  .home-container {
+    &__introduction {
+      &__flexbox {
+        &__left {
+          &__paragraph {
+            padding-left: $margin-side-desktop;
+            padding-right: $margin-side-desktop;
+          }
+        }
+      }
+    }
+
+    &__working {
+      &__flexbox {
+        &__left {
+          &__paragraph {
+            padding-left: $margin-side-desktop;
+            padding-right: $margin-side-desktop;
+            padding-bottom: 30px;
+          }
+        }
       }
     }
   }

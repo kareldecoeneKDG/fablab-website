@@ -120,4 +120,41 @@
             }
         }
     }
+
+    // HOME
+    .home-container {        
+        &__introduction {
+            &__title {
+                margin-right: 77%;
+                padding-left: $margin-side-desktop;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                border-radius: 0px 10px 10px 0px;
+                margin-top: 0;
+                margin-bottom: 20px;
+            }
+        }
+
+        &__working {
+            &__banner {
+                &__title {
+                    margin-right: 75%;
+                    padding-left: $margin-side-desktop;
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                    border-radius: 0px 10px 10px 0px;
+                    margin-top: 0;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+
+        &__biolab {
+            &__banner {
+                &__title {
+                    margin-right: 67%;
+                }
+            }
+        }
+    }
 }
