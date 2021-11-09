@@ -2,78 +2,81 @@
 
 // CONTACT
 .contact-container {
-    &__general {
-        &__flexbox {
-            &__left {
-                &__img {
-                    width: 100px;
-                    height: 100px;
-                    object-fit: cover;
-                    transform: skewY(5deg);
-                    border-radius: $border-radius-big;
-                    margin-left: 14px;
-                }
-            }
+  &__general {
+    &__flexbox {
+      &__left {
+        &__img {
+          width: 100px;
+          height: 100px;
+          object-fit: cover;
+          transform: skewY(5deg);
+          border-radius: $border-radius-big;
+          margin-left: 14px;
         }
+      }
     }
+  }
 }
 
 // HEADER
 .header {
-    &__logo {
-        &__img {
-            width: 70px;
-            margin-top: 5px;
-        }
+  &__logo {
+    &__img {
+      width: 70px;
+      margin-top: 5px;
     }
+  }
 }
 
 // FOOTER
 .footer {
-    &__content {
-        &__block {
-            &__imageholder {
-                display: block;
-                width: 100%;
-                text-align: left;
+  &__content {
+    &__block {
+      &__imageholder {
+        display: block;
+        width: 100%;
+        text-align: left;
 
-                &__img {
-                    width: 55%;
-                }
-            }
+        &__img {
+          width: 55%;
         }
+      }
     }
+  }
 }
-
-
-
-
 
 // DESKTOP - 1280PX
 @media only screen and (min-width: 1280px) {
-
-    // CONTACT
-    .contact-container {
-        &__general {
-            &__flexbox {
-                &__left {
-                    &__img {
-                        width: 120px;
-                        height: 120px;
-                    }
-                }
-            }
+  // CONTACT
+  .contact-container {
+    &__general {
+      &__flexbox {
+        &__left {
+          &__img {
+            width: 120px;
+            height: 120px;
+          }
         }
+      }
     }
+  }
 
-    // FOOTER
-    .footer {
-        &__content {
-            &__block {
-                &__imageholder {
-                    text-align: left;
-                }
-            }
+  // FOOTER
+  .footer {
+    &__content {
+      &__block {
+        &__imageholder {
+          text-align: left;
         }
+      }
     }
+  }
+}
+
+//blog & machines MOBILE
+
+.overview-image {
+  width: 337.5px;
+  height: 225px;
+  object-fit: cover;
 }
