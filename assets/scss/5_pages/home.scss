@@ -93,7 +93,9 @@
 
 // DESKTOP - 1280PX
 @media screen and (min-width: 1280px) {
-    .home-container {        
+    .home-container {   
+        padding-bottom: 50px;
+        
         &__message {
             padding-left: $margin-side-desktop;
             padding-right: $margin-side-desktop;
@@ -155,6 +157,52 @@
                     &__img {
                         display: inline-block;
                         width: auto;
+                        object-fit: cover;
+                        transform: skewY(3deg);
+                        border-radius: $border-radius-big;
+                    }
+                }
+            }
+        }
+
+        &__biolab {
+            &__banner {
+                height: auto;
+                width: auto;
+                background-image: none;
+                background-repeat: no-repeat;
+                background-color: initial;
+                margin-bottom: 30px;
+                padding-top: 00px;
+                margin-top: 60px;
+
+                &__title {
+                    margin-top: 0;
+                }
+            }
+
+            &__flexbox {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 100%;
+
+                &__left {
+                    display: inline-block;
+                    width: 60%;
+                }
+
+                &__right {
+                    display: inline-block;
+                    width: 40%;
+                    margin-right: $margin-side-desktop;
+
+                    &__img {
+                        display: inline-block;
+                        width: auto;
+                        object-fit: cover;
+                        transform: skewY(3deg);
+                        border-radius: $border-radius-big;
                     }
                 }
             }

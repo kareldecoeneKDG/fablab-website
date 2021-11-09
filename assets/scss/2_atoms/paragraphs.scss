@@ -89,5 +89,17 @@
         }
       }
     }
+
+    &__biolab {
+      &__flexbox {
+        &__left {
+          &__paragraph {
+            padding-left: $margin-side-desktop;
+            padding-right: $margin-side-desktop;
+            padding-bottom: 30px;
+          }
+        }
+      }
+    }
   }
 }

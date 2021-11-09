@@ -1,0 +1,36 @@
+.header {
+    &__languagebutton {
+        display: none;
+    }
+}
+
+
+
+
+
+// DESKTOP - 1280PX
+@media only screen and (min-width: 1280px) {
+    .header {
+        &__languagebutton {
+            display: inline;
+            width: 70px;
+            vertical-align: middle;
+            height: 20px;
+    
+            &__span {
+                font-size: $h3-font-size-mobile;
+                font-family: $verdana;
+                font-weight: 700;
+                color: $black;
+                line-height: 20px;
+            }
+    
+            &__flag {
+                width: 33px;
+                height: 20px;
+                display: inline;
+                object-fit: cover;
+            }
+        }
+    }
+}

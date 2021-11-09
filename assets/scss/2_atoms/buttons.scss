@@ -19,6 +19,11 @@
   padding: $button-small-padding;
 }
 
+.button-home {
+  background-color: $yellow;
+  color: $black;
+}
+
 
 
 
@@ -93,7 +98,8 @@
         &__flexbox {
             &__left {
                 &__button {
-                    margin-bottom: 30px;
+                  margin-left: $margin-side-desktop;
+                  margin-right: $margin-side-desktop;
                 }
             }
         }

@@ -40,8 +40,9 @@
 
                 <?php snippet('pages-list') ?>
 
-                <button class="header__languageButton">
-                    NL
-                </button>
+                <a class="header__languagebutton" href="#">
+                    <img class="header__languagebutton__flag" src="assets/images/be.svg">
+                    <span class="header__languagebutton__span">NL</span>
+                </a>
             </nav>
         </header>

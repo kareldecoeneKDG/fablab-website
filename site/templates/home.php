@@ -51,7 +51,7 @@
 
                     <!-- whatIsFablabButtonText -->
                     <?php if($page->whatIsFablabButtonText()->isNotEmpty()): ?>
-                        <a class="home-container__introduction__flexbox__left__button button-small" href="#"><?= $page->whatIsFablabButtonText() ?> <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        <a class="home-container__introduction__flexbox__left__button button-small button-home" href="#"><?= $page->whatIsFablabButtonText() ?> <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                     <?php endif; ?>
                 </div>
 
@@ -109,7 +109,7 @@
 
                     <!-- workingFablabButtonText -->
                     <?php if($page->workingFablabButtonText()->isNotEmpty()): ?>
-                        <a class="home-container__working__flexbox__left__button button-small" href="#"><?= $page->workingFablabButtonText() ?> <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        <a class="home-container__working__flexbox__left__button button-small button-home" href="#"><?= $page->workingFablabButtonText() ?> <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                     <?php endif; ?>
                 </div>
 
@@ -146,19 +146,16 @@
 
                     <!-- biolabButtonText -->
                     <?php if($page->biolabButtonText()->isNotEmpty()): ?>
-                        <a class="home-container__biolab__flexbox__left__button button-small" href="#"><?= $page->biolabButtonText()?> <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        <a class="home-container__biolab__flexbox__left__button button-small button-home" href="#"><?= $page->biolabButtonText()?> <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                     <?php endif; ?>
                 </div>
 
-                <div class="home-container__biolab__flexbox__right">
-
-                    <!-- biolabImage DESKTOP -->
-                    <?php if($page->biolabImage()->isNotEmpty()): ?>
-                        <div class="home-container__biolab__flexbox__right">
-                            <img src="<?= $page->biolabImage()->url() ?>" alt="Biolab image">
-                        </div>
-                    <?php endif; ?>
-                </div>
+                <!-- biolabImage DESKTOP -->
+                <?php if($img = $page->biolabImage()->toFile()): ?>
+                    <div class="home-container__biolab__flexbox__right">
+                        <img class="home-container__biolab__flexbox__right__img" src="<?= $img->url() ?>" alt="Biolab image">
+                    </div>
+                <?php endif; ?>
             </div>
         </section>
 
