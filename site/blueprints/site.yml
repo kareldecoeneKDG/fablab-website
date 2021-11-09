@@ -70,7 +70,26 @@ columns:
         label: Navigatie titel
         type: text
       navigationLinks:
-        label: Pagina's
+        label: Menu items
+        type: structure
+        columns:
+          anchor:
+            width: 1/2
+          page:
+            width: 1/2
+        fields:
+          anchor:
+            label: Anker
+            type: text
+          page:
+            label: Pagina
+            type: pages
+      
+      infoTitle:
+        label: Info titel
+        type: text
+      infoLinks:
+        label: Andere pagina's
         type: structure
         columns:
           anchor:

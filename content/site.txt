@@ -73,3 +73,28 @@ Navigationlinks:
   anchor: Contact
   page:
     - contact
+
+----
+
+Infotitle: Info
+
+----
+
+Infolinks:
+
+- 
+  anchor: FAQ
+  page:
+    - faq
+- 
+  anchor: Huisregels
+  page:
+    - house-rules
+- 
+  anchor: Prijslijst
+  page:
+    - price-list
+- 
+  anchor: Wat is Fablab
+  page:
+    - what-is-fablab

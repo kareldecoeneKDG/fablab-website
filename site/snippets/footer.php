@@ -19,7 +19,7 @@
 
                     <!-- SNIPPET - SOCIALS -->
                     <div class="footer__content__block__socialsflexbox socials-white">
-                        <?php snippet('socials') //snippet moet nog aangepast worden. ?>
+                        <?php snippet('socials') ?>
                     </div>
                 </div>
 
@@ -36,10 +36,8 @@
                 <!-- BLOCK - DESKTOP LAYOUT PAGES -->
                 <div id="pages-desktop" class="footer__content__block">
                     <h4 class="footer__content__block__title h4-footer h4">Info</h4>
-                    <a class="footer__content__block__link" href="#">FAQ</a>
-                    <a class="footer__content__block__link" href="#">Huisregels</a>
-                    <a class="footer__content__block__link" href="./price-list">Prijslijst</a>
-                    <a class="footer__content__block__link" href="#">Wat is FabLab</a>
+                    
+                    <?php snippet('sitemap') ?>
                 </div>
 
                 <!-- BLOCK -->
