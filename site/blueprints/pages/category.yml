@@ -23,7 +23,7 @@ columns:
         label: Technologie
         type: textarea
         size: medium
-      Design Software:
+      designsoftware:
         label: Design Software
         type: textarea
         size: medium

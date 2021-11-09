@@ -12,6 +12,17 @@
   }
 }
 
+p {
+  font-family: $verdana;
+  font-size: $p-big-font-size-mobile;
+  font-weight: 500;
+  margin: $p-margin-mobile;
+  line-height: $p-big-line-height;
+  &__date {
+    font-size: $p-small-font-size-mobile;
+  }
+}
+
 // PAGES
 
 // HOME
@@ -55,7 +66,6 @@
 
 // DESKTOP - 1280PX
 @media only screen and (min-width: 1280px) {
-
   // CONTACT
   .contact-container {
     &__general {
