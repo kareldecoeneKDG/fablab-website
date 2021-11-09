@@ -103,3 +103,10 @@ columns:
           page:
             label: Pagina
             type: pages
+      
+      kdgImage:
+        label: KdG logo
+        type: files
+      provinceAntwerpImage:
+        label: Provincie Antwerp logo
+        type: files

@@ -26,32 +26,51 @@
                 <!-- BLOCK - DESKTOP LAYOUT SITEMAP -->
                 <div id="sitemap-desktop" class="footer__content__block">
                     <h4 class="footer__content__block__title h4-footer h4">Navigatie</h4>
-                    <a class="footer__content__block__link" href="#">Home</a>
-                    <a class="footer__content__block__link" href="#">Machines</a>
-                    <a class="footer__content__block__link" href="#">Reserveren</a>
-                    <a class="footer__content__block__link" href="#">Blog</a>
-                    <a class="footer__content__block__link" href="#">Contact</a>
+                    
+                    <!-- SNIPPET SITEMAP -->
+                    <?php snippet('sitemap') ?>
                 </div>
 
                 <!-- BLOCK - DESKTOP LAYOUT PAGES -->
                 <div id="pages-desktop" class="footer__content__block">
                     <h4 class="footer__content__block__title h4-footer h4">Info</h4>
                     
-                    <?php snippet('sitemap') ?>
+                    <!-- SNIPPET INFOMAP -->
+                    <?php snippet('infomap') ?>
                 </div>
 
                 <!-- BLOCK -->
                 <div class="footer__content__block">
-                    <h4 class="footer__content__block__title h4-footer h4">Openingsuren</h4>
+
+                    <!-- openhoursTitle -->
+                    <?php if($site->openhoursTitle()->isNotEmpty()): ?>
+                        <h4 class="footer__content__block__title h4-footer h4"><?= $site->openhoursTitle() ?></h4>
+                    <?php endif; ?>
 
                     <div class="footer__content__block__openhours">
-                        <h5 class="footer__content__block__openhours__title h5-footer h5">KdG-medewerkers/studenten</h5>
-                        <p class="footer__content__block__openhours__paragraph">ma - do: 9.00u - 17.00u</p>
+
+                        <!-- openhoursKdGTitle -->
+                        <?php if($site->openhoursKdGTitle()->isNotEmpty()): ?>
+                            <h5 class="footer__content__block__openhours__title h5-footer h5"><?= $site->openhoursKdGTitle() ?></h5>
+                        <?php endif; ?>
+
+                        <!-- openhoursKdGText -->
+                        <?php if($site->openhoursKdGText()->isNotEmpty()): ?>
+                            <p class="footer__content__block__openhours__paragraph"><?= $site->openhoursKdGText() ?></p>
+                        <?php endif; ?>
                     </div>
 
                     <div class="footer__content__block__openhours">
-                        <h5 class="footer__content__block__openhours__title h5-footer h5">Open lab momenten</h5>
-                        <p class="footer__content__block__openhours__paragraph">woe - do: 13.00u - 17.00u</p>
+
+                        <!-- openhoursExternTitle -->
+                        <?php if($site->openhoursExternTitle()->isNotEmpty()): ?>
+                            <h5 class="footer__content__block__openhours__title h5-footer h5"><?= $site->openhoursExternTitle() ?></h5>
+                        <?php endif; ?>
+
+                        <!-- openhoursExternText -->
+                        <?php if($site->openhoursExternText()->isNotEmpty()): ?>
+                            <p class="footer__content__block__openhours__paragraph"><?= $site->openhoursExternText() ?></p>
+                        <?php endif; ?>
                     </div>
                 </div>
 
@@ -59,19 +78,16 @@
                 <div class="footer__content__flexbox">
                     <div class="footer__content__flexbox__block">
                         <h4 class="footer__content__block__title h4-footer h4">Navigatie</h4>
-                        <a class="footer__content__block__link" href="#">Home</a>
-                        <a class="footer__content__block__link" href="#">Machines</a>
-                        <a class="footer__content__block__link" href="#">Reserveren</a>
-                        <a class="footer__content__block__link" href="#">Blog</a>
-                        <a class="footer__content__block__link" href="#">Contact</a>
+
+                        <!-- SNIPPET SITEMAP -->
+                        <?php snippet('sitemap') ?>
                     </div>
 
                     <div class="footer__content__flexbox__block">
                         <h4 class="footer__content__block__title h4-footer h4">Info</h4>
-                        <a class="footer__content__block__link" href="#">FAQ</a>
-                        <a class="footer__content__block__link" href="#">Huisregels</a>
-                        <a class="footer__content__block__link" href="./price-list">Prijslijst</a>
-                        <a class="footer__content__block__link" href="#">Wat is FabLab</a>
+                        
+                        <!-- SNIPPET INFOMAP -->
+                        <?php snippet('infomap') ?>
                     </div>
                 </div>
 
@@ -79,13 +95,19 @@
                 <div class="footer__content__block">
                     <h4 class="footer__content__block__title h4-footer h4">Met steun van</h4>
 
-                    <div class="footer__content__block__imageholder">
-                        <img class="footer__content__block__imageholder__img" src="assets/images/footer-kdg.webp" alt="KdG logo">
-                    </div>
+                    <!-- kdgImage -->
+                    <?php if($img = $site->kdgImage()->toFile()): ?>
+                        <div class="footer__content__block__imageholder">
+                            <img class="footer__content__block__imageholder__img" src="<?= $img->url() ?>" alt="KdG logo">
+                        </div>
+                    <?php endif; ?>
 
-                    <div class="footer__content__block__imageholder">
-                        <img class="footer__content__block__imageholder__img" src="assets/images/footer-provincieA.webp" alt="Provincie Antwerpen logo">
-                    </div>
+                    <!-- provinceAntwerpImage -->
+                    <?php if($img = $site->provinceAntwerpImage()->toFile()): ?>
+                        <div class="footer__content__block__imageholder">
+                            <img class="footer__content__block__imageholder__img" src="<?= $img->url() ?>" alt="Provincie Antwerpen logo">
+                        </div>
+                    <?php endif; ?>
                 </div>
             </section>
 

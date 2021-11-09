@@ -98,3 +98,15 @@ Infolinks:
   anchor: Wat is Fablab
   page:
     - what-is-fablab
+
+----
+
+Kdgimage:
+
+- footer-kdg.png
+
+----
+
+Provinceantwerpimage:
+
+- footer-provinciea.png
