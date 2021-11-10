@@ -36,7 +36,7 @@
     <?php endforeach ?>
     <h2 class="h2">Beschikbare materialen</h2>
     <h2 class="h2">Design software</h2>
-    <?= $page->designsoftware()->kt()->kt();?>
+    <?= $page->designsoftware()->kt()?>
     <h2 class="h2">inspiratie</h2>
     <?= $page->Inspiratie()->kt() ?>
     <h2 class="h2">FabLab machines</h2>

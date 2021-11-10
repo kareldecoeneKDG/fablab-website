@@ -40,6 +40,16 @@ Inspiratie:
 
 ----
 
+Category: 
+
+----
+
+Gallery:
+
+- 3ddruck.jpg
+
+----
+
 Design-software:
 
 Om iets te 3D printen heb je een 3D-bestand nodig. Maak je geen zorgen 
@@ -50,3 +60,7 @@ kunt vinden (sommige moet je betalen, maar veel zijn open source (gratis)).
 - Fushion360 (gratis)
 - Blendeer (gratis - open source)
 - SketchUp gratis + Betalinde pro versie
+
+----
+
+Select: c

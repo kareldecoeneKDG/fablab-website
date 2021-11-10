@@ -28,7 +28,7 @@ sections:
             label: Prijs Extern
             type: text
 
-      3dfilaments:
+      filaments:
         label: 3D Filamenten
         type: structure
         fields:
@@ -43,4 +43,56 @@ sections:
             type: text
           priceextern:
             label: Prijs Extern
-            type: text      
+            type: text
+
+      vinylroland:
+        label: Snijvinyl voor Roland GS-24
+        type: structure
+        fields:
+          color:
+            label: Kleur
+            type: text
+          size:
+            label: Afmeting
+            type: text
+          pricekdg:
+            label: Prijs KdG
+            type: text
+          priceextern:
+            label: Prijs Extern
+            type: text
+
+      flex:
+        label: FLEX (snijmateriaal om op textiel te strijken)
+        type: structure
+        fields:
+          color:
+            label: Kleur
+            type: text
+          size:
+            label: Afmeting
+            type: text
+          pricekdg:
+            label: Prijs KdG
+            type: text
+          priceextern:
+            label: Prijs Extern
+            type: text
+
+
+      diverse:
+        label: Allerlei
+        type: structure
+        fields:
+          divtype:
+            label: Type
+            type: text
+          size:
+            label: Afmeting
+            type: text
+          pricekdg:
+            label: Prijs KdG
+            type: text
+          priceextern:
+            label: Prijs Extern
+            type: text
