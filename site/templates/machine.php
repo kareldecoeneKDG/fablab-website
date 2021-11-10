@@ -3,7 +3,7 @@
     <main class="main">
         <article>
             <h1><?= $page->title() ?></h1>
-
+            <p>123 hallo</p>
             <div class="machine-layout">
                 <div class="machine-info">
                     <?php if ($page->text()->isNotEmpty()): ?>

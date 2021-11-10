@@ -1,0 +1,14 @@
+.categories-wrapper {
+  padding-left: 5%;
+  padding-right: 5%;
+  &__machines {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    &__category {
+      margin-top: 8%;
+      margin-bottom: 8%;
+      text-align: center;
+    }
+  }
+}

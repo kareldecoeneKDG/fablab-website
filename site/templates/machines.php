@@ -1,14 +1,15 @@
 <?php snippet('header') ?>
 
     <h1><?= $page->title() ?></h1>
-
+    
     <ul class="machines">
-        <?php foreach ($page->children()->listed() as $machine): ?>
+        <li>1</li>
+        <?php foreach ($page->children()->listed() as $category): ?>
             <li>
-                <a href="<?= $machine->url() ?>">
+                <a href="<?= $category->url() ?>">
                     <figure>
-                        <?= $machine->image()->crop(500) ?>
-                        <figcaption><?= $machine->title() ?></figcaption>
+                        <?= $category->image()->crop(500) ?>
+                        <figcaption><?= $category->title() ?></figcaption>
                     </figure>
                 </a>
             </li>
