@@ -85,6 +85,20 @@
             }
         }
     }
+
+    &__partners {
+        padding-left: $margin-side-mobile;
+        padding-right: $margin-side-mobile;
+
+        &__img {
+            display: block;
+            width: 215px;
+        }
+
+        &__img:last-of-type {
+            margin-left: auto;
+        }
+    }
 }
 
 
