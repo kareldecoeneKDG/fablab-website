@@ -88,6 +88,14 @@ Biolabimage:
 
 ----
 
+Partners:
+
+- kdg_h_closed_black_srgb.png
+- >
+  provincie_antwerpen_logo_rgb_nobackground.png
+
+----
+
 Workingfablabsubtitle: Toolsquare
 
 ----

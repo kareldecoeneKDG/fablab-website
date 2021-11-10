@@ -1,8 +1,8 @@
-@import "./1_fundaments/test";
 @import "./1_fundaments/setup";
 @import "./1_fundaments/fonts";
 @import "./1_fundaments/colors";
 @import "./1_fundaments/spacers";
+@import "./1_fundaments/test";
 
 @import "./2_atoms/titles";
 @import "./2_atoms/paragraphs";
@@ -16,6 +16,7 @@
 @import "./3_molecules/blogoverview";
 @import "./3_molecules/tagfilter";
 @import "./3_molecules/maps";
+@import "./3_molecules/categories";
 
 @import "./4_organisms/header";
 @import "./4_organisms/footer";

@@ -159,6 +159,9 @@
             </div>
         </section>
 
+        <!-- SNIPPET - MANUFACTURERES -->
+        <?php snippet('manufacturers') ?>
+
         <!-- SNIPPET - PARTNERS -->
         <?php snippet('partners') ?>
     </div>

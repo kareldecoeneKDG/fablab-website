@@ -1,1 +1,52 @@
 Title: 3D Printing
+
+----
+
+Info:
+
+3D-printen is het proces van het produceren van een fysiek driedimensionaal vast object uit een digitaal bestand. Of je nu ondergedompeld bent in robotica, industrieel ontwerp, productontwerp, sieraadontwerp, creatieve kunsten, architectuur of gewoon wilt experimenteren; 3D-printen is een 
+geweldige manier om snel prototypes te maken, een aangepast onderdeel te printen of veel willekeurige objecten te vervaardigen.
+
+----
+
+Technologie:
+
+Er zijn een aantal 3D-printtechnologieën die worden gebruikt en ontwikkeld.  De 3D-printers in KdG FabLab maken gebruik van FDM-technologie (Fused Deposition Modeling). Objecten worden gebouwd door een thermoplastisch filament te verhitten tot het smeltpunt dat wordt geëxtrudeerd om laag voor laag een thermoplastisch object te bouwen.
+ Neem contact met ons op via Fablab@kdg.be om te informeren naar  verschillende kleuren, materialen en prijzen.
+
+----
+
+Designsoftware:
+
+Om iets te 3D printen heb je een 3D-bestand nodig. Maak je geen zorgen 
+zelfs als je geen ervaring hebt met modelleren met 3D-software, biedt 
+internet veel bronnen waar je modellen met downloadbare bestanden 
+kunt vinden (sommige moet je betalen, maar veel zijn open source (gratis).
+- Tinkercad (gratis)
+- Fushion360 (gratis)
+- Blendeer (gratis - open source)
+- SketchUp gratis + Betalinde pro versie
+
+----
+
+Inspiratie:
+
+- Thingiverse
+- Pinshape
+- MyMiniFactory
+- GrabCAD
+- Cults3D
+- Pinterest (keyword “3D Printing”
+
+----
+
+Design-software:
+
+Om iets te 3D printen heb je een 3D-bestand nodig. Maak je geen zorgen 
+zelfs als je geen ervaring hebt met modelleren met 3D-software, biedt 
+internet veel bronnen waar je modellen met downloadbare bestanden 
+kunt vinden (sommige moet je betalen, maar veel zijn open source (gratis)).
+- Tinkercad (gratis)
+- Fushion360 (gratis)
+- Blendeer (gratis - open source)
+- SketchUp gratis + Betalinde pro versie

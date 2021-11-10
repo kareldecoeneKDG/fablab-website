@@ -59,3 +59,7 @@ columns:
       biolabImage:
         label: Biolab image
         type: files
+
+      partners:
+        label: Partner logo's
+        type: files

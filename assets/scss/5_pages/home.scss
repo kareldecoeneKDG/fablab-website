@@ -1,5 +1,6 @@
 .home-container {
     background-color: $background-grey;
+    padding-bottom: 50px;
 
     &__banner {
         &__background {
@@ -83,6 +84,16 @@
             &__right {
                 display: none;
             }
+        }
+    }
+
+    &__partners {
+        padding-left: $margin-side-mobile;
+        padding-right: $margin-side-mobile;
+
+        &__img {
+            display: block;
+            width: 215px;
         }
     }
 }

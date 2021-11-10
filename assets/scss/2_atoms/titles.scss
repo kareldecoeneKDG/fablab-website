@@ -2,226 +2,212 @@
 
 // GENERAL TITLES
 .h1 {
-    font-family: $verdana;
-    margin: $h1-margin-mobile;
-    margin-top: 0;
-    font-size: $h1-font-size-mobile;
-    font-weight: $h1-font-weight;
+  font-family: $verdana;
+  margin: $h1-margin-mobile;
+  margin-top: 0;
+  font-size: $h1-font-size-mobile;
+  font-weight: $h1-font-weight;
 }
 
-
-
 .h2 {
-    font-family: $verdana;
-    font-size: $h2-font-size-mobile;
-    font-weight: $h2-font-weight;
-    margin: $h2-margin-mobile;
+  font-family: $verdana;
+  font-size: $h2-font-size-mobile;
+  font-weight: $h2-font-weight;
+  margin: $h2-margin-mobile;
 }
 
 .h2-home {
-    background-color: $title-grey;
-    padding-left: $margin-side-mobile;
-    padding-top: 5px;
-    padding-bottom: 5px;
+  background-color: $title-grey;
+  padding-left: $margin-side-mobile;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-
+.h2-categories {
+  font-family: $verdana;
+  font-size: $h2-font-size-mobile;
+  font-weight: $h1-font-weight;
+}
 
 .h4 {
-    font-family: $verdana;
-    font-size: $h4-font-size-mobile;
-    font-weight: $h4-font-weight;
-    margin: $h4-margin-mobile;
+  font-family: $verdana;
+  font-size: $h4-font-size-mobile;
+  font-weight: $h4-font-weight;
+  margin: $h4-margin-mobile;
 }
 
 .h4-footer {
-    color: $lightergrey;
+  color: $lightergrey;
 }
 
-
-
 .h5 {
-    font-family: $verdana;
-    font-size: $h5-font-size-mobile;
-    font-weight: $h5-font-weight;
-    margin: $h5-margin-mobile;
-    color: $grey;
+  font-family: $verdana;
+  font-size: $h5-font-size-mobile;
+  font-weight: $h5-font-weight;
+  margin: $h5-margin-mobile;
+  color: $grey;
 }
 
 .h5-footer {
-    color: $yellow;
+  color: $yellow;
 }
-
-
-
-
 
 // PAGES
 
 // FOOTER
 .footer {
-    &__content {
-        &__block {
-            .first-title {
-                margin-top: 0;
-            }
-        }
+  &__content {
+    &__block {
+      .first-title {
+        margin-top: 0;
+      }
     }
+  }
 }
-
-
 
 // HOME
 .home-container {
-    &__message {
-        &__title {
-            margin-top: 0;
-            padding-top: 30px;
-        }
+  &__message {
+    &__title {
+      margin-top: 0;
+      padding-top: 30px;
     }
-    
-    &__introduction {
-        &__title {
-            margin-right: 47%;
-            background-color: $black;
-            color: $white;
-            border-radius: 0px 10px 10px 0px;
-        }
-    }
+  }
 
-    &__working {
-        &__banner {
-            &__title {
-                margin-right: 42%;
-                background-color: $black;
-                color: $white;
-                border-radius: 0px 10px 10px 0px;
-            }
-        }
+  &__introduction {
+    &__title {
+      margin-right: 47%;
+      background-color: $black;
+      color: $white;
+      border-radius: 0px 10px 10px 0px;
     }
+  }
 
-    &__biolab {
-        &__banner {
-            &__title {
-                margin-right: 69%;
-                background-color: $black;
-                color: $white;
-                border-radius: 0px 10px 10px 0px;
-            }
-        }
+  &__working {
+    &__banner {
+      &__title {
+        margin-right: 42%;
+        background-color: $black;
+        color: $white;
+        border-radius: 0px 10px 10px 0px;
+      }
     }
+  }
+
+  &__biolab {
+    &__banner {
+      &__title {
+        margin-right: 69%;
+        background-color: $black;
+        color: $white;
+        border-radius: 0px 10px 10px 0px;
+      }
+    }
+  }
 }
-
-
-
-
 
 // DESKTOP - 1280PX
 @media only screen and (min-width: 1280px) {
-
-    // FOOTER
-    .footer {
-        &__content {
-            &__block {
-                .first-title {
-                    margin-top: 30px;
-                }
-            }
+  // FOOTER
+  .footer {
+    &__content {
+      &__block {
+        .first-title {
+          margin-top: 30px;
         }
+      }
+    }
+  }
+
+  // HOME
+  .home-container {
+    &__introduction {
+      &__title {
+        margin-right: 77%;
+        padding-left: $margin-side-desktop;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 0;
+        margin-bottom: 20px;
+      }
     }
 
-    // HOME
-    .home-container {        
-        &__introduction {
-            &__title {
-                margin-right: 77%;
-                padding-left: $margin-side-desktop;
-                padding-top: 15px;
-                padding-bottom: 15px;
-                margin-top: 0;
-                margin-bottom: 20px;
-            }
+    &__working {
+      &__banner {
+        &__title {
+          margin-right: 75%;
+          padding-left: $margin-side-desktop;
+          padding-top: 15px;
+          padding-bottom: 15px;
+          margin-top: 0;
+          margin-bottom: 20px;
         }
-
-        &__working {
-            &__banner {
-                &__title {
-                    margin-right: 75%;
-                    padding-left: $margin-side-desktop;
-                    padding-top: 15px;
-                    padding-bottom: 15px;
-                    margin-top: 0;
-                    margin-bottom: 20px;
-                }
-            }
-        }
-
-        &__biolab {
-            &__banner {
-                &__title {
-                    margin-right: 83%;
-                    padding-left: $margin-side-desktop;
-                    padding-top: 15px;
-                    padding-bottom: 15px;
-                    margin-top: 0;
-                    margin-bottom: 20px;
-                }
-            }
-        }
+      }
     }
+
+    &__biolab {
+      &__banner {
+        &__title {
+          margin-right: 83%;
+          padding-left: $margin-side-desktop;
+          padding-top: 15px;
+          padding-bottom: 15px;
+          margin-top: 0;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
 }
-
-
-
 
 // DESKTOP - 1536PX
 @media only screen and (min-width: 1536px) {
-    // HOME
-    .home-container {        
-        &__introduction {
-            &__title {
-                margin-right: 80%;
-                padding-left: $margin-side-desktop;
-                padding-top: 15px;
-                padding-bottom: 15px;
-                border-radius: 0px 10px 10px 0px;
-                margin-top: 0;
-                margin-bottom: 20px;
-                background-color: $black;
-                color: $white;
-            }
-        }
-
-        &__working {
-            &__banner {
-                &__title {
-                    margin-right: 79%;
-                    padding-left: $margin-side-desktop;
-                    padding-top: 15px;
-                    padding-bottom: 15px;
-                    border-radius: 0px 10px 10px 0px;
-                    margin-top: 0;
-                    margin-bottom: 20px;
-                    background-color: $black;
-                    color: $white;
-                }
-            }
-        }
-
-        &__biolab {
-            &__banner {
-                &__title {
-                    margin-right: 86%;
-                    padding-left: $margin-side-desktop;
-                    padding-top: 15px;
-                    padding-bottom: 15px;
-                    border-radius: 0px 10px 10px 0px;
-                    margin-top: 0;
-                    margin-bottom: 20px;
-                    background-color: $black;
-                    color: $white;
-                }
-            }
-        }
+  // HOME
+  .home-container {
+    &__introduction {
+      &__title {
+        margin-right: 80%;
+        padding-left: $margin-side-desktop;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 0px 10px 10px 0px;
+        margin-top: 0;
+        margin-bottom: 20px;
+        background-color: $black;
+        color: $white;
+      }
     }
+
+    &__working {
+      &__banner {
+        &__title {
+          margin-right: 79%;
+          padding-left: $margin-side-desktop;
+          padding-top: 15px;
+          padding-bottom: 15px;
+          border-radius: 0px 10px 10px 0px;
+          margin-top: 0;
+          margin-bottom: 20px;
+          background-color: $black;
+          color: $white;
+        }
+      }
+    }
+
+    &__biolab {
+      &__banner {
+        &__title {
+          margin-right: 86%;
+          padding-left: $margin-side-desktop;
+          padding-top: 15px;
+          padding-bottom: 15px;
+          border-radius: 0px 10px 10px 0px;
+          margin-top: 0;
+          margin-bottom: 20px;
+          background-color: $black;
+          color: $white;
+        }
+      }
+    }
+  }
 }
