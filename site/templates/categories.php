@@ -5,8 +5,10 @@
                 <li class="categories-wrapper__machines__category">
                     <a href="<?= $category->url() ?>">
                         <figure>
-                            <img  class="overview-image" src="<?= $category->image()->url()?>" alt="">
-                            <figcaption class="h2-categories"><?= $category->title() ?></figcaption>
+                            <?php if($img = $category->image()->toFile()): ?>
+                                <img class="overview-image" src="<?= $img->url()?>" alt="">
+                                <figcaption class="h2-categories"><?= $category->title() ?></figcaption>
+                            <?php endif; ?>
                         </figure>
                     </a>
                 </li>

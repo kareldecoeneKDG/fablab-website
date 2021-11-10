@@ -159,7 +159,7 @@
             </div>
         </section>
 
-        <!-- SNIPPET - PARTNERS -->
+        <!-- SNIPPET - MANUFACTURERES -->
         <?php snippet('manufacturers') ?>
 
         <!-- SNIPPET - PARTNERS -->
