@@ -63,7 +63,7 @@
           <i class="fa fa-whatsapp"></i>
         </a>
     </div>
-    <p class="p"><?= $page->text()?></p>
+    <p class="p"><?= $page->text()->toBlocks() ?></p>
     <p class="p__date">Gepubliceerd op <?= $page->Date()->toDate('d-m-Y') ?></p>
   </article>
 </section>

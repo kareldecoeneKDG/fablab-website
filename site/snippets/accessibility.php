@@ -1,3 +1,7 @@
+<?php
+    $transportItems = $page->accessibility()->toStructure();
+?>
+
 <div class="tabs-container">
     <h2 class="tabs-container__title h2">Bereikbaarheid</h2>
 
@@ -16,40 +20,16 @@
                 <i class="fa fa-car" aria-hidden="true"></i>
             </div>
         </div>
+
         <div class="tab-indicator"></div>
+
         <div class="tab-body">
-            <div class="active">
-                <h2>This is code section</h2>
-                <p>
-                    Het is al geruime tijd een bekend gegeven dat een lezer, tijdens het bekijken van de layout van een pagina, 
-                    afgeleid wordt door de tekstuele inhoud. Het belangrijke punt van het gebruik van Lorem Ipsum is dat het uit
-                    een min of meer normale verdeling van letters bestaat.
-                </p>
-            </div>
-            <div>
-                <h2>This is about section</h2>
-                <p>
-                    Het is al geruime tijd een bekend gegeven dat een lezer, tijdens het bekijken van de layout van een pagina, 
-                    afgeleid wordt door de tekstuele inhoud. Het belangrijke punt van het gebruik van Lorem Ipsum is dat het uit
-                    een min of meer normale verdeling van letters bestaat.
-                </p>
-            </div>
-            <div>
-                <h2>This is services section</h2>
-                <p>
-                    Het is al geruime tijd een bekend gegeven dat een lezer, tijdens het bekijken van de layout van een pagina, 
-                    afgeleid wordt door de tekstuele inhoud. Het belangrijke punt van het gebruik van Lorem Ipsum is dat het uit
-                    een min of meer normale verdeling van letters bestaat.
-                </p>
-            </div>
-            <div>
-                <h2>This is contact section</h2>
-                <p>
-                    Het is al geruime tijd een bekend gegeven dat een lezer, tijdens het bekijken van de layout van een pagina, 
-                    afgeleid wordt door de tekstuele inhoud. Het belangrijke punt van het gebruik van Lorem Ipsum is dat het uit
-                    een min of meer normale verdeling van letters bestaat.
-                </p>
-            </div>
+            <?php foreach($transportItems as $item): ?>
+                <div>
+                    <h3 class="h3"><?= $item->vehicle() ?></h3>
+                    <p class="p"><?= $item->description() ?></p>
+                </div>
+            <?php endforeach; ?>
         </div>
     </div>
 </div>

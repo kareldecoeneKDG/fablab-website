@@ -1,8 +1,16 @@
 let tabHeader = document.getElementsByClassName("tab-header")[0];
 let tabIndicator = document.getElementsByClassName("tab-indicator")[0];
 let tabBody = document.getElementsByClassName("tab-body")[0];
-
 let tabsPane = tabHeader.getElementsByTagName("div");
+
+
+
+//Add class active to first body of accessibility tab body
+var j = 0;
+var allDescriptions = tabBody.getElementsByTagName("div");
+allDescriptions[j].classList.add("active");
+
+
 
 for(let i=0; i < tabsPane.length; i++) {
     tabsPane[i].addEventListener("click", function() {

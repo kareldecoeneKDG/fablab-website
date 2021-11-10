@@ -73,10 +73,10 @@ columns:
             label: Vervoersmiddel
             type: select
             options:
-              bicycle: Fiets
-              train: Trein
-              bus: Bus
-              car: Auto
+              - Fiets
+              - Trein
+              - Bus
+              - Auto
           description:
             label: Beschrijving
             type: textarea

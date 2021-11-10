@@ -54,23 +54,22 @@ Employees:
 Accessibility:
 
 - 
-  vehicle: bicycle
+  vehicle: Fiets
   description: |
-    Fiets je vanuit station Antwerpen-Zuid naar de campus? Dan moet je op ongeveer 15 minuten trappen rekenen. 
-    Liever met de Velo? Er is 1 station vlakbij: aan de Coöperatielaan (290) en Den Brem (320).
+    Fiets je vanuit station Antwerpen-Zuid naar de campus? Dan moet je op ongeveer 15 minuten trappen rekenen. Liever met de Velo? Er is 1 station vlakbij: aan de Coöperatielaan (290) en Den Brem (320).
     Meer info: www.velo-antwerpen.be
   vehicles: ""
 - 
-  vehicle: train
+  vehicle: Trein
   description: >
     Station Antwerpen-Zuid ligt op 4km van
-    de campus.  Check de dienstregeling
-    van de NMBS!  Je stapt op station
+    de campus. Check de dienstregeling van
+    de NMBS! Je stapt op station
     Antwerpen-Zuid best over op de fiets of
     openbaar vervoer.
   vehicles: auto
 - 
-  vehicle: bus
+  vehicle: Bus
   description: |
     In de onmiddellijke omgeving van de campus vind je meerdere tramlijnen en buslijnen.
     De dichtstbijzijnde halte bij Campus Hoboken is Halte Hoboken Heidestraat (102795, 102800), op ca. 500 meter, ongeveer 5 minuten. wandelen.
@@ -87,11 +86,12 @@ Accessibility:
     Busnetten Antwerpen
     Routeplanner en dienstregelingen van de Lijn
 - 
-  vehicle: car
-  description: |
-    Er is voldoende parkeerruimte op en in de buurt van de campus.
-     
-    Deze campus bevindt zich momenteel niet binnen de lage-emissiezone van de stad Antwerpen.
+  vehicle: Auto
+  description: >
+    Er is voldoende parkeerruimte op en in
+    de buurt van de campus. Deze campus
+    bevindt zich momenteel niet binnen de
+    lage-emissiezone van de stad Antwerpen.
 
 ----
 
