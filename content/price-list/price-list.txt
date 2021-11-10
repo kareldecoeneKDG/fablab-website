@@ -1,5 +1,188 @@
 Title: Prijslijst
+
 ----
-StandardMaterials: Het KdG FabLab heeft een aantal standaardmaterialen in stock. De aankoop dient onmiddellijk met Bancontact betaald te worden aan één van de FabLab medewerkers, betalen met cash is niet mogelijk.
+
+Standardmaterials: Het KdG FabLab heeft een aantal standaardmaterialen in stock. De aankoop dient onmiddellijk met Bancontact betaald te worden aan één van de FabLab medewerkers, betalen met cash is niet mogelijk.
+
 ----
-OwnMaterials: Eigen materialen kunnen meegebracht en gebruikt worden, steeds na controle van één van de FabLab medewerkers. De instellingen van onze materialen kennen we, houd er rekening mee dat je de juiste instellingen van je eigen materialen nog even zal moeten uitzoeken.
+
+Ownmaterials: Eigen materialen kunnen meegebracht en gebruikt worden, steeds na controle van één van de FabLab medewerkers. De instellingen van onze materialen kennen we, houd er rekening mee dat je de juiste instellingen van je eigen materialen nog even zal moeten uitzoeken.
+
+----
+
+Mdf:
+
+- 
+  thickness: 3mm
+  size: 30 x 60 cm
+  pricekdg: € 1,5
+  priceextern: ""
+- 
+  thickness: 3mm
+  size: 122 x 61 cm
+  pricekdg: € 3
+  priceextern: ""
+- 
+  thickness: 6mm
+  size: 30 x 60 cm
+  pricekdg: € 3
+  priceextern: ""
+- 
+  thickness: 6mm
+  size: 122 x 61 cm
+  pricekdg: € 6
+  priceextern: ""
+- 
+  thickness: 12mm
+  size: 122 x 244 cm
+  pricekdg: € 19
+  priceextern: ""
+
+----
+
+filaments:
+
+- 
+  material: PLA
+  color: Verschillende basiskleuren
+  pricekdg: € 0,10/gram
+  priceextern: ""
+- 
+  material: PETG
+  color: Zwart
+  pricekdg: € 0,10/gram
+  priceextern: ""
+- 
+  material: 'ABS - Anti cracking en warping'
+  color: Zwart
+  pricekdg: € 0,15/gram
+  priceextern: ""
+- 
+  material: PLA Woodfill
+  color: >
+    Houtkleur, er zijn houtvezels toegevoegd
+    waardoor je objecten voelen en ruiken
+    alsof ze van echt hout zijn.
+  pricekdg: € 0,15/gram
+  priceextern: ""
+- 
+  material: 'PLA Flex - Uitrekbaar tot 530%, UV bestendig'
+  color: Zwart
+  pricekdg: € 0,15/gram
+  priceextern: ""
+- 
+  material: 'PETG Carbonfill - versterkt is met 20% koolstofvezel'
+  color: Zwart
+  pricekdg: € 0,10/gram
+  priceextern: ""
+
+----
+
+Vinylroland:
+
+- 
+  color: Wit
+  size: 61 cm
+  pricekdg: € 0,05/cm
+  priceextern: ""
+- 
+  color: Zwart
+  size: 61 cm
+  pricekdg: € 0,05/cm
+  priceextern: ""
+- 
+  color: Blauw
+  size: 61 cm
+  pricekdg: € 0,05/cm
+  priceextern: ""
+- 
+  color: Geel
+  size: 61 cm
+  pricekdg: € 0,05/cm
+  priceextern: ""
+- 
+  color: Rood
+  size: 61 cm
+  pricekdg: € 0,05/cm
+  priceextern: ""
+- 
+  color: Oranje
+  size: 61 cm
+  pricekdg: € 0,05/cm
+  priceextern: ""
+- 
+  color: Applicatietape
+  size: 61 cm
+  pricekdg: € 0,05/cm
+  priceextern: ""
+
+----
+
+Flex:
+
+- 
+  color: Wit
+  size: 50 cm
+  pricekdg: € 0,10/cm
+  priceextern: ""
+- 
+  color: Zwart
+  size: 50 cm
+  pricekdg: € 0,10/cm
+  priceextern: ""
+- 
+  color: Geel
+  size: 50 cm
+  pricekdg: € 0,10/cm
+  priceextern: ""
+- 
+  color: Rood
+  size: 50 cm
+  pricekdg: € 0,10/cm
+  priceextern: ""
+- 
+  color: Blauw
+  size: 50 cm
+  pricekdg: € 0,10/cm
+  priceextern: ""
+- 
+  color: A4 Toner Transfer
+  size: >
+    Bedrukken van veelkleurige, complexe
+    beelden op katoenen tassen.
+  pricekdg: € 1/blad
+  priceextern: ""
+
+----
+
+Diverse:
+
+- 
+  divtype: Lino Soft Cut
+  size: '3 mm - 10 x 15 cm'
+  pricekdg: € 2/stuk
+  priceextern: ""
+
+----
+
+Materials:
+
+- 
+  mdf:
+    - 
+      thickness: 3mm
+      size: 5 x 10
+      pricekdg: "10"
+      priceextern: "12"
+  3dfilaments: [ ]
+- 
+  mdf: [ ]
+  3dfilaments: [ ]
+- 
+  mdf: [ ]
+  3dfilaments:
+    - 
+      material: peep
+      color: pop
+      pricekdg: "4"
+      priceextern: "5"
