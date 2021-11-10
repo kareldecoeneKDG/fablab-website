@@ -88,6 +88,35 @@ Biolabimage:
 
 ----
 
+Logosmanufacturers:
+
+- logo-makerbot-1.png
+- matter-and-form-_-3d-scanner-1.png
+- mayku-formbox-1.png
+- prusa-_-3d-printer-1.png
+- dewalt-1.png
+- dremel-1.png
+- ferm_kolomboor-1.png
+- festool-1.png
+- makita-1.png
+- optimum-kolomboor-1.png
+- weller_soldeer-1.png
+- roland_-srm-20-1.png
+
+----
+
+Logofablabs:
+
+- background.webp
+- biolab.webp
+- dewalt-1.png
+- dremel-1.png
+- fablab.webp
+- ferm_kolomboor-1.png
+- festool-1.png
+
+----
+
 Partners:
 
 - kdg_h_closed_black_srgb.png

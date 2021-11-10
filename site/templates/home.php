@@ -168,3 +168,6 @@
 
 <!-- SNIPPET FOOTER -->
 <?php snippet('footer') ?>
+
+<!-- JAVASCRIPT TAB BAR -->
+<?= js('build/js/tabbar.js') ?>

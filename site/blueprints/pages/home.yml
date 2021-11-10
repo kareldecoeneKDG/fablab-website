@@ -60,6 +60,13 @@ columns:
         label: Biolab image
         type: files
 
+      logosManufacturers:
+        label: Logo's manufacturers
+        type: files
+      logoFablabs:
+        label: Logo's Fablabs
+        type: files
+
       partners:
         label: Partner logo's
         type: files
