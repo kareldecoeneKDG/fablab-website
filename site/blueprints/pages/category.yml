@@ -33,10 +33,17 @@ columns:
         size: medium
 
   sidebar:
-    width: 1/3
-    sections:
-      fields:
-
+    width: 1/2
+    fields:
+      category:
+        label: Category
+        type: checkboxes
+        options: query
+          design: Design
+          architecture: Architecture
+          photography: Photography
+          3d: 3D
+          web: Web
       gallery:
         type: files
         layout: cards
