@@ -3,12 +3,12 @@
     $fablabLogos = $page->logoFablabs()->toFiles();
 ?>
 
-<div class="tabs-container">
-    <h2 class="tabs-container__title h2">Bereikbaarheid</h2>
+<div class="tabs-container-manufacturer">
+    <h2 class="tabs-container-manufactor__title h2">Bereikbaarheid</h2>
 
-    <div class="tabs">
-        <div class="tab-header">
-            <div class="active">
+    <div class="tabs-manufacturer">
+        <div class="tab-header-manufacturer">
+            <div class="active-manufacturer">
                 Manufacturers
             </div>
             <div>
@@ -16,9 +16,9 @@
             </div>
         </div>
 
-        <div class="tab-indicator"></div>
+        <div class="tab-indicator-manufacturer"></div>
 
-        <div class="tab-body">
+        <div class="tab-body-manufacturer">
             <div>
                 <?php foreach($manufacturersLogos as $image): ?>
                     <img src="<?= $image->url() ?>">

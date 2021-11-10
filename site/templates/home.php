@@ -170,4 +170,4 @@
 <?php snippet('footer') ?>
 
 <!-- JAVASCRIPT TAB BAR -->
-<?= js('build/js/tabbar.js') ?>
+<?= js('build/js/tabbar-manufacturers.js') ?>

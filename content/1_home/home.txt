@@ -107,11 +107,8 @@ Logosmanufacturers:
 
 Logofablabs:
 
-- background.webp
-- biolab.webp
 - dewalt-1.png
 - dremel-1.png
-- fablab.webp
 - ferm_kolomboor-1.png
 - festool-1.png
 
