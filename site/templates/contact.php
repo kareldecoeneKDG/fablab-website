@@ -46,74 +46,63 @@
 
                 <!-- CONTACTFORM -->
                 <div class="contact-container__contact__flexbox__contactform">
-                    <form class="contact-container__contact__flexbox__contactform__form">
+
+                    <!-- alert/succes message -->
+                    <?php if($success): ?>
+                        <div class="alert success">
+                            <p><?= $success ?></p>
+                        </div>
+
+                    <!-- error message -->
+                    <?php else: ?>
+                        <?php if(isset($alert['error'])): ?>
+                            <div><?= $alert['error'] ?></div>
+                        <?php endif; ?>
+
+                    <form class="contact-container__contact__flexbox__contactform__form" method="post" action="<?= $page->url() ?>">
+
+                        <!-- honeypot for cybersecurity analysis? -->
+                        <div class="honeypot">
+                            <label for="website">Website <abbr title="required">*</abbr></label>
+                            <input type="url" id="website" name="website" tabindex="-1">
+                        </div>
+
                         <div class="contact-container__contact__flexbox__contactform__form__flexbox">
-                            <div class="contact-container__contact__flexbox__contactform__form__flexbox__box">
-                                <label class="contact-container__contact__flexbox__contactform__form__label">Naam</label>
-                                <input class="contact-container__contact__flexbox__contactform__form__input" type="text" name="name">
+
+                            <!-- name input -->
+                            <div class="contact-container__contact__flexbox__contactform__form__flexbox__box field">
+                                <label class="contact-container__contact__flexbox__contactform__form__label" for="name">
+                                    Naam
+                                </label>
+                                <input class="contact-container__contact__flexbox__contactform__form__input" type="text" id="name" name="name" value="<?= esc($data['name'] ?? '', 'attr') ?>" required>
+                                <?= isset($alert['name']) ? '<span class="alert error">' . esc($alert['name']) . '</span>' : '' ?>
                             </div>
 
-                            <div class="contact-container__contact__flexbox__contactform__form__flexbox__box">
-                                <label class="contact-container__contact__flexbox__contactform__form__label">Email</label>
-                                <input class="contact-container__contact__flexbox__contactform__form__input" type="text" name="email">
+                            <!-- email input -->
+                            <div class="contact-container__contact__flexbox__contactform__form__flexbox__box field">
+                                <label class="contact-container__contact__flexbox__contactform__form__label" for="email">
+                                    Email
+                                </label>
+                                <input class="contact-container__contact__flexbox__contactform__form__input" type="email" id="email" name="email" value="<?= esc($data['email'] ?? '', 'attr') ?>" required>
+                                <?= isset($alert['email']) ? '<span class="alert error">' . esc($alert['email']) . '</span>' : '' ?>
                             </div>
                         </div>
 
-                        <label class="contact-container__contact__flexbox__contactform__form__label">Uw bericht</label>
-                        <textarea class="contact-container__contact__flexbox__contactform__form__input textarea" type="text" name="message"></textarea>
+                        <!-- message textarea -->
+                        <div class="field">
+                            <label class="contact-container__contact__flexbox__contactform__form__label" for="text">
+                                Uw bericht
+                            </label>
+                            <textarea id="text" class="contact-container__contact__flexbox__contactform__form__input textarea" name="text" required>
+                                <?= esc($data['text'] ?? '') ?>
+                            </textarea>
+                            <?= isset($alert['text']) ? '<span class="alert error">' . esc($alert['text']) . '</span>' : '' ?>
+                        </div>
 
-                        <input class="contact-container__contact__flexbox__contactform__form__submit button-big" type="submit" value="Verzend">
+                        <input class="contact-container__contact__flexbox__contactform__form__submit button-big" type="submit" name="submit" value="Submit">
                     </form>
+                    <?php endif ?>
                 </div>
-
-
-
-                <!-- WORKING CONTACTFORM TEST -->
-                <?php if($success): ?>
-                    <div class="alert success">
-                        <p><?= $success ?></p>
-                    </div>
-                <?php else: ?>
-                    <?php if(isset($alert['error'])): ?>
-                        <div><?= $alert['error'] ?></div>
-                    <?php endif; ?>
-
-                <form method="post" action="<?= $page->url() ?>">
-                    <div class="honeypot">
-                        <label for="website">Website <abbr title="required">*</abbr></label>
-                        <input type="url" id="website" name="website" tabindex="-1">
-                    </div>
-
-                    <div class="field">
-                        <label for="name">
-                            Name <abbr title="required">*</abbr>
-                        </label>
-                        <input type="text" id="name" name="name" value="<?= esc($data['name'] ?? '', 'attr') ?>" required>
-                        <?= isset($alert['name']) ? '<span class="alert error">' . esc($alert['name']) . '</span>' : '' ?>
-                    </div>
-
-                    <div class="field">
-                        <label for="email">
-                            Email <abbr title="required">*</abbr>
-                        </label>
-                        <input type="email" id="email" name="email" value="<?= esc($data['email'] ?? '', 'attr') ?>" required>
-                        <?= isset($alert['email']) ? '<span class="alert error">' . esc($alert['email']) . '</span>' : '' ?>
-                    </div>
-
-                    <div class="field">
-                        <label for="text">
-                            Text <abbr title="required">*</abbr>
-                        </label>
-                        <textarea id="text" name="text" required>
-                            <?= esc($data['text'] ?? '') ?>
-                        </textarea>
-                        <?= isset($alert['text']) ? '<span class="alert error">' . esc($alert['text']) . '</span>' : '' ?>
-                    </div>
-
-                    <input type="submit" name="submit" value="Submit">
-                </form>
-                <?php endif ?>
-
             </div>
         </div>
 

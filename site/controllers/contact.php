@@ -4,49 +4,55 @@
 
         if($kirby->request()->is('POST') && get('submit')) {
             
-            //check honeypot
+            // check honeypot
             if(empty(get('website')) === false) {
                 go($page->url());
                 exit;
             }
 
+            // data from contact form
             $data = [
                 'name'  => get('name'),
                 'email' => get('email'),
                 'text'  => get('text')
             ];
 
+            // requirements for the data
             $rules = [
                 'name'  => ['required', 'minLength' => 3],
                 'email' => ['required', 'email'],
                 'text'  => ['required', 'minLength' => 3, 'maxLength' => 3000],
             ];
 
+            // error messages for the fields
             $messages = [
-                'name'  => 'Please enter a valid name',
-                'email' => 'Please enter a valid email address',
-                'text'  => 'Please enter a text between 3 and 3000 characters'
+                'name'  => 'Vul een geldige naam in',
+                'email' => 'Vul een geldig e-mailadres in',
+                'text'  => 'Uw tekst moet tussen 3 en 3000 tekens bevatten'
             ];
 
             // some of the data is invalid
             if($invalid = invalid($data, $rules, $messages)) {
                 $alert = $invalid;
 
-                //the data is fine, let's send the email
+            // the data is fine, let's send the email
             } else {
                 try {
+
+                    // set email function with correct values
                     $kirby->email([
                         'template' => 'email',
-                        'from'     => 'fablab@karel.decoene.nxtmediatech.eu', //make email!!!
+                        'from'     => 'fablab@karel.decoene.nxtmediatech.eu',
                         'replyTo'  => $data['email'],
                         'to'       => 'karel.decoene@student.kdg.be',
-                        'subject'  => esc($data['name']) . ' sent you a message from your contact form',
+                        'subject'  => esc($data['name']) . ' heeft het Fablab contactformulier ingevuld',
                         'data'     => [
                             'text'   => esc($data['text']),
                             'sender' => esc($data['name'])
                         ]
                     ]);
     
+                // when an exception error occured
                 } catch (Exception $error) {
                     if(option('debug')):
                         $alert['error'] = 'The form could not be sent: <strong>' . $error->getMessage() . '</strong>';
@@ -57,7 +63,7 @@
 
                 // no exception occurred, let's send a success message
                 if (empty($alert) === true) {
-                    $success = 'Your message has been sent, thank you. We will get back to you soon!';
+                    $success = 'Uw boodschap is verstuurd! U hoort snel van ons.';
                     $data = [];
                 }
             }
