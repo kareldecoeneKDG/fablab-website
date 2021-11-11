@@ -12,6 +12,7 @@ allDescriptionsManufacturer[j].classList.add("active-manufacturer");
 
 
 
+// To change active tab
 for(let i=0; i < tabsPaneManufacturer.length; i++) {
     tabsPaneManufacturer[i].addEventListener("click", function() {
         tabHeaderManufacturer.getElementsByClassName("active-manufacturer")[0].classList.remove("active-manufacturer");

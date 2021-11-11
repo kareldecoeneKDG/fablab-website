@@ -12,6 +12,7 @@ allDescriptions[j].classList.add("active");
 
 
 
+// To change active tab
 for(let i=0; i < tabsPane.length; i++) {
     tabsPane[i].addEventListener("click", function() {
         tabHeader.getElementsByClassName("active")[0].classList.remove("active");

@@ -1,32 +1,39 @@
 <?php
+    // Logos manufacturers
     $manufacturersLogos = $page->logosManufacturers()->toFiles();
+
+    // Logos fablabs
     $fablabLogos = $page->logoFablabs()->toFiles();
 ?>
 
-<div class="tabs-container-manufacturer">
-    <h2 class="tabs-container-manufactor__title h2">Bereikbaarheid</h2>
+<div class="home-container__tabscontainer-manufacturer tabs-container-manufacturer">
+    <h2 class="home-container__tabscontainer-manufacturer__title tabs-container-manufactor__title h2">Bereikbaarheid</h2>
 
-    <div class="tabs-manufacturer">
-        <div class="tab-header-manufacturer">
-            <div class="active-manufacturer">
+    <div class="home-container__tabscontainer-manufacturer__tabs tabs-manufacturer">
+        <div class="home-container__tabscontainer-manufacturer__tabs__tabheader tab-header-manufacturer">
+
+            <!-- Tabs -->
+            <div class="home-container__tabscontainer-manufacturer__tabs__tabheader__item active-manufacturer">
                 Manufacturers
             </div>
-            <div>
+            <div class="home-container__tabscontainer-manufacturer__tabs__tabheader__item">
                 Fablabs
             </div>
         </div>
 
-        <div class="tab-indicator-manufacturer"></div>
+        <div class="home-container__tabscontainer-manufacturer__tabs__tabindicator tab-indicator-manufacturer"></div>
 
-        <div class="tab-body-manufacturer">
-            <div>
+        <div class="home-container__tabscontainer-manufacturer__tabs__tabbody tab-body-manufacturer">
+            
+            <!-- Tab bodies -->
+            <div class="home-container__tabscontainer-manufacturer__tabs__tabbody__item">
                 <?php foreach($manufacturersLogos as $image): ?>
-                    <img src="<?= $image->url() ?>">
+                    <img class="home-container__tabscontainer-manufacturer__tabs__tabbody__item__img" src="<?= $image->url() ?>" alt="Logos fabrikanten machines">
                 <?php endforeach; ?>
             </div>
-            <div>
+            <div class="home-container__tabscontainer-manufacturer__tabs__tabbody__item">
                 <?php foreach($fablabLogos as $img): ?>
-                    <img src="<?= $img->url() ?>">
+                    <img class="home-container__tabscontainer-manufacturer__tabs__tabbody__item__img" src="<?= $img->url() ?>" alt="Logos andere fablabs">
                 <?php endforeach; ?>
             </div>
         </div>

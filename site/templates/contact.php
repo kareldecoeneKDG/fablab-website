@@ -105,7 +105,7 @@
 
                             <!-- employeeImage -->
                             <?php if($image->url() !== ''): ?>
-                                <img class="contact-container__general__flexbox__left__img img" src="<?= $image->url() ?>" alt="Employee image">
+                                <img class="contact-container__general__flexbox__left__img img" src="<?= $image->url() ?>" alt="Medewerker Fablab profielfoto">
                             <?php endif; ?>
 
                             <!-- employeeName -->

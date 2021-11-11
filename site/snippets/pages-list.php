@@ -6,7 +6,6 @@
     <?php endforeach ?>
 </ul>
 
-
 <div class="burger">
     <div class="line1"></div>
     <div class="line2"></div>
