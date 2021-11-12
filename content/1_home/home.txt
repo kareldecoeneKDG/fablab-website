@@ -2,6 +2,12 @@ Title: Home
 
 ----
 
+Backgroundimg:
+
+- biolab.webp
+
+----
+
 Messagetitle: FabLab gesloten tot 20 november
 
 ----

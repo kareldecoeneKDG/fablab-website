@@ -4,6 +4,10 @@ columns:
   - width: 1/2
     sections:
     fields:
+      backgroundimg:
+        label: Achtergrondafbeelding home
+        type: files
+      
       messageTitle:
         label: Boodschap titel
         type: text

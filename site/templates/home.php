@@ -6,11 +6,13 @@
         <div class="home-container__banner">
             <div class="home-container__banner__background">
                 <div class="home-container__banner__background__animation">
-                    animation
+                    <div class="intro">
+                        <h1 class="typing">hi</h1>
+                    </div>
                 </div>
 
                 <div class="home-container__banner__background__scroll">
-                    scroll
+                    <i class="fa fa-angle-down" aria-hidden="true"></i>
                 </div>
             </div>
         </div>
@@ -171,3 +173,6 @@
 
 <!-- JAVASCRIPT TAB BAR -->
 <?= js('build/js/tabbar-manufacturers.js') ?>
+
+<!-- JAVASCRIPT TAB BAR -->
+<?= js('build/js/home-animation.js') ?>

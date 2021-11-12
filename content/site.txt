@@ -55,22 +55,32 @@ Navigationlinks:
 
 - 
   anchor: Home
+  pages:
+    - home
   page:
     - home
 - 
   anchor: Machines
+  pages:
+    - categories
   page:
     - categories
 - 
   anchor: Reserveren
+  pages:
+    - reserve
   page:
     - reserve
 - 
   anchor: Blog
+  pages:
+    - blog
   page:
     - blog
 - 
   anchor: Contact
+  pages:
+    - contact
   page:
     - contact
 
@@ -84,18 +94,22 @@ Infolinks:
 
 - 
   anchor: FAQ
+  pages: [ ]
   page:
     - faq
 - 
   anchor: Huisregels
+  pages: [ ]
   page:
     - house-rules
 - 
   anchor: Prijslijst
+  pages: [ ]
   page:
     - price-list
 - 
   anchor: Wat is Fablab
+  pages: [ ]
   page:
     - what-is-fablab
 

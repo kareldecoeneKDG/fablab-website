@@ -4,12 +4,30 @@
 
     &__banner {
         &__background {
-            height: 92vh;
-            background-image: url("../../assets/images/background.webp");
+            display: flex;
+            height: 88vh;
+            //background-image: url("../../assets/images/background.webp");
             background-repeat: no-repeat;
             background-color: $lightergrey;
             background-position: center;
             background-size: cover;
+
+            &__scroll {
+                height: 88vh;
+                position: relative;
+                width: 100vw;
+                text-align: center;
+            }
+
+            &__scroll i {
+                font-size: 46px;
+                font-weight: bold;
+                color: $white;
+                position: absolute;
+                bottom: 22px;
+                //left: calc((100% - 23px) / 2);
+                right: 31px;
+            }
         }
     }
     

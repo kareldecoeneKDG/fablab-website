@@ -56,6 +56,57 @@
     left: -9999px;
 }
 
+//HOME ANIMATION
+.home-container {
+    &__banner {
+        &__background {
+            &__animation {
+                height: 88vh;
+                position: relative;
+
+                .intro {
+                    //display: flex;
+                    color: $black;
+                    //height: 100vh;
+                    //background: $background-grey; mogelijks een gradient toevoegen (is ook dynamisch)
+                    bottom: 0;
+                    left: 0;
+                    position: absolute;
+                    bottom: 30px;
+                    left: $margin-side-mobile;
+                }
+
+                .typing {
+                    position: relative;
+                    margin-left: 10px;
+                    font-size: 36px;
+                }
+
+                .typing::after {
+                    content: "";
+                    position: absolute;
+                    right: -30px;
+                    width: 25px;
+                    height: 5%;
+                    border-bottom: 5px solid $yellow;
+                    animation: blink 1s infinite ease;
+                    bottom: 0;
+                    z-index: 0;
+                }
+
+                @keyframes blink{
+                    0%{
+                        opacity: 0;
+                    }
+                    100% {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 
 
