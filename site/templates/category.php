@@ -35,6 +35,11 @@
         </figure>
     <?php endforeach ?>
     <h2 class="h2">Beschikbare materialen</h2>
+    <ul>
+    <?php foreach($page->materialen()->split() as $materiaal): ?>
+        <li><?= $materiaal?></li>
+    <?php endforeach ?>
+    </ul>
     <h2 class="h2">Design software</h2>
     <?= $page->designsoftware()->kt()?>
     <h2 class="h2">inspiratie</h2>

@@ -2,7 +2,11 @@ Title: Nog een blogje
 
 ----
 
-Text: [{"content":{"text":"<p>Vandaag ben ik heir weer met een nieuwe blogpost voor jullie.<\/p>"},"id":"b68a805b-a9d9-4500-9134-4dbc371cd9dc","isHidden":false,"type":"text"},{"content":{"url":"","caption":""},"id":"7880c9ed-f313-403a-8eac-e3ecfa7083ba","isHidden":false,"type":"video"},{"content":{"location":"kirby","image":["ca539fa6-90a7-462e-a918-1a69cb78a8082.jpg"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"edbf3420-064c-4393-a8bd-7aa6e086fc9a","isHidden":false,"type":"image"},{"content":{"level":"h2","text":"ljlkjlkj"},"id":"0b9c1a50-8ae1-465f-abde-1e552ebb6e09","isHidden":false,"type":"heading"}]
+Text:
+
+Nunc accumsan venenatis velit. Ut convallis nisi porttitor dignissim tristique. Nunc a lectus sodales, fringilla magna nec, ultrices diam. Nulla id malesuada nunc, ac sollicitudin risus. Sed convallis sapien id lacinia ornare. Nullam vel fringilla ipsum. Curabitur vestibulum tempus mi.Nullam posuere dui eu risus efficitur, sit amet porta purus pretium. Curabitur euismod porta odio, quis sodales nisl egestas in. Vivamus elementum vehicula nulla id imperdiet. Quisque at ligula sit amet nibh bibendum congue.
+
+Nullam congue convallis pulvinar. Vestibulum tincidunt nulla non eros dignissim fermentum. Duis ultricies tellus et maximus placerat. Aliquam ultrices justo et nunc facilisis, sed fermentum lorem pulvinar. Vivamus sed justo sem. Nulla euismod neque vel tortor volutpat dignissim. Curabitur tristique ante non fringilla varius. Quisque congue neque ut nisi tempus faucibus euismod nec nulla. Praesent rhoncus fringilla euismod. Morbi nec eleifend odio. Nam vel elit non ipsum bibendum dapibus.
 
 ----
 

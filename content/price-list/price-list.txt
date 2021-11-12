@@ -16,47 +16,55 @@ Mdf:
   thickness: 3mm
   size: 30 x 60 cm
   pricekdg: € 1,5
-  priceextern: ""
+  priceextern: € 2
+  instock: 'true'
 - 
   thickness: 3mm
   size: 122 x 61 cm
   pricekdg: € 3
   priceextern: ""
+  instock: 'true'
 - 
   thickness: 6mm
   size: 30 x 60 cm
   pricekdg: € 3
   priceextern: ""
+  instock: 'true'
 - 
   thickness: 6mm
   size: 122 x 61 cm
   pricekdg: € 6
   priceextern: ""
+  instock: 'true'
 - 
   thickness: 12mm
   size: 122 x 244 cm
   pricekdg: € 19
   priceextern: ""
+  instock: 'true'
 
 ----
 
-filaments:
+Filaments:
 
 - 
   material: PLA
   color: Verschillende basiskleuren
   pricekdg: € 0,10/gram
   priceextern: ""
+  instock: 'true'
 - 
   material: PETG
   color: Zwart
   pricekdg: € 0,10/gram
   priceextern: ""
+  instock: 'true'
 - 
   material: 'ABS - Anti cracking en warping'
   color: Zwart
   pricekdg: € 0,15/gram
   priceextern: ""
+  instock: 'true'
 - 
   material: PLA Woodfill
   color: >
@@ -65,16 +73,19 @@ filaments:
     alsof ze van echt hout zijn.
   pricekdg: € 0,15/gram
   priceextern: ""
+  instock: 'true'
 - 
   material: 'PLA Flex - Uitrekbaar tot 530%, UV bestendig'
   color: Zwart
   pricekdg: € 0,15/gram
   priceextern: ""
+  instock: 'true'
 - 
   material: 'PETG Carbonfill - versterkt is met 20% koolstofvezel'
   color: Zwart
   pricekdg: € 0,10/gram
   priceextern: ""
+  instock: 'true'
 
 ----
 
@@ -85,36 +96,43 @@ Vinylroland:
   size: 61 cm
   pricekdg: € 0,05/cm
   priceextern: ""
+  instock: 'true'
 - 
   color: Zwart
   size: 61 cm
   pricekdg: € 0,05/cm
   priceextern: ""
+  instock: 'true'
 - 
   color: Blauw
   size: 61 cm
   pricekdg: € 0,05/cm
   priceextern: ""
+  instock: 'true'
 - 
   color: Geel
   size: 61 cm
   pricekdg: € 0,05/cm
   priceextern: ""
+  instock: 'true'
 - 
   color: Rood
   size: 61 cm
   pricekdg: € 0,05/cm
   priceextern: ""
+  instock: 'true'
 - 
   color: Oranje
   size: 61 cm
   pricekdg: € 0,05/cm
   priceextern: ""
+  instock: 'true'
 - 
   color: Applicatietape
   size: 61 cm
   pricekdg: € 0,05/cm
   priceextern: ""
+  instock: 'true'
 
 ----
 
@@ -125,26 +143,31 @@ Flex:
   size: 50 cm
   pricekdg: € 0,10/cm
   priceextern: ""
+  instock: 'true'
 - 
   color: Zwart
   size: 50 cm
   pricekdg: € 0,10/cm
   priceextern: ""
+  instock: 'true'
 - 
   color: Geel
   size: 50 cm
   pricekdg: € 0,10/cm
   priceextern: ""
+  instock: 'true'
 - 
   color: Rood
   size: 50 cm
   pricekdg: € 0,10/cm
   priceextern: ""
+  instock: 'true'
 - 
   color: Blauw
   size: 50 cm
   pricekdg: € 0,10/cm
   priceextern: ""
+  instock: 'true'
 - 
   color: A4 Toner Transfer
   size: >
@@ -152,6 +175,7 @@ Flex:
     beelden op katoenen tassen.
   pricekdg: € 1/blad
   priceextern: ""
+  instock: 'true'
 
 ----
 
@@ -162,27 +186,4 @@ Diverse:
   size: '3 mm - 10 x 15 cm'
   pricekdg: € 2/stuk
   priceextern: ""
-
-----
-
-Materials:
-
-- 
-  mdf:
-    - 
-      thickness: 3mm
-      size: 5 x 10
-      pricekdg: "10"
-      priceextern: "12"
-  3dfilaments: [ ]
-- 
-  mdf: [ ]
-  3dfilaments: [ ]
-- 
-  mdf: [ ]
-  3dfilaments:
-    - 
-      material: peep
-      color: pop
-      pricekdg: "4"
-      priceextern: "5"
+  instock: 'true'

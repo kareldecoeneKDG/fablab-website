@@ -27,6 +27,12 @@ sections:
           priceextern:
             label: Prijs Extern
             type: text
+          instock:
+            label: In Stock
+            type: toggle
+            text: 
+              - "no"
+              - "yes"
 
       filaments:
         label: 3D Filamenten
@@ -44,6 +50,13 @@ sections:
           priceextern:
             label: Prijs Extern
             type: text
+          instock:
+            label: In Stock
+            type: toggle
+            text: 
+              - "no"
+              - "yes"
+
 
       vinylroland:
         label: Snijvinyl voor Roland GS-24
@@ -61,6 +74,12 @@ sections:
           priceextern:
             label: Prijs Extern
             type: text
+          instock:
+            label: In Stock
+            type: toggle
+            text: 
+              - "no"
+              - "yes"
 
       flex:
         label: FLEX (snijmateriaal om op textiel te strijken)
@@ -78,6 +97,12 @@ sections:
           priceextern:
             label: Prijs Extern
             type: text
+          instock:
+            label: In Stock
+            type: toggle
+            text: 
+              - "no"
+              - "yes"
 
 
       diverse:
@@ -96,3 +121,9 @@ sections:
           priceextern:
             label: Prijs Extern
             type: text
+          instock:
+            label: In Stock
+            type: toggle
+            text: 
+              - "no"
+              - "yes"
