@@ -99,7 +99,7 @@
                             <?= isset($alert['text']) ? '<span class="alert error">' . esc($alert['text']) . '</span>' : '' ?>
                         </div>
 
-                        <input class="contact-container__contact__flexbox__contactform__form__submit button-big" type="submit" name="submit" value="Submit">
+                        <input class="contact-container__contact__flexbox__contactform__form__submit button-big" type="submit" name="submit" value="Verzend">
                     </form>
                     <?php endif ?>
                 </div>

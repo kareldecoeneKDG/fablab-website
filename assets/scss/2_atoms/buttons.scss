@@ -19,10 +19,42 @@
   padding: $button-small-padding;
 }
 
-.button-home {
+.button-big {
+  border: 1px solid $yellow;
+}
+
+.button-small {
   background-color: $yellow;
   color: $black;
+  border: 1px solid $yellow;
 }
+
+.button-small:hover {
+  background-color: $yellow-opacity;
+  color: $yellow;
+  transition: 0.3s;
+}
+
+.button-small:focus {
+  border: 1px solid $yellow;
+  background-color: $white;
+  color: $yellow;
+}
+
+.button-big:hover {
+  cursor: pointer;
+  background-color: $yellow-opacity;
+  color: $yellow;
+  transition: 0.3s;
+}
+
+.button-big:focus {
+  border: 1px solid $yellow;
+  background-color: $white;
+  color: $yellow;
+}
+
+
 
 
 

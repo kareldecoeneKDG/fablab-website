@@ -109,7 +109,7 @@
 
                     <!-- workingFablabButtonText -->
                     <?php if($page->workingFablabButtonText()->isNotEmpty()): ?>
-                        <a class="home-container__working__flexbox__left__button button-small button-home" href="#"><?= $page->workingFablabButtonText() ?> <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        <a class="home-container__working__flexbox__left__button button-small button-home" href="house-rules"><?= $page->workingFablabButtonText() ?> <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                     <?php endif; ?>
                 </div>
 
