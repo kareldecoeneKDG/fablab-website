@@ -4,7 +4,17 @@
 
         <!-- BANNER -->
         <div class="home-container__banner">
-            <div class="home-container__banner__background">
+            
+            <!-- if background image is set in panel -> take that one -->
+            <?php if($homeimg = $page->backgroundimg()->toFile()): ?>
+                <div class="home-container__banner__background" style="background-image: url('<?= $homeimg->url() ?>')">
+
+            <!-- else -> take the default one -->
+            <?php else: ?>
+                <div class="home-container__banner__background" style="background-image: url('assets/images/background.webp')">
+            <?php endif; ?>
+        
+            <!-- <div class="home-container__banner__background"> -->
                 <div class="home-container__banner__background__animation">
                     <div class="intro">
                         <h1 class="typing">hi</h1>

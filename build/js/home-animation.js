@@ -11,6 +11,7 @@ let letter = '';
 (function type() {
 
     if(count === texts.length){
+        setTimeout(function(){ console.log("delay"); }, 3000);
         count = 0;
     }
     currentText = texts[count];
@@ -23,5 +24,4 @@ let letter = '';
     }
 
     setTimeout(type, 400);
-
 }());

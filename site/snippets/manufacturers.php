@@ -11,7 +11,7 @@
         <div class="home-container__tabscontainer-manufacturer__tabs__tabheader tab-header-manufacturer">
 
             <!-- Tabs -->
-            <div class="home-container__tabscontainer-manufacturer__tabs__tabheader__item active-manufacturer">
+            <div class="home-container__tabscontainer-manufacturer__tabs__tabheader__item active"> <!-- changed -->
                 Manufacturers
             </div>
             <div class="home-container__tabscontainer-manufacturer__tabs__tabheader__item">
@@ -24,7 +24,7 @@
         <div class="home-container__tabscontainer-manufacturer__tabs__tabbody tab-body-manufacturer">
             
             <!-- Tab bodies -->
-            <div class="home-container__tabscontainer-manufacturer__tabs__tabbody__item">
+            <div class="home-container__tabscontainer-manufacturer__tabs__tabbody__item active">
                 <?php foreach($manufacturersLogos as $image): ?>
                     <img class="home-container__tabscontainer-manufacturer__tabs__tabbody__item__img" src="<?= $image->url() ?>" alt="Logos fabrikanten machines">
                 <?php endforeach; ?>
