@@ -87,6 +87,16 @@
       color: $white;
       border-radius: 0px 10px 10px 0px;
     }
+
+    &__flexbox {
+      &__right {
+        &__openhours {
+          &__title:first-of-type {
+            margin-top: 0;
+          }
+        }
+      }
+    }
   }
 
   &__working {
@@ -127,6 +137,12 @@
 
   // HOME
   .home-container {
+    &__message {
+      &__title {
+        width: 50%;
+      }
+    }
+
     &__introduction {
       &__title {
         margin-right: 77%;

@@ -7,11 +7,12 @@ let count = 0;
 let index = 0;
 let currentText = '';
 let letter = '';
+let wait = 0;
 
 (function type() {
 
     if(count === texts.length){
-        setTimeout(function(){ console.log("delay"); }, 3000);
+        //setTimeout(function(){ console.log("delay"); count = 0}, 3000);
         count = 0;
     }
     currentText = texts[count];
@@ -19,8 +20,14 @@ let letter = '';
 
     document.querySelector('.typing').textContent = letter;
     if(letter.length === currentText.length){
-        count++;
-        index = 0;
+
+        if(wait < 5) {
+            wait += 1;
+        } else {
+            count++;
+            index = 0;
+            wait = 0;
+        }
     }
 
     setTimeout(type, 400);

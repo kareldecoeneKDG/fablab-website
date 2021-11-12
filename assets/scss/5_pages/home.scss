@@ -114,6 +114,44 @@
             width: 215px;
         }
     }
+
+    &__partnersflexbox {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: relative;
+
+        &__box {
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            bottom: 0;
+            right: $margin-side-mobile;
+
+            &__container {
+                padding: 18px;
+                background-color: $yellow;
+                border-radius: 50%;
+                width: 100%;
+                height: 100%;
+            
+                &__link {
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+
+                    i {
+                        position: absolute;
+                        //bottom: 50%;
+                        //left: 50%;
+                        font-size: 24px;
+                        font-weight: 300;
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
 }
 
 
@@ -124,6 +162,35 @@
 @media screen and (min-width: 1280px) {
     .home-container {   
         padding-bottom: 50px;
+
+        &__banner {
+            height: calc(100vh - 140px);
+
+            &__background {
+                &__animation {
+                    height: calc(100vh - 140px);
+                    margin-left: 0;
+
+                    .intro {
+                        left: $margin-side-desktop;
+                        bottom: 52px;
+
+                        .typing {
+                            margin-left: 0;
+                        }
+                    }
+                }
+
+                &__scroll {
+                    height: calc(100vh - 140px);
+
+                    i {
+                        bottom: 52px;
+                        right: $margin-side-desktop;
+                    }
+                }
+            }
+        }
         
         &__message {
             padding-left: $margin-side-desktop;
@@ -249,6 +316,25 @@
             &__img {
                 display: inline-block;
                 width: 250px;
+            }
+        }
+
+        &__partnersflexbox {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            position: relative;
+    
+            &__box {
+                width: 75px;
+                height: 75px;
+                position: absolute;
+                bottom: 0;
+                right: $margin-side-desktop;
+    
+                &__container {
+                    padding: 26px;
+                }
             }
         }
     }

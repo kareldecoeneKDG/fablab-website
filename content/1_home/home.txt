@@ -51,13 +51,8 @@ Workingfablabtitle: Werking FabLab
 Workingfablabtext:
 
 Het KdG FabLab is geopend van maandag tot donderdag tijdens campusuren voor KdG-medewerkers en studenten. Woensdag en donderdag is het FabLab ook open voor externen. 
-We werken liefst op reservatie, zo kunnen we jou steeds de juiste begeleiding bieden en van de nodige materialen voorzien. Ons team is steeds aanwezig voor vragen en inlichtingen en helpen je graag bij het omzetten van jouw ideeën naar een prototype of een eindproduct.
-
-**Toolsquare**
-Elke machine in het KdG FabLab is uitgerust met een gebruiksvriendelijke Toolsquare unit. Een gebruiker heeft alleen toegang tot de specifieke machine als hij/zij over de juiste toegangsrechten beschikt (bijv. training, ervaring).
-De unit communiceert met de gebruiker over de staat van de machine, over veiligheidseisen en over noodzakelijke voorzorgsmaatregelen voor die machine. Via de unit kan de gebruiker feedback geven over de machine en de uitgevoerde klus.
- 
-Om alvast wat tijd te besparen, meldt u zich voor uw eerstvolgende bezoek aan de Toolsquare registratiepagina.
+We werken liefst op reservatie, zo kunnen we jou steeds de juiste begeleiding bieden en van de nodige materialen voorzien. Ons team is steeds aanwezig voor vragen en inlichtingen en helpen je graag bij het omzetten van jouw ideeën naar een prototype of een eindproduct. Elke machine in het KdG FabLab is uitgerust met een gebruiksvriendelijke Toolsquare unit. Een gebruiker heeft alleen toegang tot de specifieke machine als hij/zij over de juiste toegangsrechten beschikt (bijv. training, ervaring).
+De unit communiceert met de gebruiker over de staat van de machine, over veiligheidseisen en over noodzakelijke voorzorgsmaatregelen voor die machine. Via de unit kan de gebruiker feedback geven over de machine en de uitgevoerde klus. Om alvast wat tijd te besparen, meldt u zich voor uw eerstvolgende bezoek aan de Toolsquare registratiepagina.
 
 ----
 
@@ -77,10 +72,8 @@ Biolabtitle: BioLab
 
 Biolabtext:
 
-Naast het FabLab is er ook nog het BioLab, dit is een initiatief van  KdG FabLab en de bacheloropleiding Chemie van KdG. 
- 
-Ben je geïnteresseerd in innovatieve, duurzame biochemische design-processen? Neem dan zeker eens een kijkje op de website van BioLab! 
-BioLab biedt immers de mogelijkheid tot het opzetten van onderzoeksprojecten in een fablab omgeving.  Je kan onder begeleiding van ervaren mentoren hands-on industriële toepassingen onderzoeken en levensvatbare concepten uittekenen.
+Naast het FabLab is er ook nog het BioLab, dit is een initiatief van KdG FabLab en de bacheloropleiding Chemie van KdG. Ben je geïnteresseerd in innovatieve, duurzame biochemische design-processen? Neem dan zeker eens een kijkje op de website van BioLab! 
+BioLab biedt immers de mogelijkheid tot het opzetten van onderzoeksprojecten in een fablab omgeving. Je kan onder begeleiding van ervaren mentoren hands-on industriële toepassingen onderzoeken en levensvatbare concepten uittekenen.
 
 ----
 

@@ -174,8 +174,17 @@
         <!-- SNIPPET - MANUFACTURERES -->
         <?php snippet('manufacturers') ?>
 
-        <!-- SNIPPET - PARTNERS -->
-        <?php snippet('partners') ?>
+        <div class="home-container__partnersflexbox">
+
+            <!-- SNIPPET - PARTNERS -->
+            <?php snippet('partners') ?>
+
+            <div class="home-container__partnersflexbox__box">
+                <div class="home-container__partnersflexbox__box__container">
+                    <a class="home-container__partnersflexbox__box__container__link" href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
     </div>
 
 <!-- SNIPPET FOOTER -->
