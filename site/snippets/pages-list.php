@@ -1,7 +1,7 @@
 <ul class="nav-links">
     <?php foreach ($site->children()->listed() as $subpage): ?>
         <li>
-            <a href="<?= $subpage->url() ?>"><?= $subpage->title() ?></a>
+            <a <?php e($subpage->isOpen(), ' class="active"') ?> href="<?= $subpage->url() ?>"><?= $subpage->title() ?></a>
         </li>
     <?php endforeach ?>
 </ul>
