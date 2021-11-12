@@ -7,8 +7,6 @@
 ?>
 
 <div class="home-container__tabscontainer-manufacturer tabs-container-manufacturer">
-    <h2 class="home-container__tabscontainer-manufacturer__title tabs-container-manufactor__title h2">Bereikbaarheid</h2>
-
     <div class="home-container__tabscontainer-manufacturer__tabs tabs-manufacturer">
         <div class="home-container__tabscontainer-manufacturer__tabs__tabheader tab-header-manufacturer">
 

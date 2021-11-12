@@ -31,6 +31,18 @@ nav{
     color: $black;
 }
 
+// active menu item
+.nav-links li .active {
+    border-bottom: 3px solid $yellow;
+    //text-decoration: underline;
+    //text-decoration-color: $yellow;
+    color: $yellow;
+}
+
+.nav-links li a:hover {
+    border-bottom: 3px solid $yellow;
+}
+
 .burger {
     display: none;
     z-index: 1;
