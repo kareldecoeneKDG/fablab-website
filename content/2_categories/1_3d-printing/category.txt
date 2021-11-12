@@ -40,13 +40,18 @@ Inspiratie:
 
 ----
 
-Category: 
+Materialen: wood-filaments, flex, pte
 
 ----
 
 Gallery:
 
 - 3ddruck.jpg
+- 1549653545-3d-printen.jpg
+
+----
+
+Category: 
 
 ----
 

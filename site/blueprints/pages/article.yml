@@ -17,7 +17,7 @@ columns:
     width: 2/3
     fields:
       text:
-        type: blocks
+        type: textarea
       related:
         label: Related articles
         type: pages

@@ -5,7 +5,7 @@ const shareButtons = () => {
 
     function init(){
         let postUrl = encodeURI(document.location.href);
-        let postTitle = encodeURI(document.querySelector(".content-article__title").innerText);
+        let postTitle = encodeURI(document.querySelector(".h1").innerText);
 
     facebookBtn.setAttribute(
         "href",

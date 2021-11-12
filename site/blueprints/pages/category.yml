@@ -1,19 +1,27 @@
 title: Category
 
-status:
-  draft:
-    label: Draft
-    text: The article is still in draft mode. It can only be seen by editors with panel access.
-  unlisted:
-    label: In Review
-    text: The article is online and can be visited with the direct URL. The team must still give the final go to publish it.
-  listed:
-    label: Published
-    text: The article is online and listed in the blog
 
 columns:
+  left:
+      width: 1/3
+      sections:
+        drafts:
+          extends: sections/machine
+          headline: Drafts
+          status: draft
+
+        unlisted:
+          extends: sections/machine
+          headline: In Review
+          status: unlisted
+
+        listed:
+          extends: sections/machine
+          headline: Published
+          status: listed
+      
   main:
-    width: 1/2
+    width: 1/3
     fields:
       info:
         label: Algemene info
@@ -33,18 +41,22 @@ columns:
         size: medium
 
   sidebar:
-    width: 1/2
+    width: 1/3
     fields:
-      category:
-        label: Category
+      materialen:
+        label: Materialen
         type: checkboxes
         options: query
-          design: Design
-          architecture: Architecture
-          photography: Photography
-          3d: 3D
-          web: Web
+          pla: PLA
+          wood-filaments: Wood filaments
+          flex: Flex
+          pte: PTE
       gallery:
         type: files
         layout: cards
         image:
+          ratio: 5/4
+          cover: true
+        min: 2
+
+  
