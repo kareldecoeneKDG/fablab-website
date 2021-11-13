@@ -1,7 +1,7 @@
 <ul class="header__menu__navlinks nav-links">
     <?php foreach ($site->children()->listed() as $subpage): ?>
         <li class="header__menu__navlinks__item">
-            <a class="header__menu__navlinks__item__link" <?php if($subpage->isOpen()): ?> class="active" <?php endif; ?> href="<?= $subpage->url() ?>"><?= $subpage->title() ?></a>
+            <a class="header__menu__navlinks__item__link <?php if($subpage->isOpen()){ echo("active"); } ?>" href="<?= $subpage->url() ?>"><?= $subpage->title() ?></a>
             <!-- hierboven anders doen! -->
         </li>
     <?php endforeach ?>

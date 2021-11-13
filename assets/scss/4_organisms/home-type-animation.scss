@@ -29,7 +29,7 @@
                     width: 25px;
                     height: 5%;
                     border-bottom: 5px solid $yellow;
-                    animation: blink 0.8s infinite ease;
+                    animation: blink 0.9s ease-out infinite; //0.8
                     bottom: 0;
                     z-index: 0;
                 }
@@ -38,8 +38,11 @@
                     0%{
                         opacity: 0;
                     }
-                    100% {
+                    50%{
                         opacity: 1;
+                    }
+                    100% {
+                        opacity: 0;
                     }
                 }
             }

@@ -21,7 +21,7 @@ let wait = 0;
     document.querySelector('.typing').textContent = letter;
     if(letter.length === currentText.length){
 
-        if(wait < 5) {
+        if(wait < 13) {
             wait += 1;
         } else {
             count++;
@@ -30,5 +30,5 @@ let wait = 0;
         }
     }
 
-    setTimeout(type, 400);
+    setTimeout(type, 180);
 }());
