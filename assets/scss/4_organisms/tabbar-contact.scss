@@ -1,97 +1,76 @@
 // MOBILE
 .contact-container {
-    &__accessibility {
-        padding-left: $margin-side-mobile;
-        padding-right: $margin-side-mobile;
-    }
-
-    .tabs-container {
+    &__tabscontainer {
         margin-left: $margin-side-mobile;
         margin-right: $margin-side-mobile;
-    }
-    
-    .tabs {
-        //position: absolute;
-        //top: 50%;
-        //left: 50%;
-        //transform: translate(-50%, -50%);
-        width: 100%;
-        height: 85vh;
-        //background: $background-grey;
-        //background: $grey;
-        //padding: 20px 30px;
-        overflow: hidden;
-        //box-shadow: 5px 10px 5px #ccc;
-        margin-top: 20px;
-        margin-bottom: 30px;
-        border: 2px solid $yellow;
-        border-radius: 15px;
-    }
-    
-    .tabs .tab-header {
-        height: 60px;
-        display: flex;
-        align-items: center;
-    }
-    
-    .tabs .tab-header > div {
-        width: calc(100% / 4);
-        text-align: center;
-        color: #888;
-        font-weight: 700;
-        cursor: pointer;
-        font-size: 14px;
-        text-transform: uppercase;
-        outline: none;
-    }
-    
-    .tabs .tab-header > div > i {
-        display: block;
-        margin-bottom: 5px;
-        font-size: 25px;
-    }
-    
-    .tabs .tab-header > div.active {
-        color: $yellow;
-    }
-    
-    .tabs .tab-indicator {
-        position: relative;
-        width: calc(100% / 4);
-        height: 5px;
-        background: $yellow;
-        left: 0px;
-        border-radius: 5px;
-        transition: all 500ms ease-in-out;
-    }
-    
-    .tabs .tab-body {
-        display: block;
-        position: relative;
-        height: calc(100% - 60px);
-        padding: 20px 16px;
-        //border: 2px solid $yellow;
-        border-radius: 0px 0px 15px 15px;
-        background-color: $white;
-    }
-    
-    .tabs .tab-body div {
-        //padding-left: 16px;
-        padding-right: 16px;
-        position: absolute;
-        top: -200%;
-        opacity: 0;
-        margin-top: 5px;
-        transform: scale(0.9);
-        transition: opacity 500ms ease-in-out 0ms,
-                    transform 500ms ease-in-out 0ms;
-    }
-    
-    .tabs .tab-body > div.active {
-        top: 0px;
-        opacity: 1;
-        transform: scale(1);
-        margin-top: 10px;
+
+        &__tabs {
+            width: 100%;
+            height: 85vh;
+            overflow: hidden;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            border: 2px solid $yellow;
+            border-radius: 15px;
+
+            &__tabheader {
+                height: 60px;
+                display: flex;
+                align-items: center;
+
+                .active {
+                    color: $yellow;
+                }
+
+                &__item {
+                    width: calc(100% / 4);
+                    text-align: center;
+                    color: #888;
+                    font-weight: 700;
+                    cursor: pointer;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    outline: none;
+                }
+            }
+
+            &__tabindicator {
+                position: relative;
+                width: calc(100% / 4);
+                height: 5px;
+                background: $yellow;
+                left: 0px;
+                border-radius: 5px;
+                transition: all 500ms ease-in-out;
+            }
+
+            &__tabbody {
+                display: block;
+                position: relative;
+                height: calc(100% - 60px);
+                padding: 20px 16px;
+                border-radius: 0px 0px 15px 15px;
+                background-color: $white;
+
+                .active {
+                    top: 0px;
+                    opacity: 1;
+                    transform: scale(1);
+                    margin-top: 10px;
+                }
+
+                &__item {
+                    padding-right: 16px;
+                    position: absolute;
+                    top: -200%;
+                    opacity: 0;
+                    margin-top: 5px;
+                    transform: scale(0.9);
+                    transition: opacity 500ms ease-in-out 0ms,
+                                transform 500ms ease-in-out 0ms;
+                }
+            }
+        }
     }
 }
 
@@ -119,8 +98,21 @@
             }
         }
     
-        .tabs {
+        &__tabs {
             height: 53vh;
+        }
+    }
+}
+
+
+
+
+
+// DESKTOP - 1440PX
+@media only screen and (min-width: 1440px) {
+    .contact-container {
+        &__tabs {
+            height: 50vh;
         }
     }
 }

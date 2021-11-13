@@ -1,90 +1,174 @@
 // MOBILE
 
+// HOME
+.home-container {
+    background-color: $background-grey;
+    padding-bottom: 50px;
+
+    &__banner {
+        &__background {
+            &__scroll {
+                i {
+                    font-size: 46px;
+                    font-weight: bold;
+                    color: $white;
+                    position: absolute;
+                    bottom: 22px;
+                    right: 30px;
+                }
+            }
+        }
+    }
+
+    &__partnersflexbox {
+        &__box {
+            &__container {
+                &__link {
+                    i {
+                        font-size: 24px;
+                        font-weight: 300;
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+}
+
 // CONTACT
 .contact-container {
-  &__contact {
-    &__flexbox {
-      &__data {
-        &__link {
-          .location-icon {
-            padding-left: 5px;
-          }
+    &__contact {
+        &__flexbox {
+            &__data {
+                &__link {
+                    .location-icon {
+                        padding-left: 5px;
+                    }
 
-          i {
-            font-size: 25px;
-            width: 40px;
-            color: $grey;
-          }
-        }
+                    i {
+                        font-size: 25px;
+                        width: 40px;
+                        color: $grey;
+                    }
+                }
 
-        &__socials {
-          &__item {
-            i {
-              color: $grey;
-              font-size: 25px;
-              width: 30px;
-              color: $grey;
+                &__socials {
+                    &__item {
+                        i {
+                            color: $grey;
+                            font-size: 25px;
+                            width: 30px;
+                            color: $grey;
+                        }
+                    }
+                }
             }
-          }
         }
-      }
     }
-  }
 
-  &__general {
-    &__flexbox {
-      &__left {
-        &__contact {
-          i {
-            font-size: 25px;
-            width: 30px;
-            color: $grey;
-          }
+    &__general {
+        &__flexbox {
+            &__left {
+                &__contact {
+                    i {
+                        font-size: 25px;
+                        width: 30px;
+                        color: $grey;
+                    }
+                }
+            }
         }
-      }
     }
-  }
+
+    &__tabscontainer {
+        &__tabs {
+            &__tabheader {
+                &__item {
+                    i {
+                        display: block;
+                        margin-bottom: 5px;
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 //Articles
 .content-article {
-  &__icon {
-    padding-right: 15px;
-  }
+    &__icon {
+        padding-right: 15px;
+    }
 }
 
 // FOOTER
 .footer {
-  &__content {
-    &__block {
-      &__link {
-        .location-icon {
-          padding-left: 5px;
-        }
+    &__content {
+        &__block {
+            &__link {
+                .location-icon {
+                    padding-left: 5px;
+                }
 
-        i {
-          color: $white;
-          font-size: 25px;
-          width: 40px;
-        }
-      }
+                i {
+                    color: $white;
+                    font-size: 25px;
+                    width: 40px;
+                }
+            }
 
-      &__socialsflexbox {
-        &__social {
-          i {
-            font-size: 25px;
-            width: 30px;
-            margin-top: 30px;
-            color: $grey;
-          }
-        }
-      }
+            &__socialsflexbox {
+                &__social {
+                    i {
+                        font-size: 25px;
+                        width: 30px;
+                        margin-top: 30px;
+                        color: $grey;
+                    }
+                }
+            }
 
-      .socials-white {
-        .footer__content__block__socialsflexbox__social i {
-          color: $white;
+            .socials-white {
+                .footer__content__block__socialsflexbox__social i {
+                    color: $white;
+                }
+            }
         }
-      }
     }
-  }
+}
+
+
+
+
+
+// DESKTOP - 1280PX
+@media screen and (min-width: 1280px) {
+    .home-container {   
+        &__banner {
+            &__background {
+                &__scroll {
+                    i {
+                        bottom: 52px;
+                        right: $margin-side-desktop;
+                    }
+                }
+            }
+        }
+
+        &__partnersflexbox {
+            &__box {
+                &__container {
+                    &__link:hover {
+                        transition: 0.5s;
+
+                        i {
+                            color: $black-light;
+                            transition: 0.5s;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

@@ -34,7 +34,7 @@ function js(cb) {
 
 function watcher(cb) {
     watch(`${origin}/**/**/*.scss`).on('change', series(css, browserSync.reload))
-    watch(`${origin}/**/.js`).on('change', series(js, browserSync.reload))
+    watch(`${origin}/**/*.js`).on('change', series(js, browserSync.reload))
     cb();
 }
 

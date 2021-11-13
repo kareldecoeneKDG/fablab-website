@@ -6,7 +6,6 @@
         &__background {
             display: flex;
             height: 88vh;
-            //background-image: url("../../assets/images/background.webp");
             background-repeat: no-repeat;
             background-color: $lightergrey;
             background-position: center;
@@ -17,16 +16,6 @@
                 position: relative;
                 width: 100vw;
                 text-align: center;
-            }
-
-            &__scroll i {
-                font-size: 46px;
-                font-weight: bold;
-                color: $white;
-                position: absolute;
-                bottom: 22px;
-                //left: calc((100% - 23px) / 2);
-                right: 31px;
             }
         }
     }
@@ -129,25 +118,18 @@
             right: $margin-side-mobile;
 
             &__container {
-                padding: 18px;
                 background-color: $yellow;
                 border-radius: 50%;
                 width: 100%;
                 height: 100%;
+                position: relative;
+                border: 2px solid $yellow;
             
                 &__link {
-                    position: relative;
                     width: 100%;
                     height: 100%;
-
-                    i {
-                        position: absolute;
-                        //bottom: 50%;
-                        //left: 50%;
-                        font-size: 24px;
-                        font-weight: 300;
-                        color: $white;
-                    }
+                    padding: 17px;
+                    position: absolute;
                 }
             }
         }
@@ -183,11 +165,6 @@
 
                 &__scroll {
                     height: calc(100vh - 140px);
-
-                    i {
-                        bottom: 52px;
-                        right: $margin-side-desktop;
-                    }
                 }
             }
         }
@@ -333,7 +310,34 @@
                 right: $margin-side-desktop;
     
                 &__container {
-                    padding: 26px;
+                    &__link {
+                        padding: 25px;
+                    }
+                    //padding: 26px;
+                }
+
+                &__container:hover {
+                    background-color: $white;
+                    border: 2px solid $black-light;
+                    transition: 0.5s;
+                    //color: $black !important;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+// DESKTOP - 1440PX
+@media screen and (min-width: 1440px) {
+    .home-container {
+        &__introduction {
+            &__flexbox {
+                &__right {
+                    height: 21vh;
                 }
             }
         }
