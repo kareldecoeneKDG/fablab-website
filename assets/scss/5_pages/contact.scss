@@ -31,8 +31,8 @@
     }
 
     &__general {
-        padding-left: $margin-side-mobile;
-        padding-right: $margin-side-mobile;
+        margin-left: $margin-side-mobile;
+        margin-right: $margin-side-mobile;
 
         &__flexbox {
             margin-top: 30px;
@@ -119,6 +119,58 @@
                     margin-top: 0px;
                 }
             }
+        }
+    }
+}
+
+
+
+
+
+// DESKTOP - 1920PX
+@media only screen and (min-width: 1920px) {
+    .contact-container {
+        &__contact {
+            &__flexbox {
+                margin-left: $margin-side-hd;
+                margin-right: $margin-side-hd;
+            }
+        }
+
+        &__general {
+            margin-left: $margin-side-hd;
+            //margin-right: 462px;
+            margin-right: $margin-side-hd;
+        }
+
+        &__tabscontainer {
+            margin-left: $margin-side-hd;
+        }
+    }
+}
+
+
+
+
+
+// DESKTOP - 2560PX
+@media only screen and (min-width: 2560px) {
+    .contact-container {
+        &__contact {
+            &__flexbox {
+                margin-left: $margin-side-qhd;
+                margin-right: $margin-side-qhd;
+            }
+        }
+
+        &__general {
+            margin-left: $margin-side-qhd;
+            //margin-right: 462px;
+            margin-right: $margin-side-qhd;
+        }
+
+        &__tabscontainer {
+            margin-left: $margin-side-qhd;
         }
     }
 }
