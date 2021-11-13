@@ -95,9 +95,6 @@
     }
 
     &__partners {
-        padding-left: $margin-side-mobile;
-        padding-right: $margin-side-mobile;
-
         &__img {
             display: block;
             width: 215px;
@@ -109,6 +106,9 @@
         flex-direction: row;
         justify-content: space-between;
         position: relative;
+        padding-left: $margin-side-mobile;
+        padding-right: $margin-side-mobile;
+        width: 100%;
 
         &__box {
             width: 60px;
@@ -154,9 +154,6 @@
                     margin-left: 0;
 
                     .intro {
-                        left: $margin-side-desktop;
-                        bottom: 52px;
-
                         .typing {
                             margin-left: 0;
                         }
@@ -283,8 +280,6 @@
 
         &__partners {
             margin-top: 60px;
-            padding-left: $margin-side-desktop;
-            padding-right: $margin-side-desktop;
 
             &__title {
                 margin-top: 0;
@@ -301,6 +296,8 @@
             flex-direction: row;
             justify-content: space-between;
             position: relative;
+            padding-left: $margin-side-desktop;
+            padding-right: $margin-side-desktop;
     
             &__box {
                 width: 75px;
@@ -339,6 +336,111 @@
                 &__right {
                     height: 21vh;
                 }
+            }
+        }
+    }
+}
+
+
+
+
+
+// DESKTOP - 1920PX
+@media only screen and (min-width: 1920px) {
+    .home-container {
+        &__message {
+            padding-left: $margin-side-hd;
+            padding-right: $margin-side-hd;
+        }
+
+        &__introduction {
+            &__flexbox {
+                &__right {
+                    margin-right: $margin-side-hd;
+                    border-radius: 15px;
+                    height: 19vh;
+                }
+            }
+        }
+
+        &__working {
+            &__flexbox {
+                &__right {
+                    margin-right: $margin-side-hd;
+                }
+            }
+        }
+
+        &__biolab {
+            &__flexbox {
+                &__right {
+                    margin-right: $margin-side-hd;
+                }
+            }
+        }
+
+        &__partnersflexbox {
+            padding-left: $margin-side-hd;
+            padding-right: $margin-side-hd;
+    
+            &__box {
+                right: $margin-side-hd;
+            }
+        }
+    }
+}
+
+
+
+
+
+// DESKTOP - 2560PX
+@media only screen and (min-width: 2560px) {
+    .home-container {
+        &__banner {
+            &__background {
+                height: calc(100vh - 140px);
+            }
+        }
+
+        &__message {
+            padding-left: $margin-side-qhd;
+            padding-right: $margin-side-qhd;
+        }
+
+        &__introduction {
+            &__flexbox {
+                &__right {
+                    margin-right: $margin-side-qhd;
+                    height: 14vh;
+                }
+            }
+        }
+
+        &__working {
+            &__flexbox {
+                &__right {
+                    margin-right: $margin-side-qhd;
+                    width: 26%;
+                }
+            }
+        }
+
+        &__biolab {
+            &__flexbox {
+                &__right {
+                    margin-right: $margin-side-qhd;
+                    width: 26%;
+                }
+            }
+        }
+
+        &__partnersflexbox {
+            padding-left: $margin-side-qhd;
+            padding-right: $margin-side-qhd;
+    
+            &__box {
+                right: $margin-side-qhd;
             }
         }
     }

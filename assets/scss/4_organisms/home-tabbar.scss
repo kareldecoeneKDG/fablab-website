@@ -102,3 +102,31 @@
         }
     }
 }
+
+
+
+
+
+// DESKTOP - 1920PX
+@media only screen and (min-width: 1920px) {
+    .home-container {
+        .tabs-container-manufacturer {
+            margin-left: $margin-side-hd;
+            margin-right: $margin-side-hd;
+        }
+    }
+}
+
+
+
+
+
+// DESKTOP - 2560PX
+@media only screen and (min-width: 2560px) {
+    .home-container {
+        .tabs-container-manufacturer {
+            margin-left: $margin-side-qhd;
+            margin-right: $margin-side-qhd;
+        }
+    }
+}

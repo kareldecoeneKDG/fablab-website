@@ -69,12 +69,63 @@
                     height: calc(100% - 140px);
 
                     .intro {
-                        left: 30px;
+                        left: $margin-side-desktop;
+                        bottom: 52px;
                     }
                 }
 
                 &__scroll {
                     height: calc(100% - 140px);
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+// DESKTOP - 1920PX
+@media only screen and (min-width: 1920px) {
+    .home-container {
+        &__banner {
+            &__background {
+                &__animation {
+                    .intro {
+                        left: $margin-side-hd;
+                    }
+                }
+
+                &__scroll {
+                    i {
+                        right: $margin-side-hd;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+// DESKTOP - 2560PX
+@media only screen and (min-width: 2560px) {
+    .home-container {
+        &__banner {
+            &__background {
+                &__animation {
+                    .intro {
+                        left: $margin-side-qhd;
+                    }
+                }
+
+                &__scroll {
+                    i {
+                        right: $margin-side-qhd;
+                    }
                 }
             }
         }

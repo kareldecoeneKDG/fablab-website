@@ -58,7 +58,7 @@
 
                     <!-- whatIsFablabText -->
                     <?php if($page->whatIsFablabText()->isNotEmpty()): ?>
-                        <p class="home-container__introduction__flexbox__left__paragraph p"><?= $page->whatIsFablabText() ?></p>
+                        <p class="home-container__introduction__flexbox__left__paragraph p p-home"><?= $page->whatIsFablabText() ?></p>
                     <?php endif; ?>
 
                     <!-- whatIsFablabButtonText -->
@@ -116,7 +116,7 @@
 
                     <!-- workingFablabText -->
                     <?php if($page->workingFablabText()->isNotEmpty()): ?>
-                        <p class="home-container__working__flexbox__left__paragraph p"><?= $page->workingFablabText() ?></p>
+                        <p class="home-container__working__flexbox__left__paragraph p p-home"><?= $page->workingFablabText() ?></p>
                     <?php endif; ?>
 
                     <!-- workingFablabButtonText -->
@@ -153,7 +153,7 @@
 
                     <!-- biolabText -->
                     <?php if($page->biolabText()->isNotEmpty()): ?>
-                        <p class="home-container__biolab__flexbox__left__paragraph p"><?= $page->biolabText()?></p>
+                        <p class="home-container__biolab__flexbox__left__paragraph p p-home"><?= $page->biolabText()?></p>
                     <?php endif; ?>
 
                     <!-- biolabButtonText -->

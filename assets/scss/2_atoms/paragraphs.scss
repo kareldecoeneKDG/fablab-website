@@ -13,48 +13,15 @@
     }
 }
 
+.p-home {
+    padding-left: $margin-side-mobile;
+    padding-right: $margin-side-mobile;
+    padding-bottom: 30px;
+}
+
 
 
 // PAGES
-
-// HOME
-.home-container {
-    &__introduction {
-        &__flexbox {
-            &__left {
-                &__paragraph {
-                    padding-left: $margin-side-mobile;
-                    padding-right: $margin-side-mobile;
-                    padding-bottom: 30px;
-                }
-            }
-        }
-    }
-
-    &__working {
-        &__flexbox {
-            &__left {
-                &__paragraph {
-                    padding-left: $margin-side-mobile;
-                    padding-right: $margin-side-mobile;
-                    padding-bottom: 30px;
-                }
-            }
-        }
-    }
-
-    &__biolab {
-        &__flexbox {
-            &__left {
-                &__paragraph {
-                    padding-left: $margin-side-mobile;
-                    padding-right: $margin-side-mobile;
-                    padding-bottom: 30px;
-                }
-            }
-        }
-    }
-}
 
 
 
@@ -63,46 +30,17 @@
 // DESKTOP - 1280PX
 @media only screen and (min-width: 1280px) {
 
+    .p-home {
+        padding-left: $margin-side-desktop;
+        padding-right: $margin-side-desktop;
+        padding-bottom: 30px;
+    }
+
     // HOME
     .home-container {
         &__message {
             &__paragraph {
                 width: 50%;
-            }
-        }
-
-        &__introduction {
-            &__flexbox {
-                &__left {
-                    &__paragraph {
-                        padding-left: $margin-side-desktop;
-                        padding-right: $margin-side-desktop;
-                    }
-                }
-            }
-        }
-
-        &__working {
-            &__flexbox {
-                &__left {
-                    &__paragraph {
-                        padding-left: $margin-side-desktop;
-                        padding-right: $margin-side-desktop;
-                        padding-bottom: 30px;
-                    }
-                }
-            }
-        }
-
-        &__biolab {
-            &__flexbox {
-                &__left {
-                    &__paragraph {
-                        padding-left: $margin-side-desktop;
-                        padding-right: $margin-side-desktop;
-                        padding-bottom: 30px;
-                    }
-                }
             }
         }
     }
@@ -114,5 +52,29 @@
                 width: 50%;
             }
         }
+    }
+}
+
+
+
+
+
+// DESKTOP - 1920PX
+@media only screen and (min-width: 1920px) {
+    .p-home {
+        padding-left: $margin-side-hd;
+        //padding-right: $margin-side-hd;
+    }
+}
+
+
+
+
+
+// DESKTOP - 2560PX
+@media only screen and (min-width: 2560px) {
+    .p-home {
+        padding-left: $margin-side-qhd;
+        //padding-right: $margin-side-hd;
     }
 }

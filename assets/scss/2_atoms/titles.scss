@@ -226,3 +226,82 @@
         }
     }
 }
+
+
+
+
+
+// DESKTOP - 1920PX
+@media only screen and (min-width: 1920px) {
+
+    // GENERAL BUTTONS
+    .h2-home {
+        padding-left: $margin-side-hd;
+    }
+
+    // HOME
+    .home-container {
+        &__introduction {
+            &__title {
+                margin-right: 71%;
+            }
+        }
+
+        &__working {
+            &__banner {
+                &__title {
+                    margin-right: 70%;
+                }
+            }
+        }
+
+        &__biolab {
+            &__banner {
+                &__title {
+                    margin-right: 75%;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+// DESKTOP - 2560PX
+@media only screen and (min-width: 2560px) {
+
+    // GENERAL BUTTONS
+    .h2-home {
+        //padding-left: $margin-side-qhd;
+        margin-left: 600px;
+        padding-left: 62px;
+        border-radius: 10%;
+    }
+
+    // HOME
+    .home-container {
+        &__introduction {
+            &__title {
+                margin-right: 65%;
+            }
+        }
+
+        &__working {
+            &__banner {
+                &__title {
+                    margin-right: 64%;
+                }
+            }
+        }
+
+        &__biolab {
+            &__banner {
+                &__title {
+                    margin-right: 68%;
+                }
+            }
+        }
+    }
+}

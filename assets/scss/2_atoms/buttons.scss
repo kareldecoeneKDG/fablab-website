@@ -106,3 +106,31 @@
         margin-right: $margin-side-desktop;
     }
 }
+
+
+
+
+
+// DESKTOP - 1920PX
+@media only screen and (min-width: 1920px) {
+
+    // GENERAL BUTTONS
+    .button-home {
+        margin-left: $margin-side-hd;
+        //margin-right: $margin-side-hd;
+    }
+}
+
+
+
+
+
+// DESKTOP - 2560PX
+@media only screen and (min-width: 2560px) {
+
+    // GENERAL BUTTONS
+    .button-home {
+        margin-left: $margin-side-qhd;
+        //margin-right: $margin-side-hd;
+    }
+}
