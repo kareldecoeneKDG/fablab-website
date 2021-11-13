@@ -2,9 +2,7 @@ Title: Home
 
 ----
 
-Backgroundimg:
-
-- biolab.webp
+Backgroundimg: 
 
 ----
 

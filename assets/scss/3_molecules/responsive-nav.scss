@@ -1,121 +1,77 @@
-/* GENERAL + DESKTOP */
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 12vh;
-    background-color: $white;
-    font-family: $verdana;
-}
-
-.logo {
-    color: $black;
-    text-transform: uppercase;
-}
-
-.nav-links {
-    display: flex;
-    background-color: $white;
-    justify-content: space-around;
-    width: 55%;
-}
-
-.nav-links li {
-    list-style-type: none;
-}
-
-.nav-links a {
-    text-decoration: none;
-    font-family: $verdana;
-    font-weight: bold;
-    color: $black;
-}
-
-// active menu item
-.nav-links li .active {
-    border-bottom: 3px solid $yellow;
-    //text-decoration: underline;
-    //text-decoration-color: $yellow;
-    color: $yellow;
-}
-
-.nav-links li a:hover {
-    border-bottom: 3px solid $yellow;
-}
-
-.burger {
-    display: none;
-    z-index: 1;
-}
-
-.burger div {
-    width: 25px;
-    height: 3px;
-    background-color: $black;
-    margin: 5px;
-    transition: all 0.3s ease;
-}
-
-
-/* TABLET PORTRAIT */
-@media screen and (max-width: 1024px) {
-    .nav-links {
-        width: 50%;
-    }
-}
-
-
-/* MOBILE */
-@media screen and (max-width: 768px) {
-    nav {
+// MOBILE
+.header {
+    &__menu {
+        display: flex;
         flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        height: 12vh;
+        background-color: $white;
         padding-left: $margin-side-mobile;
         padding-right: $margin-side-mobile;
-    }
-    
-    .nav-links {
-        position: absolute;
-        right: 0px;
-        height: 100vh;
-        top: 0;
-        background-color: $black;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 75%;
-        transform: translateX(-200%);
-        transition: transform 0.5s ease-in;
-        z-index: 1;
+
+        .nav-active {
+            transform: translateX(-35%);
+            padding-top: 15vh;
+            padding-bottom: 15vh;
+        }
+
+        &__navlinks {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            position: absolute;
+            right: 0px;
+            height: 100vh;
+            top: 0;
+            align-items: center;
+            width: 75%;
+            transform: translateX(-150%);
+            transition: transform 0.5s ease-in;
+            z-index: 1;
+            background-color: $black-light;
+
+            &__item {
+                list-style-type: none;
+                opacity: 0;
+
+                &__link {
+                    text-decoration: none;
+                    font-family: $verdana;
+                    font-weight: bold;
+                    color: $white;
+                }
+
+                .active {
+                    border-bottom: 3px solid $yellow;
+                    color: $yellow;
+                }
+            }
+        }
+
+        &__burger {
+            display: block;
+            cursor: pointer;
+            z-index: 2;
+
+            &__line {
+                width: 25px;
+                height: 3px;
+                background-color: $black;
+                margin: 5px;
+                transition: all 0.3s ease;
+            }
+        }
     }
 
-    .nav-links li {
-        opacity: 0;
-    }
-
-    .nav-links a {
-        color: $white;
-    }
-
-    .burger {
-        display: block;
-        cursor: pointer;
-    }
-
-    .header__languageButton {
+    &__languageButton {
         display: none;
     }
 }
 
 
-/* BRING MENU ITEMS IN SCREEN VIA NAV-ACTIVE CLASS */
-.nav-active {
-    transform: translateX(-35%);
-    padding-top: 15vh;
-    padding-bottom: 15vh;
-}
 
-
-/* FADE ANIMATION MENU ITEM */
+// fade animation menu item
 @keyframes navLinkFade {
     from{
         opacity: 0;
@@ -127,8 +83,7 @@ nav{
     }
 }
 
-
-/* ANIMATE DIFFERENT LINES OF BURGER VIA TOGGLE CLASS */
+// animate different lines of burger with toggle class
 .toggle .line1 {
     transform: rotate(-45deg) translate(-5px,6px);
     background-color: white;
@@ -146,10 +101,53 @@ nav{
 
 
 
+
+// TABLET PORTRAIT
+@media screen and (min-width: 768px) {
+    .nav-links {
+        width: 50%;
+    }
+}
+
+
+
+
+
 // DESKTOP - 1280PX
 @media only screen and (min-width: 1280px) {
-    nav {
-        padding-left: $margin-side-desktop;
-        padding-right: $margin-side-desktop;
+    .header {
+        &__menu {
+            flex-direction: row;
+            padding-left: $margin-side-desktop;
+            padding-right: $margin-side-desktop;
+            height: 140px;
+
+            &__navlinks {
+                flex-direction: row;
+                background-color: $white;
+                justify-content: space-around;
+                width: 55%;
+                transform: translateX(0%);
+                height: 140px;
+                position: initial;
+    
+                &__item {
+                    opacity: 1;
+    
+                    &__link {
+                        color: $black;
+                    }
+    
+                    &__link:hover {
+                        border-bottom: 3px solid $yellow;
+                    }
+                }
+            }
+    
+            &__burger {
+                display: none;
+                z-index: 1;
+            }
+        }
     }
 }

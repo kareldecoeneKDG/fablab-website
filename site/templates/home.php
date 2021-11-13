@@ -17,7 +17,7 @@
             <!-- <div class="home-container__banner__background"> -->
                 <div class="home-container__banner__background__animation">
                     <div class="intro">
-                        <h1 class="typing">hi</h1>
+                        <h1 class="typing">something</h1>
                     </div>
                 </div>
 
@@ -153,7 +153,7 @@
 
                     <!-- biolabText -->
                     <?php if($page->biolabText()->isNotEmpty()): ?>
-                        <p class="home-container__biolab__flexbox__left__paragraph"><?= $page->biolabText()?></p>
+                        <p class="home-container__biolab__flexbox__left__paragraph p"><?= $page->biolabText()?></p>
                     <?php endif; ?>
 
                     <!-- biolabButtonText -->

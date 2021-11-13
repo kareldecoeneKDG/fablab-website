@@ -81,25 +81,15 @@
 // DESKTOP - 1280PX
 @media only screen and (min-width: 1280px) {
     .contact-container {
-        &__accessibility {
-            margin-top: 70px;
-            margin-left: $margin-side-desktop;
-            margin-right: 222px;
-        }
-
-        .tabs-container {
+        &__tabscontainer {
             margin-top: 60px;
             width: 588px;
             margin-left: $margin-side-desktop;
             margin-right: $margin-side-desktop;
-    
-            &__title {
-                margin-top: 0;
+
+            &__tabs {
+                height: 53vh;
             }
-        }
-    
-        &__tabs {
-            height: 53vh;
         }
     }
 }
@@ -111,8 +101,10 @@
 // DESKTOP - 1440PX
 @media only screen and (min-width: 1440px) {
     .contact-container {
-        &__tabs {
-            height: 50vh;
+        &__tabscontainer {
+            &__tabs {
+                height: 43vh;
+            }
         }
     }
 }

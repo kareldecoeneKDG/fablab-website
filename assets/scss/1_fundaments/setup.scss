@@ -28,3 +28,9 @@ html, body {
 body {
     position: relative;
 }
+
+// FOR CONTACT FORM
+.honeypot {
+    position: absolute;
+    left: -9999px;
+}

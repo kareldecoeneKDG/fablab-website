@@ -2,61 +2,57 @@
 
 // GENERAL BUTTONS
 .button-small {
-  display: inline-block;
+    display: inline-block;
 
-  font-family: $verdana;
-  font-size: $p-big-font-size-mobile;
-  font-weight: 700;
+    font-family: $verdana;
+    font-size: $p-big-font-size-mobile;
+    font-weight: 700;
 
-  color: $white;
-  background-color: $black;
+    color: $white;
+    background-color: $black;
 
-  border: none;
-  border-radius: $border-radius-small;
+    border: none;
+    border-radius: $border-radius-small;
 
-  margin-left: $margin-side-mobile;
-  margin-right: $margin-side-mobile;
-  padding: $button-small-padding;
+    margin-left: $margin-side-mobile;
+    margin-right: $margin-side-mobile;
+    padding: $button-small-padding;
 }
 
 .button-big {
-  border: 1px solid $yellow;
+    border: 1px solid $yellow;
 }
 
 .button-small {
-  background-color: $yellow;
-  color: $black;
-  border: 1px solid $yellow;
+    background-color: $yellow;
+    color: $black;
+    border: 1px solid $yellow;
 }
 
 .button-small:hover {
-  background-color: $yellow-opacity;
-  color: $yellow;
-  transition: 0.3s;
+    background-color: $yellow-opacity;
+    color: $yellow;
+    transition: 0.3s;
 }
 
 .button-small:focus {
-  border: 1px solid $yellow;
-  background-color: $white;
-  color: $yellow;
+    border: 1px solid $yellow;
+    background-color: $white;
+    color: $yellow;
 }
 
 .button-big:hover {
-  cursor: pointer;
-  background-color: $yellow-opacity;
-  color: $yellow;
-  transition: 0.3s;
+    cursor: pointer;
+    background-color: $yellow-opacity;
+    color: $yellow;
+    transition: 0.3s;
 }
 
 .button-big:focus {
-  border: 1px solid $yellow;
-  background-color: $white;
-  color: $yellow;
+    border: 1px solid $yellow;
+    background-color: $white;
+    color: $yellow;
 }
-
-
-
-
 
 
 
@@ -64,22 +60,22 @@
 
 // BLOG
 .content-blog {
-  &__tag-filter {
-    &__button-tag {
-      background-color: #f2db04;
-      border: none;
-      font-weight: bold;
-      color: black;
-      padding: 10px 30px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      margin: 4px 2px;
-      cursor: pointer;
-      border-radius: 12px;
+    &__tag-filter {
+        &__button-tag {
+            background-color: #f2db04;
+            border: none;
+            font-weight: bold;
+            color: black;
+            padding: 10px 30px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+        }
     }
-  }
 }
 
 // HOME
@@ -101,12 +97,12 @@
 
 // DESKTOP - 1280PX
 @media only screen and (min-width: 1280px) {
-
-  // GENERAL BUTTONS
-  .button-home {
-    background-color: $yellow;
-    color: $black;
-    margin-left: $margin-side-desktop;
-    margin-right: $margin-side-desktop;
-  }
+    
+    // GENERAL BUTTONS
+    .button-home {
+        background-color: $yellow;
+        color: $black;
+        margin-left: $margin-side-desktop;
+        margin-right: $margin-side-desktop;
+    }
 }

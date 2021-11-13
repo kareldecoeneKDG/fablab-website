@@ -1,0 +1,79 @@
+// MOBILE
+
+// HOME TYPING ANIMATION
+.home-container {
+    &__banner {
+        &__background {
+            &__animation {
+                height: 88vh;
+                position: relative;
+
+                .intro {
+                    color: $black;
+                    bottom: 0;
+                    position: absolute;
+                    bottom: 30px;
+                    left: $margin-side-mobile;
+                }
+
+                .typing {
+                    position: relative;
+                    margin-left: 10px;
+                    font-size: 36px;
+                }
+
+                .typing::after {
+                    content: "";
+                    position: absolute;
+                    right: -30px;
+                    width: 25px;
+                    height: 5%;
+                    border-bottom: 5px solid $yellow;
+                    animation: blink 0.8s infinite ease;
+                    bottom: 0;
+                    z-index: 0;
+                }
+
+                @keyframes blink{
+                    0%{
+                        opacity: 0;
+                    }
+                    100% {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+// DESKTOP - 1280PX
+@media only screen and (min-width: 1280px) {
+
+    // HOME TYPING ANIMATION
+    .home-container {
+        &__banner {
+            height: calc(100% - 140px);
+
+            &__background {
+                height: calc(100% - 140px);
+
+                &__animation {
+                    height: calc(100% - 140px);
+
+                    .intro {
+                        left: 30px;
+                    }
+                }
+
+                &__scroll {
+                    height: calc(100% - 140px);
+                }
+            }
+        }
+    }
+}

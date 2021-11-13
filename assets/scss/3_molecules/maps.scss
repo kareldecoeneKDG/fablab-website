@@ -1,4 +1,6 @@
 // MOBILE
+
+// CONTACT
 .contact-container {
     &__maps {
         margin: 0;
@@ -12,6 +14,8 @@
 
 // DESKTOP - 1280PX
 @media only screen and (min-width: 1280px) {
+
+    // CONTACT
     .contact-container {
         &__maps {
             margin: 0;

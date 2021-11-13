@@ -1,4 +1,6 @@
 // MOBILE
+
+// CONTACT
 .contact-container {
     &__contact {
         &__flexbox {
@@ -42,10 +44,8 @@
 
                     &__submit {
                         padding: $button-big-padding;
-                        //border: none;
                         background-color: $yellow;
                         color: $black;
-
                         font-family: $verdana;
                         font-size: $button-big-font-size-mobile;
                         font-weight: 700;
@@ -63,6 +63,8 @@
 
 // DESKTOP - 1280PX
 @media only screen and (min-width: 1280px) {
+
+    // CONTACT
     .contact-container {
         &__contact {
             &__flexbox {
@@ -71,11 +73,6 @@
                     width: 50%;
 
                     &__form {
-                        padding-left: $margin-side-mobile;
-                        padding-right: $margin-side-mobile;
-                        padding-top: 30px;
-                        padding-bottom: 30px;
-
                         &__flexbox {
                             display: flex;
                             flex-direction: row;

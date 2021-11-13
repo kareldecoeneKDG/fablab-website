@@ -4,11 +4,13 @@
 @import "./1_fundaments/test";
 @import "./1_fundaments/setup";
 
+
 @import "./2_atoms/titles";
 @import "./2_atoms/paragraphs";
 @import "./2_atoms/icons";
 @import "./2_atoms/images";
 @import "./2_atoms/buttons";
+
 
 @import "./3_molecules/menu";
 @import "./3_molecules/responsive-nav";
@@ -18,11 +20,14 @@
 @import "./3_molecules/maps";
 @import "./3_molecules/categories";
 
+
 @import "./4_organisms/header";
-@import "./4_organisms/footer";
-@import "./4_organisms/tabbar-contact";
-@import "./4_organisms/tabbar-home";
 @import "./4_organisms/banners";
+@import "./4_organisms/home-type-animation";
+@import "./4_organisms/home-tabbar";
+@import "./4_organisms/contact-tabbar";
+@import "./4_organisms/footer";
+
 
 @import "./5_pages/contact";
 @import "./5_pages/blogs";

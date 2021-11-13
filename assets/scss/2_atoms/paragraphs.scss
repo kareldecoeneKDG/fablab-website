@@ -2,120 +2,117 @@
 
 // GENERAL PARAGRAPHS
 .p {
-  font-family: $verdana;
-  font-size: $p-big-font-size-mobile;
-  font-weight: 500;
-  margin: $p-margin-mobile;
-  line-height: $p-big-line-height;
-  &__date {
-    font-size: $p-small-font-size-mobile;
-  }
+    font-family: $verdana;
+    font-size: $p-big-font-size-mobile;
+    font-weight: 500;
+    margin: $p-margin-mobile;
+    line-height: $p-big-line-height;
+
+    &__date {
+        font-size: $p-small-font-size-mobile;
+    }
 }
 
-p {
-  font-family: $verdana;
-  font-size: $p-big-font-size-mobile;
-  font-weight: 500;
-  margin: $p-margin-mobile;
-  line-height: $p-big-line-height;
-  &__date {
-    font-size: $p-small-font-size-mobile;
-  }
-}
+
 
 // PAGES
 
 // HOME
 .home-container {
-  &__introduction {
-    &__flexbox {
-      &__left {
-        &__paragraph {
-          padding-left: $margin-side-mobile;
-          padding-right: $margin-side-mobile;
-          padding-bottom: 30px;
-        }
-      }
-    }
-  }
-
-  &__working {
-    &__flexbox {
-      &__left {
-        &__paragraph {
-          padding-left: $margin-side-mobile;
-          padding-right: $margin-side-mobile;
-          padding-bottom: 30px;
-        }
-      }
-    }
-  }
-
-  &__biolab {
-    &__flexbox {
-      &__left {
-        &__paragraph {
-          padding-left: $margin-side-mobile;
-          padding-right: $margin-side-mobile;
-          padding-bottom: 30px;
-        }
-      }
-    }
-  }
-}
-
-// DESKTOP - 1280PX
-@media only screen and (min-width: 1280px) {
-  // CONTACT
-  .contact-container {
-    &__general {
-      &__paragraph {
-        width: 50%;
-      }
-    }
-  }
-
-  // HOME
-  .home-container {
-    &__message {
-      &__paragraph {
-        width: 50%;
-      }
-    }
-
     &__introduction {
-      &__flexbox {
-        &__left {
-          &__paragraph {
-            padding-left: $margin-side-desktop;
-            padding-right: $margin-side-desktop;
-          }
+        &__flexbox {
+            &__left {
+                &__paragraph {
+                    padding-left: $margin-side-mobile;
+                    padding-right: $margin-side-mobile;
+                    padding-bottom: 30px;
+                }
+            }
         }
-      }
     }
 
     &__working {
-      &__flexbox {
-        &__left {
-          &__paragraph {
-            padding-left: $margin-side-desktop;
-            padding-right: $margin-side-desktop;
-            padding-bottom: 30px;
-          }
+        &__flexbox {
+            &__left {
+                &__paragraph {
+                    padding-left: $margin-side-mobile;
+                    padding-right: $margin-side-mobile;
+                    padding-bottom: 30px;
+                }
+            }
         }
-      }
     }
 
     &__biolab {
-      &__flexbox {
-        &__left {
-          &__paragraph {
-            padding-left: $margin-side-desktop;
-            padding-right: $margin-side-desktop;
-            padding-bottom: 30px;
-          }
+        &__flexbox {
+            &__left {
+                &__paragraph {
+                    padding-left: $margin-side-mobile;
+                    padding-right: $margin-side-mobile;
+                    padding-bottom: 30px;
+                }
+            }
         }
-      }
     }
-  }
+}
+
+
+
+
+
+// DESKTOP - 1280PX
+@media only screen and (min-width: 1280px) {
+
+    // HOME
+    .home-container {
+        &__message {
+            &__paragraph {
+                width: 50%;
+            }
+        }
+
+        &__introduction {
+            &__flexbox {
+                &__left {
+                    &__paragraph {
+                        padding-left: $margin-side-desktop;
+                        padding-right: $margin-side-desktop;
+                    }
+                }
+            }
+        }
+
+        &__working {
+            &__flexbox {
+                &__left {
+                    &__paragraph {
+                        padding-left: $margin-side-desktop;
+                        padding-right: $margin-side-desktop;
+                        padding-bottom: 30px;
+                    }
+                }
+            }
+        }
+
+        &__biolab {
+            &__flexbox {
+                &__left {
+                    &__paragraph {
+                        padding-left: $margin-side-desktop;
+                        padding-right: $margin-side-desktop;
+                        padding-bottom: 30px;
+                    }
+                }
+            }
+        }
+    }
+
+    // CONTACT
+    .contact-container {
+        &__general {
+            &__paragraph {
+                width: 50%;
+            }
+        }
+    }
 }
