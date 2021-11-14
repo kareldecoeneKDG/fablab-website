@@ -64,12 +64,35 @@ columns:
         label: Biolab image
         type: files
 
-      logosManufacturers:
-        label: Logo's manufacturers
-        type: files
-      logoFablabs:
-        label: Logo's Fablabs
-        type: files
+      manufacturers:
+        label: Manufacturers
+        type: structure
+        columns:
+          image:
+            width: 1/3
+          url:
+            width: 2/3
+        fields:
+          image:
+            type: files
+            max: 1
+          url:
+            type: url
+      fablabs:
+        label: Fablabs
+        type: structure
+        columns:
+          image:
+            width: 1/3
+          url:
+            width: 2/3
+        fields:
+          image:
+            type: files
+            max: 1
+          url:
+            type: url
+
 
       partners:
         label: Partner logo's

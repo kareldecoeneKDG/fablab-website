@@ -85,6 +85,52 @@ Biolabimage:
 
 ----
 
+Manufacturers:
+
+- 
+  image:
+    - logo-makerbot-1.png
+  url: https://www.makerbot.com/
+- 
+  image:
+    - dewalt-1.png
+  url: https://www.dewalt.be/
+- 
+  image:
+    - dremel-1.png
+  url: https://www.dremel.com/be/nl
+- 
+  image:
+    - prusa-_-3d-printer-1.png
+  url: https://www.prusa3d.com/
+
+----
+
+Fablabs:
+
+- 
+  image:
+    - festool-1.png
+  url: https://www.festool.be/
+- 
+  image:
+    - makita-1.png
+  url: https://www.makita.be/
+- 
+  image:
+    - weller_soldeer-1.png
+  url: https://www.weller-tools.com/index.html
+
+----
+
+Partners:
+
+- kdg_h_closed_black_srgb.png
+- >
+  provincie_antwerpen_logo_rgb_nobackground.png
+
+----
+
 Logosmanufacturers:
 
 - logo-makerbot-1.png
@@ -108,14 +154,6 @@ Logofablabs:
 - dremel-1.png
 - ferm_kolomboor-1.png
 - festool-1.png
-
-----
-
-Partners:
-
-- kdg_h_closed_black_srgb.png
-- >
-  provincie_antwerpen_logo_rgb_nobackground.png
 
 ----
 

@@ -104,11 +104,6 @@
                         opacity: 0.3;
                         //min-height: 50px;
                     }
-
-                    &__img:hover {
-                        opacity: 1;
-                        transition: 0.5s;
-                    }
                 }
 
                 .active {
@@ -150,6 +145,12 @@
                             text-align: center;
                             width: 7vw;
                             height: 7vw;
+                        }
+
+                        &__img:hover {
+                            opacity: 1;
+                            transition: 0.5s;
+                            cursor: pointer;
                         }
                     }
 

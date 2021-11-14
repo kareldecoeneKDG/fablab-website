@@ -1,9 +1,9 @@
 <?php
     // Logos manufacturers
-    $manufacturersLogos = $page->logosManufacturers()->toFiles();
+    $manufacturers = $page->manufacturers()->toStructure();
 
     // Logos fablabs
-    $fablabLogos = $page->logoFablabs()->toFiles();
+    $fablabs = $page->fablabs()->toStructure();
 ?>
 
 <div class="home-container__tabscontainer-manufacturer tabs-container-manufacturer">
@@ -25,16 +25,24 @@
             
             <!-- Tab bodies -->
             <div class="home-container__tabscontainer-manufacturer__tabs__tabbody__item active">
-                <?php foreach($manufacturersLogos as $image): ?>
+                <?php foreach($manufacturers as $manufacturer): ?>
                     <div>
-                        <img class="home-container__tabscontainer-manufacturer__tabs__tabbody__item__img" src="<?= $image->url() ?>" alt="Logos fabrikanten machines">
+                        <?php if($manufacturerimage = $manufacturer->image()->toFile()): ?>
+                            <a href="<?= $manufacturer->url() ?>" rel="nofollow">
+                                <img class="home-container__tabscontainer-manufacturer__tabs__tabbody__item__img" src="<?= $manufacturerimage->url() ?>" alt="Logos fabrikanten machines">
+                            </a>
+                        <?php endif; ?>
                     </div>
                 <?php endforeach; ?>
             </div>
             <div class="home-container__tabscontainer-manufacturer__tabs__tabbody__item">
-                <?php foreach($fablabLogos as $img): ?>
+                <?php foreach($fablabs as $fablab): ?>
                     <div>
-                        <img class="home-container__tabscontainer-manufacturer__tabs__tabbody__item__img" src="<?= $img->url() ?>" alt="Logos andere fablabs">
+                        <?php if($fablabimage = $fablab->image()->toFile()): ?>
+                            <a href="<?= $fablab->url() ?>" rel="nofollow">
+                                <img class="home-container__tabscontainer-manufacturer__tabs__tabbody__item__img" src="<?= $fablabimage->url() ?>" alt="Logos andere fablabs">
+                            </a>
+                        <?php endif; ?>
                     </div>
                 <?php endforeach; ?>
             </div>
