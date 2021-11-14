@@ -47,8 +47,8 @@
             }
 
             &__tabbody {
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);
+                //display: grid;
+                //grid-template-columns: repeat(3, 1fr);
                 //grid-template-rows: repeat(auto-fill, 70px);
 
                 position: relative;
@@ -56,19 +56,58 @@
                 padding: 20px 16px;
                 border-radius: 0px 0px 15px 15px;
                 background-color: $white;
+                //width: 100%;
+                //margin-left: auto;
+                //margin-right: auto;
+                margin: auto;
 
                 &__item {
-                    padding-right: 16px;
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 30px;
+                    //grid-template-rows: repeat(auto-fill, 70px);
+                    padding-right: 32px; //16
                     position: absolute;
                     top: -200%;
                     opacity: 0;
-                    margin-top: 5px;
+                    margin-top: 20px;
                     transform: scale(0.9);
                     transition: opacity 500ms ease-in-out 0ms,
                                 transform 500ms ease-in-out 0ms;
 
+                    div {
+                        /* display: inline-block;
+                        height: 100%;
+                        vertical-align: middle;
+                        //text-align: center;
+                        position: relative;
+                        width: 70px;
+                        height: 70px; */
+                        position: relative;
+                        //width: 80px;
+                        //height: 80px;
+                        width: 19.5vw;
+                        height: 19.5vw;
+                    }
+
                     &__img {
-                        display: inline;
+                        /* //display: inline;
+                        position: absolute;
+                        //position: relative;
+                        //top: 50%;
+                        width: 100%;
+                        vertical-align: middle; */
+                        position: absolute;
+                        top: 0;
+                        bottom: 0;
+                        margin: auto;
+                        opacity: 0.3;
+                        //min-height: 50px;
+                    }
+
+                    &__img:hover {
+                        opacity: 1;
+                        transition: 0.5s;
                     }
                 }
 
@@ -76,7 +115,10 @@
                     top: 0px;
                     opacity: 1;
                     transform: scale(1);
-                    margin-top: 10px;
+                    margin-top: 15px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 100%;
                 }
             }
         }
@@ -97,10 +139,50 @@
 
             &__tabs {
                 width: 100%;
+
+                &__tabbody {
+                    &__item {
+                        grid-template-columns: repeat(5, 1fr);
+                        //gap: 30px;
+                        //grid-template-rows: repeat(auto-fill, 70px);
+
+                        div {
+                            text-align: center;
+                            width: 7vw;
+                            height: 7vw;
+                        }
+                    }
+
+                    .active {
+                        padding-top: 20px;
+                    }
+                }
             }
     
             &__title {
                 margin-top: 0;
+            }
+        }
+    }
+}
+
+
+
+
+// DESKTOP - 1536PX
+@media only screen and (min-width: 1536px) {
+    .home-container {
+        &__tabscontainer-manufacturer {
+            &__tabs {
+                &__tabbody {
+                    &__item {
+                        div {
+                            text-align: center;
+                            width: 6.5vw;
+                            height: 6.5vw;
+                        }
+                    }
+                }
             }
         }
     }
@@ -116,6 +198,18 @@
         &__tabscontainer-manufacturer {
             margin-left: $margin-side-hd;
             margin-right: $margin-side-hd;
+
+            &__tabs {
+                &__tabbody {
+                    &__item {
+                        div {
+                            text-align: center;
+                            width: 5.5vw;
+                            height: 5.5vw;
+                        }
+                    }
+                }
+            }
         }
     }
 }
@@ -128,8 +222,43 @@
 @media only screen and (min-width: 2560px) {
     .home-container {
         &__tabscontainer-manufacturer {
-            margin-left: $margin-side-hd;
-            margin-right: $margin-side-hd;
+            margin-left: $margin-side-qhd;
+            margin-right: $margin-side-qhd;
+
+            &__tabs {
+                &__tabbody {
+                    &__item {
+                        div {
+                            text-align: center;
+                            width: 4vw;
+                            height: 4vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+// DESKTOP - 3840PX
+@media only screen and (min-width: 3840px) {
+    .home-container {
+        &__tabscontainer-manufacturer {
+            &__tabs {
+                &__tabbody {
+                    &__item {
+                        div {
+                            text-align: center;
+                            width: 8vw;
+                            height: 8vw;
+                        }
+                    }
+                }
+            }
         }
     }
 }

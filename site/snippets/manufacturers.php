@@ -26,12 +26,16 @@
             <!-- Tab bodies -->
             <div class="home-container__tabscontainer-manufacturer__tabs__tabbody__item active">
                 <?php foreach($manufacturersLogos as $image): ?>
-                    <img class="home-container__tabscontainer-manufacturer__tabs__tabbody__item__img" src="<?= $image->url() ?>" alt="Logos fabrikanten machines">
+                    <div>
+                        <img class="home-container__tabscontainer-manufacturer__tabs__tabbody__item__img" src="<?= $image->url() ?>" alt="Logos fabrikanten machines">
+                    </div>
                 <?php endforeach; ?>
             </div>
             <div class="home-container__tabscontainer-manufacturer__tabs__tabbody__item">
                 <?php foreach($fablabLogos as $img): ?>
-                    <img class="home-container__tabscontainer-manufacturer__tabs__tabbody__item__img" src="<?= $img->url() ?>" alt="Logos andere fablabs">
+                    <div>
+                        <img class="home-container__tabscontainer-manufacturer__tabs__tabbody__item__img" src="<?= $img->url() ?>" alt="Logos andere fablabs">
+                    </div>
                 <?php endforeach; ?>
             </div>
         </div>
