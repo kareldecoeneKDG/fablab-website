@@ -31,27 +31,27 @@
 
 .button-small:hover {
     background-color: $yellow-opacity;
-    color: $yellow;
+    color: $black;
     transition: 0.3s;
 }
 
 .button-small:focus {
     border: 1px solid $yellow;
     background-color: $white;
-    color: $yellow;
+    color: $black;
 }
 
 .button-big:hover {
     cursor: pointer;
     background-color: $yellow-opacity;
-    color: $yellow;
+    color: $black;
     transition: 0.3s;
 }
 
 .button-big:focus {
     border: 1px solid $yellow;
     background-color: $white;
-    color: $yellow;
+    color: $black;
 }
 
 

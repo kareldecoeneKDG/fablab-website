@@ -67,7 +67,7 @@
 
                     <!-- whatIsFablabButtonText -->
                     <?php if($page->whatIsFablabButtonText()->isNotEmpty()): ?>
-                        <a class="home-container__introduction__flexbox__left__button button-small button-home" href="#"><?= $page->whatIsFablabButtonText() ?> <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        <a class="home-container__introduction__flexbox__left__button button-small button-home" href="#"><?= $page->whatIsFablabButtonText() ?></a>
                     <?php endif; ?>
                 </div>
 
@@ -125,7 +125,7 @@
 
                     <!-- workingFablabButtonText -->
                     <?php if($page->workingFablabButtonText()->isNotEmpty()): ?>
-                        <a class="home-container__working__flexbox__left__button button-small button-home" href="house-rules"><?= $page->workingFablabButtonText() ?> <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        <a class="home-container__working__flexbox__left__button button-small button-home" href="house-rules"><?= $page->workingFablabButtonText() ?></a>
                     <?php endif; ?>
                 </div>
 
@@ -162,7 +162,7 @@
 
                     <!-- biolabButtonText -->
                     <?php if($page->biolabButtonText()->isNotEmpty()): ?>
-                        <a class="home-container__biolab__flexbox__left__button button-small button-home" href="#"><?= $page->biolabButtonText()?> <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        <a class="home-container__biolab__flexbox__left__button button-small button-home" href="#"><?= $page->biolabButtonText()?></a>
                     <?php endif; ?>
                 </div>
 

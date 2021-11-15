@@ -108,3 +108,18 @@
         }
     }
 }
+
+
+
+
+
+// DESKTOP - 1536PX
+@media only screen and (min-width: 1536px) {
+    .contact-container {
+        &__tabscontainer {
+            &__tabs {
+                height: 51vh;
+            }
+        }
+    }
+}
