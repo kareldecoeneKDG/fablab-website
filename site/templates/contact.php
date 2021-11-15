@@ -6,7 +6,7 @@
         <?php snippet('menu') ?>
 
         <!-- CONTACT -->
-        <div class="contact-container__contact">
+        <div class="contact-container__contact sectionOne">
             <div class="contact-container__contact__flexbox">
                 <div class="contact-container__contact__flexbox__data">
 

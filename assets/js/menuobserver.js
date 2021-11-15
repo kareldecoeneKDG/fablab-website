@@ -1,6 +1,6 @@
 // chekcen for better code
 const nav = document.querySelector("nav");
-const sectionOne = document.querySelector(".home-container__message")
+const sectionOne = document.querySelector(".sectionOne")
 
 const sectionOneOptions = {
     rootMargin: "-700px 0px 0px 0px"

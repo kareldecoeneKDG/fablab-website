@@ -34,7 +34,7 @@
 
 
         <!-- OPTIONAL MESSAGE FABLAB CLOSED -->
-        <section class="home-container__message">
+        <section class="home-container__message sectionOne">
 
             <!-- messageTitle -->
             <?php if($page->messageTitle()->isNotEmpty()): ?>
