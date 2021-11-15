@@ -17,8 +17,6 @@
                 <br><br>
 
             </p>
-       
-            
         
             <p class="price-list-container__paragraph p">
                  <?= $ownmat?>
@@ -32,14 +30,39 @@
             <td>Afmetingen (l x b)</td>
             <td>Prijs KdG</td>
             <td>Prijs Extern</td>
+            <td>In Stock</td>
         </tr>
         
-        <?php foreach ($mdfitems as $item): ?>
-            <tr>
+        <?php 
+        $i = 0;
+        foreach ($mdfitems as $item): 
+        ?>
+            
+            <tr class="<?php 
+                if($i%2 == 0){
+                    echo "oneven";
+                    $i++;
+                }
+                else{
+                    echo "even";
+                    $i++;
+                }
+            ?>">           
+            
                 <td><?= $item->thickness() ?></td>
                 <td><?= $item->size() ?></td>
                 <td><?= $item->pricekdg() ?></td>
                 <td><?= $item->priceextern() ?></td>
+                <td>
+                    <?php 
+                        if($item->instock() == "true"){
+                            echo('<i class="fa fa-check" aria-hidden="true"></i>');
+                        }
+                        else{
+                            echo('<i class="fa fa-times" aria-hidden="true"></i>');
+                        }
+                    ?> 
+                </td>
             </tr>
         <?php endforeach ?>
         </table>
@@ -51,14 +74,38 @@
             <td>Kleur</td>
             <td>Prijs KdG</td>
             <td>Prijs Extern</td>
+            <td>In Stock</td>
         </tr>
         
-        <?php foreach ($filamentitems as $item): ?>
-            <tr>
+        <?php 
+        $i=0;
+        foreach ($filamentitems as $item): 
+        ?>
+            <tr
+            class="<?php 
+                if($i%2 == 0){
+                    echo "oneven";
+                    $i++;
+                }
+                else{
+                    echo "even";
+                    $i++;
+                }?>"
+            >
                 <td><?= $item->material() ?></td>
                 <td><?= $item->color() ?></td>
                 <td><?= $item->pricekdg() ?></td>
                 <td><?= $item->priceextern() ?></td>
+                <td>
+                    <?php 
+                        if($item->instock() == "true"){
+                            echo('<i class="fa fa-check" aria-hidden="true"></i>');
+                        }
+                        else{
+                            echo('<i class="fa fa-times" aria-hidden="true"></i>');
+                        }
+                    ?> 
+                </td>
             </tr>
         <?php endforeach ?>
         </table>
@@ -69,14 +116,38 @@
             <td>Afmetingen</td>
             <td>Prijs KdG</td>
             <td>Prijs Extern</td>
+            <td>In Stock</td>
         </tr>
         
-        <?php foreach ($vinylrolanditems as $item): ?>
-            <tr>
+        <?php 
+        $i=0;
+        foreach ($vinylrolanditems as $item): 
+        ?>
+            <tr
+            class="<?php 
+                if($i%2 == 0){
+                    echo "oneven";
+                    $i++;
+                }
+                else{
+                    echo "even";
+                    $i++;
+                }?>"
+            >
                 <td><?= $item->color() ?></td>
                 <td><?= $item->size() ?></td>
                 <td><?= $item->pricekdg() ?></td>
                 <td><?= $item->priceextern() ?></td>
+                <td>
+                    <?php 
+                        if($item->instock() == "true"){
+                            echo('<i class="fa fa-check" aria-hidden="true"></i>');
+                        }
+                        else{
+                            echo('<i class="fa fa-times" aria-hidden="true"></i>');
+                        }
+                    ?> 
+                </td>
             </tr>
         <?php endforeach ?>
         </table>
@@ -87,14 +158,38 @@
             <td>Afmetingen</td>
             <td>Prijs KdG</td>
             <td>Prijs Extern</td>
+            <td>In Stock</td>
         </tr>
         
-        <?php foreach ($flexitems as $item): ?>
-            <tr>
+        <?php
+        $i=0;
+        foreach ($flexitems as $item): 
+        ?>
+            <tr
+            class="<?php 
+                if($i%2 == 0){
+                    echo "oneven";
+                    $i++;
+                }
+                else{
+                    echo "even";
+                    $i++;
+                }?>"
+            >
                 <td><?= $item->color() ?></td>
                 <td><?= $item->size() ?></td>
                 <td><?= $item->pricekdg() ?></td>
                 <td><?= $item->priceextern() ?></td>
+                <td>
+                    <?php 
+                        if($item->instock() == "true"){
+                            echo('<i class="fa fa-check" aria-hidden="true"></i>');
+                        }
+                        else{
+                            echo('<i class="fa fa-times" aria-hidden="true"></i>');
+                        }
+                    ?> 
+                </td>
             </tr>
         <?php endforeach ?>
         </table>
@@ -105,14 +200,38 @@
             <td>Afmetingen</td>
             <td>Prijs KdG</td>
             <td>Prijs Extern</td>
+            <td>In Stock</td>
         </tr>
         
-        <?php foreach ($divitems as $item): ?>
-            <tr>
+        <?php 
+        $i=0;
+        foreach ($divitems as $item): 
+        ?>
+            <tr
+            class="<?php 
+                if($i%2 == 0){
+                    echo "oneven";
+                    $i++;
+                }
+                else{
+                    echo "even";
+                    $i++;
+                }?>"
+            >
                 <td><?= $item->divtype() ?></td>
                 <td><?= $item->size() ?></td>
                 <td><?= $item->pricekdg() ?></td>
                 <td><?= $item->priceextern() ?></td>
+                <td>
+                    <?php 
+                        if($item->instock() == "true"){
+                            echo('<i class="fa fa-check" aria-hidden="true"></i>');
+                        }
+                        else{
+                            echo('<i class="fa fa-times" aria-hidden="true"></i>');
+                        }
+                    ?> 
+                </td>
             </tr>
         <?php endforeach ?>
         </table>

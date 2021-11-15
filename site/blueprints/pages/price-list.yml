@@ -18,6 +18,9 @@ sections:
           thickness:
             label: dikte (mm)
             type: text
+          extrainfo:
+            label: Extra Informatie
+            type: text
           size:
             label: Afmetingen (l x b)
             type: text
@@ -40,6 +43,9 @@ sections:
         fields:
           material:
             label: Materiaal
+            type: text
+          extrainfo:
+            label: Extra Informatie
             type: text
           color:
             label: Kleur
@@ -65,6 +71,9 @@ sections:
           color:
             label: Kleur
             type: text
+          extrainfo:
+            label: Extra Informatie
+            type: text
           size:
             label: Afmeting
             type: text
@@ -87,6 +96,9 @@ sections:
         fields:
           color:
             label: Kleur
+            type: text
+          extrainfo:
+            label: Extra Informatie
             type: text
           size:
             label: Afmeting
@@ -111,6 +123,9 @@ sections:
         fields:
           divtype:
             label: Type
+            type: text
+          extrainfo:
+            label: Extra Informatie
             type: text
           size:
             label: Afmeting
