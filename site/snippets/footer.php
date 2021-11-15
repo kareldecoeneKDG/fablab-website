@@ -9,12 +9,12 @@
 
                     <!-- address -->
                     <?php if($site->address()->isNotEmpty()): ?>
-                        <a class="footer__content__block__link" href="#"><i class="fa fa-map-marker location-icon" aria-hidden="true"></i><?= $site->address() ?></a>
+                        <a class="footer__content__block__link" href="https://www.google.be/maps/place/Salesianenlaan+90,+2660+Antwerpen/@51.1732441,4.3693704,17z/data=!3m1!4b1!4m5!3m4!1s0x47c3f150286bde31:0x540bf1fb6f744868!8m2!3d51.1732441!4d4.3715591" target="_blank"><i class="fa fa-map-marker location-icon" aria-hidden="true"></i><?= $site->address() ?></a>
                     <?php endif; ?>
 
                     <!-- email -->
                     <?php if($site->email()->isNotEmpty()): ?>
-                        <a class="footer__content__block__link footer__content__block__link-email" href="#"><i class="fa fa-envelope" aria-hidden="true"></i><?= $site->email() ?></a>
+                        <a class="footer__content__block__link footer__content__block__link-email" href="mailto: <?= $site->email() ?>"><i class="fa fa-envelope" aria-hidden="true"></i><?= $site->email() ?></a>
                     <?php endif; ?>
 
                     <!-- SNIPPET - SOCIALS -->
@@ -120,5 +120,8 @@
 
         <!-- JAVASCRIPT RESPONSIVE NAV -->
         <?= js('build/js/app.js') ?>
+
+        <!-- JAVASCRIPT RESPONSIVE NAV -->
+        <?= js('build/js/menuobserver.js') ?>
     </body>
 </html>

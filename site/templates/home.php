@@ -1,28 +1,32 @@
 <!-- SNIPPET - HEADER -->
 <?php snippet('header') ?>
+
     <div class="home-container">
 
-        <!-- BANNER -->
-        <div class="home-container__banner">
-            
-            <!-- if background image is set in panel -> take that one -->
-            <?php if($homeimg = $page->backgroundimg()->toFile()): ?>
-                <div class="home-container__banner__background" style="background-image: url('<?= $homeimg->url() ?>')">
+        <!-- if background is set in panel use it as banner background image -->
+        <?php if($homeimg = $page->backgroundimg()->toFile()): ?>
+            <div class="home-container__banner-container" style="background-image: background-image: linear-gradient(white, transparent), url('<?= $homeimg->url() ?>')">
+        <?php else: ?>
+            <div class="home-container__banner-container" style="background-image: linear-gradient(white, transparent), url('assets/images/background.webp')">
+        <?php endif; ?>
 
-            <!-- else -> take the default one -->
-            <?php else: ?>
-                <div class="home-container__banner__background" style="background-image: url('assets/images/background.webp')">
-            <?php endif; ?>
+            <!-- SNIPPET - MENU -->
+            <?php snippet('menu') ?>
         
-            <!-- <div class="home-container__banner__background"> -->
-                <div class="home-container__banner__background__animation">
-                    <div class="intro">
-                        <h1 class="typing">something</h1>
+            <!-- BANNER -->
+            <div class="home-container__banner">
+                <div class="home-container__banner__background">
+            
+                <!-- <div class="home-container__banner__background"> -->
+                    <div class="home-container__banner__background__animation">
+                        <div class="intro">
+                            <h1 class="typing">something</h1>
+                        </div>
                     </div>
-                </div>
 
-                <div class="home-container__banner__background__scroll">
-                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    <div class="home-container__banner__background__scroll">
+                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </div>
                 </div>
             </div>
         </div>

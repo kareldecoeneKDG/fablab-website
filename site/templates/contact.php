@@ -2,6 +2,9 @@
 <?php snippet('header') ?>
     <div class="contact-container">
 
+        <!-- SNIPPET - MENU -->
+        <?php snippet('menu') ?>
+
         <!-- CONTACT -->
         <div class="contact-container__contact">
             <div class="contact-container__contact__flexbox">
@@ -14,12 +17,12 @@
 
                     <!-- address -->
                     <?php if($page->address()->isNotEmpty()): ?>
-                        <a class="contact-container__contact__flexbox__data__link" href="#"><i class="fa fa-map-marker location-icon" aria-hidden="true"></i> <?= $page->address() ?></a>
+                        <a class="contact-container__contact__flexbox__data__link" href="https://www.google.be/maps/place/Salesianenlaan+90,+2660+Antwerpen/@51.1732441,4.3693704,17z/data=!3m1!4b1!4m5!3m4!1s0x47c3f150286bde31:0x540bf1fb6f744868!8m2!3d51.1732441!4d4.3715591" target="_blank"><i class="fa fa-map-marker location-icon" aria-hidden="true"></i> <?= $page->address() ?></a>
                     <?php endif; ?>
 
                     <!-- email -->
                     <?php if($page->email()->isNotEmpty()): ?>
-                        <a class="contact-container__contact__flexbox__data__link" href="#"><i class="fa fa-envelope" aria-hidden="true"></i> <?= $page->email() ?></a>
+                        <a class="contact-container__contact__flexbox__data__link" href="mailto: <?= $page->email() ?>"><i class="fa fa-envelope" aria-hidden="true"></i> <?= $page->email() ?></a>
                     <?php endif; ?>
 
                     <!-- SNIPPET - SOCIALS -->
@@ -158,12 +161,12 @@
 
                             <!-- employeeTel -->
                             <?php if($employee->tel()->isNotEmpty()): ?>
-                                <a class="contact-container__general__flexbox__left__contact" href="#"><i class="fa fa-phone" aria-hidden="true"></i> <?= $employee->tel() ?></a>
+                                <a class="contact-container__general__flexbox__left__contact" href="tel: <?= $employee->tel() ?>"><i class="fa fa-phone" aria-hidden="true"></i> <?= $employee->tel() ?></a>
                             <?php  endif; ?>
 
                             <!-- employeeEmail -->
                             <?php if($employee->email()->isNotEmpty()): ?>
-                                <a class="contact-container__general__flexbox__left__contact" href="#"><i class="fa fa-envelope" aria-hidden="true"></i> <?=$employee->email()?></a>
+                                <a class="contact-container__general__flexbox__left__contact" href="mailto: <?= $employee->email() ?>"><i class="fa fa-envelope" aria-hidden="true"></i> <?=$employee->email()?></a>
                             <?php endif; ?>
                         </div>
                 <?php
