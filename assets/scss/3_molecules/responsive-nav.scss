@@ -77,6 +77,10 @@
     background-color: $white;
 }
 
+.nav-links-desktop {
+    display: none;
+}
+
 
 
 // fade animation menu item
@@ -164,6 +168,14 @@
                 width: 100px;
             }
         }
+    }
+
+    .nav-links-desktop {
+        display: flex;
+    }
+
+    .nav-links-mobile {
+        display: none;
     }
 }
 
