@@ -103,6 +103,19 @@ Manufacturers:
   image:
     - prusa-_-3d-printer-1.png
   url: https://www.prusa3d.com/
+- 
+  image:
+    - roland_-srm-20-1.png
+  url: >
+    https://www.thomann.de/be/roland.html?gclid=Cj0KCQiAys2MBhDOARIsAFf1D1fyhgUz6cjuN0j0g1DevJnLU_00dqqVbf0WKZ48tyq0OzHJd2EgON4aAlqgEALw_wcB
+- 
+  image:
+    - mayku-formbox-1.png
+  url: 'https://nl.rs-online.com/web/p/vacuum-forming/1785377?cm_mmc=NL-PPC-DS3A-_-google-_-DSA_NL_EN_CatchAll_Index-_-Catch+All-_-DYNAMIC+SEARCH+ADS&matchtype=b&dsa-19959388920&gclid=Cj0KCQiAys2MBhDOARIsAFf1D1elzRSmmxUQRs6YdKoKijZnXhae5QW5GZkojHlHMeozX4PKaVSe8TAaAgArEALw_wcB&gclsrc=aw.ds'
+- 
+  image:
+    - matter-and-form-_-3d-scanner-1.png
+  url: 'https://www.keyence.eu/nlnl/landing/lpc/1901-sem-contourvormmeetsysteem.jsp?aw=gagooglekbbenlnonbrmicvr299&gclid=Cj0KCQiAys2MBhDOARIsAFf1D1f9fk5S2MwtDx6KB2l8kDc3cX1Uu7PTNUhoXUdukXXorroTDj2XHrcaAohOEALw_wcB'
 
 ----
 

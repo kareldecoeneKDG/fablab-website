@@ -75,6 +75,11 @@
 
 .nav-scrolled {
     background-color: $white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.nav-links-desktop {
+    display: none;
 }
 
 
@@ -165,6 +170,14 @@
             }
         }
     }
+
+    .nav-links-desktop {
+        display: flex;
+    }
+
+    .nav-links-mobile {
+        display: none;
+    }
 }
 
 
@@ -191,6 +204,20 @@
         &__menu {
             padding-left: $margin-side-qhd;
             padding-right: $margin-side-qhd;
+        }
+    }
+}
+
+
+
+
+
+// DESKTOP - 3840PX
+@media only screen and (min-width: 3840px) {
+    .header {
+        &__menu {
+            padding-left: $margin-side-4k;
+            padding-right: $margin-side-4k;
         }
     }
 }

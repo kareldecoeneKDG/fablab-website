@@ -1,6 +1,15 @@
-<ul class="header__menu__navlinks nav-links">
+<!-- MOBILE MENU -->
+<ul class="header__menu__navlinks nav-links nav-links-mobile">
     <?php foreach ($site->children()->listed() as $subpage): ?>
+        <li class="header__menu__navlinks__item">
+            <a class="header__menu__navlinks__item__link <?php if($subpage->isOpen()){ echo("active"); } ?>" href="<?= $subpage->url() ?>"><?= $subpage->title() ?></a>
+        </li>
+    <?php endforeach ?>
+</ul>
 
+<!-- DESKTOP MENU -->
+<ul class="header__menu__navlinks nav-links nav-links-desktop">
+    <?php foreach ($site->children()->listed() as $subpage): ?>
         <?php if($subpage->title() != "Machines"): ?>
             <li class="header__menu__navlinks__item">
                 <a class="header__menu__navlinks__item__link <?php if($subpage->isOpen()){ echo("active"); } ?>" href="<?= $subpage->url() ?>"><?= $subpage->title() ?></a>

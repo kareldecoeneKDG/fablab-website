@@ -116,3 +116,15 @@
         padding-right: $margin-side-qhd;
     }
 }
+
+
+
+
+
+// DESKTOP - 3840PX
+@media only screen and (min-width: 3840px) {
+    .footer {
+        padding-left: $margin-side-4k;
+        padding-right: $margin-side-4k;
+    }
+}

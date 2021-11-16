@@ -299,3 +299,38 @@
     }
   }
 }
+
+// DESKTOP - 3840PX
+@media only screen and (min-width: 3840px) {
+  // GENERAL BUTTONS
+  .h2-home {
+    //padding-left: $margin-side-qhd;
+    margin-left: 1240px;
+    padding-left: 62px;
+  }
+
+  // HOME
+  .home-container {
+    &__introduction {
+      &__title {
+        margin-right: 60%;
+      }
+    }
+
+    &__working {
+      &__banner {
+        &__title {
+          margin-right: 59%;
+        }
+      }
+    }
+
+    &__biolab {
+      &__banner {
+        &__title {
+          margin-right: 62%;
+        }
+      }
+    }
+  }
+}

@@ -28,7 +28,7 @@
                 <?php foreach($manufacturers as $manufacturer): ?>
                     <div>
                         <?php if($manufacturerimage = $manufacturer->image()->toFile()): ?>
-                            <a href="<?= $manufacturer->url() ?>" rel="nofollow">
+                            <a href="<?= $manufacturer->url() ?>" rel="nofollow" target="_blank">
                                 <img class="home-container__tabscontainer-manufacturer__tabs__tabbody__item__img" src="<?= $manufacturerimage->url() ?>" alt="Logos fabrikanten machines">
                             </a>
                         <?php endif; ?>
@@ -39,7 +39,7 @@
                 <?php foreach($fablabs as $fablab): ?>
                     <div>
                         <?php if($fablabimage = $fablab->image()->toFile()): ?>
-                            <a href="<?= $fablab->url() ?>" rel="nofollow">
+                            <a href="<?= $fablab->url() ?>" rel="nofollow" target="_blank">
                                 <img class="home-container__tabscontainer-manufacturer__tabs__tabbody__item__img" src="<?= $fablabimage->url() ?>" alt="Logos andere fablabs">
                             </a>
                         <?php endif; ?>

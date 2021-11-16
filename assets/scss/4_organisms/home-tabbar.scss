@@ -101,7 +101,7 @@
                         top: 0;
                         bottom: 0;
                         margin: auto;
-                        opacity: 0.3;
+                        opacity: 1;
                         //min-height: 50px;
                     }
                 }
@@ -145,6 +145,10 @@
                             text-align: center;
                             width: 7vw;
                             height: 7vw;
+                        }
+
+                        &__img {
+                            opacity: 0.3;
                         }
 
                         &__img:hover {
@@ -249,13 +253,16 @@
 @media only screen and (min-width: 3840px) {
     .home-container {
         &__tabscontainer-manufacturer {
+            margin-left: $margin-side-4k;
+            margin-right: $margin-side-4k;
+
             &__tabs {
                 &__tabbody {
                     &__item {
                         div {
                             text-align: center;
-                            width: 8vw;
-                            height: 8vw;
+                            width: 2.75vw;
+                            height: 2.75vw;
                         }
                     }
                 }

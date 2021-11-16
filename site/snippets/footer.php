@@ -120,8 +120,5 @@
 
         <!-- JAVASCRIPT RESPONSIVE NAV -->
         <?= js('build/js/app.js') ?>
-
-        <!-- JAVASCRIPT RESPONSIVE NAV -->
-        <?= js('build/js/menuobserver.js') ?>
     </body>
 </html>

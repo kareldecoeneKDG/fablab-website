@@ -37,7 +37,7 @@ Employees:
     - mark.jpg
   name: Mark Vekemans
   function: >
-    Product Developer / Design consultant /
+    Product Developer, Design consultant,
     Coördinator Fablab
   tel: 0487 25 36 36
   email: markvekemans@telenet.be
@@ -45,7 +45,7 @@ Employees:
   image:
     - esther.jpeg
   name: Esther van de Poll
-  function: 'Digital Designer & Maker / technisch medewerker Fablab'
+  function: 'Digital Designer & Maker, Technisch medewerker Fablab'
   tel: 0458 52 62 32
   email: esthervandepoll@test.com
 

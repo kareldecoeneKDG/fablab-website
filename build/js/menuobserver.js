@@ -1,9 +1,9 @@
 // chekcen for better code
-const nav = document.querySelector("nav");
-const sectionOne = document.querySelector(".home-container__message")
+const nav = document.querySelector(".nav-fade"); //nav
+const sectionOne = document.querySelector(".sectionOne")
 
 const sectionOneOptions = {
-    rootMargin: "-400px 0px 0px 0px"
+    rootMargin: "-700px 0px 0px 0px"
 };
 
 const sectionOneObserver = new IntersectionObserver(function(
@@ -11,8 +11,6 @@ const sectionOneObserver = new IntersectionObserver(function(
     sectionOneObserver
 ) {
     entries.forEach(entry => {
-        //console.log(entry.target);
-
         if(!entry.isIntersecting){ //denk eraan = niet intersecting, dus niet meer in beeld? dus header pakken ofzo? box-shadow?
             nav.classList.add('nav-scrolled');
         } else {

@@ -3,7 +3,9 @@
     background-color: $background-grey;
 
     &__contact {
-        padding-top: 30px;
+        //padding-top: 170px;
+        //padding-top: 30px;
+        padding-top: 12vh;
 
         &__flexbox {
             &__data {
@@ -55,6 +57,18 @@
     }
 }
 
+.alert {
+    margin-bottom: 25px;
+    font-weight: bold;
+    color: red;
+}
+
+.error {
+    margin-bottom: 25px;
+    font-weight: bold;
+    color: red;
+}
+
 
 
 
@@ -63,7 +77,7 @@
 @media only screen and (min-width: 1280px) {
     .contact-container {
         &__contact {
-            padding-top: 70px;
+            padding-top: 210px;
 
             &__flexbox {
                 display: flex;
@@ -171,6 +185,32 @@
 
         &__tabscontainer {
             margin-left: $margin-side-qhd;
+        }
+    }
+}
+
+
+
+
+
+// DESKTOP - 3840PX
+@media only screen and (min-width: 3840px) {
+    .contact-container {
+        &__contact {
+            &__flexbox {
+                margin-left: $margin-side-4k;
+                margin-right: $margin-side-4k;
+            }
+        }
+
+        &__general {
+            margin-left: $margin-side-4k;
+            //margin-right: 462px;
+            margin-right: $margin-side-4k;
+        }
+
+        &__tabscontainer {
+            margin-left: $margin-side-4k;
         }
     }
 }

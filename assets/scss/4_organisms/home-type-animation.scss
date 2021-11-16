@@ -137,3 +137,28 @@
         }
     }
 }
+
+
+
+
+
+// DESKTOP - 3840PX
+@media only screen and (min-width: 3840px) {
+    .home-container {
+        &__banner {
+            &__background {
+                &__animation {
+                    .intro {
+                        left: $margin-side-4k;
+                    }
+                }
+
+                &__scroll {
+                    i {
+                        right: $margin-side-4k;
+                    }
+                }
+            }
+        }
+    }
+}

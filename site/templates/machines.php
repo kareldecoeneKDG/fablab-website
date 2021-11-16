@@ -1,5 +1,7 @@
 <?php snippet('header') ?>
 
+    <?php snippet('menu') ?>
+
     <h1><?= $page->title() ?></h1>
     
     <ul class="machines">
