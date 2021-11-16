@@ -1,0 +1,7 @@
+.machine-wrapper {
+  &__info {
+    &__row:nth-child(odd) {
+      background-color: #f2f2f2;
+    }
+  }
+}

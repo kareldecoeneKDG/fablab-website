@@ -1,8 +1,8 @@
-Title: 3D Scanner - Matter and Form
+Title: Matter and Form
 
 ----
 
-Category: 3D scanning
+Type: 3D Scanner
 
 ----
 
@@ -34,10 +34,6 @@ Bed:
 
 ----
 
-Supprtedfiletypes: 
-
-----
-
 Software: 
 
 ----
@@ -46,8 +42,24 @@ Manual:
 
 ----
 
-Tutorial: 
+Tutorials: 
 
 ----
 
 Creation: 
+
+----
+
+Filetypes: 
+
+----
+
+Category: 3D scanning
+
+----
+
+Supprtedfiletypes: 
+
+----
+
+Tutorial: 

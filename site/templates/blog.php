@@ -7,7 +7,7 @@
 <div class="content-blog__tag-filter">
     <?php foreach($tags as $tag): ?>
   
-      <a class="content-blog__tag-filter__button-tag" href="<?= url($page->url(), ['params' => ['tag' => $tag]]) ?>">
+       <a class="content-blog__tag-filter__button-tag" href="<?= url($page->url(), ['params' => ['tag' => $tag]]) ?>">
         <?= html($tag) ?>
       </a>
 
