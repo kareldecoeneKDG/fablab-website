@@ -1,38 +1,39 @@
 *,
 *:after,
 *:before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 a {
-    color: currentColor;
-    text-decoration: none;
+  color: currentColor;
+  text-decoration: none;
 }
 
 html {
-    font-family: $verdana;
-    overflow-x: hidden;
+  font-family: $verdana;
+  overflow-x: hidden;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
-html, body {
-    overflow-x: hidden;
-    width: 100%;
-    background-color: #f3f3f3;
-    min-height: 100vh;
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+  background-color: #f3f3f3;
+  min-height: 100vh;
 }
 
 body {
-    position: relative;
+  position: relative;
 }
 
 // FOR CONTACT FORM
 .honeypot {
-    position: absolute;
-    left: -9999px;
+  position: absolute;
+  left: -9999px;
 }

@@ -6,6 +6,8 @@ columns:
       info:
         type: fields
         fields:
+          type:
+            type: text
           manufactur:
             type: text
           buildVolume:

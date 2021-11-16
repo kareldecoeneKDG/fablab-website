@@ -18,61 +18,63 @@
         <?php endforeach ?>
     </span>
     </div>
-        <article>
-            <h1><?= $page->title() ?></h1>
-            <button><a href="#">Reserveer</a></button>
-            <div >
-                <div class="machine-info">
-                    <table>
+
+    <!-- CONTENT -->
+        <section class="machine-wrapper">
+            <div class="machine-wrapper__banner">
+                <h1 class="machine-wrapper__banner__title h1"><?= $page->title() ?></h1>
+                <a class="machine-wrapper__banner__button" href="#">Reserveer</a>
+            </div>
+            <table class="machine-wrapper__info">
                     <?php if ($page->manufactur()->isNotEmpty()): ?>
-                        <tr>
+                        <tr class="machine-wrapper__info__row">
                             <td>Fabrikant</td>
                             <td><?= $page->manufactur() ?></td>
                         </tr>
                     <?php endif ?>
 
                     <?php if ($page->buildVolume()->isNotEmpty()): ?>
-                        <tr>
+                        <tr class="machine-wrapper__info__row">
                             <td>Build Volume</td>
                             <td><?= $page->buildVolume() ?></td>
                         </tr>
                     <?php endif ?>
 
                     <?php if ($page->nozzle()->isNotEmpty()): ?>
-                        <tr>
+                        <tr class="machine-wrapper__info__row">
                             <td>Nozzle</td>
                             <td><?= $page->nozzle() ?></td>
                         </tr>
                     <?php endif ?>
 
                     <?php if ($page->filament()->isNotEmpty()): ?>
-                        <tr>
+                        <tr class="machine-wrapper__info__row">
                             <td>Filament</td>
                             <td><?= $page->filament() ?></td>
                         </tr>
                     <?php endif ?>
 
                     <?php if ($page->layerHeights()->isNotEmpty()): ?>
-                        <tr>
+                        <tr class="machine-wrapper__info__row">
                             <td>Layer Heights</td>
                             <td><?= $page->layerHeights() ?></td>
                         </tr>
                     <?php endif ?>
 
                     <?php if ($page->layerResolution()->isNotEmpty()): ?>
-                        <tr>
+                        <tr class="machine-wrapper__info__row">
                             <td>Layer Resolution</td>
                             <td><?= $page->layerResolution() ?></td>
                         </tr>
                     <?php endif ?>
 
                     <?php if ($page->bed()->isNotEmpty()): ?>
-                        <tr>
+                        <tr class="machine-wrapper__info__row">
                             <td>Bed</td>
                             <td><?= $page->bed() ?></td>
                         </tr>
                     <?php endif ?>
-                    </table>
+            </table>
 
                     <img src="<?= $page->images()->first()->url()?>" alt="">
                         <?php if ($page->filetypes()->isNotEmpty()): ?>
@@ -104,9 +106,7 @@
                             <p class="p"><?= $item->title()->kirbytext() ?></p>
                             <?php endforeach ?>
                         <?php endif ?>
-                </div>
-            </div>
-        </article>
+        </section>
     </main>
     
 <?php snippet('footer') ?>

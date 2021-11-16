@@ -1,8 +1,8 @@
-Title: 3D Printer - Makerbot Replicator Z18
+Title: Makerbot Replicator Z18
 
 ----
 
-Category: 3D printing
+Type: 3D Printer
 
 ----
 
@@ -34,10 +34,6 @@ Bed: not heated (encased chamber)
 
 ----
 
-Supprtedfiletypes: STL, OBJ
-
-----
-
 Software: https://www.makerbot.com/3d-printers/apps/makerbot-print/
 
 ----
@@ -46,8 +42,24 @@ Manual: https://3qcbdntxdyb43ubh6h0b0qgz-wpengine.netdna-ssl.com/wp-content/uplo
 
 ----
 
-Tutorial: link
+Tutorials: 
 
 ----
 
-Creation: link
+Creation: https://www.google.com
+
+----
+
+Filetypes: 
+
+----
+
+Category: 3D printing
+
+----
+
+Supprtedfiletypes: STL, OBJ
+
+----
+
+Tutorial: link

@@ -9,10 +9,7 @@ geweldige manier om snel prototypes te maken, een aangepast onderdeel te printen
 
 ----
 
-Technologie:
-
-Er zijn een aantal 3D-printtechnologieën die worden gebruikt en ontwikkeld.  De 3D-printers in KdG FabLab maken gebruik van FDM-technologie (Fused Deposition Modeling). Objecten worden gebouwd door een thermoplastisch filament te verhitten tot het smeltpunt dat wordt geëxtrudeerd om laag voor laag een thermoplastisch object te bouwen.
- Neem contact met ons op via Fablab@kdg.be om te informeren naar  verschillende kleuren, materialen en prijzen.
+Technologie: Er zijn een aantal 3D-printtechnologieën die worden gebruikt en ontwikkeld. De 3D-printers in KdG FabLab maken gebruik van FDM-technologie (Fused Deposition Modeling). Objecten worden gebouwd door een thermoplastisch filament te verhitten tot het smeltpunt dat wordt geëxtrudeerd om laag voor laag een thermoplastisch object te bouwen.
 
 ----
 

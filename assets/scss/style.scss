@@ -4,13 +4,11 @@
 @import "./1_fundaments/test";
 @import "./1_fundaments/setup";
 
-
 @import "./2_atoms/titles";
 @import "./2_atoms/paragraphs";
 @import "./2_atoms/icons";
 @import "./2_atoms/images";
 @import "./2_atoms/buttons";
-
 
 @import "./3_molecules/responsive-nav";
 @import "./3_molecules/forms";
@@ -19,7 +17,13 @@
 @import "./3_molecules/maps";
 @import "./3_molecules/categories";
 @import "./3_molecules/dropdown";
-
+@import "./3_molecules/available-materials";
+@import "./3_molecules/design-software";
+@import "./3_molecules/inspiration";
+@import "./3_molecules/machines-list";
+@import "./3_molecules/info-table";
+@import "./3_molecules/breadcrumb";
+@import "./3_molecules/machine-banner";
 
 @import "./4_organisms/header";
 @import "./4_organisms/banners";
@@ -28,9 +32,10 @@
 @import "./4_organisms/contact-tabbar";
 @import "./4_organisms/footer";
 
-
 @import "./5_pages/contact";
 @import "./5_pages/blogs";
 @import "./5_pages/article";
 @import "./5_pages/home";
+@import "./5_pages/category";
+@import "./5_pages/machine";
 @import "./5_pages/what-is-fablab";
