@@ -1,22 +1,23 @@
 // MOBILE
 .home-container {
     &__tabscontainer-manufacturer {
-        margin-left: $margin-side-mobile;
-        margin-right: $margin-side-mobile;
+        //margin-left: $margin-side-mobile;
+        //margin-right: $margin-side-mobile;
 
         &__tabs {
             width: 100%;
-            height: 85vh;
+            height: 88vh;
             overflow: hidden;
             margin-top: 20px;
             margin-bottom: 30px;
-            border: 2px solid $yellow;
+            //border: 2px solid $yellow;
             border-radius: 15px;
 
             &__tabheader {
                 height: 60px;
                 display: flex;
                 align-items: center;
+                background-color: $white;
 
                 &__item {
                     width: calc(100% / 2);
@@ -129,22 +130,24 @@
     .home-container {
         &__tabscontainer-manufacturer {
             margin-top: 60px;
-            margin-left: $margin-side-desktop;
-            margin-right: $margin-side-desktop;
+            //margin-left: $margin-side-desktop;
+            //margin-right: $margin-side-desktop;
 
             &__tabs {
                 width: 100%;
+                height: 65vh;
 
                 &__tabbody {
                     &__item {
-                        grid-template-columns: repeat(5, 1fr);
+                        grid-template-columns: repeat(6, 1fr);
+                        gap: 20px;
                         //gap: 30px;
                         //grid-template-rows: repeat(auto-fill, 70px);
 
                         div {
                             text-align: center;
-                            width: 7vw;
-                            height: 7vw;
+                            width: 7.5vw;
+                            height: 7.5vw;
                         }
 
                         &__img {
@@ -174,20 +177,90 @@
 
 
 
+
+// DESKTOP - 1440PX
+@media only screen and (min-width: 1440px) {
+    .home-container {
+        &__tabscontainer-manufacturer {
+            margin-top: 60px;
+            //margin-left: $margin-side-desktop;
+            //margin-right: $margin-side-desktop;
+
+            &__tabs {
+                width: 100%;
+                height: 47vh;
+
+                &__tabbody {
+                    &__item {
+                        grid-template-columns: repeat(8, 1fr);
+                        //gap: 30px;
+                        //grid-template-rows: repeat(auto-fill, 70px);
+
+                        div {
+                            text-align: center;
+                            width: 5.5vw;
+                            height: 5.5vw;
+                        }
+
+                        &__img {
+                            opacity: 0.3;
+                        }
+
+                        &__img:hover {
+                            opacity: 1;
+                            transition: 0.5s;
+                            cursor: pointer;
+                        }
+                    }
+
+                    .active {
+                        padding-top: 20px;
+                    }
+                }
+            }
+    
+            &__title {
+                margin-top: 0;
+            }
+        }
+    }
+}
+
+
+
+
+
 // DESKTOP - 1536PX
 @media only screen and (min-width: 1536px) {
     .home-container {
         &__tabscontainer-manufacturer {
             &__tabs {
+                height: 57vh;
+
                 &__tabbody {
                     &__item {
                         div {
                             text-align: center;
-                            width: 6.5vw;
-                            height: 6.5vw;
+                            width: 5.5vw;
+                            height: 5.5vw;
                         }
                     }
                 }
+            }
+        }
+    }
+}
+
+
+
+
+
+// DESKTOP - 1600PX
+@media only screen and (min-width: 1600px) {
+    .home-container {
+        &__tabscontainer-manufacturer {
+            &__tabs {
+                height: 50vh;
             }
         }
     }
@@ -205,12 +278,16 @@
             margin-right: $margin-side-hd;
 
             &__tabs {
+                height: 35.5vh;
+
                 &__tabbody {
                     &__item {
+                        gap: 15px;
+
                         div {
                             text-align: center;
-                            width: 5.5vw;
-                            height: 5.5vw;
+                            width: 3.75vw;
+                            height: 3.75vw;
                         }
                     }
                 }
@@ -231,12 +308,14 @@
             margin-right: $margin-side-qhd;
 
             &__tabs {
+                height: 30.5vh;
+
                 &__tabbody {
                     &__item {
                         div {
                             text-align: center;
-                            width: 4vw;
-                            height: 4vw;
+                            width: 3vw;
+                            height: 3vw;
                         }
                     }
                 }
@@ -257,12 +336,14 @@
             margin-right: $margin-side-4k;
 
             &__tabs {
+                height: 17.5vh;
+
                 &__tabbody {
                     &__item {
                         div {
                             text-align: center;
-                            width: 2.75vw;
-                            height: 2.75vw;
+                            width: 1.75vw;
+                            height: 1.75vw;
                         }
                     }
                 }

@@ -32,5 +32,11 @@
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
 
+        <!-- SOCIAL MEDIA PREVIEWS -->
+        <meta property="og:url" content="https://fablab.karel.decoene.nxtmediatech.eu">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="KdG FabLab - Make | Share | Learn">
+        <meta property="og:description" content="Het KdG FabLab is een maakplaats voor iedereen. Komt gerust een keer langs tijdens onze openingsuren!">
+        <meta property="og:image" content="https://fablab.karel.decoene.nxtmediatech.eu/assets/images/previewimages/facebook-preview-image.png">
     </head>
     <body>
