@@ -1,6 +1,7 @@
 <?php snippet('header') ?>
+ <!-- SNIPPET - MENU -->
+ <?php snippet('menu-white') ?>
 
-    <?php snippet('menu') ?>
 
     <!-- BREADCRUMB -->
     <div class="breadcrumb sectionOne" itemprop="breadcrumb">
