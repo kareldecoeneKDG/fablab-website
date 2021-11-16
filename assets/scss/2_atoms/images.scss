@@ -55,6 +55,13 @@
     }
   }
 }
+
+.machine-wrapper {
+  &__img {
+    border-radius: $border-radius-small;
+  }
+}
+
 // HEADER
 .header {
   &__logo {

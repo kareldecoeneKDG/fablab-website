@@ -1,0 +1,12 @@
+.machine-wrapper {
+  &__banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #c4c4c4;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: -200px;
+    margin-right: -200px;
+  }
+}
