@@ -104,7 +104,7 @@
   }
 }
 
-//category-detail
+// CATEGORY-DETAIL
 
 .category-wrapper {
   &__machines-wrapper {
@@ -120,7 +120,16 @@
   }
 }
 
+// MACHINE-DETAIl
+.machine-wrapper {
+  &__tutorial-wrapper {
+    .h3 {
+      margin: 10px 0px 30px 0px !important;
+    }
+  }
+}
 // FOOTER
+
 .footer {
   &__content {
     &__block {

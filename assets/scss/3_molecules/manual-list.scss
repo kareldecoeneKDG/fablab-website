@@ -1,0 +1,10 @@
+.machine-wrapper {
+  &__manual-wrapper {
+    &__list {
+      list-style-type: none;
+      &__item {
+        padding-bottom: 10px;
+      }
+    }
+  }
+}
