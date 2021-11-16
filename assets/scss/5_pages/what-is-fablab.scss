@@ -1,5 +1,38 @@
 .what-is-fablab-container {
-    &__welcome {
-        padding-top: 170px;
+    &__introduction {
+        padding-top: 12vh;
+
+        &__flexbox {
+            &__right {
+                display: none;
+            }
+        }
+    }
+}
+
+
+
+
+
+// DESKTOP - 1280PX
+@media screen and (min-width: 1280px) {
+    .what-is-fablab-container {
+        &__introduction {
+            padding-top: 170px;
+
+            &__flexbox {
+                display: flex;
+
+                &__left {
+                    &__team {
+                        display: none;
+                    }
+                }
+
+                &__right {
+                    display: inline-block;
+                }
+            }
+        }
     }
 }

@@ -1,5 +1,8 @@
 <?php snippet('header') ?>
-    <section class="categories-wrapper">   
+
+    <?php snippet('menu') ?>
+
+    <section class="categories-wrapper sectionOne">   
         <ul class="categories-wrapper__machines">
             <?php foreach ($page->children()->listed() as $category): ?>
                 <li class="categories-wrapper__machines__category">

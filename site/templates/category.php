@@ -1,6 +1,9 @@
 <?php snippet('header') ?>
+
+    <?php snippet('menu') ?>
+
     <!-- BREADCRUMB -->
-    <div class="breadcrumb" itemprop="breadcrumb">
+    <div class="breadcrumb sectionOne" itemprop="breadcrumb">
         <?php foreach($site->breadcrumb() AS $crumb): ?>
         <?php if ($crumb->isActive()): ?>
         <span typeof="v:Breadcrumb">
