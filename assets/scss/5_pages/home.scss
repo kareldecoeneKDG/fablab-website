@@ -454,3 +454,53 @@
         }
     }
 }
+
+
+
+
+
+// DESKTOP - 3840PX
+@media only screen and (min-width: 3840px) {
+    .home-container {
+        &__message {
+            padding-left: $margin-side-4k;
+            padding-right: $margin-side-4k;
+        }
+
+        &__introduction {
+            &__flexbox {
+                &__right {
+                    margin-right: $margin-side-4k;
+                    height: 15vh;
+                }
+            }
+        }
+
+        &__working {
+            &__flexbox {
+                &__right {
+                    margin-right: $margin-side-4k;
+                    width: 18%;
+                }
+            }
+        }
+
+        &__biolab {
+            &__flexbox {
+                &__right {
+                    margin-right: $margin-side-4k;
+                    width: 18%;
+                }
+            }
+        }
+
+        &__partnersflexbox {
+            padding-left: $margin-side-4k;
+            padding-right: $margin-side-4k;
+    
+            &__box {
+                right: $margin-side-4k;
+            }
+        }
+    }
+}

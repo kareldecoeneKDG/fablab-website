@@ -1,5 +1,5 @@
 // chekcen for better code
-const nav = document.querySelector("nav");
+const nav = document.querySelector(".nav-fade"); //nav
 const sectionOne = document.querySelector(".sectionOne")
 
 const sectionOneOptions = {

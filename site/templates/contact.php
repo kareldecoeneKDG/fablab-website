@@ -3,7 +3,7 @@
     <div class="contact-container">
 
         <!-- SNIPPET - MENU -->
-        <?php snippet('menu') ?>
+        <?php snippet('menu-white') ?>
 
         <!-- CONTACT -->
         <div class="contact-container__contact sectionOne">

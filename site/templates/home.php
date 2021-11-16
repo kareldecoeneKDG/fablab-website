@@ -199,3 +199,6 @@
 
 <!-- JAVASCRIPT TAB BAR -->
 <?= js('build/js/home-animation.js') ?>
+
+<!-- JAVASCRIPT RESPONSIVE NAV -->
+<?= js('build/js/menuobserver.js') ?>

@@ -21,9 +21,9 @@
    
        <img src="<?= $article->image()->url()?>" alt="">
        <div class="blog-wrapper__blog-overview__text-wrapper">
-       <h2 class="h2"><?= $article->title()->html() ?></h2>
-       <p class="p"><?= $article->text()->excerpt(70) ?></p>
-       <a href="<?= $article->url() ?>">Lees meer ></a>
+        <h2 class="h2"><?= $article->title()->html() ?></h2>
+        <p class="p"><?= $article->text()->excerpt(70) ?></p>
+        <a href="<?= $article->url() ?>">Lees meer ></a>
        </div>
     </article>
     <?php endforeach ?> 
