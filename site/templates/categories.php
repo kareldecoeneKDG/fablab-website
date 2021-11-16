@@ -1,4 +1,6 @@
 <?php snippet('header') ?>
+ <!-- SNIPPET - MENU -->
+ <?php snippet('menu') ?>
 
     <?php snippet('menu') ?>
 

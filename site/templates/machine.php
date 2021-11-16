@@ -1,4 +1,5 @@
 <?php snippet('header') ?>
+<?php snippet('menu-white') ?>
     <main class="main">
     <div class="breadcrumb" itemprop="breadcrumb">
         <?php foreach($site->breadcrumb()->not('home') AS $crumb): ?>
