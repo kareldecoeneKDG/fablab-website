@@ -72,19 +72,13 @@ Accessibility:
   vehicle: Bus
   description: |
     In de onmiddellijke omgeving van de campus vind je meerdere tramlijnen en buslijnen.
-    De dichtstbijzijnde halte bij Campus Hoboken is Halte Hoboken Heidestraat (102795, 102800), op ca. 500 meter, ongeveer 5 minuten. wandelen.
+    De **dichtstbijzijnde halte** bij Campus Hoboken is Halte Hoboken Heidestraat (102795, 102800), op ca. 500 meter, ongeveer 5 minuten. wandelen.
     
     De bussen en tram die u van daar kan nemen zijn volgende:
     Tram 10: Wijnegem – P+R Schoonselhof
     Bus 33:  Hoboken – Wilrijk – Merksem – Ekeren
     Bus 290: Boom – Niel – Antwerpen
-    Bus 295: Boom – Predikherenvelden – Niel – Antwerpen
-    
-    
-    Meer info over de regeling van tram en bus:
-    Tramnetwerk Antwerpen
-    Busnetten Antwerpen
-    Routeplanner en dienstregelingen van de Lijn
+    Bus 295: Boom – Predikherenvelden – Niel – Antwerpen www.delijn.be
 - 
   vehicle: Auto
   description: >

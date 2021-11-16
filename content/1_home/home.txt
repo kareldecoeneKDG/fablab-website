@@ -116,6 +116,50 @@ Manufacturers:
   image:
     - matter-and-form-_-3d-scanner-1.png
   url: 'https://www.keyence.eu/nlnl/landing/lpc/1901-sem-contourvormmeetsysteem.jsp?aw=gagooglekbbenlnonbrmicvr299&gclid=Cj0KCQiAys2MBhDOARIsAFf1D1f9fk5S2MwtDx6KB2l8kDc3cX1Uu7PTNUhoXUdukXXorroTDj2XHrcaAohOEALw_wcB'
+- 
+  image:
+    - ferm_kolomboor-1.png
+  url: https://www.samenferm.be/
+- 
+  image:
+    - festool-1.png
+  url: https://www.festool.be/
+- 
+  image:
+    - dewalt-1.png
+  url: https://www.festool.be/
+- 
+  image:
+    - dremel-1.png
+  url: https://www.festool.be/
+- 
+  image:
+    - ferm_kolomboor-1.png
+  url: https://www.festool.be/
+- 
+  image:
+    - ferm_kolomboor-1.png
+  url: https://www.festool.be/
+- 
+  image:
+    - festool-1.png
+  url: https://www.festool.be/
+- 
+  image:
+    - logo-makerbot-1.png
+  url: https://www.festool.be/
+- 
+  image:
+    - makita-1.png
+  url: https://www.festool.be/
+- 
+  image:
+    - matter-and-form-_-3d-scanner-1.png
+  url: https://www.festool.be/
+- 
+  image:
+    - mayku-formbox-1.png
+  url: https://www.festool.be/
 
 ----
 
