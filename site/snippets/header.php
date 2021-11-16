@@ -38,5 +38,11 @@
         <meta property="og:title" content="KdG FabLab - Make | Share | Learn">
         <meta property="og:description" content="Het KdG FabLab is een maakplaats voor iedereen. Komt gerust een keer langs tijdens onze openingsuren!">
         <meta property="og:image" content="https://fablab.karel.decoene.nxtmediatech.eu/assets/images/previewimages/facebook-preview-image.png">
+
+        <!-- TWITTER -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="KdG FabLab - Make | Share | Learn" />
+        <meta name="twitter:site" content="fablabkareldecoenenxtmediatecheu" />
+        <meta name="twitter:creator" content="fablabkdg">
     </head>
     <body>
