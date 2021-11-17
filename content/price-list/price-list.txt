@@ -10,205 +10,48 @@ Ownmaterials: Eigen materialen kunnen meegebracht en gebruikt worden, steeds na 
 
 ----
 
-Mdf:
+Materials:
 
 - 
-  thickness: 3mm
-  extrainfo: ""
-  size: 30 x 60 cm
-  pricekdg: € 1,5
-  priceextern: € 2
-  instock: 'false'
+  name: MDF
+  materialitem:
+    - 
+      detail: 3mm
+      color: ""
+      size: 30x60cm
+      pricekdg: "3"
+      priceextern: "4"
+      pricecompany: "4"
+      instock: 'true'
+    - 
+      detail: 4mm
+      color: ""
+      size: 30x60cm
+      pricekdg: "3"
+      priceextern: "4"
+      pricecompany: "4"
+      instock: 'false'
 - 
-  thickness: 3mm
-  extrainfo: ""
-  size: 122 x 61 cm
-  pricekdg: € 3
-  priceextern: ""
-  instock: 'false'
+  name: Triplex
+  materialitem: [ ]
 - 
-  thickness: 6mm
-  extrainfo: ""
-  size: 30 x 60 cm
-  pricekdg: € 3
-  priceextern: ""
-  instock: 'false'
+  name: Plexi XT (extruded)
+  materialitem: [ ]
 - 
-  thickness: 6mm
-  extrainfo: ""
-  size: 122 x 61 cm
-  pricekdg: € 6
-  priceextern: ""
-  instock: 'false'
+  name: Plexi GS (cast)
+  materialitem: [ ]
 - 
-  thickness: 12mm
-  extrainfo: ""
-  size: 122 x 244 cm
-  pricekdg: € 19
-  priceextern: ""
-  instock: 'true'
-
-----
-
-Filaments:
-
+  name: Plexi (cast)
+  materialitem: [ ]
 - 
-  material: PLA
-  extrainfo: ""
-  color: Verschillende basiskleuren
-  pricekdg: € 0,10/gram
-  priceextern: ""
-  instock: 'true'
+  name: 3D Print Filament
+  materialitem: [ ]
 - 
-  material: PETG
-  extrainfo: ""
-  color: Zwart
-  pricekdg: € 0,10/gram
-  priceextern: ""
-  instock: 'true'
+  name: Textiel Transfermedia (vinyl)
+  materialitem: [ ]
 - 
-  material: ABS
-  extrainfo: Anti cracking en warping
-  color: Zwart
-  pricekdg: € 0,15/gram
-  priceextern: ""
-  instock: 'true'
+  name: Snijfolie
+  materialitem: [ ]
 - 
-  material: PLA Woodfill
-  extrainfo: >
-    Er zijn houtvezels toegevoegd waardoor
-    je objecten voelen en ruiken alsof ze
-    van echt hout zijn.
-  color: Houtkleur
-  pricekdg: € 0,15/gram
-  priceextern: ""
-  instock: 'true'
-- 
-  material: PLA Flex
-  extrainfo: 'Uitrekbaar tot 530%, UV bestendig'
-  color: Zwart
-  pricekdg: € 0,15/gram
-  priceextern: ""
-  instock: 'true'
-- 
-  material: PETG Carbonfill
-  extrainfo: 'versterkt is met 20% koolstofvezel'
-  color: Zwart
-  pricekdg: € 0,10/gram
-  priceextern: ""
-  instock: 'true'
-
-----
-
-Vinylroland:
-
-- 
-  color: Wit
-  extrainfo: ""
-  size: 61 cm
-  pricekdg: € 0,05/cm
-  priceextern: ""
-  instock: 'true'
-- 
-  color: Zwart
-  extrainfo: ""
-  size: 61 cm
-  pricekdg: € 0,05/cm
-  priceextern: ""
-  instock: 'true'
-- 
-  color: Blauw
-  extrainfo: ""
-  size: 61 cm
-  pricekdg: € 0,05/cm
-  priceextern: ""
-  instock: 'true'
-- 
-  color: Geel
-  extrainfo: ""
-  size: 61 cm
-  pricekdg: € 0,05/cm
-  priceextern: ""
-  instock: 'true'
-- 
-  color: Rood
-  extrainfo: ""
-  size: 61 cm
-  pricekdg: € 0,05/cm
-  priceextern: ""
-  instock: 'true'
-- 
-  color: Oranje
-  extrainfo: ""
-  size: 61 cm
-  pricekdg: € 0,05/cm
-  priceextern: ""
-  instock: 'true'
-- 
-  color: Applicatietape
-  extrainfo: ""
-  size: 61 cm
-  pricekdg: € 0,05/cm
-  priceextern: ""
-  instock: 'true'
-
-----
-
-Flex:
-
-- 
-  color: Wit
-  extrainfo: ""
-  size: 50 cm
-  pricekdg: € 0,10/cm
-  priceextern: ""
-  instock: 'true'
-- 
-  color: Zwart
-  extrainfo: ""
-  size: 50 cm
-  pricekdg: € 0,10/cm
-  priceextern: ""
-  instock: 'true'
-- 
-  color: Geel
-  extrainfo: ""
-  size: 50 cm
-  pricekdg: € 0,10/cm
-  priceextern: ""
-  instock: 'true'
-- 
-  color: Rood
-  extrainfo: ""
-  size: 50 cm
-  pricekdg: € 0,10/cm
-  priceextern: ""
-  instock: 'true'
-- 
-  color: Blauw
-  extrainfo: ""
-  size: 50 cm
-  pricekdg: € 0,10/cm
-  priceextern: ""
-  instock: 'true'
-- 
-  color: A4 Toner Transfer
-  extrainfo: >
-    Bedrukken van veelkleurige, complexe
-    beelden op katoenen tassen.
-  size: ""
-  pricekdg: € 1/blad
-  priceextern: ""
-  instock: 'true'
-
-----
-
-Diverse:
-
-- 
-  divtype: Lino Soft Cut
-  extrainfo: ""
-  size: '3 mm - 10 x 15 cm'
-  pricekdg: € 2/stuk
-  priceextern: ""
-  instock: 'true'
+  name: Maskingtape
+  materialitem: [ ]

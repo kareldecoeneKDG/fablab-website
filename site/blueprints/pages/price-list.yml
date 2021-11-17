@@ -11,134 +11,41 @@ sections:
         label: Eigen Materialen Tekst
         type: textarea
 
-      mdf:
-        label: MDF
+      Materials:
+        label: Materiaaltype
         type: structure
-        fields:
-          thickness:
-            label: dikte (mm)
+        fields: 
+          name:
+            label: Naam
             type: text
-          extrainfo:
-            label: Extra Informatie
-            type: text
-          size:
-            label: Afmetingen (l x b)
-            type: text
-          pricekdg:
-            label: Prijs KdG
-            type: text
-          priceextern:
-            label: Prijs Extern
-            type: text
-          instock:
-            label: In Stock
-            type: toggle
-            text: 
-              - "no"
-              - "yes"
-
-      filaments:
-        label: 3D Filamenten
-        type: structure
-        fields:
-          material:
-            label: Materiaal
-            type: text
-          extrainfo:
-            label: Extra Informatie
-            type: text
-          color:
-            label: Kleur
-            type: text
-          pricekdg:
-            label: Prijs KdG
-            type: text
-          priceextern:
-            label: Prijs Extern
-            type: text
-          instock:
-            label: In Stock
-            type: toggle
-            text: 
-              - "no"
-              - "yes"
-
-
-      vinylroland:
-        label: Snijvinyl voor Roland GS-24
-        type: structure
-        fields:
-          color:
-            label: Kleur
-            type: text
-          extrainfo:
-            label: Extra Informatie
-            type: text
-          size:
-            label: Afmeting
-            type: text
-          pricekdg:
-            label: Prijs KdG
-            type: text
-          priceextern:
-            label: Prijs Extern
-            type: text
-          instock:
-            label: In Stock
-            type: toggle
-            text: 
-              - "no"
-              - "yes"
-
-      flex:
-        label: FLEX (snijmateriaal om op textiel te strijken)
-        type: structure
-        fields:
-          color:
-            label: Kleur
-            type: text
-          extrainfo:
-            label: Extra Informatie
-            type: text
-          size:
-            label: Afmeting
-            type: text
-          pricekdg:
-            label: Prijs KdG
-            type: text
-          priceextern:
-            label: Prijs Extern
-            type: text
-          instock:
-            label: In Stock
-            type: toggle
-            text: 
-              - "no"
-              - "yes"
-
-
-      diverse:
-        label: Allerlei
-        type: structure
-        fields:
-          divtype:
-            label: Type
-            type: text
-          extrainfo:
-            label: Extra Informatie
-            type: text
-          size:
-            label: Afmeting
-            type: text
-          pricekdg:
-            label: Prijs KdG
-            type: text
-          priceextern:
-            label: Prijs Extern
-            type: text
-          instock:
-            label: In Stock
-            type: toggle
-            text: 
-              - "no"
-              - "yes"
+          materialitem:
+            label: Item van een Materiaaltype
+            type: structure
+            fields:
+              detail:
+                label: Detail
+                type: text
+              color:
+                label: Kleur
+                type: text
+              size:
+                label: Maat
+                type: text
+              pricekdg:
+                label: Prijs KdG studenten en personeel
+                type: text
+                before: "€ "
+              priceextern:
+                label: Prijs Privé/Extern
+                type: text
+                before: "€ "
+              pricecompany:
+                label: Prijs Bedrijven
+                type: text
+                before: "€ "
+              instock:
+                label: In Stock
+                type: toggle
+                text: 
+                  - "no"
+                  - "yes"
