@@ -1,4 +1,8 @@
 <?php snippet('header') ?>
+    
+    <!-- SNIPPET - MENU -->
+    <?php snippet('menu-white') ?>
+
     <div class="price-list-container">
     <h1 class="price-list-container__title h1"><?= $page->title() ?></h1>
     <?php 
