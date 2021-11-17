@@ -2,7 +2,12 @@
 .content-blog {
   padding: 0 5%;
 }
-.blog-wrapper {
-  display: block;
-  margin: 0 5%;
+
+//MOBILE
+@media screen and (min-width: 1280px) {
+  .blog-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
 }

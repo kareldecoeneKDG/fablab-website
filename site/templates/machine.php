@@ -24,7 +24,7 @@
         <section class="machine-wrapper">
             <div class="machine-wrapper__banner">
                 <h1 class="machine-wrapper__banner__title h1"><?= $page->title() ?></h1>
-                <a class="machine-wrapper__banner__button button-reserveer" href="#">Reserveer</a>
+                <a class="machine-wrapper__banner__button button-small button-reserveer" href="#">Reserveer</a>
             </div>
             <table class="machine-wrapper__info">
                     <?php if ($page->manufactur()->isNotEmpty()): ?>

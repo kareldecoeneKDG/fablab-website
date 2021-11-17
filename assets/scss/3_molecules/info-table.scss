@@ -1,5 +1,11 @@
 .machine-wrapper {
   &__info {
+    &__row {
+      td {
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+    }
     &__row:nth-child(odd) {
       background-color: #ebebeb;
     }

@@ -55,22 +55,11 @@
 }
 
 .button-reserveer {
-  display: inline-block;
-  font-family: $verdana;
-  font-size: $p-big-font-size-mobile;
-  font-weight: 700;
-  color: $white;
-  background-color: $black;
   border: none;
   border-radius: $border-radius-big;
   margin-left: $margin-side-mobile;
   margin-right: $margin-side-mobile;
   padding: $button-small-padding;
-  &:hover {
-    background-color: $yellow;
-    color: $black;
-    transition: 0.3s;
-  }
 }
 
 // PAGES
@@ -79,7 +68,7 @@
 .content-blog {
   &__tag-filter {
     &__button-tag {
-      background-color: #f2db04;
+      background-color: $lightgrey;
       border: none;
       font-weight: bold;
       color: black;
