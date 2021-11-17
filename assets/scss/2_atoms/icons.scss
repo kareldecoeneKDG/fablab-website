@@ -11,9 +11,9 @@
                 i {
                     font-size: 46px;
                     font-weight: bold;
-                    color: $black; //white
+                    color: $white; //white
                     position: absolute;
-                    bottom: 50%; //22px
+                    bottom: 22px; //22px
                     right: 30px;
                 }
             }
@@ -152,7 +152,7 @@
                 &__scroll {
                     i {
                         bottom: 52px;
-                        right: $margin-side-desktop;
+                        right: 50%; //desktop
                     }
                 }
             }
