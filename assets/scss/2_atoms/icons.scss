@@ -11,9 +11,9 @@
                 i {
                     font-size: 46px;
                     font-weight: bold;
-                    color: $white;
+                    color: $black; //white
                     position: absolute;
-                    bottom: 22px;
+                    bottom: 50%; //22px
                     right: 30px;
                 }
             }
