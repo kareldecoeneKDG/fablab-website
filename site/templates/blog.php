@@ -1,9 +1,9 @@
 <?php snippet('header') ?>
+
     <!-- SNIPPET - MENU -->
     <?php snippet('menu-white') ?>
 
 <section class="content-blog">
-
     <h1 class="h1"><?= $page->Subtitle()->html() ?></h1>
 
     <div class="content-blog__tag-filter">

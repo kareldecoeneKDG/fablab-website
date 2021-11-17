@@ -120,6 +120,5 @@
 
         <!-- JAVASCRIPT RESPONSIVE NAV -->
         <?= js('build/js/app.js') ?>
-        <?= js('build/js/sharebuttons.js') ?>
     </body>
 </html>
