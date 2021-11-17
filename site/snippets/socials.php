@@ -1,7 +1,7 @@
 <?php
 
     // Socials structure -> Array
-    $socials =$page->socials()->toStructure();
+    $socials = $site->socials()->toStructure();
 
         // Loop through socials
         foreach ($socials as $social): 

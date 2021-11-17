@@ -1,6 +1,7 @@
 <?php snippet('header') ?>
- <!-- SNIPPET - MENU -->
- <?php snippet('menu-white') ?>
+
+    <!-- SNIPPET - MENU -->
+    <?php snippet('menu-white') ?>
 
 
     <!-- BREADCRUMB -->

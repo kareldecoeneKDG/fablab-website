@@ -1,8 +1,7 @@
 <?php snippet('header') ?>
- <!-- SNIPPET - MENU -->
- <?php snippet('menu') ?>
 
-    <?php snippet('menu') ?>
+    <!-- SNIPPET - MENU -->
+    <?php snippet('menu-white') ?>
 
     <section class="categories-wrapper sectionOne">   
         <ul class="categories-wrapper__machines">

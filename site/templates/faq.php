@@ -1,6 +1,9 @@
 <?php snippet('header') ?>
 
     <?php snippet('menu-white') ?>
-    <h1><?= $page->title() ?></h1>
+
+    <div class="faq-wrapper">
+        <h1><?= $page->title() ?></h1>
+    </div>
 
 <?php snippet('footer') ?>

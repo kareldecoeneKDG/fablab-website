@@ -1,6 +1,8 @@
 .categories-wrapper {
   padding-left: 5%;
   padding-right: 5%;
+  margin-top: calc(12vh + 30px);
+
   &__machines {
     display: flex;
     flex-direction: column;

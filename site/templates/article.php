@@ -1,6 +1,8 @@
 <?php snippet('header') ?>
+
  <!-- SNIPPET - MENU -->
  <?php snippet('menu-white') ?>
+
 <section class="content-article">
     
   <article>

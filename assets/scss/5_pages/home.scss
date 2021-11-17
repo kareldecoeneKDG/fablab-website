@@ -29,8 +29,9 @@
     &__message {
         padding-left: $margin-side-mobile;
         padding-right: $margin-side-mobile;
-        background-color: $lightgrey;
+        background-color: $yellow;
         padding-bottom: 30px;
+        color: $black;
     }
     
     &__introduction {
