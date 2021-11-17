@@ -71,11 +71,18 @@
     margin-left: $margin-side-mobile;
     margin-right: $margin-side-mobile;
     padding: $button-small-padding;
+
     &:hover {
         background-color: $yellow;
         color: $black;
         transition: 0.3s;
     }
+
+    border: none;
+    border-radius: $border-radius-big;
+    margin-left: $margin-side-mobile;
+    margin-right: $margin-side-mobile;
+    padding: $button-small-padding;
 }
 
 // PAGES
