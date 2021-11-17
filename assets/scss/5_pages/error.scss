@@ -1,0 +1,42 @@
+.error-container {
+    height: calc(100vh - calc(12vh + 30px));
+    position: relative;
+
+    &__text-container {
+        margin-top: calc(12vh + 30px);
+        position: absolute;
+        top: 25%;
+        left: 25%;
+
+        &__title {
+            font-size: 34px;
+            margin-bottom: 45px;
+        }
+
+        &__link {
+            padding: $button-big-padding;
+            background-color: $yellow;
+            color: $black;
+            font-weight: 700;
+            border-radius: $border-radius-small;
+            margin-left: 10px;
+
+            i {
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+
+
+
+
+// DESKTOP - 1280PX
+@media only screen and (min-width: 1280px) {
+    .error-container {
+        &__text-container {
+            margin-top: 210px;
+        }
+    }
+}

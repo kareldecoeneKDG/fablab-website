@@ -25,7 +25,7 @@
                     </div>
 
                     <div class="home-container__banner__background__scroll">
-                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        <a href="#messageSection"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </div>
@@ -34,7 +34,7 @@
 
 
         <!-- OPTIONAL MESSAGE FABLAB CLOSED -->
-        <section class="home-container__message sectionOne">
+        <section id="messageSection" class="home-container__message sectionOne">
 
             <!-- messageTitle -->
             <?php if($page->messageTitle()->isNotEmpty()): ?>

@@ -51,6 +51,22 @@
 
             &__scroll {
                 height: 100vh;
+
+                i {
+                    animation: bounce 3s ease-out infinite;
+                }
+
+                @keyframes bounce {
+                    0% {
+                        padding-bottom: 15px;
+                    }
+                    50% {
+                        padding-bottom: 0px;
+                    }
+                    100% {
+                        padding-bottom: 15px;
+                    }
+                }
             }
         }
     }
@@ -81,7 +97,17 @@
                 }
 
                 &__scroll {
-                    height: calc(100% - 140px);
+                    @keyframes bounce {
+                        0% {
+                            padding-bottom: 25px;
+                        }
+                        50% {
+                            padding-bottom: 0px;
+                        }
+                        100% {
+                            padding-bottom: 25px;
+                        }
+                    }
                 }
             }
         }
