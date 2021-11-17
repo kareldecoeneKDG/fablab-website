@@ -129,57 +129,5 @@
         </div>
     </main>
 
-    <main class="dropdowntest">
-        <section class="sectionjs">
-            <h2 class="title">FAQs</h2>
-
-            <div class="faq">
-                <div class="question">
-                    <h3>What is Java?</h3>
-                    <svg width="15" height="10" viewBox="0 0 42 25">
-                        <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
-                    </svg>
-                </div>
-                <div class="answer">
-                    <p>
-                        Het is al geruime tijd een bekend gegeven dat een lezer, tijdens het bekijken van de layout van een pagina, afgeleid wordt door de tekstuele inhoud.
-                    </p>
-                </div>
-            </div>
-
-            <div class="faq">
-                <div class="question">
-                    <h3>What is Java?</h3>
-                    <svg width="15" height="10" viewBox="0 0 42 25">
-                        <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
-                    </svg>
-                </div>
-                <div class="answer">
-                    <p>
-                        Het is al geruime tijd een bekend gegeven dat een lezer, tijdens het bekijken van de layout van een pagina, afgeleid wordt door de tekstuele inhoud.
-                    </p>
-                </div>
-            </div>
-
-            <div class="faq">
-                <div class="question">
-                    <h3>What is Java?</h3>
-                    <svg width="15" height="10" viewBox="0 0 42 25">
-                        <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
-                    </svg>
-                </div>
-                <div class="answer">
-                    <p>
-                        Het is al geruime tijd een bekend gegeven dat een lezer, tijdens het bekijken van de layout van een pagina, afgeleid wordt door de tekstuele inhoud.
-                    </p>
-                </div>
-            </div>
-
-        </section>
-    </main>
-
 <!-- SNIPPET - FOOTER -->
 <?php snippet('footer') ?>
-
-<!-- JAVASCRIPT ACCORDION TRY -->
-<?= js('build/js/accordionkarrel.js') ?>

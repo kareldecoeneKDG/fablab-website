@@ -1,3 +1,118 @@
 .faq-wrapper {
     margin-top: calc(12vh + 30px);
+    padding-bottom: 30px;
+    margin-left: $margin-side-mobile;
+    margin-right: $margin-side-mobile;
+
+    &__section {
+        width: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+
+        &__item {
+            margin-top: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid $black;
+            cursor: pointer;
+            max-width: 864px;
+
+            &__questioncontainer {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                &__question {
+                    margin-top: 0;
+                }
+
+                &__icon {
+                    transition: transform 0.5s ease-in;
+                }
+            }
+
+            &__answercontainer {
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 1s ease;
+
+                &__answer {
+                    padding-top: 1rem;
+                }
+            }
+        }
+    }
+}
+
+.faq.active .answer {
+    max-height: 300px;
+    animation: fade 1s ease-in-out;
+}
+
+.faq.active i {
+    transform: rotate(180deg);
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+
+
+
+// DESKTOP - 1280PX
+@media screen and (min-width: 1280px) {
+    .faq-wrapper {
+        margin-top: 210px;
+        padding-bottom: 70px;
+        margin-left: $margin-side-desktop;
+        margin-right: $margin-side-desktop;
+    }
+}
+
+
+
+
+
+// DESKTOP - 1920PX
+@media screen and (min-width: 1920px) {
+    .faq-wrapper {
+        margin-left: $margin-side-hd;
+        margin-right: $margin-side-hd;
+        min-height: calc(1080px - 344px - 140px - 70px);
+    }
+}
+
+
+
+
+
+// DESKTOP - 2560PX
+@media screen and (min-width: 2560px) {
+    .faq-wrapper {
+        margin-left: $margin-side-qhd;
+        margin-right: $margin-side-qhd;
+        min-height: calc(1440px - 344px - 140px - 70px);
+    }
+}
+
+
+
+
+
+// DESKTOP - 3840PX
+@media screen and (min-width: 3840px) {
+    .faq-wrapper {
+        margin-left: $margin-side-4k;
+        margin-right: $margin-side-4k;
+        min-height: calc(2160px - 344px - 140px - 70px);
+    }
 }
