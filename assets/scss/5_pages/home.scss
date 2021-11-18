@@ -3,9 +3,7 @@
     padding-bottom: 50px;
 
     &__banner-container {
-        //display: flex;
         background-repeat: no-repeat;
-        //background-color: $lightergrey;
         background-position: center;
         background-size: cover;
         max-width: 100%;
@@ -18,7 +16,6 @@
             height: 88vh;
 
             &__scroll {
-                //height: 88vh;
                 position: relative;
                 width: 100vw;
                 text-align: center;
@@ -61,16 +58,7 @@
 
     &__working {
         &__banner {
-            height: 218px;
-            width: 100%;
             background-image: url("../../assets/images/fablab.webp");
-            background-repeat: no-repeat;
-            background-color: $lightergrey;
-            background-position: center;
-            background-size: cover;
-            margin-bottom: 30px;
-            padding-top: 135px;
-            margin-top: 30px;
         }
 
         &__flexbox {
@@ -82,29 +70,13 @@
 
     &__biolab {
         &__banner {
-            height: 218px;
-            width: 100%;
             background-image: url("../../assets/images/biolab.webp");
-            background-repeat: no-repeat;
-            background-color: $lightergrey;
-            background-position: center;
-            background-size: cover;
-            margin-bottom: 30px;
-            padding-top: 135px;
-            margin-top: 30px;
         }
 
         &__flexbox {
             &__right {
                 display: none;
             }
-        }
-    }
-
-    &__partners {
-        &__img {
-            display: block;
-            width: 215px;
         }
     }
 
@@ -153,12 +125,10 @@
         padding-bottom: 50px;
 
         &__banner {
-            //height: calc(100vh - 140px);
             height: 100vh;
 
             &__background {
                 &__animation {
-                    //height: calc(100vh - 140px);
                     height: 100vh;
                     margin-left: 0;
 
@@ -170,7 +140,6 @@
                 }
 
                 &__scroll {
-                    //height: calc(100vh - 140px);
                     height: 100vh;
                 }
             }
@@ -204,20 +173,9 @@
 
         &__working {
             &__banner {
-                height: auto;
-                width: auto;
                 background-image: none;
-                background-repeat: no-repeat;
-                background-color: initial;
-                margin-bottom: 30px;
-                padding-top: 00px;
-                margin-top: 60px;
-
-                &__title {
-                    margin-top: 0;
-                }
             }
-    
+
             &__flexbox {
                 display: flex;
                 flex-direction: row;
@@ -233,32 +191,13 @@
                     display: inline-block;
                     width: 40%;
                     margin-right: $margin-side-desktop;
-
-                    &__img {
-                        display: inline-block;
-                        width: auto;
-                        object-fit: cover;
-                        //transform: skewY(3deg);
-                        border-radius: $border-radius-big;
-                    }
                 }
             }
         }
 
         &__biolab {
             &__banner {
-                height: auto;
-                width: auto;
                 background-image: none;
-                background-repeat: no-repeat;
-                background-color: initial;
-                margin-bottom: 30px;
-                padding-top: 00px;
-                margin-top: 60px;
-
-                &__title {
-                    margin-top: 0;
-                }
             }
 
             &__flexbox {
@@ -276,29 +215,12 @@
                     display: inline-block;
                     width: 40%;
                     margin-right: $margin-side-desktop;
-
-                    &__img {
-                        display: inline-block;
-                        width: auto;
-                        object-fit: cover;
-                        //transform: skewY(3deg);
-                        border-radius: $border-radius-big;
-                    }
                 }
             }
         }
 
         &__partners {
             margin-top: 60px;
-
-            &__title {
-                margin-top: 0;
-            }
-    
-            &__img {
-                display: inline-block;
-                width: 250px;
-            }
         }
 
         &__partnersflexbox {
@@ -320,14 +242,12 @@
                     &__link {
                         padding: 25px;
                     }
-                    //padding: 26px;
                 }
 
                 &__container:hover {
                     background-color: $white;
                     border: 2px solid $black-light;
                     transition: 0.5s;
-                    //color: $black !important;
                 }
             }
         }

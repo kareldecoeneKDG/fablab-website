@@ -129,12 +129,6 @@
                         left: $margin-side-hd;
                     }
                 }
-
-                &__scroll {
-                    i {
-                        //right: $margin-side-hd;
-                    }
-                }
             }
         }
     }
@@ -154,12 +148,6 @@
                         left: $margin-side-qhd;
                     }
                 }
-
-                &__scroll {
-                    i {
-                        //right: $margin-side-qhd;
-                    }
-                }
             }
         }
     }
@@ -177,12 +165,6 @@
                 &__animation {
                     .intro {
                         left: $margin-side-4k;
-                    }
-                }
-
-                &__scroll {
-                    i {
-                        //right: $margin-side-4k;
                     }
                 }
             }

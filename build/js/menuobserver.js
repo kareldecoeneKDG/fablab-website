@@ -1,9 +1,9 @@
-// chekcen for better code
-const nav = document.querySelector(".nav-fade"); //nav
+const nav = document.querySelector(".nav-fade");
 const sectionOne = document.querySelector(".sectionOne")
 
+// margin on top of sectionOne for when menu goes white on home
 const sectionOneOptions = {
-    rootMargin: "-700px 0px 0px 0px"
+    rootMargin: "-674px 0px 0px 0px"
 };
 
 const sectionOneObserver = new IntersectionObserver(function(
@@ -11,10 +11,10 @@ const sectionOneObserver = new IntersectionObserver(function(
     sectionOneObserver
 ) {
     entries.forEach(entry => {
-        if(!entry.isIntersecting){ //denk eraan = niet intersecting, dus niet meer in beeld? dus header pakken ofzo? box-shadow?
-            nav.classList.add('nav-scrolled');
+        if(!entry.isIntersecting) {
+            nav.classList.add('nav-scrolled'); //add white background
         } else {
-            nav.classList.remove("nav-scrolled");
+            nav.classList.remove("nav-scrolled"); //remove white background
         }
     })
 },

@@ -119,6 +119,6 @@
 
 
         <!-- JAVASCRIPT RESPONSIVE NAV -->
-        <?= js('build/js/app.js') ?>
+        <?= js('build/js/responsive-nav.js') ?>
     </body>
 </html>

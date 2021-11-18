@@ -26,7 +26,8 @@ columns:
         type: text
       generalText:
         label: Algemene info & vragen paragraaf
-        type: textarea
+        type: writer
+        inline: true
         
       employees:
         label: Werknemers
@@ -57,7 +58,8 @@ columns:
           email:
             type: text
           biography:
-            type: textarea
+            type: writer
+            inline: true
         
       accessibility:
         label: Bereikbaarheid
@@ -83,7 +85,8 @@ columns:
               - Auto
           description:
             label: Beschrijving
-            type: textarea
+            type: writer
+            inline: true
 
   - width: 1/2
     sections:

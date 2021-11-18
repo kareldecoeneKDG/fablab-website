@@ -29,11 +29,13 @@
                     </div> -->
 
                     <div class="home-container__banner__background__scroll"> <!-- miss class weg -->
-                        <div class="arrow">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
+                        <a class="home-container__banner__background__scroll__link" href="#messageSection">
+                            <div class="home-container__banner__background__scroll__link__arrowcontainer arrow">
+                                <span class="home-container__banner__background__scroll__link__arrowcontainer__arrow"></span>
+                                <span class="home-container__banner__background__scroll__link__arrowcontainer__arrow"></span>
+                                <span class="home-container__banner__background__scroll__link__arrowcontainer__arrow"></span>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -51,7 +53,7 @@
 
             <!-- messageText -->
             <?php if($page->messageText()->isNotEmpty()): ?>
-                <p class="home-container__message__paragraph p"><?= $page->messageText() ?></p>
+                <p class="home-container__message__paragraph p"><?= $page->messageText() //->markdown() ?></p>
             <?php endif; ?>
         </section>
 
@@ -70,7 +72,7 @@
 
                     <!-- whatIsFablabText -->
                     <?php if($page->whatIsFablabText()->isNotEmpty()): ?>
-                        <p class="home-container__introduction__flexbox__left__paragraph p p-home"><?= $page->whatIsFablabText() ?></p>
+                        <p class="home-container__introduction__flexbox__left__paragraph p p-home"><?= $page->whatIsFablabText() //->markdown() ?></p>
                     <?php endif; ?>
 
                     <!-- whatIsFablabButtonText -->
@@ -115,7 +117,7 @@
         <section class="home-container__working">
 
             <!-- WORKING FABLAB BANNER IMAGE -->
-            <div class="home-container__working__banner">
+            <div class="home-container__working__banner banner-home">
 
                 <!-- workingFablabTitle -->
                 <?php if($page->workingFablabTitle()->isNotEmpty()): ?>
@@ -128,7 +130,7 @@
 
                     <!-- workingFablabText -->
                     <?php if($page->workingFablabText()->isNotEmpty()): ?>
-                        <p class="home-container__working__flexbox__left__paragraph p p-home"><?= $page->workingFablabText() ?></p>
+                        <p class="home-container__working__flexbox__left__paragraph p p-home"><?= $page->workingFablabText() //->markdown() ?></p>
                     <?php endif; ?>
 
                     <!-- workingFablabButtonText -->
@@ -152,7 +154,7 @@
         <section class="home-container__biolab">
 
             <!-- BIOLAB BANNER IMAGE -->
-            <div class="home-container__biolab__banner">
+            <div class="home-container__biolab__banner banner-home">
 
                 <!-- biolabTitle -->
                 <?php if($page->biolabTitle()->isNotEmpty()): ?>
@@ -165,7 +167,7 @@
 
                     <!-- biolabText -->
                     <?php if($page->biolabText()->isNotEmpty()): ?>
-                        <p class="home-container__biolab__flexbox__left__paragraph p p-home"><?= $page->biolabText()?></p>
+                        <p class="home-container__biolab__flexbox__left__paragraph p p-home"><?= $page->biolabText() //->markdown() ?></p>
                     <?php endif; ?>
 
                     <!-- biolabButtonText -->

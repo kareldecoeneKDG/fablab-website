@@ -95,7 +95,7 @@
     }
 }
 
-//Articles
+// ARTICLES
 .content-article {
     &__icon {
         padding-right: 15px;
@@ -136,6 +136,47 @@
             }
         }
     }
+}
+
+//ERROR
+.error-container {
+    &__text-container {
+        &__link {
+            i {
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+//FAQ
+.faq-wrapper {
+    &__section {
+        &__item {
+            &__questioncontainer {
+                &__icon {
+                    transition: transform 0.5s ease-in;
+                }
+
+                .icon-min {
+                    opacity: 0;
+                }
+            }
+        }
+    }
+}
+
+.faq.active i {
+    transform: rotate(180deg);
+}
+
+.faq.active .icon {
+    display: none;
+}
+
+.faq.active .icon-min {
+    opacity: 1;
+    transition: 0.5s ease-in-out;
 }
 
 

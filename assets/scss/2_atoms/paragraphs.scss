@@ -2,98 +2,152 @@
 
 // GENERAL PARAGRAPHS
 .p {
-  font-family: $verdana;
-  font-size: $p-big-font-size-mobile;
-  font-weight: 500;
-  margin: $p-margin-mobile;
-  line-height: $p-big-line-height;
+    font-family: $verdana;
+    font-size: $p-big-font-size-mobile;
+    font-weight: 500;
+    margin: $p-margin-mobile;
+    line-height: $p-big-line-height;
 }
 
 .p-home {
-  padding-left: $margin-side-mobile;
-  padding-right: $margin-side-mobile;
-  padding-bottom: 30px;
+    padding-left: $margin-side-mobile;
+    padding-right: $margin-side-mobile;
+    padding-bottom: 30px;
 }
 
-// PAGES
-
-//article
+// ARTICLES
 .content-article {
-  &__text-wrapper {
-    &__p {
-      &__date {
-        margin: $p-margin-mobile;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        font-size: $p-small-font-size-mobile;
-        color: $grey;
-      }
+    &__text-wrapper {
+        &__p {
+            &__date {
+                margin: $p-margin-mobile;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-size: $p-small-font-size-mobile;
+                color: $grey;
+            }
+        }
     }
-  }
 }
+
+// WHAT IS FABLAB
+.what-is-fablab-container {
+    &__introduction {
+        &__flexbox {
+            &__left {
+                &__p {
+                    padding-bottom: 50px;
+                }
+
+                &__team {
+                    &__container {
+                        &__biography {
+                            margin-top: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
 
 // DESKTOP - 1280PX
 @media only screen and (min-width: 1280px) {
-  .p-home {
-    padding-left: $margin-side-desktop;
-    padding-right: $margin-side-desktop;
-    padding-bottom: 30px;
-  }
-
-  // HOME
-  .home-container {
-    &__message {
-      &__paragraph {
-        width: 50%;
-      }
+    .p-home {
+        padding-left: $margin-side-desktop;
+        padding-right: $margin-side-desktop;
+        padding-bottom: 30px;
     }
-  }
 
-  // CONTACT
-  .contact-container {
-    &__general {
-      &__paragraph {
-        width: 50%;
-      }
+    // HOME
+    .home-container {
+        &__message {
+            &__paragraph {
+                width: 50%;
+            }
+        }
     }
-  }
 
-  .content-article {
-    &__text-wrapper {
-      &__p {
-        margin-top: 20px;
-        margin-bottom: 20px;
-      }
+    // CONTACT
+    .contact-container {
+        &__general {
+            &__paragraph {
+                width: 50%;
+            }
+        }
     }
-  }
 
-  // CATEGORY
-  .category-wrapper {
-    &__materialen {
-      margin-top: -50px;
+    .content-article {
+        &__text-wrapper {
+            &__p {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+        }
     }
-  }
+
+    // CATEGORY
+    .category-wrapper {
+        &__materialen {
+            margin-top: -50px;
+        }
+    }
+
+    // WHAT IS FABLAB
+    .what-is-fablab-container {
+        &__introduction {
+            &__flexbox {
+                &__right {
+                    &__flexbox {
+                        &__box {
+                            &__biography {
+                                margin-top: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
+
+
+
+
+
 // DESKTOP - 1920PX
 @media only screen and (min-width: 1920px) {
-  .p-home {
-    padding-left: $margin-side-hd;
-    //padding-right: $margin-side-hd;
-  }
+    .p-home {
+        padding-left: $margin-side-hd;
+    }
+
+    .p-home {
+        padding-left: $margin-side-hd;
+    }
 }
+
+
+
+
 
 // DESKTOP - 2560PX
 @media only screen and (min-width: 2560px) {
-  .p-home {
-    padding-left: $margin-side-qhd;
-    //padding-right: $margin-side-hd;
-  }
+    .p-home {
+        padding-left: $margin-side-qhd;
+    }
+    .p-home {
+        padding-left: $margin-side-qhd;
+        //padding-right: $margin-side-hd;
+    }
 }
 
 // DESKTOP - 3840PX
 @media only screen and (min-width: 3840px) {
-  .p-home {
-    padding-left: $margin-side-4k;
-    //padding-right: $margin-side-hd;
-  }
+    .p-home {
+        padding-left: $margin-side-4k;
+    }
 }

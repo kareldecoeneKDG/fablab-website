@@ -13,14 +13,16 @@ columns:
         type: text
       messageText:
         label: Boodschap paragraaf
-        type: textarea
+        type: writer
+        inline: true
 
       whatIsFablabTitle:
         label: Wat is Fablab titel
         type: text
       whatIsFablabText:
         label: Wat is Fablab paragraaf
-        type: textarea
+        type: writer
+        inline: true
       whatIsFablabButtonText:
         label: Wat is Fablab knoptekst
         type: text
@@ -43,7 +45,8 @@ columns:
         type: text
       workingFablabText:
         label: Werking Fablab paragraaf
-        type: textarea
+        type: writer
+        inline: true
       workingFablabButtonText:
         label: Werking Fablab knoptekst
         type: text
@@ -56,7 +59,8 @@ columns:
         type: text
       biolabText:
         label: Biolab paragraaf
-        type: textarea
+        type: writer
+        inline: true
       biolabButtonText:
         label: Biolab knoptekst
         type: text

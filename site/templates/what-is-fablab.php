@@ -37,7 +37,7 @@
 
                     <!-- whatIsFablabText -->
                     <?php if($page->whatIsFablabText()->isNotEmpty()): ?>
-                        <p class="what-is-fablab-container__introduction__flexbox__left__p p"><?= $page->whatIsFablabText() ?></p>
+                        <p class="what-is-fablab-container__introduction__flexbox__left__p p"><?= $page->whatIsFablabText() //->markdown() ?></p>
                     <?php endif; ?>
 
                     <!-- TEAM FABLAB MOBILE -->
@@ -78,7 +78,7 @@
 
                                     <!-- employeeBiography -->
                                     <?php if($employee->biography()->isNotEmpty()): ?>
-                                        <p class="what-is-fablab-container__introduction__flexbox__left__team__container__biography p"><?= $employee->biography() ?></p>
+                                        <p class="what-is-fablab-container__introduction__flexbox__left__team__container__biography p"><?= $employee->biography() //->markdown() ?></p>
                                     <?php endif; ?>
                                 <?php endforeach; ?>
                             <?php endif; ?>
@@ -92,7 +92,7 @@
 
                     <!-- wordFablabText -->
                     <?php if($page->wordFablabText()->isNotEmpty()): ?>
-                        <p class="what-is-fablab-container__introduction__flexbox__left__p p"><?= $page->wordFablabText() ?></p>
+                        <p class="what-is-fablab-container__introduction__flexbox__left__p p"><?= $page->wordFablabText() //->markdown() ?></p>
                     <?php endif; ?>
 
                     <h1 class="what-is-fablab-container__introduction__flexbox__left__title h1-what-is-fablab">
@@ -135,7 +135,7 @@
 
                                 <!-- employeeBiography -->
                                 <?php if($employee->biography()->isNotEmpty()): ?>
-                                    <p class="what-is-fablab-container__introduction__flexbox__right__flexbox__box__biography p"><?= $employee->biography() ?></p>
+                                    <p class="what-is-fablab-container__introduction__flexbox__right__flexbox__box__biography p"><?= $employee->biography() //->markdown() ?></p>
                                 <?php endif; ?>
                             <?php endforeach; ?>
                         <?php endif; ?>

@@ -14,11 +14,4 @@ Wordfablabtitle: Van waar komt het woord fablab
 
 ----
 
-Wordfablabtext:
-
-Fab lab is de afkorting van het Engelse fabrication laboratory. Een fablab is een coöperatieve werkplaats waar uitvinders en ontwikkelaars gebruik kunnen maken van een collectieve infrastructuur. 
-In het Fablab kunnen machines met behulp van computer en software aangestuurd worden om dingen te maken als prototypes, maquettes en nog veel meer.
-
-Het idee is bedacht professor Neil Gershenfeld een beroemde wetenschapper en uitvinder aan het prestigieuze MIT (Massachusetts Institute of Technology). 
-
-Zijn idee was simpel : een omgeving creëren waarin skills, technologie en materialen ingezet kunnen worden om op een snelle, efficiënte manier dingen te kunnen fabriceren, eender waar in de wereld, en deze Fablabs openstellen voor entrepreneurs, studenten, artiesten, kleine ondernemingen; en in feite voor iedereen die iets wil ontwerpen of fabriceren.
+Wordfablabtext: Fab lab is de afkorting van het Engelse fabrication laboratory. Een fablab is een coöperatieve werkplaats waar uitvinders en ontwikkelaars gebruik kunnen maken van een collectieve infrastructuur. In het Fablab kunnen machines met behulp van computer en software aangestuurd worden om dingen te maken als prototypes, maquettes en nog veel meer. Het idee is bedacht professor Neil Gershenfeld een beroemde wetenschapper en uitvinder aan het prestigieuze MIT (Massachusetts Institute of Technology). Zijn idee was simpel : een omgeving creëren waarin skills, technologie en materialen ingezet kunnen worden om op een snelle, efficiënte manier dingen te kunnen fabriceren, eender waar in de wereld, en deze Fablabs openstellen voor entrepreneurs, studenten, artiesten, kleine ondernemingen; en in feite voor iedereen die iets wil ontwerpen of fabriceren.

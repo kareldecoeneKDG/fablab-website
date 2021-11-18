@@ -17,7 +17,10 @@
                         <?php endif; ?>
 
                         <!-- icon -->
-                        <i class="faq-wrapper__section__item__questioncontainer__icon fa fa-plus" aria-hidden="true"></i>
+                        <i class="faq-wrapper__section__item__questioncontainer__icon fa fa-minus icon-min" aria-hidden="true"></i>
+
+                        <!-- icon -->
+                        <i class="faq-wrapper__section__item__questioncontainer__icon fa fa-plus icon" aria-hidden="true"></i>
                     </div>
 
                     <div class="faq-wrapper__section__item__answercontainer answer p">

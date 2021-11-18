@@ -20,7 +20,7 @@
                 <ul class="header__menu__navlinks__dropdown__list dropdown-content">
                     <?php $categories = page('categories')->children()->listed();
                         foreach($categories as $category): ?>
-                        <li class="header__menu__navlinks__dropdown__list__item"><a href="<?= $category->url() ?>"><?= $category->title() ?></a></li>
+                        <li class="header__menu__navlinks__dropdown__list__item"><a class="header__menu__navlinks__dropdown__list__item__link" href="<?= $category->url() ?>"><?= $category->title() ?></a></li>
                     <?php endforeach; ?>
                 </ul>
             </div>

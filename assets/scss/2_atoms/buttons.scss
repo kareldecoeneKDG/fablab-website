@@ -24,6 +24,21 @@
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.35);
 }
 
+.button-big:hover {
+  cursor: pointer;
+  background-color: $yellow-opacity;
+  color: $black;
+  transition: 0.3s;
+  box-shadow: none;
+}
+
+.button-big:focus {
+  border: 1px solid $yellow;
+  background-color: $white;
+  color: $black;
+  box-shadow: none;
+}
+
 .button-small {
   background-color: $yellow;
   color: $black;
@@ -38,21 +53,6 @@
 }
 
 .button-small:focus {
-  border: 1px solid $yellow;
-  background-color: $white;
-  color: $black;
-  box-shadow: none;
-}
-
-.button-big:hover {
-  cursor: pointer;
-  background-color: $yellow-opacity;
-  color: $black;
-  transition: 0.3s;
-  box-shadow: none;
-}
-
-.button-big:focus {
   border: 1px solid $yellow;
   background-color: $white;
   color: $black;
@@ -105,7 +105,6 @@
 .button-home {
   background-color: $yellow;
   color: $black;
-  //padding: 20px 40px 20px 40px;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.35);
 }
 
@@ -125,7 +124,6 @@
   // GENERAL BUTTONS
   .button-home {
     margin-left: $margin-side-hd;
-    //margin-right: $margin-side-hd;
   }
 }
 
@@ -134,7 +132,6 @@
   // GENERAL BUTTONS
   .button-home {
     margin-left: $margin-side-qhd;
-    //margin-right: $margin-side-hd;
   }
 }
 
@@ -143,6 +140,5 @@
   // GENERAL BUTTONS
   .button-home {
     margin-left: $margin-side-4k;
-    //margin-right: $margin-side-hd;
   }
 }
