@@ -116,3 +116,12 @@ tabs:
   settings:
     icon: cog
     fields:
+      fablabLogo:
+        label: Fablab logo
+        type: files
+        max: 1
+
+      flagImage:
+        label: Vlaggetje taal
+        type: files
+        max: 1

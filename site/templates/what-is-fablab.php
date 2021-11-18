@@ -42,7 +42,11 @@
 
                     <!-- TEAM FABLAB MOBILE -->
                     <div class="what-is-fablab-container__introduction__flexbox__left__team">
-                        <h2 class="what-is-fablab-container__introduction__flexbox__left__team__title h2">Team Fablab</h2>
+
+                        <div class="what-is-fablab-container__introduction__flexbox__left__team__titlecontainer">
+                            <h2 class="what-is-fablab-container__introduction__flexbox__left__team__titlecontainer__title h2">Team Fablab</h2>
+                        </div>
+
                         <div class="what-is-fablab-container__introduction__flexbox__left__team__container">
 
                             <!-- GET INFO FROM CONTACTPAGE -->
@@ -71,6 +75,11 @@
                                             <?php endif; ?>
                                         </div>
                                     </div>
+
+                                    <!-- employeeBiography -->
+                                    <?php if($employee->biography()->isNotEmpty()): ?>
+                                        <p class="what-is-fablab-container__introduction__flexbox__left__team__container__biography p"><?= $employee->biography() ?></p>
+                                    <?php endif; ?>
                                 <?php endforeach; ?>
                             <?php endif; ?>
                         </div>  
@@ -94,11 +103,11 @@
 
                 <!-- TEAM FABLAB DESKTOP -->
                 <div class="what-is-fablab-container__introduction__flexbox__right">
-                    <div class="what-is-fablab-container__introduction__flexbox__right__titlecontainer">
-                        <h2 class="what-is-fablab-container__introduction__flexbox__right__titlecontainer__title h2">Team Fablab</h2>
-                    </div>
-
                     <div class="what-is-fablab-container__introduction__flexbox__right__flexbox">
+
+                        <div class="what-is-fablab-container__introduction__flexbox__right__titlecontainer">
+                            <h2 class="what-is-fablab-container__introduction__flexbox__right__titlecontainer__title h2">Team Fablab</h2>
+                        </div>
 
                         <!-- GET INFO FROM CONTACTPAGE -->
                         <?php if($contactpage = page('contact')): ?>
@@ -111,16 +120,23 @@
                                         <img class="what-is-fablab-container__introduction__flexbox__right__flexbox__box__img" src="<?= $employeeImg->crop(150)->url() ?>" alt="bla">
                                     <?php endif; ?>
 
-                                    <!-- employeeName -->
-                                    <?php if($employee->name()->isNotEmpty()): ?>
-                                        <h3 class="what-is-fablab-container__introduction__flexbox__right__flexbox__box__title h3"><?= $employee->name() ?></h3>
-                                    <?php endif; ?>
+                                    <div class="what-is-fablab-container__introduction__flexbox__right__flexbox__box__box">
+                                        <!-- employeeName -->
+                                        <?php if($employee->name()->isNotEmpty()): ?>
+                                            <h3 class="what-is-fablab-container__introduction__flexbox__right__flexbox__box__title h3"><?= $employee->name() ?></h3>
+                                        <?php endif; ?>
 
-                                    <!-- employeeFunction -->
-                                    <?php if($employee->function()->isNotEmpty()): ?>
-                                        <p class="what-is-fablab-container__introduction__flexbox__right__flexbox__box__function p"><?= $employee->function() ?></p>
-                                    <?php endif; ?>
+                                        <!-- employeeFunction -->
+                                        <?php if($employee->function()->isNotEmpty()): ?>
+                                            <p class="what-is-fablab-container__introduction__flexbox__right__flexbox__box__function p"><?= $employee->function() ?></p>
+                                        <?php endif; ?>
+                                    </div>
                                 </div>
+
+                                <!-- employeeBiography -->
+                                <?php if($employee->biography()->isNotEmpty()): ?>
+                                    <p class="what-is-fablab-container__introduction__flexbox__right__flexbox__box__biography p"><?= $employee->biography() ?></p>
+                                <?php endif; ?>
                             <?php endforeach; ?>
                         <?php endif; ?>
                     </div>
@@ -129,57 +145,5 @@
         </div>
     </main>
 
-    <main class="dropdowntest">
-        <section class="sectionjs">
-            <h2 class="title">FAQs</h2>
-
-            <div class="faq">
-                <div class="question">
-                    <h3>What is Java?</h3>
-                    <svg width="15" height="10" viewBox="0 0 42 25">
-                        <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
-                    </svg>
-                </div>
-                <div class="answer">
-                    <p>
-                        Het is al geruime tijd een bekend gegeven dat een lezer, tijdens het bekijken van de layout van een pagina, afgeleid wordt door de tekstuele inhoud.
-                    </p>
-                </div>
-            </div>
-
-            <div class="faq">
-                <div class="question">
-                    <h3>What is Java?</h3>
-                    <svg width="15" height="10" viewBox="0 0 42 25">
-                        <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
-                    </svg>
-                </div>
-                <div class="answer">
-                    <p>
-                        Het is al geruime tijd een bekend gegeven dat een lezer, tijdens het bekijken van de layout van een pagina, afgeleid wordt door de tekstuele inhoud.
-                    </p>
-                </div>
-            </div>
-
-            <div class="faq">
-                <div class="question">
-                    <h3>What is Java?</h3>
-                    <svg width="15" height="10" viewBox="0 0 42 25">
-                        <path d="M3 3L21 21L39 3" stroke="white" stroke-width="7" stroke-linecap="round"/>
-                    </svg>
-                </div>
-                <div class="answer">
-                    <p>
-                        Het is al geruime tijd een bekend gegeven dat een lezer, tijdens het bekijken van de layout van een pagina, afgeleid wordt door de tekstuele inhoud.
-                    </p>
-                </div>
-            </div>
-
-        </section>
-    </main>
-
 <!-- SNIPPET - FOOTER -->
 <?php snippet('footer') ?>
-
-<!-- JAVASCRIPT ACCORDION TRY -->
-<?= js('build/js/accordionkarrel.js') ?>

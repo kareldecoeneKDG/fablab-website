@@ -1,10 +1,7 @@
+const faqs = document.querySelectorAll(".faq");
 
-const elements = document.querySelectorAll('.faq');
-
-elements.forEach((element) =>{
-   element.addEventListner("click", () => {
-        element.classList.add(".active");
-   });
-    
+faqs.forEach((faq) => {
+    faq.addEventListener("click", () => {
+        faq.classList.toggle("active");
+    });
 });
-

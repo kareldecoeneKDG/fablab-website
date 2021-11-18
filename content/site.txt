@@ -55,33 +55,33 @@ Navigationlinks:
 
 - 
   anchor: Home
-  pages:
-    - home
   page:
+    - home
+  pages:
     - home
 - 
   anchor: Machines
-  pages:
-    - categories
   page:
+    - categories
+  pages:
     - categories
 - 
   anchor: Reserveren
-  pages:
-    - reserve
   page:
+    - reserve
+  pages:
     - reserve
 - 
   anchor: Blog
-  pages:
-    - blog
   page:
+    - blog
+  pages:
     - blog
 - 
   anchor: Contact
-  pages:
-    - contact
   page:
+    - contact
+  pages:
     - contact
 
 ----
@@ -94,24 +94,24 @@ Infolinks:
 
 - 
   anchor: FAQ
-  pages: [ ]
   page:
     - faq
+  pages: [ ]
 - 
   anchor: Huisregels
-  pages: [ ]
   page:
     - house-rules
+  pages: [ ]
 - 
   anchor: Prijslijst
-  pages: [ ]
   page:
     - price-list
+  pages: [ ]
 - 
   anchor: Wat is Fablab
-  pages: [ ]
   page:
     - what-is-fablab
+  pages: [ ]
 
 ----
 
@@ -124,3 +124,15 @@ Kdgimage:
 Provinceantwerpimage:
 
 - footer-provinciea.png
+
+----
+
+Fablablogo:
+
+- fablab_logo.svg
+
+----
+
+Flagimage:
+
+- be.svg

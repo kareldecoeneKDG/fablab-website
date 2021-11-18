@@ -17,9 +17,30 @@
                     margin-top: 30px;
                 }
 
+                &__p {
+                    padding-bottom: 50px;
+                }
+
                 &__team {
-                    &__title {
-                        margin-top: 20px;
+                    background-color: $white;
+                    border: 2px solid $yellow;
+                    padding: 55px 16px 20px 16px;
+                    position: relative;
+                    border-radius: $border-radius-small;
+
+                    &__titlecontainer {
+                        //margin-top: 20px;
+                        position: absolute;
+                        background-color: $black;
+                        color: $yellow;
+                        top: -25px;
+                        left: 15%;
+                        transform: skewY(-2deg);
+
+                        &__title {
+                            margin: 0;
+                            padding: 14px 25px;
+                        }
                     }
 
                     &__container {
@@ -29,16 +50,22 @@
                             justify-content: space-between;
 
                             &__box {
-                                width: 50%;
+                                //width: 50%;
+                                min-width: 40%;
+
+                                &__title {
+                                    margin-top: 5px;
+                                }
     
                                 &__function {
                                     color: $grey;
                                     font-size: $p-small-font-size-mobile;
+                                    line-height: 18px;
                                 }
 
                                 &__img {
-                                    width: 35vw;
-                                    height: 35vw;
+                                    width: 27vw;
+                                    height: 27vw;
                                     object-fit: cover;
                                     border-radius: $border-radius-big;
                                 }
@@ -47,6 +74,14 @@
                             &__box:first-of-type {
                                 margin-bottom: 10px;
                             }
+                        }
+
+                        &__flexbox:last-of-type {
+                            margin-top: 30px;
+                        }
+
+                        &__biography {
+                            margin-top: 5px;
                         }
                     }
                 }
@@ -65,6 +100,7 @@
     font-weight: $h2-font-weight;
     margin: $h2-margin-mobile;
     margin-bottom: 30px;
+    margin-top: 0;
 
     span:first-of-type {
         color: $yellow;
@@ -72,6 +108,89 @@
 
     span:last-of-type {
         color: #747474;
+    }
+}
+
+
+
+
+
+// MOBILE MIDDLE TALL
+@media only screen and (min-height: 640px) {
+    .what-is-fablab-container {
+        &__introduction {
+            &__flexbox {
+                &__left {
+                    &__team {
+                        &__titlecontainer {
+                            left: 20%;
+                        }
+
+                        &__container {
+                            &__flexbox {
+                                &__box {
+                                    &__title {
+                                        margin-top: 12px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+// MOBILE MIDDLE TALL
+@media only screen and (min-height: 730px) {
+    .what-is-fablab-container {
+        &__introduction {
+            &__flexbox {
+                &__left {
+                    &__team {
+                        &__titlecontainer {
+                            left: 24%;
+                        }
+
+                        &__container {
+                            &__flexbox {
+                                &__box {
+                                    &__title {
+                                        margin-top: 16px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+// MOBILE MIDDLE TALL
+@media only screen and (min-height: 800px) {
+    .what-is-fablab-container {
+        &__introduction {
+            &__flexbox {
+                &__left {
+                    &__team {
+                        &__titlecontainer {
+                            left: 22%;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -122,7 +241,7 @@
                         top: -30px;
                         width: 230px;
                         height: 50px;
-                        transform: skewY(2deg);
+                        transform: skewY(-2deg);
 
                         &__title {
                             position: absolute;
@@ -137,24 +256,39 @@
 
                     &__flexbox {
                         display: flex;
-                        flex-direction: row;
+                        flex-direction: column;
                         justify-content: space-around;
                         background-color: $white;
                         border: 2px solid $yellow;
                         width: 100%;
-                        padding-top: 40px;
-                        padding-bottom: 40px;
                         border-radius: $border-radius-big;
+                        padding: 40px;
 
                         &__box {
-                            width: 30%;
+                            //min-width: 20%;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
 
                             &__img {
-                                width: 100%;
-                                height: 21vh;
+                                width: 60%;
+                                height: auto;
+                                //height: 21vh;
                                 border-radius: $border-radius-big;
                                 //transform: skewY(3deg);
                             }
+
+                            &__box {
+                                margin-left: 30px;
+                            }
+
+                            &__biography {
+                                margin-top: 20px;
+                            }
+                        }
+
+                        &__box:last-of-type {
+                            margin-top: 30px;
                         }
                     }
                 }
@@ -182,6 +316,18 @@
                     &__titlecontainer {
                         left: 15vw;
                     }
+
+                    &__flexbox {
+                        &__box {
+                            &__img {
+                                width: 30%;
+                            }
+
+                            &__box {
+                                margin-top: 15px;
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -200,6 +346,18 @@
                 &__right {
                     &__titlecontainer {
                         left: 16vw;
+                    }
+
+                    &__flexbox {
+                        &__box {
+                            &__img {
+                                width: 30%;
+                            }
+
+                            &__box {
+                                margin-top: 15px;
+                            }
+                        }
                     }
                 }
             }
@@ -223,14 +381,6 @@
                     &__titlecontainer {
                         left: 11.5vw;
                     }
-
-                    &__flexbox {
-                        &__box {
-                            &__img {
-                                height: 15vh;
-                            }
-                        }
-                    }
                 }
             }
         }
@@ -253,14 +403,6 @@
                     &__titlecontainer {
                         left: 8.5vw;
                     }
-
-                    &__flexbox {
-                        &__box {
-                            &__img {
-                                height: 12vh;
-                            }
-                        }
-                    }
                 }
             }
         }
@@ -282,14 +424,6 @@
                 &__right {
                     &__titlecontainer {
                         left: 5.5vw;
-                    }
-
-                    &__flexbox {
-                        &__box {
-                            &__img {
-                                height: 8.25vh;
-                            }
-                        }
                     }
                 }
             }

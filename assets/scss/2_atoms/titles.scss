@@ -240,25 +240,32 @@
   }
 }
 
+
+
+
+
 // DESKTOP - 1920PX
 @media only screen and (min-width: 1920px) {
   // GENERAL BUTTONS
   .h2-home {
     padding-left: $margin-side-hd;
+    background-color: initial;
+    color: $black;
+    font-size: $h2-home-font-size-hd;
   }
 
   // HOME
   .home-container {
     &__introduction {
       &__title {
-        margin-right: 71%;
+        margin-right: $margin-side-desktop;
       }
     }
 
     &__working {
       &__banner {
         &__title {
-          margin-right: 70%;
+          margin-right: $margin-side-desktop;
         }
       }
     }
@@ -266,7 +273,7 @@
     &__biolab {
       &__banner {
         &__title {
-          margin-right: 75%;
+          margin-right: $margin-side-desktop;
         }
       }
     }
@@ -287,14 +294,14 @@
   .home-container {
     &__introduction {
       &__title {
-        margin-right: 65%;
+        margin-right: $margin-side-qhd;
       }
     }
 
     &__working {
       &__banner {
         &__title {
-          margin-right: 64%;
+          margin-right: $margin-side-qhd;
         }
       }
     }
@@ -302,7 +309,7 @@
     &__biolab {
       &__banner {
         &__title {
-          margin-right: 68%;
+          margin-right: $margin-side-qhd;
         }
       }
     }
@@ -322,14 +329,14 @@
   .home-container {
     &__introduction {
       &__title {
-        margin-right: 60%;
+        margin-right: $margin-side-4k;
       }
     }
 
     &__working {
       &__banner {
         &__title {
-          margin-right: 59%;
+          margin-right: $margin-side-4k;
         }
       }
     }
@@ -337,7 +344,7 @@
     &__biolab {
       &__banner {
         &__title {
-          margin-right: 62%;
+          margin-right: $margin-side-4k;
         }
       }
     }
