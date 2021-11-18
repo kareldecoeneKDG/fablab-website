@@ -22,11 +22,12 @@
     </div>
 
     <!-- CONTENT -->
-        <section class="machine-wrapper">
-            <div class="machine-wrapper__banner">
-                <h1 class="machine-wrapper__banner__title h1"><?= $page->title() ?></h1>
-                <a class="machine-wrapper__banner__button button-small button-reserveer" href="#">Reserveer</a>
+            <div class="machine-banner">
+                <h1 class="machine-banner__title h1"><?= $page->title() ?></h1>
+                <a class="machine-banner__button button-small button-reserveer" href="#">Reserveer</a>
             </div>
+        <div class="machine-image-wrapper">
+        <section class="machine-wrapper">
             <table class="machine-wrapper__info">
                     <?php if ($page->manufactur()->isNotEmpty()): ?>
                         <tr class="machine-wrapper__info__row">
@@ -125,6 +126,10 @@
                 </div>
             <?php endif ?>            
         </section>
+        <?php if ($page->images()->isNotEmpty()): ?>
+                <img  class="machine-wrapper__img-desktop img" src="<?= $page->images()->first()->url()?>" alt="">
+        <?php endif ?>
+        </div>
     </main>
     
 <?php snippet('footer') ?>

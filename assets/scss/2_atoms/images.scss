@@ -81,6 +81,9 @@
   &__img {
     border-radius: $border-radius-small;
   }
+  &__img-desktop {
+    display: none;
+  }
 }
 
 // HEADER
@@ -138,11 +141,23 @@
         width: 250px;
         height: 250px;
       }
-      &__img:nth-child(even) {
-      }
       &__img:nth-child(odd) {
         right: 75%;
       }
+    }
+  }
+
+  //MACHINE-DETAIl
+  .machine-wrapper {
+    &__img {
+      display: none;
+    }
+    &__img-desktop {
+      display: block;
+      max-width: 560px; /* you can use % */
+      max-height: 315px;
+      position: relative;
+      top: 150px;
     }
   }
   //BLOG

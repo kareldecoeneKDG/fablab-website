@@ -1,15 +1,35 @@
-.machine-wrapper {
-    margin-left: 5%;
-    margin-right: 5%;
-    
-    &__banner {
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
+.machine-image-wrapper {
+  margin: $margin-side-mobile;
 }
 
 .machine-wrapper {
+  &__info {
+    padding-bottom: 30px;
+  }
+}
+
+.machine-banner {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+//MOBILE
+@media screen and (min-width: 1280px) {
+  .machine-banner {
+    padding-left: $margin-side-desktop;
+    padding-right: $margin-side-desktop;
+  }
+  .machine-image-wrapper {
+    margin-left: $margin-side-desktop;
+    margin-right: $margin-side-desktop;
+  }
+  .machine-wrapper {
     &__info {
-        padding-bottom: 30px;
+      padding-bottom: 30px;
     }
+  }
+  .machine-image-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
 }
