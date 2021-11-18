@@ -82,15 +82,13 @@
     display: none;
 }
 
-
-
 // fade animation menu item
 @keyframes navLinkFade {
-    from{
+    from {
         opacity: 0;
         transform: translateX(-50px);
     }
-    to{
+    to {
         opacity: 1;
         transform: translateX(0px);
     }
@@ -98,7 +96,7 @@
 
 // animate different lines of burger with toggle class
 .toggle .line1 {
-    transform: rotate(-45deg) translate(-5px,6px);
+    transform: rotate(-45deg) translate(-5px, 6px);
     background-color: white;
 }
 
@@ -107,13 +105,9 @@
 }
 
 .toggle .line3 {
-    transform: rotate(45deg) translate(-5px,-6px);
+    transform: rotate(45deg) translate(-5px, -6px);
     background-color: white;
 }
-
-
-
-
 
 // TABLET PORTRAIT
 @media screen and (min-width: 768px) {
@@ -121,10 +115,6 @@
         width: 50%;
     }
 }
-
-
-
-
 
 // DESKTOP - 1280PX
 @media only screen and (min-width: 1280px) {
@@ -144,20 +134,20 @@
                 transform: translateX(0%);
                 height: 140px;
                 position: initial;
-    
+
                 &__item {
                     opacity: 1;
-    
+
                     &__link {
                         color: $black;
                     }
-    
+
                     &__link:hover {
                         border-bottom: 3px solid $yellow;
                     }
                 }
             }
-    
+
             &__burger {
                 display: none;
                 z-index: 1;
@@ -180,10 +170,6 @@
     }
 }
 
-
-
-
-
 // DESKTOP - 1920PX
 @media only screen and (min-width: 1920px) {
     .header {
@@ -194,10 +180,6 @@
     }
 }
 
-
-
-
-
 // DESKTOP - 2560PX
 @media only screen and (min-width: 2560px) {
     .header {
@@ -207,10 +189,6 @@
         }
     }
 }
-
-
-
-
 
 // DESKTOP - 3840PX
 @media only screen and (min-width: 3840px) {

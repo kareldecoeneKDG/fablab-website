@@ -1,19 +1,19 @@
 // MOBILE
 .content-blog {
-  margin: $margin-side-mobile;
-  margin-top: calc(12vh + 30px);
+    margin: $margin-side-mobile;
+    margin-top: calc(12vh + 30px);
 }
 
 //MOBILE
 @media screen and (min-width: 1280px) {
-  .content-blog {
-    margin: $margin-side-desktop;
-    margin-top: calc(12vh + 30px);
-  }
+    .content-blog {
+        margin: $margin-side-desktop;
+        margin-top: calc(12vh + 30px);
+    }
 
-  .blog-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
+    .blog-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
 }

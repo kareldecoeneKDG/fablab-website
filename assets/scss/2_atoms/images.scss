@@ -2,234 +2,234 @@
 
 // CONTACT
 .contact-container {
-  &__general {
-    &__flexbox {
-      &__left {
-        &__img {
-          width: 100px;
-          height: 100px;
-          object-fit: cover;
-          transform: skewY(5deg);
-          border-radius: $border-radius-big;
-          margin-left: 14px;
+    &__general {
+        &__flexbox {
+            &__left {
+                &__img {
+                    width: 100px;
+                    height: 100px;
+                    object-fit: cover;
+                    transform: skewY(5deg);
+                    border-radius: $border-radius-big;
+                    margin-left: 14px;
+                }
+            }
         }
-      }
     }
-  }
 }
 
 //BLOG
 .blog-wrapper {
-  &__blog-overview {
-    &__img {
-      object-fit: cover;
-      width: 100%;
-      height: 225px;
-      overflow: hidden;
-      border-top-left-radius: 4%;
-      border-top-right-radius: 4%;
+    &__blog-overview {
+        &__img {
+            object-fit: cover;
+            width: 100%;
+            height: 225px;
+            overflow: hidden;
+            border-top-left-radius: 4%;
+            border-top-right-radius: 4%;
+        }
     }
-  }
 }
 
 .overview-image {
-  width: 337.5px;
-  height: 225px;
-  object-fit: cover;
+    width: 337.5px;
+    height: 225px;
+    object-fit: cover;
 }
 
 // CATEGORY
 .category-wrapper {
-  &__images-wrapper {
-    padding-top: 30px;
-    margin-bottom: -30px;
-    display: flex;
-    flex-direction: column;
+    &__images-wrapper {
+        padding-top: 30px;
+        margin-bottom: -30px;
+        display: flex;
+        flex-direction: column;
 
-    &__img {
-      width: 200px;
-      height: 200px;
-      object-fit: cover;
-      border-radius: $border-radius-big;
-      transform: skewY(-5deg);
-      margin-left: 14px;
-      position: relative;
+        &__img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: $border-radius-big;
+            transform: skewY(-5deg);
+            margin-left: 14px;
+            position: relative;
+        }
+        &__img:nth-child(even) {
+            align-self: end;
+            bottom: 50px;
+        }
     }
-    &__img:nth-child(even) {
-      align-self: end;
-      bottom: 50px;
-    }
-  }
 }
 
 .category-wrapper {
-  &__machines-wrapper {
-    &__list {
-      &__item {
-        &__link {
-          &__img {
-            border-radius: $border-radius-big;
-            max-height: 200px;
-          }
+    &__machines-wrapper {
+        &__list {
+            &__item {
+                &__link {
+                    &__img {
+                        border-radius: $border-radius-big;
+                        max-height: 200px;
+                    }
+                }
+            }
         }
-      }
     }
-  }
 }
 
 .machine-wrapper {
-  &__img {
-    border-radius: $border-radius-small;
-  }
-  &__img-desktop {
-    display: none;
-  }
+    &__img {
+        border-radius: $border-radius-small;
+    }
+    &__img-desktop {
+        display: none;
+    }
 }
 
 // HEADER
 .header {
-  &__logo {
-    &__img {
-      width: 70px;
-      margin-top: 5px;
+    &__logo {
+        &__img {
+            width: 70px;
+            margin-top: 5px;
+        }
     }
-  }
 }
 
 // FOOTER
 .footer {
-  &__content {
-    &__block {
-      &__imageholder {
-        display: block;
-        width: 100%;
-        text-align: left;
+    &__content {
+        &__block {
+            &__imageholder {
+                display: block;
+                width: 100%;
+                text-align: left;
 
-        &__img {
-          width: 215px;
+                &__img {
+                    width: 215px;
+                }
+            }
         }
-      }
     }
-  }
 }
 
 // HOME
 .home-container {
-  &__partners {
-    &__img {
-      display: block;
-      width: 215px;
+    &__partners {
+        &__img {
+            display: block;
+            width: 215px;
+        }
     }
-  }
 }
 
 // WHAT IS FABLAB
 .what-is-fablab-container {
-  &__introduction {
-    &__flexbox {
-      &__left {
-        &__team {
-          &__container {
-            &__flexbox {
-              &__box {
-                &__img {
-                  width: 27vw;
-                  height: 27vw;
-                  object-fit: cover;
-                  border-radius: $border-radius-big;
+    &__introduction {
+        &__flexbox {
+            &__left {
+                &__team {
+                    &__container {
+                        &__flexbox {
+                            &__box {
+                                &__img {
+                                    width: 27vw;
+                                    height: 27vw;
+                                    object-fit: cover;
+                                    border-radius: $border-radius-big;
+                                }
+                            }
+                        }
+                    }
                 }
-              }
             }
-          }
         }
-      }
     }
-  }
 }
 
 // DESKTOP - 1280PX
 @media only screen and (min-width: 1280px) {
-  // CONTACT
-  .contact-container {
-    &__general {
-      &__flexbox {
-        &__left {
-          &__img {
-            width: 120px;
-            height: 120px;
-          }
-        }
-      }
-    }
-  }
-
-  //CATEGORY
-  .category-wrapper {
-    &__images-wrapper {
-      padding-top: 30px;
-      margin-bottom: -30px;
-      display: flex;
-      flex-direction: column;
-
-      &__img {
-        width: 250px;
-        height: 250px;
-      }
-      &__img:nth-child(odd) {
-        right: 75%;
-      }
-    }
-  }
-
-  //MACHINE-DETAIl
-  .machine-wrapper {
-    &__img {
-      display: none;
-    }
-    &__img-desktop {
-      display: block;
-      max-width: 560px; /* you can use % */
-      max-height: 315px;
-      position: relative;
-      top: 150px;
-    }
-  }
-  //BLOG
-  .blog-wrapper {
-    &__blog-overview {
-      &__img {
-        width: 307px;
-        height: 200px;
-      }
-    }
-  }
-  // FOOTER
-  .footer {
-    &__content {
-      &__block {
-        &__imageholder {
-          text-align: left;
-        }
-      }
-    }
-
-    // DESKTOP - 1600PX
-    @media screen and (min-width: 1600px) {
-      .what-is-fablab-container {
-        &__introduction {
-          &__flexbox {
-            &__right {
-              &__flexbox {
-                &__box {
-                  &__img {
-                    width: 30%;
-                  }
+    // CONTACT
+    .contact-container {
+        &__general {
+            &__flexbox {
+                &__left {
+                    &__img {
+                        width: 120px;
+                        height: 120px;
+                    }
                 }
-              }
             }
-          }
         }
-      }
     }
-  }
+
+    //CATEGORY
+    .category-wrapper {
+        &__images-wrapper {
+            padding-top: 30px;
+            margin-bottom: -30px;
+            display: flex;
+            flex-direction: column;
+
+            &__img {
+                width: 250px;
+                height: 250px;
+            }
+            &__img:nth-child(odd) {
+                right: 75%;
+            }
+        }
+    }
+
+    //MACHINE-DETAIl
+    .machine-wrapper {
+        &__img {
+            display: none;
+        }
+        &__img-desktop {
+            display: block;
+            max-width: 560px; /* you can use % */
+            max-height: 315px;
+            position: relative;
+            top: 150px;
+        }
+    }
+    //BLOG
+    .blog-wrapper {
+        &__blog-overview {
+            &__img {
+                width: 307px;
+                height: 200px;
+            }
+        }
+    }
+    // FOOTER
+    .footer {
+        &__content {
+            &__block {
+                &__imageholder {
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+
+// DESKTOP - 1600PX
+@media screen and (min-width: 1600px) {
+    .what-is-fablab-container {
+        &__introduction {
+            &__flexbox {
+                &__right {
+                    &__flexbox {
+                        &__box {
+                            &__img {
+                                width: 30%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

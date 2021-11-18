@@ -61,8 +61,7 @@
                     opacity: 0;
                     margin-top: 20px;
                     transform: scale(0.9);
-                    transition: opacity 500ms ease-in-out 0ms,
-                                transform 500ms ease-in-out 0ms;
+                    transition: opacity 500ms ease-in-out 0ms, transform 500ms ease-in-out 0ms;
 
                     div {
                         position: relative;
@@ -92,10 +91,6 @@
         }
     }
 }
-
-
-
-
 
 // DESKTOP - 1280PX
 @media only screen and (min-width: 1280px) {
@@ -133,17 +128,13 @@
                     }
                 }
             }
-    
+
             &__title {
                 margin-top: 0;
             }
         }
     }
 }
-
-
-
-
 
 // DESKTOP - 1440PX
 @media only screen and (min-width: 1440px) {
@@ -181,17 +172,13 @@
                     }
                 }
             }
-    
+
             &__title {
                 margin-top: 0;
             }
         }
     }
 }
-
-
-
-
 
 // DESKTOP - 1536PX
 @media only screen and (min-width: 1536px) {
@@ -214,10 +201,6 @@
     }
 }
 
-
-
-
-
 // DESKTOP - 1600PX
 @media only screen and (min-width: 1600px) {
     .home-container {
@@ -228,10 +211,6 @@
         }
     }
 }
-
-
-
-
 
 // DESKTOP - 1920PX
 @media only screen and (min-width: 1920px) {
@@ -259,10 +238,6 @@
     }
 }
 
-
-
-
-
 // DESKTOP - 2560PX
 @media only screen and (min-width: 2560px) {
     .home-container {
@@ -285,10 +260,6 @@
         }
     }
 }
-
-
-
-
 
 // DESKTOP - 3840PX
 @media only screen and (min-width: 3840px) {

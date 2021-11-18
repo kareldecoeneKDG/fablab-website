@@ -1,19 +1,19 @@
 .machine-banner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: $black;
-  background-size: cover;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: $black;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
 }
 
 @media screen and (min-width: 1280px) {
-  .machine-banner {
-    flex-direction: unset;
-    &__title {
-      flex: 1;
+    .machine-banner {
+        flex-direction: unset;
+        &__title {
+            flex: 1;
+        }
     }
-  }
 }

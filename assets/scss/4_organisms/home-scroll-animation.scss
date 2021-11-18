@@ -34,23 +34,20 @@
     }
 }
 
-@keyframes scroll{
-    0%{
+@keyframes scroll {
+    0% {
         opacity: 0;
         transform: rotate(45deg) translate(-20px, -20px);
     }
-    50%{
+    50% {
         opacity: 1;
         transform: rotate(45deg) translate(-20px, -20px);
     }
-    100%{
+    100% {
         opacity: 1;
         transform: rotate(45deg) translate(20px, 20px);
     }
 }
-
-
-
 
 // DESKTOP - 1280PX
 @media only screen and (min-width: 1280px) {
@@ -69,10 +66,6 @@
         }
     }
 }
-
-
-
-
 
 // DESKTOP - 1920PX
 @media only screen and (min-width: 1920px) {
@@ -98,10 +91,6 @@
     }
 }
 
-
-
-
-
 // DESKTOP - 2560PX
 @media only screen and (min-width: 2560px) {
     .home-container {
@@ -118,10 +107,6 @@
         }
     }
 }
-
-
-
-
 
 // DESKTOP - 3840PX
 @media only screen and (min-width: 3840px) {

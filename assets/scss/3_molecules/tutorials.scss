@@ -1,10 +1,10 @@
 @media only screen and (min-width: 1280px) {
-  .machine-wrapper {
-    &__tutorial-wrapper {
-      &__video-wrapper {
-        display: flex;
-        justify-content: space-between;
-      }
+    .machine-wrapper {
+        &__tutorial-wrapper {
+            &__video-wrapper {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
     }
-  }
 }

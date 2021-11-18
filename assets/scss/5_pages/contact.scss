@@ -1,196 +1,196 @@
 // MOBILE
 .contact-container {
-  background-color: $background-grey;
+    background-color: $background-grey;
 
-  &__contact {
-    padding-top: calc(12vh + 30px);
+    &__contact {
+        padding-top: calc(12vh + 30px);
 
-    &__flexbox {
-      &__data {
+        &__flexbox {
+            &__data {
+                margin-left: $margin-side-mobile;
+                margin-right: $margin-side-mobile;
+
+                &__link:first-of-type {
+                    margin-bottom: 8px;
+                }
+
+                &__link {
+                    display: block;
+                    font-size: $p-big-font-size-mobile;
+                }
+
+                &__socials {
+                    margin-top: 30px;
+
+                    &__item {
+                        display: inline;
+                    }
+                }
+            }
+        }
+    }
+
+    &__general {
         margin-left: $margin-side-mobile;
         margin-right: $margin-side-mobile;
 
-        &__link:first-of-type {
-          margin-bottom: 8px;
-        }
+        &__flexbox {
+            margin-top: 30px;
 
-        &__link {
-          display: block;
-          font-size: $p-big-font-size-mobile;
-        }
+            &__left {
+                &__function {
+                    color: $grey;
+                }
 
-        &__socials {
-          margin-top: 30px;
+                &__contact {
+                    display: block;
+                    font-size: $p-big-font-size-mobile;
+                }
+            }
 
-          &__item {
-            display: inline;
-          }
+            &__left:last-of-type {
+                margin-top: 30px;
+            }
         }
-      }
     }
-  }
-
-  &__general {
-    margin-left: $margin-side-mobile;
-    margin-right: $margin-side-mobile;
-
-    &__flexbox {
-      margin-top: 30px;
-
-      &__left {
-        &__function {
-          color: $grey;
-        }
-
-        &__contact {
-          display: block;
-          font-size: $p-big-font-size-mobile;
-        }
-      }
-
-      &__left:last-of-type {
-        margin-top: 30px;
-      }
-    }
-  }
 }
 
 // for contactform
 .alert {
-  margin-bottom: 25px;
-  font-weight: bold;
-  color: red;
+    margin-bottom: 25px;
+    font-weight: bold;
+    color: red;
 }
 
 .error {
-  margin-bottom: 25px;
-  font-weight: bold;
-  color: red;
+    margin-bottom: 25px;
+    font-weight: bold;
+    color: red;
 }
 
 // DESKTOP - 1280PX
 @media only screen and (min-width: 1280px) {
-  .contact-container {
-    &__contact {
-      padding-top: 210px;
+    .contact-container {
+        &__contact {
+            padding-top: 210px;
 
-      &__flexbox {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-left: $margin-side-desktop;
-        margin-right: 222px;
+            &__flexbox {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-left: $margin-side-desktop;
+                margin-right: 222px;
 
-        &__data {
-          margin-left: $margin-side-mobile;
-          margin-right: $margin-side-mobile;
-          width: 40%;
+                &__data {
+                    margin-left: $margin-side-mobile;
+                    margin-right: $margin-side-mobile;
+                    width: 40%;
 
-          &__link:first-of-type {
-            margin-bottom: 8px;
-          }
+                    &__link:first-of-type {
+                        margin-bottom: 8px;
+                    }
 
-          &__link {
-            display: block;
-            font-size: $p-big-font-size-mobile;
-          }
+                    &__link {
+                        display: block;
+                        font-size: $p-big-font-size-mobile;
+                    }
 
-          &__socials {
-            margin-top: 30px;
+                    &__socials {
+                        margin-top: 30px;
 
-            &__item {
-              display: inline;
+                        &__item {
+                            display: inline;
+                        }
+                    }
+                }
             }
-          }
         }
-      }
+
+        &__general {
+            margin-top: 70px;
+            margin-left: $margin-side-desktop;
+            margin-right: 222px;
+
+            &__flexbox {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+
+                &__left {
+                    width: 100%;
+
+                    &__function {
+                        width: 60%;
+                    }
+                }
+
+                &__left:last-of-type {
+                    margin-top: 0px;
+                }
+            }
+        }
     }
-
-    &__general {
-      margin-top: 70px;
-      margin-left: $margin-side-desktop;
-      margin-right: 222px;
-
-      &__flexbox {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-
-        &__left {
-          width: 100%;
-
-          &__function {
-            width: 60%;
-          }
-        }
-
-        &__left:last-of-type {
-          margin-top: 0px;
-        }
-      }
-    }
-  }
 }
 
 // DESKTOP - 1920PX
 @media only screen and (min-width: 1920px) {
-  .contact-container {
-    &__contact {
-      &__flexbox {
-        margin-left: $margin-side-hd;
-        margin-right: $margin-side-hd;
-      }
-    }
+    .contact-container {
+        &__contact {
+            &__flexbox {
+                margin-left: $margin-side-hd;
+                margin-right: $margin-side-hd;
+            }
+        }
 
-    &__general {
-      margin-left: $margin-side-hd;
-      margin-right: $margin-side-hd;
-    }
+        &__general {
+            margin-left: $margin-side-hd;
+            margin-right: $margin-side-hd;
+        }
 
-    &__tabscontainer {
-      margin-left: $margin-side-hd;
+        &__tabscontainer {
+            margin-left: $margin-side-hd;
+        }
     }
-  }
 }
 
 // DESKTOP - 2560PX
 @media only screen and (min-width: 2560px) {
-  .contact-container {
-    &__contact {
-      &__flexbox {
-        margin-left: $margin-side-qhd;
-        margin-right: $margin-side-qhd;
-      }
-    }
+    .contact-container {
+        &__contact {
+            &__flexbox {
+                margin-left: $margin-side-qhd;
+                margin-right: $margin-side-qhd;
+            }
+        }
 
-    &__general {
-      margin-left: $margin-side-qhd;
-      margin-right: $margin-side-qhd;
-    }
+        &__general {
+            margin-left: $margin-side-qhd;
+            margin-right: $margin-side-qhd;
+        }
 
-    &__tabscontainer {
-      margin-left: $margin-side-qhd;
+        &__tabscontainer {
+            margin-left: $margin-side-qhd;
+        }
     }
-  }
 }
 
 // DESKTOP - 3840PX
 @media only screen and (min-width: 3840px) {
-  .contact-container {
-    &__contact {
-      &__flexbox {
-        margin-left: $margin-side-4k;
-        margin-right: $margin-side-4k;
-      }
-    }
+    .contact-container {
+        &__contact {
+            &__flexbox {
+                margin-left: $margin-side-4k;
+                margin-right: $margin-side-4k;
+            }
+        }
 
-    &__general {
-      margin-left: $margin-side-4k;
-      margin-right: $margin-side-4k;
-    }
+        &__general {
+            margin-left: $margin-side-4k;
+            margin-right: $margin-side-4k;
+        }
 
-    &__tabscontainer {
-      margin-left: $margin-side-4k;
+        &__tabscontainer {
+            margin-left: $margin-side-4k;
+        }
     }
-  }
 }

@@ -179,15 +179,10 @@
     transition: 0.5s ease-in-out;
 }
 
-
-
-
-
 // DESKTOP - 1280PX
 @media screen and (min-width: 1280px) {
-
     // HOME
-    .home-container {   
+    .home-container {
         &__banner {
             &__background {
                 &__scroll {

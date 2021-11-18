@@ -36,11 +36,11 @@
                     z-index: 0;
                 }
 
-                @keyframes blink{
-                    0%{
+                @keyframes blink {
+                    0% {
                         opacity: 0;
                     }
-                    50%{
+                    50% {
                         opacity: 1;
                     }
                     100% {
@@ -73,13 +73,8 @@
     }
 }
 
-
-
-
-
 // DESKTOP - 1280PX
 @media only screen and (min-width: 1280px) {
-
     // HOME TYPING ANIMATION
     .home-container {
         &__banner {
@@ -115,10 +110,6 @@
     }
 }
 
-
-
-
-
 // DESKTOP - 1920PX
 @media only screen and (min-width: 1920px) {
     .home-container {
@@ -134,10 +125,6 @@
     }
 }
 
-
-
-
-
 // DESKTOP - 2560PX
 @media only screen and (min-width: 2560px) {
     .home-container {
@@ -152,10 +139,6 @@
         }
     }
 }
-
-
-
-
 
 // DESKTOP - 3840PX
 @media only screen and (min-width: 3840px) {

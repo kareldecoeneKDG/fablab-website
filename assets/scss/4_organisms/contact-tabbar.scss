@@ -67,17 +67,12 @@
                     opacity: 0;
                     margin-top: 5px;
                     transform: scale(0.9);
-                    transition: opacity 500ms ease-in-out 0ms,
-                                transform 500ms ease-in-out 0ms;
+                    transition: opacity 500ms ease-in-out 0ms, transform 500ms ease-in-out 0ms;
                 }
             }
         }
     }
 }
-
-
-
-
 
 // MOBILE MIDDLE TALL
 @media only screen and (min-height: 640px) {
@@ -90,10 +85,6 @@
     }
 }
 
-
-
-
-
 // MOBILE MIDDLE TALL
 @media only screen and (min-height: 730px) {
     .contact-container {
@@ -105,10 +96,6 @@
     }
 }
 
-
-
-
-
 // MOBILE MIDDLE TALL
 @media only screen and (min-height: 800px) {
     .contact-container {
@@ -119,10 +106,6 @@
         }
     }
 }
-
-
-
-
 
 // DESKTOP - 1280PX
 @media only screen and (min-width: 1280px) {
@@ -144,10 +127,6 @@
     }
 }
 
-
-
-
-
 // DESKTOP - 1366PX
 @media only screen and (min-width: 1366px) {
     .contact-container {
@@ -158,10 +137,6 @@
         }
     }
 }
-
-
-
-
 
 // DESKTOP - 1440PX
 @media only screen and (min-width: 1440px) {
@@ -174,10 +149,6 @@
     }
 }
 
-
-
-
-
 // DESKTOP - 1536PX
 @media only screen and (min-width: 1536px) {
     .contact-container {
@@ -188,10 +159,6 @@
         }
     }
 }
-
-
-
-
 
 // DESKTOP - 1600PX
 @media only screen and (min-width: 1600px) {
@@ -204,10 +171,6 @@
     }
 }
 
-
-
-
-
 // DESKTOP - 1920PX
 @media only screen and (min-width: 1920px) {
     .contact-container {
@@ -219,10 +182,6 @@
     }
 }
 
-
-
-
-
 // DESKTOP - 2560PX
 @media only screen and (min-width: 2560px) {
     .contact-container {
@@ -233,10 +192,6 @@
         }
     }
 }
-
-
-
-
 
 // DESKTOP - 3840PX
 @media only screen and (min-width: 3840px) {
