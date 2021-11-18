@@ -1,10 +1,11 @@
+<!-- SNIPPET HEADER -->
 <?php snippet('header') ?>
 
     <?php snippet('menu-white') ?>
     <h1><?= $page->title() ?></h1>
     
+    <!-- LIJST MACHINES -->
     <ul class="machines">
-        <li>1</li>
         <?php foreach ($page->children()->listed() as $category): ?>
             <li>
                 <a href="<?= $category->url() ?>">
@@ -17,4 +18,5 @@
         <?php endforeach ?>
     </ul>
     
+<!-- SNIPPET FOOTER -->
 <?php snippet('footer') ?>

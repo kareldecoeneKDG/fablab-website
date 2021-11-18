@@ -19,15 +19,18 @@
     padding-left: $margin-side-desktop;
     padding-right: $margin-side-desktop;
   }
+
   .machine-image-wrapper {
     margin-left: $margin-side-desktop;
     margin-right: $margin-side-desktop;
   }
+
   .machine-wrapper {
     &__info {
       padding-bottom: 30px;
     }
   }
+
   .machine-image-wrapper {
     display: flex;
     justify-content: space-between;

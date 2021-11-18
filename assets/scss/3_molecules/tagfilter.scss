@@ -1,16 +1,16 @@
 // MOBILE
 .content-blog {
-    &__tag-filter {
-        overflow: auto;
-        white-space: nowrap;
+  &__tag-filter {
+    overflow: auto;
+    white-space: nowrap;
 
-        &__button-tag {
-            display: inline-block;
-            scrollbar-width: none; /* for Firefox */
-            -ms-overflow-style: none;
-            ::-webkit-scrollbar {
-                display: none;
-            }
-        }
+    &__button-tag {
+      display: inline-block;
+      scrollbar-width: none; /* for Firefox */
+      -ms-overflow-style: none;
+      ::-webkit-scrollbar {
+        display: none;
+      }
     }
+  }
 }

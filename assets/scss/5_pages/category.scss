@@ -8,9 +8,11 @@
   .category-wrapper {
     margin: $margin-side-desktop;
     //margin-top: calc(12vh + 30px);
+
     &__text-wrapper {
       width: 50%;
     }
+
     &__images-wrapper__text-wrapper {
       display: flex;
       justify-content: space-between;
