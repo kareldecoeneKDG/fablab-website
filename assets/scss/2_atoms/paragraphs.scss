@@ -2,91 +2,91 @@
 
 // GENERAL PARAGRAPHS
 .p {
-    font-family: $verdana;
-    font-size: $p-big-font-size-mobile;
-    font-weight: 500;
-    margin: $p-margin-mobile;
-    line-height: $p-big-line-height;
-
-    &__date {
-        font-size: $p-small-font-size-mobile;
-    }
+  font-family: $verdana;
+  font-size: $p-big-font-size-mobile;
+  font-weight: 500;
+  margin: $p-margin-mobile;
+  line-height: $p-big-line-height;
 }
 
 .p-home {
-    padding-left: $margin-side-mobile;
-    padding-right: $margin-side-mobile;
-    padding-bottom: 30px;
+  padding-left: $margin-side-mobile;
+  padding-right: $margin-side-mobile;
+  padding-bottom: 30px;
 }
-
-
 
 // PAGES
 
-
-
-
+//article
+.content-article {
+  &__text-wrapper {
+    &__p {
+      &__date {
+        margin: $p-margin-mobile;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: $p-small-font-size-mobile;
+        color: $grey;
+      }
+    }
+  }
+}
 
 // DESKTOP - 1280PX
 @media only screen and (min-width: 1280px) {
+  .p-home {
+    padding-left: $margin-side-desktop;
+    padding-right: $margin-side-desktop;
+    padding-bottom: 30px;
+  }
 
-    .p-home {
-        padding-left: $margin-side-desktop;
-        padding-right: $margin-side-desktop;
-        padding-bottom: 30px;
+  // HOME
+  .home-container {
+    &__message {
+      &__paragraph {
+        width: 50%;
+      }
     }
+  }
 
-    // HOME
-    .home-container {
-        &__message {
-            &__paragraph {
-                width: 50%;
-            }
-        }
+  // CONTACT
+  .contact-container {
+    &__general {
+      &__paragraph {
+        width: 50%;
+      }
     }
-
-    // CONTACT
-    .contact-container {
-        &__general {
-            &__paragraph {
-                width: 50%;
-            }
-        }
-    }
+  }
 }
-
-
-
-
+.content-article {
+  &__text-wrapper {
+    &__p {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+}
 
 // DESKTOP - 1920PX
 @media only screen and (min-width: 1920px) {
-    .p-home {
-        padding-left: $margin-side-hd;
-        //padding-right: $margin-side-hd;
-    }
+  .p-home {
+    padding-left: $margin-side-hd;
+    //padding-right: $margin-side-hd;
+  }
 }
-
-
-
-
 
 // DESKTOP - 2560PX
 @media only screen and (min-width: 2560px) {
-    .p-home {
-        padding-left: $margin-side-qhd;
-        //padding-right: $margin-side-hd;
-    }
+  .p-home {
+    padding-left: $margin-side-qhd;
+    //padding-right: $margin-side-hd;
+  }
 }
-
-
-
-
 
 // DESKTOP - 3840PX
 @media only screen and (min-width: 3840px) {
-    .p-home {
-        padding-left: $margin-side-4k;
-        //padding-right: $margin-side-hd;
-    }
+  .p-home {
+    padding-left: $margin-side-4k;
+    //padding-right: $margin-side-hd;
+  }
 }
