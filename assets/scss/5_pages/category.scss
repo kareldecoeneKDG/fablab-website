@@ -1,5 +1,22 @@
 .category-wrapper {
-  padding-left: 5%;
-  padding-right: 5%;
+  margin: $margin-side-mobile;
   //margin-top: calc(12vh + 30px);
+}
+
+// DESKTOP - 1280PX
+@media screen and (min-width: 1280px) {
+  .breadcrumb {
+    margin-left: 180px;
+  }
+  .category-wrapper {
+    margin: $margin-side-desktop-big;
+    //margin-top: calc(12vh + 30px);
+    &__text-wrapper {
+      width: 50%;
+    }
+    &__images-wrapper__text-wrapper {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
 }

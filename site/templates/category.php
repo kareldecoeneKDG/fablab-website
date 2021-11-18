@@ -3,7 +3,6 @@
     <!-- SNIPPET - MENU -->
     <?php snippet('menu-white') ?>
 
-
     <!-- BREADCRUMB -->
     <div class="breadcrumb sectionOne" itemprop="breadcrumb">
         <?php foreach($site->breadcrumb()->not('home') AS $crumb): ?>
@@ -28,25 +27,29 @@
 
     <section class="category-wrapper">   
         <h1 class="h1"><?= $page->title()->html() ?></h1>
-        <h2 class="h2">Algemene Info</h2>
-        <p class="p"><?= $page->info()->html() ?></p>
-        <h2 class="h2">Technologie</h2>
-        
-        <?php if ($page->technologie()->isNotEmpty()): ?>
-            <p class="p"><?= $page->technologie()->html()?></p>
-            <br>
-            <p class="p">
-            Neem contact met ons op via Fablab@kdg.be om te informeren naar verschillende kleuren, materialen en prijzen.
-            </p>
+
+        <div class="category-wrapper__images-wrapper__text-wrapper">
+        <div class="category-wrapper__text-wrapper">
+        <?php if ($page->info()->isNotEmpty()): ?>
+            <h2 class="h2">Algemene Info</h2>
+            <p class="p"><?= $page->info()->html() ?></p>
         <?php endif ?>
+
+        <?php if ($page->technologie()->isNotEmpty()): ?>
+            <h2 class="h2">Technologie</h2>
+            <p class="p"><?= $page->technologie()->html()?></p>
+        <?php endif ?>
+        </div>
         
         <?php if ($page->images()->isNotEmpty()): ?>
             <div class="category-wrapper__images-wrapper">
             <?php foreach($page->images() as $image): ?>
-                <img class="category-wrapper__images-wrapper__img img" src="<?= $image->url() ?>" alt="Medewerker Fablab profielfoto">
+                <img class="category-wrapper__images-wrapper__img img" src="<?= $image->url() ?>" >
             <?php endforeach ?>
             </div>
         <?php endif ?>
+        </div>
+        
 
         <?php if ($page->materialen()->isNotEmpty()): ?>
             <div class="category-wrapper__materialen">

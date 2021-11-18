@@ -1,5 +1,13 @@
 // MOBILE
-.content-article {
-  padding: 0 5%;
+.article-wrapper {
+  margin: $margin-side-mobile;
   margin-top: calc(12vh + 30px);
+}
+@media screen and (min-width: 1280px) {
+  .article-wrapper {
+    margin: $margin-side-desktop;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: calc(12vh + 30px);
+  }
 }

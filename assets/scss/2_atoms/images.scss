@@ -131,6 +131,7 @@
         }
     }
 
+<<<<<<< HEAD
     //BLOG
     .blog-wrapper {
         &__blog-overview {
@@ -139,6 +140,34 @@
                 height: 200px;
             }
         }
+=======
+  //CATEGORY
+  .category-wrapper {
+    &__images-wrapper {
+      padding-top: 30px;
+      margin-bottom: -30px;
+      display: flex;
+      flex-direction: column;
+
+      &__img {
+        width: 250px;
+        height: 250px;
+      }
+      &__img:nth-child(even) {
+      }
+      &__img:nth-child(odd) {
+        right: 75%;
+      }
+    }
+  }
+  //BLOG
+  .blog-wrapper {
+    &__blog-overview {
+      &__img {
+        width: 307px;
+        height: 200px;
+      }
+>>>>>>> f2c53868d525f13ae7dd0e57e19e59ab61a6785a
     }
 
     // FOOTER

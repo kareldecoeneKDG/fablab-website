@@ -13,7 +13,8 @@ Nullam congue convallis pulvinar. Vestibulum tincidunt nulla non eros dignissim 
 Related:
 
 - blog/first-article
-- blog/second-article
+- blog/nieuwe-blog-post
+- blog/test-2
 
 ----
 
