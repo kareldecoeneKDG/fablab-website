@@ -141,6 +141,131 @@
     }
 }
 
+// ERROR
+.error-container {
+    &__text-container {
+        &__title {
+            font-size: 34px;
+            margin-bottom: 45px;
+        }
+    }
+}
+
+// WHAT IS FABLAB
+.what-is-fablab-container {
+    &__introduction {
+        &__title {
+            margin-top: 30px;
+        }
+
+        &__flexbox {
+            &__left {
+                &__title {
+                    margin-top: 30px;
+                }
+
+                &__team {
+                    &__titlecontainer {
+                        &__title {
+                            margin: 0;
+                            padding: 14px 25px;
+                        }
+                    }
+
+                    &__container {
+                        &__flexbox {
+                            &__box {
+                                &__title {
+                                    margin-top: 5px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.h1-what-is-fablab {
+    font-family: $verdana;
+    font-size: $h2-font-size-mobile;
+    font-weight: $h2-font-weight;
+    margin: $h2-margin-mobile;
+    margin-bottom: 30px;
+    margin-top: 0;
+
+    span:first-of-type {
+        color: $yellow;
+    }
+
+    span:last-of-type {
+        color: #747474;
+    }
+}
+
+
+
+
+
+// MOBILE MIDDLE TALL
+@media only screen and (min-height: 640px) {
+    .what-is-fablab-container {
+        &__introduction {
+            &__flexbox {
+                &__left {
+                    &__team {
+                        &__titlecontainer {
+                            left: 20%;
+                        }
+
+                        &__container {
+                            &__flexbox {
+                                &__box {
+                                    &__title {
+                                        margin-top: 12px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+// MOBILE TALLER
+@media only screen and (min-height: 730px) {
+    .what-is-fablab-container {
+        &__introduction {
+            &__flexbox {
+                &__left {
+                    &__team {
+                        &__titlecontainer {
+                            left: 24%;
+                        }
+
+                        &__container {
+                            &__flexbox {
+                                &__box {
+                                    &__title {
+                                        margin-top: 16px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 
 
 
@@ -174,6 +299,7 @@
         &__working {
             &__banner {
                 &__title {
+                    margin-top: 0;
                     margin-right: 75%;
                 }
             }
@@ -182,8 +308,15 @@
         &__biolab {
             &__banner {
                 &__title {
+                    margin-top: 0;
                     margin-right: 83%;
                 }
+            }
+        }
+
+        &__partners {
+            &__title {
+                margin-top: 0;
             }
         }
     }
@@ -206,6 +339,36 @@
                 }
             }
         }
+    }
+
+    // WHAT IS FABLAB
+    .what-is-fablab-container {
+        &__introduction {
+            &__title {
+                margin-left: 0;
+            }
+
+            &__flexbox {
+                &__right {
+                    &__titlecontainer {
+                        &__title {
+                            position: absolute;
+                            left: 20%;
+                            top: 25%;
+                            color: $yellow;
+                            margin: 0;
+                            padding: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .h1-what-is-fablab {
+        font-size: $h1-font-size-mobile;
+        margin-top: 40px;
+        margin-bottom: 100px;
     }
 }
 

@@ -7,20 +7,8 @@
         margin-left: $margin-side-mobile;
         margin-right: $margin-side-mobile;
 
-        &__title {
-            margin-top: 30px;
-        }
-
         &__flexbox {
             &__left {
-                &__title {
-                    margin-top: 30px;
-                }
-
-                &__p {
-                    padding-bottom: 50px;
-                }
-
                 &__team {
                     background-color: $white;
                     border: 2px solid $yellow;
@@ -29,18 +17,12 @@
                     border-radius: $border-radius-small;
 
                     &__titlecontainer {
-                        //margin-top: 20px;
                         position: absolute;
                         background-color: $black;
                         color: $yellow;
                         top: -25px;
                         left: 15%;
                         transform: skewY(-2deg);
-
-                        &__title {
-                            margin: 0;
-                            padding: 14px 25px;
-                        }
                     }
 
                     &__container {
@@ -50,24 +32,12 @@
                             justify-content: space-between;
 
                             &__box {
-                                //width: 50%;
                                 min-width: 40%;
-
-                                &__title {
-                                    margin-top: 5px;
-                                }
     
                                 &__function {
                                     color: $grey;
                                     font-size: $p-small-font-size-mobile;
                                     line-height: 18px;
-                                }
-
-                                &__img {
-                                    width: 27vw;
-                                    height: 27vw;
-                                    object-fit: cover;
-                                    border-radius: $border-radius-big;
                                 }
                             }
 
@@ -79,116 +49,12 @@
                         &__flexbox:last-of-type {
                             margin-top: 30px;
                         }
-
-                        &__biography {
-                            margin-top: 5px;
-                        }
                     }
                 }
             }
 
             &__right {
                 display: none;
-            }
-        }
-    }
-}
-
-.h1-what-is-fablab {
-    font-family: $verdana;
-    font-size: $h2-font-size-mobile;
-    font-weight: $h2-font-weight;
-    margin: $h2-margin-mobile;
-    margin-bottom: 30px;
-    margin-top: 0;
-
-    span:first-of-type {
-        color: $yellow;
-    }
-
-    span:last-of-type {
-        color: #747474;
-    }
-}
-
-
-
-
-
-// MOBILE MIDDLE TALL
-@media only screen and (min-height: 640px) {
-    .what-is-fablab-container {
-        &__introduction {
-            &__flexbox {
-                &__left {
-                    &__team {
-                        &__titlecontainer {
-                            left: 20%;
-                        }
-
-                        &__container {
-                            &__flexbox {
-                                &__box {
-                                    &__title {
-                                        margin-top: 12px;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-
-
-
-
-// MOBILE MIDDLE TALL
-@media only screen and (min-height: 730px) {
-    .what-is-fablab-container {
-        &__introduction {
-            &__flexbox {
-                &__left {
-                    &__team {
-                        &__titlecontainer {
-                            left: 24%;
-                        }
-
-                        &__container {
-                            &__flexbox {
-                                &__box {
-                                    &__title {
-                                        margin-top: 16px;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-
-
-
-
-// MOBILE MIDDLE TALL
-@media only screen and (min-height: 800px) {
-    .what-is-fablab-container {
-        &__introduction {
-            &__flexbox {
-                &__left {
-                    &__team {
-                        &__titlecontainer {
-                            left: 22%;
-                        }
-                    }
-                }
             }
         }
     }
@@ -207,10 +73,6 @@
             margin-right: $margin-side-desktop;
 
             &__breadcrumb {
-                margin-left: 0;
-            }
-
-            &__title {
                 margin-left: 0;
             }
 
@@ -234,7 +96,6 @@
                     padding-left: 37px;
 
                     &__titlecontainer {
-                        //position: relative;
                         position: absolute;
                         background-color: $black;
                         left: 14vw;
@@ -242,16 +103,6 @@
                         width: 230px;
                         height: 50px;
                         transform: skewY(-2deg);
-
-                        &__title {
-                            position: absolute;
-                            left: 20%;
-                            top: 25%;
-                            color: $yellow;
-                            margin: 0;
-                            padding: 0;
-                            //transform: skewY(0deg);
-                        }
                     }
 
                     &__flexbox {
@@ -265,25 +116,12 @@
                         padding: 40px;
 
                         &__box {
-                            //min-width: 20%;
                             display: flex;
                             flex-direction: row;
                             justify-content: space-between;
 
-                            &__img {
-                                width: 60%;
-                                height: auto;
-                                //height: 21vh;
-                                border-radius: $border-radius-big;
-                                //transform: skewY(3deg);
-                            }
-
                             &__box {
                                 margin-left: 30px;
-                            }
-
-                            &__biography {
-                                margin-top: 20px;
                             }
                         }
 
@@ -294,12 +132,6 @@
                 }
             }
         }
-    }
-
-    .h1-what-is-fablab {
-        font-size: $h1-font-size-mobile;
-        margin-top: 40px;
-        margin-bottom: 100px;
     }
 }
 
@@ -319,10 +151,6 @@
 
                     &__flexbox {
                         &__box {
-                            &__img {
-                                width: 30%;
-                            }
-
                             &__box {
                                 margin-top: 15px;
                             }
@@ -350,10 +178,6 @@
 
                     &__flexbox {
                         &__box {
-                            &__img {
-                                width: 30%;
-                            }
-
                             &__box {
                                 margin-top: 15px;
                             }

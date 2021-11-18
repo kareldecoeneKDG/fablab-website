@@ -3,8 +3,6 @@
     background-color: $background-grey;
 
     &__contact {
-        //padding-top: 170px;
-        //padding-top: 30px;
         padding-top: calc(12vh + 30px);
 
         &__flexbox {
@@ -57,6 +55,7 @@
     }
 }
 
+// for contactform
 .alert {
     margin-bottom: 25px;
     font-weight: bold;
@@ -153,7 +152,6 @@
 
         &__general {
             margin-left: $margin-side-hd;
-            //margin-right: 462px;
             margin-right: $margin-side-hd;
         }
 
@@ -179,7 +177,6 @@
 
         &__general {
             margin-left: $margin-side-qhd;
-            //margin-right: 462px;
             margin-right: $margin-side-qhd;
         }
 
@@ -205,7 +202,6 @@
 
         &__general {
             margin-left: $margin-side-4k;
-            //margin-right: 462px;
             margin-right: $margin-side-4k;
         }
 

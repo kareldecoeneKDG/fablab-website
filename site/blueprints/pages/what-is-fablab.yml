@@ -9,11 +9,13 @@ columns:
         type: text
       whatIsFablabText:
         label: Wat is Fablab text
-        type: textarea
+        type: writer
+        inline: true
       
       wordFablabTitle:
         label: Van waar komt woord Fablab titel
         type: text
       wordFablabText:
         label: Van waar komt het woord Fablab
-        type: textarea
+        type: writer
+        inline: true

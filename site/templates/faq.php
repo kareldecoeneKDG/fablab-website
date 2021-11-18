@@ -17,6 +17,9 @@
                         <?php endif; ?>
 
                         <!-- icon -->
+                        <i class="faq-wrapper__section__item__questioncontainer__icon fa fa-minus icon-min" aria-hidden="true"></i>
+
+                        <!-- icon -->
                         <i class="faq-wrapper__section__item__questioncontainer__icon fa fa-plus icon" aria-hidden="true"></i>
                     </div>
 

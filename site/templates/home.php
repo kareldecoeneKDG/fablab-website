@@ -117,7 +117,7 @@
         <section class="home-container__working">
 
             <!-- WORKING FABLAB BANNER IMAGE -->
-            <div class="home-container__working__banner">
+            <div class="home-container__working__banner banner-home">
 
                 <!-- workingFablabTitle -->
                 <?php if($page->workingFablabTitle()->isNotEmpty()): ?>
@@ -154,7 +154,7 @@
         <section class="home-container__biolab">
 
             <!-- BIOLAB BANNER IMAGE -->
-            <div class="home-container__biolab__banner">
+            <div class="home-container__biolab__banner banner-home">
 
                 <!-- biolabTitle -->
                 <?php if($page->biolabTitle()->isNotEmpty()): ?>

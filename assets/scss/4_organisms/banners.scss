@@ -1,0 +1,29 @@
+.banner-home {
+    height: 218px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: $lightergrey;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 30px;
+    padding-top: 135px;
+    margin-top: 30px;
+}
+
+
+
+
+
+// DESKTOP - 1280PX
+@media screen and (min-width: 1280px) {
+    .banner-home {
+        height: auto;
+        width: auto;
+        background-image: none;
+        background-repeat: no-repeat;
+        background-color: initial;
+        margin-bottom: 30px;
+        padding-top: 00px;
+        margin-top: 60px;
+    }
+}

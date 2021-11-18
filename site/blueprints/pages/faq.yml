@@ -10,7 +10,9 @@ sections:
         fields: 
             question:
               label: Vraag
-              type: textarea
+              type: writer
+              inline: true
             answer:
               label: Antwoord
-              type: textarea
+              type: writer
+              inline: true
