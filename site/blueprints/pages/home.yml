@@ -67,6 +67,7 @@ columns:
       manufacturers:
         label: Manufacturers
         type: structure
+        max: 24
         columns:
           image:
             width: 1/3

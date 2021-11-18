@@ -41,6 +41,17 @@ Employees:
     Coördinator Fablab
   tel: 0487 25 36 36
   email: markvekemans@telenet.be
+  biography: >
+    Het is al geruime tijd een bekend
+    gegeven dat een lezer, tijdens het
+    bekijken van de layout van een pagina,
+    afgeleid wordt door de tekstuele inhoud.
+    Het belangrijke punt van het gebruik van
+    Lorem Ipsum is dat het uit een min of
+    meer normale verdeling van letters
+    bestaat, in tegenstelling tot "Hier uw
+    tekst, hier uw tekst" wat het tot min of
+    meer leesbaar nederlands maakt.
 - 
   image:
     - esther.jpeg
@@ -48,6 +59,17 @@ Employees:
   function: 'Digital Designer & Maker, Technisch medewerker Fablab'
   tel: 0458 52 62 32
   email: esthervandepoll@test.com
+  biography: >
+    Het is al geruime tijd een bekend
+    gegeven dat een lezer, tijdens het
+    bekijken van de layout van een pagina,
+    afgeleid wordt door de tekstuele inhoud.
+    Het belangrijke punt van het gebruik van
+    Lorem Ipsum is dat het uit een min of
+    meer normale verdeling van letters
+    bestaat, in tegenstelling tot "Hier uw
+    tekst, hier uw tekst" wat het tot min of
+    meer leesbaar nederlands maakt.
 
 ----
 

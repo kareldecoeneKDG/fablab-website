@@ -160,6 +160,30 @@ Manufacturers:
   image:
     - mayku-formbox-1.png
   url: https://www.festool.be/
+- 
+  image:
+    - makita-1.png
+  url: https://www.festool.be/
+- 
+  image:
+    - dewalt-1.png
+  url: https://www.instagram.com
+- 
+  image:
+    - mayku-formbox-1.png
+  url: https://www.kdg.be
+- 
+  image:
+    - dremel-1.png
+  url: https://www.instagram.com
+- 
+  image:
+    - optimum-kolomboor-1.png
+  url: https://www.facebook.com
+- 
+  image:
+    - roland_-srm-20-1.png
+  url: https://www.festool.be/
 
 ----
 
