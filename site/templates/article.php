@@ -43,5 +43,5 @@
    
 <?php endif ?>
 </div>
-    
+<?= js('build/js/sharebuttons.js') ?>
 <?php snippet('footer') ?>

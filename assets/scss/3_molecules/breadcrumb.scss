@@ -9,5 +9,8 @@
   .breadcrumb {
     margin-left: $margin-side-desktop;
     margin-top: calc(12vh + 75px);
+    & sectionOne {
+      margin-left: 180px;
+    }
   }
 }
