@@ -2,242 +2,253 @@
 
 // GENERAL TITLES
 .h1 {
-  font-family: $verdana;
-  margin: $h1-margin-mobile;
-  margin-top: 0;
-  font-size: $h1-font-size-mobile;
-  font-weight: $h1-font-weight;
+    font-family: $verdana;
+    margin: $h1-margin-mobile;
+    margin-top: 0;
+    font-size: $h1-font-size-mobile;
+    font-weight: $h1-font-weight;
 }
 
 .h2 {
-  font-family: $verdana;
-  font-size: $h2-font-size-mobile;
-  font-weight: $h2-font-weight;
-  margin: $h2-margin-mobile;
+    font-family: $verdana;
+    font-size: $h2-font-size-mobile;
+    font-weight: $h2-font-weight;
+    margin: $h2-margin-mobile;
 }
 
 .h2-home {
-  background-color: $black;
-  padding-left: $margin-side-mobile;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  color: $white;
-  border-radius: 0px 10px 10px 0px;
+    background-color: $black;
+    padding-left: $margin-side-mobile;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: $white;
+    border-radius: 0px 10px 10px 0px;
 }
 
 .h2-categories {
-  font-family: $verdana;
-  font-size: $h2-font-size-mobile;
-  font-weight: $h1-font-weight;
+    font-family: $verdana;
+    font-size: $h2-font-size-mobile;
+    font-weight: $h1-font-weight;
 }
 
 .h3 {
-  font-size: $h3-font-size-mobile;
-  font-weight: $h3-font-weight;
-  margin: $h3-margin-mobile;
+    font-size: $h3-font-size-mobile;
+    font-weight: $h3-font-weight;
+    margin: $h3-margin-mobile;
 }
 
 .h4 {
-  font-family: $verdana;
-  font-size: $h4-font-size-mobile;
-  font-weight: $h4-font-weight;
-  margin: $h4-margin-mobile;
+    font-family: $verdana;
+    font-size: $h4-font-size-mobile;
+    font-weight: $h4-font-weight;
+    margin: $h4-margin-mobile;
 }
 
 .h4-footer {
-  color: $lightergrey;
+    color: $lightergrey;
 }
 
 .h5 {
-  font-family: $verdana;
-  font-size: $h5-font-size-mobile;
-  font-weight: $h5-font-weight;
-  margin: $h5-margin-mobile;
-  color: $grey;
+    font-family: $verdana;
+    font-size: $h5-font-size-mobile;
+    font-weight: $h5-font-weight;
+    margin: $h5-margin-mobile;
+    color: $grey;
 }
 
 .h5-footer {
-  color: $yellow;
+    color: $yellow;
 }
+
+
 
 // PAGES
 
 // HOME
 .home-container {
-  &__message {
-    &__title {
-      margin-top: 0;
-      padding-top: 30px;
-    }
-  }
-
-  &__introduction {
-    &__title {
-      margin-right: 47%;
-    }
-
-    &__flexbox {
-      &__right {
-        &__openhours {
-          &__title:first-of-type {
+    &__message {
+        &__title {
             margin-top: 0;
-          }
+            padding-top: 30px;
         }
-      }
     }
-  }
 
-  &__working {
-    &__banner {
-      &__title {
-        margin-right: 42%;
-      }
-    }
-  }
+    &__introduction {
+        &__title {
+            margin-right: 47%;
+        }
 
-  &__biolab {
-    &__banner {
-      &__title {
-        margin-right: 69%;
-      }
+        &__flexbox {
+            &__right {
+                &__openhours {
+                    &__title:first-of-type {
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
     }
-  }
+
+    &__working {
+        &__banner {
+            &__title {
+                margin-right: 42%;
+            }
+        }
+    }
+
+    &__biolab {
+        &__banner {
+            &__title {
+                margin-right: 69%;
+            }
+        }
+    }
 }
 
 // CATEGORY-DETAIL
-
 .category-wrapper {
-  &__machines-wrapper {
-    &__list {
-      &__item {
-        &__link {
-          &__title {
-            margin-top: 5px;
-          }
+    &__machines-wrapper {
+        &__list {
+            &__item {
+                &__link {
+                    &__title {
+                        margin-top: 5px;
+                    }
+                }
+            }
         }
-      }
     }
-  }
 }
 
 // MACHINE-DETAIl
 .machine-wrapper {
-  &__tutorial-wrapper {
-    .h3 {
-      margin: 10px 0px 30px 0px !important;
+    &__tutorial-wrapper {
+        .h3 {
+            margin: 10px 0px 30px 0px !important;
+        }
     }
-  }
 }
-// FOOTER
 
+// FOOTER
 .footer {
-  &__content {
-    &__block {
-      .first-title {
-        margin-top: 0;
-      }
+    &__content {
+        &__block {
+            .first-title {
+                margin-top: 0;
+            }
+        }
     }
-  }
 }
+
+
+
+
 
 // DESKTOP - 1280PX
 @media only screen and (min-width: 1280px) {
-  // GENERAL BUTTONS
-  .h2-home {
-    padding-left: $margin-side-desktop;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 0;
-    margin-bottom: 20px;
-  }
 
-  // HOME
-  .home-container {
-    &__message {
-      &__title {
-        width: 50%;
-      }
-    }
-
-    &__introduction {
-      &__title {
-        margin-right: 77%;
-      }
-    }
-
-    &__working {
-      &__banner {
-        &__title {
-          margin-right: 75%;
-        }
-      }
-    }
-
-    &__biolab {
-      &__banner {
-        &__title {
-          margin-right: 83%;
-        }
-      }
-    }
-  }
-
-  // CONTACT
-  .contact-container {
-    &__tabscontainer {
-      &__title {
+    // GENERAL BUTTONS
+    .h2-home {
+        padding-left: $margin-side-desktop;
+        padding-top: 15px;
+        padding-bottom: 15px;
         margin-top: 0;
-      }
+        margin-bottom: 20px;
     }
-  }
 
-  // FOOTER
-  .footer {
-    &__content {
-      &__block {
-        .first-title {
-          margin-top: 30px;
+    // HOME
+    .home-container {
+        &__message {
+            &__title {
+                width: 50%;
+            }
         }
-      }
+
+        &__introduction {
+            &__title {
+                margin-right: 77%;
+            }
+        }
+
+        &__working {
+            &__banner {
+                &__title {
+                    margin-right: 75%;
+                }
+            }
+        }
+
+        &__biolab {
+            &__banner {
+                &__title {
+                    margin-right: 83%;
+                }
+            }
+        }
     }
-  }
+
+    // CONTACT
+    .contact-container {
+        &__tabscontainer {
+            &__title {
+                margin-top: 0;
+            }
+        }
+    }
+
+    // FOOTER
+    .footer {
+        &__content {
+            &__block {
+                .first-title {
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
 }
+
+
+
+
 
 // DESKTOP - 1536PX
 @media only screen and (min-width: 1536px) {
-  // GENERAL BUTTONS
-  .h2-home {
-    padding-left: $margin-side-desktop;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-top: 0;
-    margin-bottom: 20px;
-  }
 
-  // HOME
-  .home-container {
-    &__introduction {
-      &__title {
-        margin-right: 80%;
-      }
+    // GENERAL BUTTONS
+    .h2-home {
+        padding-left: $margin-side-desktop;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 0;
+        margin-bottom: 20px;
     }
 
-    &__working {
-      &__banner {
-        &__title {
-          margin-right: 79%;
+    // HOME
+    .home-container {
+        &__introduction {
+            &__title {
+                margin-right: 80%;
+            }
         }
-      }
-    }
 
-    &__biolab {
-      &__banner {
-        &__title {
-          margin-right: 86%;
+        &__working {
+            &__banner {
+                &__title {
+                    margin-right: 79%;
+                }
+            }
         }
-      }
+
+        &__biolab {
+            &__banner {
+                &__title {
+                    margin-right: 86%;
+                }
+            }
+        }
     }
-  }
 }
 
 
@@ -246,107 +257,118 @@
 
 // DESKTOP - 1920PX
 @media only screen and (min-width: 1920px) {
-  // GENERAL BUTTONS
-  .h2-home {
-    padding-left: $margin-side-hd;
-    background-color: initial;
-    color: $black;
-    font-size: $h2-home-font-size-hd;
-  }
 
-  // HOME
-  .home-container {
-    &__introduction {
-      &__title {
-        margin-right: $margin-side-desktop;
-      }
+    // GENERAL BUTTONS
+    .h2-home {
+        padding-left: $margin-side-hd;
+        background-color: initial;
+        color: $black;
+        font-size: $h2-home-font-size-hd;
     }
 
-    &__working {
-      &__banner {
-        &__title {
-          margin-right: $margin-side-desktop;
+    // HOME
+    .home-container {
+        &__introduction {
+            &__title {
+                margin-right: $margin-side-desktop;
+            }
         }
-      }
-    }
 
-    &__biolab {
-      &__banner {
-        &__title {
-          margin-right: $margin-side-desktop;
+        &__working {
+            &__banner {
+                &__title {
+                    margin-right: $margin-side-desktop;
+                }
+            }
         }
-      }
+
+        &__biolab {
+            &__banner {
+                &__title {
+                    margin-right: $margin-side-desktop;
+                }
+            }
+        }
     }
-  }
 }
+
+
+
+
 
 // DESKTOP - 2560PX
 @media only screen and (min-width: 2560px) {
-  // GENERAL BUTTONS
-  .h2-home {
-    //padding-left: $margin-side-qhd;
-    margin-left: 600px;
-    padding-left: 62px;
-    border-radius: 10px;
-  }
 
-  // HOME
-  .home-container {
-    &__introduction {
-      &__title {
-        margin-right: $margin-side-qhd;
-      }
+    // GENERAL BUTTONS
+    .h2-home {
+        //padding-left: $margin-side-qhd;
+        margin-left: 600px;
+        padding-left: 62px;
+        border-radius: 10px;
     }
 
-    &__working {
-      &__banner {
-        &__title {
-          margin-right: $margin-side-qhd;
+    // HOME
+    .home-container {
+        &__introduction {
+            &__title {
+                margin-right: $margin-side-qhd;
+            }
         }
-      }
-    }
 
-    &__biolab {
-      &__banner {
-        &__title {
-          margin-right: $margin-side-qhd;
+        &__working {
+            &__banner {
+                &__title {
+                    margin-right: $margin-side-qhd;
+                }
+            }
         }
-      }
+
+        &__biolab {
+            &__banner {
+                &__title {
+                    margin-right: $margin-side-qhd;
+                }
+            }
+        }
     }
-  }
 }
+
+
+
+
 
 // DESKTOP - 3840PX
 @media only screen and (min-width: 3840px) {
-  // GENERAL BUTTONS
-  .h2-home {
-    //padding-left: $margin-side-qhd;
-    margin-left: 1240px;
-    padding-left: 62px;
-  }
 
-  // HOME
-  .home-container {
-    &__introduction {
-      &__title {
-        margin-right: $margin-side-4k;
-      }
+    // GENERAL BUTTONS
+    .h2-home {
+        //padding-left: $margin-side-qhd;
+        margin-left: 1240px;
+        padding-left: 62px;
     }
 
-    &__working {
-      &__banner {
-        &__title {
-          margin-right: $margin-side-4k;
+    // HOME
+    .home-container {
+        &__introduction {
+            &__title {
+                margin-right: $margin-side-4k;
+            }
         }
-      }
-    }
 
-    &__biolab {
-      &__banner {
-        &__title {
-          margin-right: $margin-side-4k;
+        &__working {
+            &__banner {
+                &__title {
+                    margin-right: $margin-side-4k;
+                }
+            }
         }
-      }
+
+        &__biolab {
+            &__banner {
+                &__title {
+                    margin-right: $margin-side-4k;
+                }
+            }
+        }
     }
-  }
 }

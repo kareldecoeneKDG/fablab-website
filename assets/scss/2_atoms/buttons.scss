@@ -19,10 +19,29 @@
     padding: $button-small-padding;
 }
 
+
+
 .button-big {
     border: 1px solid $yellow;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.35);
 }
+
+.button-big:hover {
+    cursor: pointer;
+    background-color: $yellow-opacity;
+    color: $black;
+    transition: 0.3s;
+    box-shadow: none;
+}
+
+.button-big:focus {
+    border: 1px solid $yellow;
+    background-color: $white;
+    color: $black;
+    box-shadow: none;
+}
+
+
 
 .button-small {
     background-color: $yellow;
@@ -44,20 +63,7 @@
     box-shadow: none;
 }
 
-.button-big:hover {
-    cursor: pointer;
-    background-color: $yellow-opacity;
-    color: $black;
-    transition: 0.3s;
-    box-shadow: none;
-}
 
-.button-big:focus {
-    border: 1px solid $yellow;
-    background-color: $white;
-    color: $black;
-    box-shadow: none;
-}
 
 .button-reserveer {
     display: inline-block;
@@ -84,6 +90,8 @@
     margin-right: $margin-side-mobile;
     padding: $button-small-padding;
 }
+
+
 
 // PAGES
 
@@ -123,12 +131,16 @@
 .button-home {
     background-color: $yellow;
     color: $black;
-    //padding: 20px 40px 20px 40px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.35);
 }
 
+
+
+
+
 // DESKTOP - 1280PX
 @media only screen and (min-width: 1280px) {
+
     // GENERAL BUTTONS
     .button-home {
         background-color: $yellow;
@@ -138,29 +150,41 @@
     }
 }
 
+
+
+
+
 // DESKTOP - 1920PX
 @media only screen and (min-width: 1920px) {
+    
     // GENERAL BUTTONS
     .button-home {
         margin-left: $margin-side-hd;
-        //margin-right: $margin-side-hd;
     }
 }
+
+
+
+
 
 // DESKTOP - 2560PX
 @media only screen and (min-width: 2560px) {
+    
     // GENERAL BUTTONS
     .button-home {
         margin-left: $margin-side-qhd;
-        //margin-right: $margin-side-hd;
     }
 }
 
+
+
+
+
 // DESKTOP - 3840PX
 @media only screen and (min-width: 3840px) {
+
     // GENERAL BUTTONS
     .button-home {
         margin-left: $margin-side-4k;
-        //margin-right: $margin-side-hd;
     }
 }

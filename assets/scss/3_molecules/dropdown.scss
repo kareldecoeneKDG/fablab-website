@@ -1,50 +1,56 @@
-/* Dropdown Button */
-.dropbtn {
-    background-color: transparent;
-    color: $black;
-    //padding: 16px;
-    //font-size: 16px;
-    border: none;
-    font-family: $verdana;
-    font-weight: 700;
-    font-size: 16px;
-    border-bottom: 3px solid transparent;
-    margin-top: 3px;
-  }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 320px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content li {
-    color: black;
-    text-decoration: none;
-    display: block;
-    padding: 12px 16px;
-  }
+// desktop
+.header {
+    &__menu {
+        &__navlinks {
+            &__dropdown {
+                position: relative;
+                display: inline-block;
 
-  .dropdown-content li a {
-    padding: 12px 16px;
-  }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content li:hover {background-color: #ddd;}
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {border-bottom: 3px solid $yellow;}
+                &__button {
+                    background-color: transparent;
+                    color: $black;
+                    border: none;
+                    font-family: $verdana;
+                    font-weight: 700;
+                    font-size: 16px;
+                    border-bottom: 3px solid transparent;
+                    margin-top: 3px;
+                }
+
+                &__list {
+                    display: none;
+                    position: absolute;
+                    background-color: #f1f1f1;
+                    min-width: 320px;
+                    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                    z-index: 1;
+
+                    &__item {
+                        color: black;
+                        text-decoration: none;
+                        display: block;
+                        padding: 12px 16px;
+
+                        &__link {
+                            padding: 12px 16px;
+                        }
+                    }
+
+                    &__item:hover {
+                        background-color: #ddd;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// show dropdown menu on hover
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+// border-bottom on machines when dropdown is shown
+.dropdown:hover .dropbtn {
+    border-bottom: 3px solid $yellow;
+}

@@ -122,7 +122,7 @@
             <!-- generalText -->
             <?php if($page->generalText()->isNotEmpty()): ?>
                 <p class="contact-container__general__paragraph p">
-                    <?= $page->generalText() ?>
+                    <?= $page->generalText() //->markdown() ?>
                 </p>
             <?php endif; ?>
 
