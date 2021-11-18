@@ -2,8 +2,7 @@
   &__materialen {
     &__list {
       padding-bottom: 20px;
-      margin-left: 5%;
-      margin-right: 5%;
+      margin-left: $ul-margin-mobile;
     }
     &__price-list {
       text-decoration: underline;

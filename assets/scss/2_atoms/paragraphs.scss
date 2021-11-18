@@ -57,16 +57,23 @@
       }
     }
   }
-}
-.content-article {
-  &__text-wrapper {
-    &__p {
-      margin-top: 20px;
-      margin-bottom: 20px;
+
+  .content-article {
+    &__text-wrapper {
+      &__p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  // CATEGORY
+  .category-wrapper {
+    &__materialen {
+      margin-top: -50px;
     }
   }
 }
-
 // DESKTOP - 1920PX
 @media only screen and (min-width: 1920px) {
   .p-home {
