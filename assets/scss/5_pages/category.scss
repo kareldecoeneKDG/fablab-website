@@ -19,3 +19,59 @@
         }
     }
 }
+
+// DESKTOP - 1600PX
+@media screen and (min-width: 1600px) {
+    .category-wrapper {
+        margin-left: $margin-side-desktop+30px;
+        margin-right: $margin-side-desktop+30px;
+        //margin-top: calc(12vh + 30px);
+
+    }
+}
+
+// DESKTOP - 1800PX
+@media screen and (min-width: 1800px) {
+    .category-wrapper {
+        margin-left: $margin-side-desktop+150px;
+        margin-right: $margin-side-desktop+150px;
+        //margin-top: calc(12vh + 30px);
+
+    }
+}
+
+// DESKTOP - 1920PX
+@media screen and (min-width: 1920px) {
+    .category-wrapper {
+        margin-left: $margin-side-hd;
+        margin-right: $margin-side-hd;
+        //margin-top: calc(12vh + 30px);
+    }
+}
+
+// DESKTOP - 2250PX
+@media screen and (min-width: 2250px) {
+    .category-wrapper {
+        margin-left: $margin-side-qhd - 100px;
+        margin-right: $margin-side-hd -100px;
+        //margin-top: calc(12vh + 30px);
+    }
+}
+
+// DESKTOP - 2560PX
+@media screen and (min-width: 2560px) {
+    .category-wrapper {
+        margin-left: $margin-side-qhd;
+        margin-right: $margin-side-qhd;
+        //margin-top: calc(12vh + 30px);
+    }
+}
+
+// DESKTOP - 3840PX
+@media screen and (min-width: 3840px) {
+    .category-wrapper {
+        margin-left: $margin-side-4k;
+        margin-right: $margin-side-4k;
+        //margin-top: calc(12vh + 30px);
+    }
+}

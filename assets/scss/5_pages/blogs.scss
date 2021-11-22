@@ -4,11 +4,19 @@
     margin-top: calc(12vh + 30px); //12vh is menu, 30px is extra padding
 }
 
+<<<<<<< HEAD
 //MOBILE
 @media screen and (min-width: $desktop-1280) {
     .content-blog {
         margin: $margin-side-desktop;
         margin-top: calc(12vh + 30px); //12vh is menu, 30px is extra padding
+=======
+//DESKTOP vanaf 1280px
+@media screen and (min-width: 1280px) {
+    .content-blog {
+        margin: $margin-side-desktop;
+        margin-top: calc(12vh + 75px);
+>>>>>>> 60a1d38f508069ced0c6d17c6dbb26740dac2d5c
     }
 
     .blog-wrapper {
@@ -16,4 +24,33 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
+}
+
+
+
+// DESKTOP - 1920PX
+@media only screen and (min-width: 1920px) {
+    .content-blog {
+            margin-left: $margin-side-hd;
+            margin-right: $margin-side-hd;
+        }
+}
+
+
+// DESKTOP - 2560PX
+@media only screen and (min-width: 2560px) {
+    .content-blog {
+            margin-left: $margin-side-qhd;
+            margin-right: $margin-side-qhd;
+        }
+}
+
+
+
+// DESKTOP - 3840px
+@media only screen and (min-width: 3840px) {
+    .content-blog {
+            margin-left: $margin-side-4k;
+            margin-right: $margin-side-4k;
+        }
 }

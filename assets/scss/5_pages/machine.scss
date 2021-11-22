@@ -1,3 +1,4 @@
+
 .machine-image-wrapper {
     margin: $margin-side-mobile;
 }
@@ -13,8 +14,13 @@
     margin-bottom: 30px;
 }
 
+<<<<<<< HEAD
 //MOBILE
 @media screen and (min-width: $desktop-1280) {
+=======
+//DESKTOP 1280px
+@media screen and (min-width: 1280px) {
+>>>>>>> 60a1d38f508069ced0c6d17c6dbb26740dac2d5c
     .machine-banner {
         padding-left: $margin-side-desktop;
         padding-right: $margin-side-desktop;
@@ -34,5 +40,59 @@
     .machine-image-wrapper {
         display: flex;
         justify-content: space-between;
+    }
+}
+
+//DESKTOP 1440px
+@media screen and (min-width: 1600px) {
+    .machine-banner {
+        padding-left: $margin-side-desktop+100px;
+        padding-right: $margin-side-desktop+100px;
+    }
+
+    .machine-image-wrapper {
+        margin-left: $margin-side-desktop+100px;
+        margin-right: $margin-side-desktop+100px;
+    }
+}
+
+//DESKTOP 1920px
+@media screen and (min-width: 1920px) {
+    .machine-banner {
+        padding-left: $margin-side-hd;
+        padding-right: $margin-side-hd;
+    }
+
+    .machine-image-wrapper {
+        margin-left: $margin-side-hd;
+        margin-right: $margin-side-hd;
+    }
+}
+
+
+//DESKTOP 2560px
+@media screen and (min-width: 2560px) {
+    .machine-banner {
+        padding-left: $margin-side-qhd;
+        padding-right: $margin-side-qhd;
+    }
+
+    .machine-image-wrapper {
+        margin-left: $margin-side-qhd;
+        margin-right: $margin-side-qhd;
+    }
+}
+
+
+//DESKTOP 3840px
+@media screen and (min-width: 3840px) {
+    .machine-banner {
+        padding-left: $margin-side-4k;
+        padding-right: $margin-side-4k;
+    }
+
+    .machine-image-wrapper {
+        margin-left: $margin-side-4k;
+        margin-right: $margin-side-4k;
     }
 }
