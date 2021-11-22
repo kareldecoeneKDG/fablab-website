@@ -4,11 +4,11 @@
     margin-top: calc(12vh + 30px);
 }
 
-//MOBILE
+//DESKTOP vanaf 1280px
 @media screen and (min-width: 1280px) {
     .content-blog {
         margin: $margin-side-desktop;
-        margin-top: calc(12vh + 30px);
+        margin-top: calc(12vh + 75px);
     }
 
     .blog-wrapper {
@@ -16,4 +16,33 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
+}
+
+
+
+// DESKTOP - 1920PX
+@media only screen and (min-width: 1920px) {
+    .content-blog {
+            margin-left: $margin-side-hd;
+            margin-right: $margin-side-hd;
+        }
+}
+
+
+// DESKTOP - 2560PX
+@media only screen and (min-width: 2560px) {
+    .content-blog {
+            margin-left: $margin-side-qhd;
+            margin-right: $margin-side-qhd;
+        }
+}
+
+
+
+// DESKTOP - 1920PX
+@media only screen and (min-width: 3840px) {
+    .content-blog {
+            margin-left: $margin-side-4k;
+            margin-right: $margin-side-4k;
+        }
 }
