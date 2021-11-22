@@ -3,7 +3,7 @@
 
         <!-- fablabLogo -->
         <?php if($logo = $site->fablabLogo()->toFile()): ?>
-            <a class="header__logo logo" href="<?= $site->url() ?>"><img class="header__logo__img" src="<?= $logo->url() ?>" alt="logo Fablab"></a>
+            <a class="header__logo logo" href="<?= $site->url() ?>"><img class="header__logo__img" src="<?= $logo->url() ?>" alt="Logo Fablab"></a>
         <?php endif; ?>
 
         <!-- SNIPPET - PAGESLIST -->

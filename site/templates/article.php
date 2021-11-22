@@ -8,7 +8,7 @@
     <section class="content-article">
 
         <h1 class="content-article__title h1"><?= $page->title()->html() ?></h1>
-        <img src="<?= $page->image()->url() ?>" alt="">
+        <img src="<?= $page->image()->url() ?>" alt="Article banner image">
         <div class="content-article__text-wrapper" style="display:flex; " class="share">
             <a class="content-article__text-wrapper__icon" href=""><i class="fa fa-share"></i></a>
             <h3>Delen</h3>
@@ -36,7 +36,7 @@
             <div class="blog-wrapper">
                 <?php foreach ($related as $article) : ?>
                     <article class="blog-wrapper__blog-overview">
-                        <img src="<?= $article->image()->url() ?>" alt="">
+                        <img src="<?= $article->image()->url() ?>" alt="Article preview image">
                         <h2 class="h2-related h2"><?= $article->title()->html() ?></h2>
                     </article>
                 <?php endforeach ?>

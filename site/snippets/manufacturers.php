@@ -29,7 +29,7 @@
                     <div>
                         <?php if($manufacturerimage = $manufacturer->image()->toFile()): ?>
                             <a href="<?= $manufacturer->url() ?>" rel="nofollow" target="_blank">
-                                <img class="home-container__tabscontainer-manufacturer__tabs__tabbody__item__img" src="<?= $manufacturerimage->url() ?>" alt="Logos fabrikanten machines">
+                                <img class="home-container__tabscontainer-manufacturer__tabs__tabbody__item__img" src="<?= $manufacturerimage->url() ?>" alt="Logos manufacturers machines">
                             </a>
                         <?php endif; ?>
                     </div>
@@ -40,7 +40,7 @@
                     <div>
                         <?php if($fablabimage = $fablab->image()->toFile()): ?>
                             <a href="<?= $fablab->url() ?>" rel="nofollow" target="_blank">
-                                <img class="home-container__tabscontainer-manufacturer__tabs__tabbody__item__img" src="<?= $fablabimage->url() ?>" alt="Logos andere fablabs">
+                                <img class="home-container__tabscontainer-manufacturer__tabs__tabbody__item__img" src="<?= $fablabimage->url() ?>" alt="Logos other fablabs">
                             </a>
                         <?php endif; ?>
                     </div>

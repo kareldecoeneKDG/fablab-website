@@ -49,7 +49,7 @@
             <?php if ($page->images()->isNotEmpty()): ?>
                 <div class="category-wrapper__images-wrapper">
                     <?php foreach($page->images() as $image): ?>
-                        <img class="category-wrapper__images-wrapper__img img" src="<?= $image->url() ?>" >
+                        <img class="category-wrapper__images-wrapper__img img" src="<?= $image->url() ?>" alt="Machine category wrapper image">
                     <?php endforeach ?>
                 </div>
             <?php endif ?>
@@ -92,7 +92,7 @@
                     <?php foreach($page->children() as $subpage): ?>
                         <li class="category-wrapper__machines-wrapper__list__item">
                             <a class="category-wrapper__machines-wrapper__list__item__link"href="<?= $subpage->url() ?>">
-                                <img class="category-wrapper__machines-wrapper__list__item__link__img" src="<?= $subpage->image()->url()?>" alt="">
+                                <img class="category-wrapper__machines-wrapper__list__item__link__img" src="<?= $subpage->image()->url()?>" alt="Wrapper image machine">
                                 <p class="category-wrapper__machines-wrapper__list__item__link__p p"><?= html($subpage->type()) ?></p>
                                 <h3 class="category-wrapper__machines-wrapper__list__item__link__title h3"><?= html($subpage->title()) ?></h3>
                             </a>

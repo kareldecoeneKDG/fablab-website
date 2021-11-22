@@ -21,7 +21,7 @@
     <div class="blog-wrapper">
         <?php foreach($articles as $article): ?>
         <article class="blog-wrapper__blog-overview">
-            <img class="blog-wrapper__blog-overview__img img" src="<?= $article->image()->url()?>" alt="">
+            <img class="blog-wrapper__blog-overview__img img" src="<?= $article->image()->url()?>" alt="Blog overview image">
             <div class="blog-wrapper__blog-overview__text-wrapper">
                 <h2 class="blog-wrapper__blog-overview__text-wrapper__title h2"><?= $article->title()->html() ?></h2>
                 <p class="blog-wrapper__blog-overview__text-wrapper__p p"><?= $article->text()->excerpt(70) ?></p>

@@ -140,7 +140,7 @@
                         <div class="contact-container__general__flexbox__left">
 
                             <?php if($image->url() !== ''): ?>
-                                <img class="contact-container__general__flexbox__left__img img" src="<?= $image->url() ?>" alt="Medewerker Fablab profielfoto">
+                                <img class="contact-container__general__flexbox__left__img img" src="<?= $image->url() ?>" alt="Employee FabLab profile picture">
                             <?php endif; ?>
 
                             <?php if($employee->name()->isNotEmpty()): ?>

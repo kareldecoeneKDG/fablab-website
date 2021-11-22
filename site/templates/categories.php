@@ -15,7 +15,7 @@
                 <li class="categories-wrapper__machines__category">
                     <a href="<?= $category->url() ?>">
                         <figure>
-                                <img class="overview-image" src="<?= $category->image()->url() ?>" alt="">
+                                <img class="overview-image" src="<?= $category->image()->url() ?>" alt="Overview image machine category">
                                 <figcaption class="h2-categories"><?= $category->title() ?></figcaption>
                         </figure>
                     </a>

@@ -55,7 +55,7 @@
                                         <div class="what-is-fablab-container__introduction__flexbox__left__team__container__flexbox__box">
 
                                             <?php if($employeeImg = $employee->image()->toFile()): ?>
-                                                <img class="what-is-fablab-container__introduction__flexbox__left__team__container__flexbox__box__img" src="<?= $employeeImg->url() ?>" alt="bla">
+                                                <img class="what-is-fablab-container__introduction__flexbox__left__team__container__flexbox__box__img" src="<?= $employeeImg->url() ?>" alt="Picture employee FabLab">
                                             <?php endif; ?>
                                         </div>
 
@@ -108,7 +108,7 @@
                                 <div class="what-is-fablab-container__introduction__flexbox__right__flexbox__box">
 
                                     <?php if($employeeImg = $employee->image()->toFile()): ?>
-                                        <img class="what-is-fablab-container__introduction__flexbox__right__flexbox__box__img" src="<?= $employeeImg->crop(150)->url() ?>" alt="bla">
+                                        <img class="what-is-fablab-container__introduction__flexbox__right__flexbox__box__img" src="<?= $employeeImg->crop(150)->url() ?>" alt="Picture employee FabLab">
                                     <?php endif; ?>
 
                                     <div class="what-is-fablab-container__introduction__flexbox__right__flexbox__box__box">

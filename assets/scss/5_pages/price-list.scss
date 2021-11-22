@@ -1,3 +1,9 @@
 .price-list-container {
     margin-top: calc(12vh + 30px); //12vh is menu, 30 px is extra padding
+    padding-left: $margin-side-mobile;
+    padding-right: $margin-side-mobile;
+
+    &__title {
+        margin-top: 30px;
+    }
 }

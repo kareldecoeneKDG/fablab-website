@@ -97,7 +97,7 @@
 
                 <?php //MACHINE IMAGES ?>
                 <?php if ($page->images()->isNotEmpty()): ?>
-                    <img  class="machine-wrapper__img img" src="<?= $page->images()->first()->url()?>" alt="">
+                    <img  class="machine-wrapper__img img" src="<?= $page->images()->first()->url()?>" alt="FabLab machine wrapper image">
                 <?php endif ?>
                     
                 <?php //MACHINE FILETYPES ?>
@@ -154,7 +154,7 @@
 
             <?php //MACHINE IMAGE DESKTOP ?>
             <?php if ($page->images()->isNotEmpty()): ?>
-                    <img  class="machine-wrapper__img-desktop img" src="<?= $page->images()->first()->url()?>" alt="">
+                <img  class="machine-wrapper__img-desktop img" src="<?= $page->images()->first()->url()?>" alt="FabLab machine image desktop">
             <?php endif ?>
         </div>
     </main>

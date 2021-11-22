@@ -33,25 +33,89 @@ Materials:
       instock: 'false'
 - 
   name: Triplex
-  materialitem: [ ]
+  materialitem:
+    - 
+      detail: 3mm
+      color: Berk
+      size: 40x70cm
+      pricekdg: "10"
+      priceextern: "11"
+      pricecompany: "11"
+      instock: 'true'
 - 
   name: Plexi XT (extruded)
-  materialitem: [ ]
+  materialitem:
+    - 
+      detail: 2mm
+      color: Transparant
+      size: 30x60cm
+      pricekdg: "8"
+      priceextern: "9"
+      pricecompany: "9"
+      instock: 'true'
 - 
   name: Plexi GS (cast)
-  materialitem: [ ]
+  materialitem:
+    - 
+      detail: 2mm
+      color: Transparant
+      size: 30x60cm
+      pricekdg: "11"
+      priceextern: "12"
+      pricecompany: "12"
+      instock: 'true'
 - 
   name: Plexi (cast)
-  materialitem: [ ]
+  materialitem:
+    - 
+      detail: 3mm
+      color: Zwart
+      size: 30x60cm
+      pricekdg: "17"
+      priceextern: "18"
+      pricecompany: "18"
+      instock: 'true'
 - 
   name: 3D Print Filament
-  materialitem: [ ]
+  materialitem:
+    - 
+      detail: PLA
+      color: meerdere kleuren
+      size: per 100g
+      pricekdg: "4"
+      priceextern: "8"
+      pricecompany: "8"
+      instock: 'true'
 - 
   name: Textiel Transfermedia (vinyl)
-  materialitem: [ ]
+  materialitem:
+    - 
+      detail: classic
+      color: meerdere kleuren
+      size: 15x30cm
+      pricekdg: "2"
+      priceextern: "3"
+      pricecompany: "3"
+      instock: 'true'
 - 
   name: Snijfolie
-  materialitem: [ ]
+  materialitem:
+    - 
+      detail: vinyl
+      color: ---
+      size: 10x60cm
+      pricekdg: "2"
+      priceextern: "3"
+      pricecompany: "3"
+      instock: 'true'
 - 
   name: Maskingtape
-  materialitem: [ ]
+  materialitem:
+    - 
+      detail: papier
+      color: ---
+      size: 10x60cm
+      pricekdg: "2"
+      priceextern: "3"
+      pricecompany: "3"
+      instock: 'true'
