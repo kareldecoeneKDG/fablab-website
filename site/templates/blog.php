@@ -1,13 +1,14 @@
+<?php //SNIPPET - HEADER ?>
 <?php snippet('header') ?>
 
-<!-- SNIPPET - MENU -->
+<?php //SNIPPET - MENU ?>
 <?php snippet('menu-white') ?>
 
-<!-- CONTENT -->
+<?php //CONTENT ?>
 <section class="content-blog">
     <h1 class="h1"><?= $page->Subtitle()->html() ?></h1>
 
-    <!-- FILTERS -->
+    <?php //FILTERS ?>
     <div class="content-blog__tag-filter">
         <?php foreach ($tags as $tag) : ?>
             <a class="content-blog__tag-filter__button-tag" href="<?= url($page->url(), ['params' => ['tag' => $tag]]) ?>">
@@ -16,7 +17,7 @@
         <?php endforeach ?>
     </div>       
 
-    <!-- BLOG LIST -->
+    <?php //BLOG LIST ?>
     <div class="blog-wrapper">
         <?php foreach($articles as $article): ?>
         <article class="blog-wrapper__blog-overview">
@@ -31,5 +32,5 @@
     </div>
 </section>
 
-<!-- FOOTER SNIPPET -->
+<?php //SNIPPET - FOOTER ?>
 <?php snippet('footer') ?>

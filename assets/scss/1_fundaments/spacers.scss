@@ -22,7 +22,8 @@ $button-small-padding: 20px;
 $button-big-padding: 15px 40px 15px 40px;
 
 // TABLET
-//SPACERS
+$tablet-portrait: 768px;
+$tablet-landscape: 1024px;
 
 // DESKTOP
 $margin-side-desktop: 102px;
@@ -41,11 +42,20 @@ $label-margin-desktop: 30px 30px 5px 30px;
 $input-margin-desktop: 0px 0px 0px 0px;
 $input-padding-desktop: 8px 16px 8px 16px;
 
+$desktop-1280: 1280px;
+$desktop-1366: 1366px;
+$desktop-1440: 1440px;
+$desktop-1536: 1536px;
+$desktop-1600: 1600px;
+
 //HD
 $margin-side-hd: 342px;
+$desktop-hd: 1920px;
 
 // QHD
 $margin-side-qhd: 662px;
+$desktop-qhd: 2560px;
 
 // 4K
 $margin-side-4k: 1302px;
+$desktop-4k: 3840px;

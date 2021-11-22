@@ -14,7 +14,7 @@
 }
 
 //MOBILE
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: $desktop-1280) {
     .machine-banner {
         padding-left: $margin-side-desktop;
         padding-right: $margin-side-desktop;

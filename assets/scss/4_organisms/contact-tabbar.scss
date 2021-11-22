@@ -48,7 +48,7 @@
             &__tabbody {
                 display: block;
                 position: relative;
-                height: calc(100% - 60px);
+                height: calc(100% - 60px); //60px is padding top
                 padding: 20px 16px;
                 border-radius: 0px 0px 15px 15px;
                 background-color: $white;
@@ -108,7 +108,7 @@
 }
 
 // DESKTOP - 1280PX
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: $desktop-1280) {
     .contact-container {
         &__title {
             margin-left: 0;
@@ -128,7 +128,7 @@
 }
 
 // DESKTOP - 1366PX
-@media only screen and (min-width: 1366px) {
+@media only screen and (min-width: $desktop-1366) {
     .contact-container {
         &__tabscontainer {
             &__tabs {
@@ -139,7 +139,7 @@
 }
 
 // DESKTOP - 1440PX
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: $desktop-1440) {
     .contact-container {
         &__tabscontainer {
             &__tabs {
@@ -150,7 +150,7 @@
 }
 
 // DESKTOP - 1536PX
-@media only screen and (min-width: 1536px) {
+@media only screen and (min-width: $desktop-1536) {
     .contact-container {
         &__tabscontainer {
             &__tabs {
@@ -161,7 +161,7 @@
 }
 
 // DESKTOP - 1600PX
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: $desktop-1600) {
     .contact-container {
         &__tabscontainer {
             &__tabs {
@@ -172,7 +172,7 @@
 }
 
 // DESKTOP - 1920PX
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: $desktop-hd) {
     .contact-container {
         &__tabscontainer {
             &__tabs {
@@ -183,7 +183,7 @@
 }
 
 // DESKTOP - 2560PX
-@media only screen and (min-width: 2560px) {
+@media only screen and (min-width: $desktop-qhd) {
     .contact-container {
         &__tabscontainer {
             &__tabs {
@@ -194,7 +194,7 @@
 }
 
 // DESKTOP - 3840PX
-@media only screen and (min-width: 3840px) {
+@media only screen and (min-width: $desktop-4k) {
     .contact-container {
         &__tabscontainer {
             &__tabs {

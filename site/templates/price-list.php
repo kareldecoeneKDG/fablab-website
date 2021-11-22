@@ -1,6 +1,7 @@
+<?php //SNIPPET - HEADER ?>
 <?php snippet('header') ?>
     
-    <!-- SNIPPET - MENU -->
+    <?php //SNIPPET - MENU WHITE ?>
     <?php snippet('menu-white') ?>
 
     <div class="price-list-container">
@@ -87,4 +88,6 @@
         
         
         </div>
+        
+<?php //SNIPPET - FOOTER ?>
 <?php snippet('footer') ?>

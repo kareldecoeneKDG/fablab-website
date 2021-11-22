@@ -116,7 +116,7 @@
 }
 
 // DESKTOP - 1280PX
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: $desktop-1280) {
     .home-container {
         padding-bottom: 50px;
 
@@ -248,10 +248,16 @@
             }
         }
     }
+
+    .flexbox-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
 
 // DESKTOP - 1440PX
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: $desktop-1440) {
     .home-container {
         &__introduction {
             &__flexbox {
@@ -264,7 +270,7 @@
 }
 
 // DESKTOP - 1920PX
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: $desktop-hd) {
     .home-container {
         &__message {
             padding-left: $margin-side-hd;
@@ -309,11 +315,11 @@
 }
 
 // DESKTOP - 2560PX
-@media only screen and (min-width: 2560px) {
+@media only screen and (min-width: $desktop-qhd) {
     .home-container {
         &__banner {
             &__background {
-                height: calc(100vh - 140px);
+                height: calc(100vh - 140px); //140px is height of menu
             }
         }
 
@@ -361,7 +367,7 @@
 }
 
 // DESKTOP - 3840PX
-@media only screen and (min-width: 3840px) {
+@media only screen and (min-width: $desktop-4k) {
     .home-container {
         &__message {
             padding-left: $margin-side-4k;

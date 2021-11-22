@@ -1,13 +1,13 @@
 .breadcrumb {
     margin: $margin-side-mobile;
-    margin-top: calc(12vh + 30px);
+    margin-top: calc(12vh + 30px); //12vh is menu, 30px is extra padding top
 }
 
 //DEKSTOP
 // DESKTOP - 1280PX
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: $desktop-1280) {
     .breadcrumb {
         margin-left: $margin-side-desktop;
-        margin-top: calc(12vh + 75px);
+        margin-top: calc(12vh + 75px); //12vh is menu, 75px is extra padding top -> moet nog aangepast worden
     }
 }

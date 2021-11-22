@@ -263,7 +263,7 @@
 }
 
 // DESKTOP - 1280PX
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: $desktop-1280) {
     // GENERAL BUTTONS
     .h2-home {
         padding-left: $margin-side-desktop;
@@ -364,7 +364,7 @@
 }
 
 // DESKTOP - 1536PX
-@media only screen and (min-width: 1536px) {
+@media only screen and (min-width: $desktop-1536) {
     // GENERAL BUTTONS
     .h2-home {
         padding-left: $margin-side-desktop;
@@ -401,7 +401,7 @@
 }
 
 // DESKTOP - 1920PX
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: $desktop-hd) {
     // GENERAL BUTTONS
     .h2-home {
         padding-left: $margin-side-hd;
@@ -437,7 +437,7 @@
 }
 
 // DESKTOP - 2560PX
-@media only screen and (min-width: 2560px) {
+@media only screen and (min-width: $desktop-qhd) {
     // GENERAL BUTTONS
     .h2-home {
         //padding-left: $margin-side-qhd;
@@ -473,7 +473,7 @@
 }
 
 // DESKTOP - 3840PX
-@media only screen and (min-width: 3840px) {
+@media only screen and (min-width: $desktop-4k) {
     // GENERAL BUTTONS
     .h2-home {
         //padding-left: $margin-side-qhd;

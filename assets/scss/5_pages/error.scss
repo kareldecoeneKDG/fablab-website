@@ -1,9 +1,9 @@
 .error-container {
-    height: calc(100vh - calc(12vh + 30px));
+    height: calc(100vh - calc(12vh + 30px)); //12vh is menu, 30px is extra padding
     position: relative;
 
     &__text-container {
-        margin-top: calc(12vh + 30px);
+        margin-top: calc(12vh + 30px); //12vh is menu, 30px is extra padding
         position: absolute;
         top: 25%;
         left: 25%;
@@ -20,7 +20,7 @@
 }
 
 // DESKTOP - 1280PX
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: $desktop-1280) {
     .error-container {
         &__text-container {
             margin-top: 210px;
@@ -31,7 +31,7 @@
 }
 
 // DESKTOP - 1366PX
-@media only screen and (min-width: 1366px) {
+@media only screen and (min-width: $desktop-1366) {
     .error-container {
         &__text-container {
             margin-top: 210px;
@@ -42,7 +42,7 @@
 }
 
 // DESKTOP - 1536PX
-@media only screen and (min-width: 1536px) {
+@media only screen and (min-width: $desktop-1536) {
     .error-container {
         &__text-container {
             margin-top: 210px;
@@ -53,7 +53,7 @@
 }
 
 // DESKTOP - 1920PX
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: $desktop-hd) {
     .error-container {
         &__text-container {
             margin-top: 210px;
@@ -64,7 +64,7 @@
 }
 
 // DESKTOP - 2560PX
-@media only screen and (min-width: 2560px) {
+@media only screen and (min-width: $desktop-qhd) {
     .error-container {
         &__text-container {
             margin-top: 210px;
@@ -75,7 +75,7 @@
 }
 
 // DESKTOP - 3840PX
-@media only screen and (min-width: 3840px) {
+@media only screen and (min-width: $desktop-4k) {
     .error-container {
         &__text-container {
             margin-top: 210px;

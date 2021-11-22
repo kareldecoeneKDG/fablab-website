@@ -64,7 +64,7 @@
 }
 
 // DESKTOP - 1280PX
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: $desktop-1280) {
     .footer {
         padding-left: $margin-side-desktop;
         padding-right: $margin-side-desktop;
@@ -90,7 +90,7 @@
 }
 
 // DESKTOP - 1920PX
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: $desktop-hd) {
     .footer {
         padding-left: $margin-side-hd;
         padding-right: $margin-side-hd;
@@ -98,7 +98,7 @@
 }
 
 // DESKTOP - 2560PX
-@media only screen and (min-width: 2560px) {
+@media only screen and (min-width: $desktop-qhd) {
     .footer {
         padding-left: $margin-side-qhd;
         padding-right: $margin-side-qhd;
@@ -106,7 +106,7 @@
 }
 
 // DESKTOP - 3840PX
-@media only screen and (min-width: 3840px) {
+@media only screen and (min-width: $desktop-4k) {
     .footer {
         padding-left: $margin-side-4k;
         padding-right: $margin-side-4k;

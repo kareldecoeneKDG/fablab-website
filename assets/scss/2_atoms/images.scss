@@ -148,7 +148,7 @@
 }
 
 // DESKTOP - 1280PX
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: $desktop-1280) {
     // CONTACT
     .contact-container {
         &__general {
@@ -216,7 +216,7 @@
 }
 
 // DESKTOP - 1600PX
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: $desktop-1600) {
     .what-is-fablab-container {
         &__introduction {
             &__flexbox {

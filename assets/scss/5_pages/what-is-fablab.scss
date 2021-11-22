@@ -1,9 +1,8 @@
 .what-is-fablab-container {
-    min-height: calc(100vh - 342px);
+    min-height: calc(100vh - 342px); //342px is height of footer
 
     &__introduction {
-        padding-top: 12vh;
-        padding-top: calc(12vh + 30px);
+        padding-top: calc(12vh + 30px); //12vh is menu, 30 px is extra padding
         margin-left: $margin-side-mobile;
         margin-right: $margin-side-mobile;
 
@@ -61,7 +60,7 @@
 }
 
 // DESKTOP - 1280PX
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: $desktop-1280) {
     .what-is-fablab-container {
         &__introduction {
             padding-top: 210px;
@@ -132,7 +131,7 @@
 }
 
 // DESKTOP - 1366PX
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: $desktop-1366) {
     .what-is-fablab-container {
         &__introduction {
             &__flexbox {
@@ -155,7 +154,7 @@
 }
 
 // DESKTOP - 1600PX
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: $desktop-1600) {
     .what-is-fablab-container {
         &__introduction {
             &__flexbox {
@@ -178,7 +177,7 @@
 }
 
 // DESKTOP - 1920PX
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: $desktop-hd) {
     .what-is-fablab-container {
         &__introduction {
             margin-left: $margin-side-hd;
@@ -196,7 +195,7 @@
 }
 
 // DESKTOP - 2560PX
-@media screen and (min-width: 2560px) {
+@media screen and (min-width: $desktop-qhd) {
     .what-is-fablab-container {
         &__introduction {
             margin-left: $margin-side-qhd;
@@ -214,7 +213,7 @@
 }
 
 // DESKTOP - 3840PX
-@media screen and (min-width: 3840px) {
+@media screen and (min-width: $desktop-4k) {
     .what-is-fablab-container {
         &__introduction {
             margin-left: $margin-side-4k;

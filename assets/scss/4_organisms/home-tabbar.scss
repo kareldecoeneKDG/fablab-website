@@ -45,7 +45,7 @@
 
             &__tabbody {
                 position: relative;
-                height: calc(100% - 60px);
+                height: calc(100% - 60px); //60px is padding top
                 padding: 20px 16px;
                 border-radius: 0px 0px 15px 15px;
                 background-color: $white;
@@ -93,7 +93,7 @@
 }
 
 // DESKTOP - 1280PX
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: $desktop-1280) {
     .home-container {
         &__tabscontainer-manufacturer {
             margin-top: 60px;
@@ -137,7 +137,7 @@
 }
 
 // DESKTOP - 1440PX
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: $desktop-1440) {
     .home-container {
         &__tabscontainer-manufacturer {
             margin-top: 60px;
@@ -181,7 +181,7 @@
 }
 
 // DESKTOP - 1536PX
-@media only screen and (min-width: 1536px) {
+@media only screen and (min-width: $desktop-1536) {
     .home-container {
         &__tabscontainer-manufacturer {
             &__tabs {
@@ -202,7 +202,7 @@
 }
 
 // DESKTOP - 1600PX
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: $desktop-1600) {
     .home-container {
         &__tabscontainer-manufacturer {
             &__tabs {
@@ -213,7 +213,7 @@
 }
 
 // DESKTOP - 1920PX
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: $desktop-hd) {
     .home-container {
         &__tabscontainer-manufacturer {
             margin-left: $margin-side-hd;
@@ -239,7 +239,7 @@
 }
 
 // DESKTOP - 2560PX
-@media only screen and (min-width: 2560px) {
+@media only screen and (min-width: $desktop-qhd) {
     .home-container {
         &__tabscontainer-manufacturer {
             margin-left: $margin-side-qhd;
@@ -262,7 +262,7 @@
 }
 
 // DESKTOP - 3840PX
-@media only screen and (min-width: 3840px) {
+@media only screen and (min-width: $desktop-4k) {
     .home-container {
         &__tabscontainer-manufacturer {
             margin-left: $margin-side-4k;

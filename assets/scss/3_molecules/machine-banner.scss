@@ -9,7 +9,7 @@
     position: relative;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: $desktop-1280) {
     .machine-banner {
         flex-direction: unset;
         &__title {

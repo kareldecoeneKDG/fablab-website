@@ -3,7 +3,7 @@
     background-color: $background-grey;
 
     &__contact {
-        padding-top: calc(12vh + 30px);
+        padding-top: calc(12vh + 30px); //12vh is menu, 30px is extra padding
 
         &__flexbox {
             &__data {
@@ -69,7 +69,7 @@
 }
 
 // DESKTOP - 1280PX
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: $desktop-1280) {
     .contact-container {
         &__contact {
             padding-top: 210px;
@@ -133,7 +133,7 @@
 }
 
 // DESKTOP - 1920PX
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: $desktop-hd) {
     .contact-container {
         &__contact {
             &__flexbox {
@@ -154,7 +154,7 @@
 }
 
 // DESKTOP - 2560PX
-@media only screen and (min-width: 2560px) {
+@media only screen and (min-width: $desktop-qhd) {
     .contact-container {
         &__contact {
             &__flexbox {
@@ -175,7 +175,7 @@
 }
 
 // DESKTOP - 3840PX
-@media only screen and (min-width: 3840px) {
+@media only screen and (min-width: $desktop-4k) {
     .contact-container {
         &__contact {
             &__flexbox {

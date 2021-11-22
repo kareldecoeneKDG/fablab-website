@@ -1,5 +1,7 @@
+<?php //SNIPPET - HEADER ?>
 <?php snippet('header') ?>
 
+    <?php //SNIPPET - MENU WHITE ?>
     <?php snippet('menu-white') ?>
 
     <main class="faq-wrapper">
@@ -11,21 +13,15 @@
                 <div class="faq-wrapper__section__item faq">
                     <div class="faq-wrapper__section__item__questioncontainer question">
 
-                        <!-- question -->
                         <?php if($faq->question()->isNotEmpty()): ?>
                             <h3 class="faq-wrapper__section__item__questioncontainer__question h3"><?= $faq->question() ?></h3>
                         <?php endif; ?>
 
-                        <!-- icon -->
                         <i class="faq-wrapper__section__item__questioncontainer__icon fa fa-minus icon-min" aria-hidden="true"></i>
-
-                        <!-- icon -->
                         <i class="faq-wrapper__section__item__questioncontainer__icon fa fa-plus icon" aria-hidden="true"></i>
                     </div>
 
                     <div class="faq-wrapper__section__item__answercontainer answer p">
-
-                        <!-- answer -->
                         <?php if($faq->answer()->isNotEmpty()): ?>
                             <p class="faq-wrapper__section__item__answercontainer__answer"><?= $faq->answer() ?></p>
                         <?php endif; ?>
@@ -35,7 +31,7 @@
         </section>
     </main>
 
+<?php //SNIPPET - FOOTER ?>
 <?php snippet('footer') ?>
 
-<!-- JAVASCRIPT ACCORDION TRY -->
 <?= js('build/js/accordion.js') ?>

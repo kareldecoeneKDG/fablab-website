@@ -1,8 +1,14 @@
+<?php //SNIPPET - HEADER ?>
 <?php snippet('header') ?>
+
+    <?php //SNIPPET - MENU WHITE ?>
     <?php snippet('menu-white') ?>
+
+
+
     <main class="main">
 
-        <!-- BREADCRUMBS -->
+        <?php //BREADCRUMBS ?>
         <div class="breadcrumb" itemprop="breadcrumb">
             <?php foreach($site->breadcrumb()->not('home') AS $crumb): ?>
                 <?php if ($crumb->isActive()): ?>
@@ -21,19 +27,21 @@
             <?php endforeach ?>
         </div>
 
-        <!-- CONTENT -->
 
-        <!-- MACHINE BANNER -->
-         <div class="machine-banner">
+
+        <?php //CONTENT ?>
+
+        <?php //MACHINE BANNER ?>
+        <div class="machine-banner">
             <h1 class="machine-banner__title h1"><?= $page->title() ?></h1>
             <a class="machine-banner__button button-small button-reserveer" href="#">Reserveer</a>
         </div>
 
-        <!-- MACHINE CONTENT -->
+        <?php //MACHINE CONTENT ?>
         <div class="machine-image-wrapper">
             <section class="machine-wrapper">
 
-                <!-- MACHINE TABLE INFO -->
+                <?php //MACHINE TABLE INFO ?>
                 <table class="machine-wrapper__info">
                     <?php if ($page->manufactur()->isNotEmpty()): ?>
                         <tr class="machine-wrapper__info__row">
@@ -85,12 +93,14 @@
                     <?php endif ?> 
                 </table>
 
-                <!-- MACHINE IMAGES -->
+                
+
+                <?php //MACHINE IMAGES ?>
                 <?php if ($page->images()->isNotEmpty()): ?>
                     <img  class="machine-wrapper__img img" src="<?= $page->images()->first()->url()?>" alt="">
                 <?php endif ?>
                     
-                <!-- MACHINE FILETYPES -->
+                <?php //MACHINE FILETYPES ?>
                 <?php if ($page->filetypes()->isNotEmpty()): ?>
                     <div class="machine-wrapper__file-types">
                         <h2 class="machine-wrapper__file-types_title h2">
@@ -99,8 +109,10 @@
                         <p class="machine-wrapper__file-types_p p"><?= $page->filetypes() ?></p>
                     </div>
                 <?php endif ?>
+
+
                 
-                <!-- MACHINE MANUALS -->
+                <?php //MACHINE MANUALS ?>
                 <?php if ($page->documents()->filterBy('extension', 'pdf')->isNotEmpty()): ?>
                     <div class="machine-wrapper__manual-wrapper">
                         <h2 class="machine-wrapper__manual-wrapper__title h2">Handleiding</h2>
@@ -114,9 +126,11 @@
                             <?php endforeach ?>
                         </ul>
                     </div>            
-                <?php endif ?>           
+                <?php endif ?>  
+                
+                
 
-                <!-- MACHINE TUTORIALS -->
+                <?php //MACHINE TUTORIALS ?>
                 <?php if ($page->tutorials()->isNotEmpty()): ?>
                     <div class="machine-wrapper__tutorial-wrapper">
                         <h2 class="machine-wrapper__tutorial-wrapper__title h2">Tutorials</h2>
@@ -136,12 +150,16 @@
                 <?php endif ?>            
             </section>
 
-            <!-- MACHINE IMAGE DESKTOP -->
+
+
+            <?php //MACHINE IMAGE DESKTOP ?>
             <?php if ($page->images()->isNotEmpty()): ?>
                     <img  class="machine-wrapper__img-desktop img" src="<?= $page->images()->first()->url()?>" alt="">
             <?php endif ?>
         </div>
     </main>
+
+
     
-<!-- FOOTER SNIPPET -->
+<?php //SNIPPET - FOOTER ?>
 <?php snippet('footer') ?>

@@ -117,7 +117,7 @@
 }
 
 // DESKTOP - 1280PX
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: $desktop-1280) {
     .header {
         &__menu {
             flex-direction: row;
@@ -171,7 +171,7 @@
 }
 
 // DESKTOP - 1920PX
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: $desktop-hd) {
     .header {
         &__menu {
             padding-left: $margin-side-hd;
@@ -181,7 +181,7 @@
 }
 
 // DESKTOP - 2560PX
-@media only screen and (min-width: 2560px) {
+@media only screen and (min-width: $desktop-qhd) {
     .header {
         &__menu {
             padding-left: $margin-side-qhd;
@@ -191,7 +191,7 @@
 }
 
 // DESKTOP - 3840PX
-@media only screen and (min-width: 3840px) {
+@media only screen and (min-width: $desktop-4k) {
     .header {
         &__menu {
             padding-left: $margin-side-4k;

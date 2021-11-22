@@ -1,13 +1,17 @@
+<?php //SNIPPET - HEADER ?>
 <?php snippet('header') ?>
-    <!-- SNIPPET - MENU -->
+    
+    <?php //SNIPPET - MENU WHITE ?>
     <?php snippet('menu-white') ?>
 
-    <!-- CATEGORIE WRAPPER -->
-    <section class="categories-wrapper sectionOne">   
-        <!-- CATEGORIE LIST -->
+    <?php //CATEGORIE WRAPPER ?>
+    <section class="categories-wrapper sectionOne">
+
+        <?php //CATEGORIE LIST ?>
         <ul class="categories-wrapper__machines">
             <?php foreach ($page->children()->listed() as $category): ?>
-                <!-- CATEGORY LIST ITEM -->
+
+                <?php //CATEGORY LIST ITEM ?>
                 <li class="categories-wrapper__machines__category">
                     <a href="<?= $category->url() ?>">
                         <figure>
@@ -20,5 +24,5 @@
         </ul>
     </section>   
 
-<!-- FOOTER SNIPPET -->
+<?php //FOOTER SNIPPET ?>
 <?php snippet('footer') ?>

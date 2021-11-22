@@ -1,9 +1,10 @@
+<?php //SNIPPET - HEADER ?>
 <?php snippet('header') ?>
 
-    <!-- SNIPPET - MENU -->
+    <?php //SNIPPET - MENU WHITE ?>
     <?php snippet('menu-white') ?>
 
-    <!-- BREADCRUMBS -->
+    <?php //BREADCRUMBS ?>
     <div class="breadcrumb sectionOne" itemprop="breadcrumb">
         <?php foreach($site->breadcrumb()->not('home') AS $crumb): ?>
             <?php if ($crumb->isActive()): ?>
@@ -22,15 +23,16 @@
         <?php endforeach ?>
     </div>
 
-   <!-- CONTENT -->
+   <?php //CONTENT ?>
 
-   <!-- CATERGORY WRAPPER -->
+   <?php //CATERGORY WRAPPER ?>
     <section class="category-wrapper">   
         <h1 class="h1"><?= $page->title()->html() ?></h1>
 
         
         <div class="category-wrapper__images-wrapper__text-wrapper">
-            <!-- CATERGORY TEXT -->
+
+            <?php //CATERGORY TEXT ?>
             <div class="category-wrapper__text-wrapper">
                 <?php if ($page->info()->isNotEmpty()): ?>
                     <h2 class="h2">Algemene Info</h2>
@@ -43,7 +45,7 @@
                 <?php endif ?>
             </div>
             
-            <!-- CATERGORY IMAGES -->
+            <?php //CATERGORY IMAGES ?>
             <?php if ($page->images()->isNotEmpty()): ?>
                 <div class="category-wrapper__images-wrapper">
                     <?php foreach($page->images() as $image): ?>
@@ -53,7 +55,7 @@
             <?php endif ?>
         </div>
         
-        <!-- CATERGORY MATERIALEN -->
+        <?php //CATERGORY MATERIALEN ?>
         <?php if ($page->materialen()->isNotEmpty()): ?>
             <div class="category-wrapper__materialen">
                 <h2 class="category-wrapper__materialen h2">Beschikbare materialen</h2>
@@ -66,7 +68,7 @@
             </div>
         <?php endif ?>
 
-        <!-- CATERGORY DESIGN SOFTWARE -->
+        <?php //CATERGORY DESIGN SOFTWARE ?>
         <?php if ($page->designsoftware()->isNotEmpty()): ?>
             <div class="category-wrapper__designsoftware-wrapper">
                 <h2 class="category-wrapper__designsoftware-wrapper h2">Design software</h2>
@@ -74,15 +76,15 @@
             </div>
         <?php endif ?>
 
-        <!-- CATERGORY INSPIRATIE -->
+        <?php //CATERGORY INSPIRATIE ?>
         <?php if ($page->Inspiratie()->isNotEmpty()): ?>
             <div class="category-wrapper__inspiration-wrapper">
                 <h2 class="category-wrapper__inspiration-wrapper h2">Inspiratie</h2>
                 <?= $page->Inspiratie()->kt() ?>
             </div>
-         <?php endif ?>
+        <?php endif ?>
         
-         <!-- CATERGORY MACHINES LIST -->
+        <?php //CATERGORY MACHINES LIST ?>
         <?php if ($page->children()->isNotEmpty()): ?>
             <div class="category-wrapper__machines-wrapper">
                 <h2 class="category-wrapper__machines-wrapper h2">FabLab machines</h2>
@@ -102,5 +104,5 @@
 
     </section>   
 
-<!-- SNIPPET FOOTER -->
+<?php //SNIPPET - FOOTER ?>
 <?php snippet('footer') ?>

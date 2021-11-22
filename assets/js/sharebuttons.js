@@ -22,4 +22,5 @@ const shareButtons = () => {
     }
     init();
 }
+
 shareButtons();

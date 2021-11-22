@@ -1,4 +1,7 @@
+<?php //SNIPPET - HEADER ?>
 <?php snippet('header') ?>
+
+    <?php //SNIPPET - MENU WHITE ?>
     <?php snippet('menu-white') ?>
 
     <div class="house-rules-wrapper">
@@ -17,4 +20,5 @@
     <p><?= $page->machinekostmaterialen() ?></p>
     </div>
 
+<?php //SNIPPET - FOOTER ?>
 <?php snippet('footer') ?>
