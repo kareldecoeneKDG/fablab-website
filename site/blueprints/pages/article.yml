@@ -17,7 +17,7 @@ columns:
     width: 2/3
     fields:
       text:
-        type: textarea
+        type: writer
       related:
         label: Related articles
         type: pages

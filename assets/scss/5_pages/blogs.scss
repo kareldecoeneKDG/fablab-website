@@ -9,12 +9,34 @@
     .content-blog {
         margin: $margin-side-desktop;
         margin-top: 210px;
+        margin-bottom: 70px;
+    }
+    
+    .blog-wrapper {
+        display: none;
+
+        &__blog-overview {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            &__text-wrapper {
+                &__link {
+                    margin-left: 15px;
+                }
+            }
+        }
     }
 
-    .blog-wrapper {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
+    .blog-wrapper-desktop {
+        //display: flex;
+        //flex-wrap: wrap;
+        //justify-content: space-between;
+
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+        margin-top: 30px;
     }
 }
 
@@ -42,7 +64,13 @@
 // DESKTOP - 3840px
 @media only screen and (min-width: 3840px) {
     .content-blog {
-            margin-left: $margin-side-4k;
-            margin-right: $margin-side-4k;
+        margin-top: 140px;
+        margin-left: $margin-side-4k;
+        margin-right: $margin-side-4k;
+        min-height: calc(100vh - 344px - 210px);
+
+        h1 {
+            padding-top: 70px;
         }
+    }
 }

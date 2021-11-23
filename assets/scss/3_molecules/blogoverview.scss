@@ -2,44 +2,96 @@
 .blog-wrapper {
     &__blog-overview {
         display: block;
-        margin: 30px 0px;
+        margin-bottom: 30px;
         background-color: #e7e7e7;
-        border-radius: 4%;
+        border-radius: $border-radius-middle;
 
         &__text-wrapper {
-            padding-left: 5%;
-            padding-right: 5%;
-            padding-bottom: 5%;
+            padding-left: 15px;
+            padding-right: 15px;
 
             p {
                 padding: 8px 0;
-                margin-bottom: 10%;
                 white-space: pre-line;
             }
 
             h2 {
-                margin-top: 0;
+                margin-top: 20px;
             }
 
-            a {
-                background-color: black;
-                color: yellow;
-                padding: 0 5%;
+            &__link {
+                display: inline-block;
+                margin-left: 0;
+                margin-right: auto;
+                padding: 10px;
+                box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.35);
+                margin-top: 20px;
+                margin-bottom: 20px;
             }
+        }
+
+        .img-related {
+            border-radius: 10px 10px 0px 0px;
         }
 
         .h2-related {
-            margin: 0px 5%;
+            margin: 10px 15px 20px 15px;
             padding-bottom: 10px;
         }
     }
+
+    &__blog-overview:first-of-type {
+        margin-top: 30px;
+    }
+}
+
+.blog-wrapper-desktop {
+    display: none;
 }
 
 // DESKTOP - 1280PX
 @media screen and (min-width: $desktop-1280) {
-    .blog-wrapper {
+    .content-blog {  
+        .blog-wrapper {
+            &__blog-overview:first-of-type {
+                margin-top: 0;
+            }
+        }
+    }
+
+    .article-wrapper {
+        .related-articles {
+            .blog-wrapper-related {
+                margin-top: 20px;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 30px;
+            }
+        }
+    }
+
+    .article-related:first-of-type {
+        margin-top: 0;
+    }
+
+    .blog-wrapper__blog-overview:first-of-type {
+        margin-top: 0;
+    }
+}
+
+// DESKTOP - 1440PX
+@media screen and (min-width: $desktop-1440) {
+    .blog-wrapper-desktop {
+        margin-top: 30px;
+
         &__blog-overview {
             max-width: 307px;
+            
+            &__text-wrapper {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
         }
     }
 }

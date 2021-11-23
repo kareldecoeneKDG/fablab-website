@@ -198,7 +198,8 @@
     .blog-wrapper {
         &__blog-overview {
             &__img {
-                width: 307px;
+                //width: 307px;
+                width: 100%;
                 height: 200px;
             }
         }

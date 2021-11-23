@@ -3,11 +3,9 @@
     margin: $margin-side-mobile;
     margin-top: calc(12vh + 30px); //12vh is menu, 30px is extra padding
 }
+
 @media screen and (min-width: $desktop-1280) {
     .article-wrapper {
-        margin: $margin-side-desktop;
-        margin-left: 20%;
-        margin-right: 20%;
-        margin-top: 210px;
+        margin: 210px 345px 70px 243px;
     }
 }
