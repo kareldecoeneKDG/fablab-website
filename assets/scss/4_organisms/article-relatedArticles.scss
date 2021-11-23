@@ -1,0 +1,28 @@
+.img-related {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.h2-related {
+    margin: 10px 15px 20px 15px;
+    padding-bottom: 10px;
+}
+
+
+
+// DESKTOP - 1280PX
+@media screen and (min-width: $desktop-1280) {
+    .article-wrapper {
+        .related-articles {
+            .blog-wrapper-related {
+                margin-top: 20px;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 30px;
+            }
+        }
+    }
+
+    .blog-wrapper__blog-overview:first-of-type {
+        margin-top: 0;
+    }
+}

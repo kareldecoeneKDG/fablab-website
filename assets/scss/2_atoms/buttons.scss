@@ -67,10 +67,10 @@
     padding: $button-small-padding;
 }
 
-// PAGES
+
 
 // BLOG
-.content-blog {
+.container-blog {
     &__tag-filter {
         &__button-tag {
             background-color: $lightergrey;
@@ -85,6 +85,7 @@
             margin-right: 5px;
             cursor: pointer;
             border-radius: $border-radius-middle;
+            margin-bottom: 5px;
         }
 
         &__button-tag:hover {
@@ -94,6 +95,21 @@
 
         &__button-tag:focus {
             background-color: $yellow;
+        }
+    }
+}
+.blog-wrapper {
+    &__blog-overview {
+        &__text-wrapper {
+            &__link {
+                display: inline-block;
+                margin-left: 0;
+                margin-right: auto;
+                padding: 10px;
+                box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.35);
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
         }
     }
 }
@@ -117,6 +133,8 @@
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.35);
 }
 
+
+
 // DESKTOP - 1280PX
 @media only screen and (min-width: $desktop-1280) {
     // GENERAL BUTTONS
@@ -128,6 +146,8 @@
     }
 }
 
+
+
 // DESKTOP - 1920PX
 @media only screen and (min-width: $desktop-hd) {
     // GENERAL BUTTONS
@@ -136,6 +156,8 @@
     }
 }
 
+
+
 // DESKTOP - 2560PX
 @media only screen and (min-width: $desktop-qhd) {
     // GENERAL BUTTONS
@@ -143,6 +165,8 @@
         margin-left: $margin-side-qhd;
     }
 }
+
+
 
 // DESKTOP - 3840PX
 @media only screen and (min-width: $desktop-4k) {

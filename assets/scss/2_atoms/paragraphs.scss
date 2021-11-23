@@ -51,6 +51,28 @@
     }
 }
 
+//BLOG
+.blog-wrapper {
+    &__blog-overview {
+        &__text-wrapper {
+            &__p {
+                padding: 8px 0;
+                white-space: pre-line;
+            }
+        }
+    }
+}
+.content-article {
+    &__text-wrapper {
+        &__p {
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+    }
+}
+
+
+
 // DESKTOP - 1280PX
 @media only screen and (min-width: $desktop-1280) {
     .p-home {

@@ -6,22 +6,22 @@
 
 
 
-<section class="content-blog">
+<section class="container container-blog">
     <h1 class="h1"><?= $page->Subtitle()->html() ?></h1>
 
-    <div class="content-blog__tag-filter">
+    <div class="container-blog__tag-filter">
 
         <?php //GET CURRENT URL ?>
         <?php $url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>
 
         <?php foreach ($tags as $tag) : ?>
-            <a class="content-blog__tag-filter__button-tag <?php if(strpos($url, $tag) !== false) { echo("active-tag"); } ?>" href="<?= url($page->url(), ['params' => ['tag' => $tag]]) ?>">
+            <a class="container-blog__tag-filter__button-tag <?php if(strpos($url, $tag) !== false) { echo("active-tag"); } ?>" href="<?= url($page->url(), ['params' => ['tag' => $tag]]) ?>">
                 <?= html($tag) ?>
             </a>
         <?php endforeach ?>
             
         <?php //BUTTON TO DELETE ACTIVE TAGS ?>
-        <a id="remove-tag" class="content-blog__tag-filter__button-tag">Remove tags</a>
+        <a id="remove-tag" class="container-blog__tag-filter__button-tag">Remove tags</a>
     </div>
 
 

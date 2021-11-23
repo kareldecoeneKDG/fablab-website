@@ -4,8 +4,26 @@
     margin-top: calc(12vh + 30px); //12vh is menu, 30px is extra padding
 }
 
+.share {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+
 @media screen and (min-width: $desktop-1280) {
     .article-wrapper {
-        margin: 210px 345px 70px 243px;
+        margin: 210px auto 70px auto;
+        width: 888px;
+
+    }
+}
+
+
+
+@media screen and (min-width: $desktop-4k) {
+    .article-wrapper {
+        min-height: calc(100vh - 344px - 140px - 70px - 70px);
     }
 }

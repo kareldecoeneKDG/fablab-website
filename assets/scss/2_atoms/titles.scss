@@ -190,7 +190,6 @@
         }
     }
 }
-
 .h1-what-is-fablab {
     font-family: $verdana;
     font-size: $h2-font-size-mobile;
@@ -207,6 +206,19 @@
         color: #747474;
     }
 }
+
+//BLOG
+.blog-wrapper {
+    &__blog-overview {
+        &__text-wrapper {
+            &__title {
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+
 
 // MOBILE MIDDLE TALL
 @media only screen and (min-height: 640px) {
@@ -512,6 +524,13 @@
                     margin-right: $margin-side-4k;
                 }
             }
+        }
+    }
+
+    //BLOG
+    .container-blog {
+        h1 {
+            padding-top: 70px;
         }
     }
 }
