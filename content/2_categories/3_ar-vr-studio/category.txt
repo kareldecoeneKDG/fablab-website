@@ -1,1 +1,28 @@
 Title: Category - AR/VR Studio
+
+----
+
+Info: Het standaard stuk van Lorum Ipsum wat sinds de 16e eeuw wordt gebruikt is hieronder, voor wie er interesse in heeft, weergegeven. Secties 1.10.32 en 1.10.33 van "de Finibus Bonorum.
+
+----
+
+Technologie: Lorum Ipsum generators op Internet hebben de eigenschap voorgedefinieerde stukken te herhalen waar nodig zodat dit de eerste echte generator is op internet.
+
+----
+
+Designsoftware: Als u een passage uit Lorum Ipsum gaat gebruiken dient u zich ervan te verzekeren dat er niets beschamends midden in de tekst verborgen zit.
+
+----
+
+Inspiratie: Het gebruikt een woordenlijst van 200 latijnse woorden gecombineerd met een handvol zinsstructuur modellen om een Lorum Ipsum te genereren die redelijk overkomt.
+
+----
+
+Materialen: 
+
+----
+
+Gallery:
+
+- hp.jpg
+- hp2.jpg

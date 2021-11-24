@@ -6,8 +6,12 @@
         }
 
         &__price-list {
-            text-decoration: underline;
-            font-size: $p-small-font-size-mobile;
+            text-decoration: none;
+            font-size: $p-big-font-size-mobile;
+        }
+
+        &__price-list:hover {
+            border-bottom: 4px solid $yellow;
         }
     }
 }

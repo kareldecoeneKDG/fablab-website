@@ -1,1 +1,28 @@
 Title: Woodshop
+
+----
+
+Info: professor latijn aan de Hampden-Sydney College in Virginia, heeft één van de meer obscure latijnse woorden, consectetur, uit een Lorem Ipsum
+
+----
+
+Technologie: Er zijn vele variaties van passages van Lorem Ipsum beschikbaar maar het merendeel heeft te lijden gehad van wijzigingen in een of andere vorm, door ingevoegde humor
+
+----
+
+Designsoftware: Als u een passage uit Lorum Ipsum gaat gebruiken dient u zich ervan te verzekeren dat er niets beschamends midden in de tekst verborgen zit.
+
+----
+
+Inspiratie: gecombineerd met een handvol zinsstructuur modellen om een Lorum Ipsum te genereren die redelijk overkomt. De gegenereerde Lorum Ipsum
+
+----
+
+Materialen: wood-filaments
+
+----
+
+Gallery:
+
+- cnc2.webp
+- cnc.jpg

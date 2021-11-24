@@ -1,12 +1,33 @@
 .category-wrapper {
     margin: $margin-side-mobile;
     //margin-top: calc(12vh + 30px); //12vh is menu, 30px is extra padding
+
+    &__inspiration-links {
+        &__list {
+            margin-top: 20px;
+            margin-left: 16px;
+            width: 50%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+
+            &__item {
+                //width: auto;
+                margin-bottom: 5px;
+            }
+
+            &__item a:hover {
+                border-bottom: 4px solid $yellow;
+            }
+        }
+    }
 }
 
 // DESKTOP - 1280PX
 @media screen and (min-width: $desktop-1280) {
     .category-wrapper {
-        margin: $margin-side-desktop;
+        margin-left: $margin-side-desktop;
+        margin-right: $margin-side-desktop;
+        margin-bottom: 70px;
         //margin-top: calc(12vh + 30px); //12vh is menu, 30px is extra padding
 
         &__text-wrapper {
@@ -23,8 +44,8 @@
 // DESKTOP - 1600PX
 @media screen and (min-width: 1600px) {
     .category-wrapper {
-        margin-left: $margin-side-desktop+30px;
-        margin-right: $margin-side-desktop+30px;
+        margin-left: $margin-side-desktop;
+        margin-right: $margin-side-desktop;
         //margin-top: calc(12vh + 30px);
 
     }
@@ -72,6 +93,6 @@
     .category-wrapper {
         margin-left: $margin-side-4k;
         margin-right: $margin-side-4k;
-        //margin-top: calc(12vh + 30px);
+        min-height: calc(100vh - 344px - 210px - 70px - 16px);
     }
 }

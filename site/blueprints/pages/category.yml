@@ -25,20 +25,43 @@ columns:
     fields:
       info:
         label: Algemene info
-        type: textarea
+        type: writer
         size: medium
       technologie:
         label: Technologie
-        type: textarea
+        type: writer
         size: medium
-      designsoftware:
+
+      designsoftwaretext:
         label: Design Software
-        type: textarea
-        size: medium
-      Inspiratie:
+        type: writer
+        inline: true
+
+      designsoftwareLinks:
+        label: Design Software Links
+        type: structure
+        fields:
+          anchor:
+            label: Anker
+            type: text
+          link:
+            label: url
+            type: url
+
+      InspirationLinks:
         label: Inspiratie
-        type: textarea
-        size: medium
+        type: structure
+        fields:
+          anchor:
+            label: Anker
+            type: text
+          link:
+            label: url
+            type: url
+      
+      creations:
+        label: Creations
+        type: files
 
   sidebar:
     width: 1/3

@@ -13,27 +13,69 @@ Technologie: Er zijn een aantal 3D-printtechnologieën die worden gebruikt en on
 
 ----
 
-Designsoftware:
-
-Om iets te 3D printen heb je een 3D-bestand nodig. Maak je geen zorgen 
-zelfs als je geen ervaring hebt met modelleren met 3D-software, biedt 
-internet veel bronnen waar je modellen met downloadbare bestanden 
-kunt vinden (sommige moet je betalen, maar veel zijn open source (gratis).
-- Tinkercad (gratis)
-- Fushion360 (gratis)
-- Blendeer (gratis - open source)
-- SketchUp gratis + Betalinde pro versie
+Designsoftwaretext: Het is al geruime tijd een bekend gegeven dat een lezer, tijdens het bekijken van de layout van een pagina, afgeleid wordt door de tekstuele inhoud. Het belangrijke punt van het gebruik van Lorem Ipsum is dat het uit een min.
 
 ----
 
-Inspiratie:
+Designsoftwarelinks:
 
-- Thingiverse
-- Pinshape
-- MyMiniFactory
-- GrabCAD
-- Cults3D
-- Pinterest (keyword “3D Printing”
+- 
+  anchor: Tinkercad
+  link: >
+    https://getkirby.com/docs/reference/panel/fields/structure
+- 
+  anchor: Fusion360
+  link: >
+    https://getkirby.com/docs/reference/panel/fields/structure
+- 
+  anchor: Blender
+  link: >
+    https://getkirby.com/docs/reference/panel/fields/structure
+- 
+  anchor: SketchUp
+  link: >
+    https://getkirby.com/docs/reference/panel/fields/structure
+
+----
+
+Inspirationlinks:
+
+- 
+  anchor: Thingiverse
+  link: >
+    https://getkirby.com/docs/reference/panel/fields/structure
+- 
+  anchor: Pinshape
+  link: >
+    https://getkirby.com/docs/reference/panel/fields/structure
+- 
+  anchor: MyMiniFactory
+  link: >
+    https://getkirby.com/docs/reference/panel/fields/structure
+- 
+  anchor: GrabCAD
+  link: >
+    https://getkirby.com/docs/reference/panel/fields/structure
+- 
+  anchor: Cults3D
+  link: >
+    https://getkirby.com/docs/reference/panel/fields/structure
+- 
+  anchor: Pinterest
+  link: >
+    https://getkirby.com/docs/reference/panel/fields/structure
+
+----
+
+Creations:
+
+- 3d-1.jpg
+- 3d-2.jpg
+- 3d-4.jpg
+- 3d-3.jpg
+- 3d-5.jpg
+- 3d-6.jpg
+- 3d-7.png
 
 ----
 
@@ -45,6 +87,48 @@ Gallery:
 
 - 3ddruck.jpg
 - 1549653545-3d-printen.jpg
+
+----
+
+Inspiratie:
+
+- 
+  anchor: Thingiverse
+  link: >
+    https://getkirby.com/docs/reference/panel/fields/structure
+- 
+  anchor: Pinshape
+  link: >
+    https://getkirby.com/docs/reference/panel/fields/structure
+- 
+  anchor: MyMiniFactory
+  link: >
+    https://getkirby.com/docs/reference/panel/fields/structure
+- 
+  anchor: GrabCAD
+  link: >
+    https://getkirby.com/docs/reference/panel/fields/structure
+- 
+  anchor: Cults3D
+  link: >
+    https://getkirby.com/docs/reference/panel/fields/structure
+- 
+  anchor: Pinterest
+  link: >
+    https://getkirby.com/docs/reference/panel/fields/structure
+
+----
+
+Designsoftware:
+
+Om iets te 3D printen heb je een 3D-bestand nodig. Maak je geen zorgen 
+zelfs als je geen ervaring hebt met modelleren met 3D-software, biedt 
+internet veel bronnen waar je modellen met downloadbare bestanden 
+kunt vinden (sommige moet je betalen, maar veel zijn open source (gratis).
+- Tinkercad (gratis)
+- Fushion360 (gratis)
+- Blendeer (gratis - open source)
+- SketchUp gratis + Betalinde pro versie
 
 ----
 

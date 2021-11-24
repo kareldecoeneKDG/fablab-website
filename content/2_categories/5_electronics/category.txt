@@ -1,1 +1,28 @@
 Title: Electronics
+
+----
+
+Info: Er zijn vele variaties van passages van Lorem Ipsum beschikbaar maar het merendeel heeft te lijden gehad van wijzigingen in een of andere vorm, door
+
+----
+
+Technologie: Lorum Ipsum gaat gebruiken dient u zich ervan te verzekeren dat er niets beschamends midden in de tekst verborgen zit. Alle Lorum Ipsum generators op Internet hebben de eigenschap
+
+----
+
+Designsoftware: modellen om een Lorum Ipsum te genereren die redelijk overkomt. De gegenereerde Lorum Ipsum is daardoor altijd vrij van herhaling, ingevoegde humor
+
+----
+
+Inspiratie: Het standaard stuk van Lorum Ipsum wat sinds de 16e eeuw wordt gebruikt is hieronder, voor wie er interesse in heeft, weergegeven. Secties 1.10.32 en 1.10.33 van "de Finibus
+
+----
+
+Materialen: wood-filaments
+
+----
+
+Gallery:
+
+- arduino2.jpg
+- arduino.jpg

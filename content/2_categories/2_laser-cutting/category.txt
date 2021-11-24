@@ -1,1 +1,29 @@
 Title: Laser Cutting & Graveren
+
+----
+
+Info: Er zijn vele variaties van passages van Lorem Ipsum beschikbaar maar het merendeel heeft te lijden gehad van wijzigingen in een of andere vorm, door ingevoegde humor.
+
+----
+
+Technologie: In tegenstelling tot wat algemeen aangenomen wordt is Lorem Ipsum niet zomaar willekeurige tekst. het heeft zijn wortels in een stuk klassieke latijnse literatuur uit 45 v.Chr. en is dus meer dan 2000 jaar oud. Richard McClintock
+
+----
+
+Designsoftware: Er zijn vele variaties van passages van Lorem Ipsum beschikbaar maar het merendeel heeft te lijden gehad van wijzigingen in een of andere vorm, door ingevoegde humor.
+
+----
+
+Inspiratie: In tegenstelling tot wat algemeen aangenomen wordt is Lorem Ipsum niet zomaar willekeurige tekst. het heeft zijn wortels in een stuk klassieke latijnse literatuur uit 45 v.Chr. en is dus meer dan 2000 jaar oud. Richard McClintock
+
+----
+
+Materialen: pla, wood-filaments
+
+----
+
+Gallery:
+
+- >
+  laser-cutting-technology-feature-image.jpg
+- decoupe-laser-cutting.jpg
