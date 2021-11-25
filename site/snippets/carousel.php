@@ -1,20 +1,21 @@
 <section class="carousel-container">
+    <?php if($page->creations()->isNotEmpty()): ?>
+        <h2 class="category-wrapper__machines-wrapper__title h2">Inspiratie</h2>
+    <?php endif; ?>
+
+
+
     <div class="container">
         <div class="carousel">
+            <?php $creations = $page->creations()->ToStructure(); ?>
 
             <?php
-            $thumbnails = $page->creations()->toFiles();
-            $counter = 1;
-            $prefix = "slide-";
-            ?>
-
-            <?php //Blue border around thumbnails ?>
-            <?php
+            //Blue border around thumbnails
             $counterInput = 1;
             $prefixInput = "slide-";
             ?>
 
-            <?php foreach ($thumbnails as $thumbnail) : ?>
+            <?php foreach($creations as $creation): ?>
                 <?php $idAttribute = $prefixInput . $counterInput; ?>
                 <input type="radio" name="slides" id="<?= $idAttribute ?>" class="radio-input">
 
@@ -23,16 +24,19 @@
 
 
 
+            <?php //Actual image and content ?>
             <ul class="carousel__slides">
-                <?php foreach ($thumbnails as $thumbnail) : ?>
+                <?php foreach($creations as $creation): ?>
                     <li class="carousel__slide">
                         <figure>
                             <div>
-                                <img src="<?= $thumbnail->url() ?>" alt="Creation image">
+                                <?php if($img = $creation->creationImage()->toFile()): ?>
+                                    <img src="<?= $img->url() ?>" alt="Creation image">
+                                <?php endif; ?>
                             </div>
                             <figcaption>
-                                Dit is een creatie dit gemaakt is in het FabLab.
-                                <span class="credit">Photo: Mark Vekemans</span>
+                                <?= $creation->creationsText() ?>
+                                <span class="credit">Photo: <?= $creation->creationsCreator() ?></span>
                             </figcaption>
                         </figure>
                     </li>
@@ -41,15 +45,19 @@
 
 
 
+            <?php
+                //The thumbnails
+                $counter = 1;
+                $prefix = "slide-";
+            ?>
+            
             <ul class="carousel__thumbnails">
-                <?php foreach ($thumbnails as $thumbnail) : ?>
+                <?php foreach($creations as $creation): ?>
                     <?php $forAttribute = $prefix . $counter; ?>
-                    <?php //var_dump($forAttribute) 
-                    ?>
 
-                    <li>
-                        <label for="<?= $forAttribute ?>"><img src="<?= $thumbnail->url() ?>" alt="Creation image thumbnail"></label>
-                    </li>
+                    <?php if($thumbnail = $creation->creationImage()->toFile()): ?>
+                        <li><label for="<?= $forAttribute ?>"><img src="<?= $thumbnail->url() ?>" alt="Creation image thumbnail"></label></li>
+                    <?php endif; ?>
 
                     <?php $counter++; ?>
                 <?php endforeach; ?>

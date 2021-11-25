@@ -136,3 +136,25 @@ Fablablogo:
 Flagimage:
 
 - be.svg
+
+----
+
+Faviconapple:
+
+- apple-touch-icon.png
+
+----
+
+Favicon32:
+
+- favicon-32x32.png
+
+----
+
+Favicon16:
+
+- favicon-16x16.png
+
+----
+
+Safaripinnedtab: 

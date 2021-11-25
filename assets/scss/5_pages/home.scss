@@ -39,6 +39,7 @@
 
             &__right {
                 border: 2px solid $yellow;
+                border-right: none;
                 background-color: $white;
                 border-radius: $border-radius-big;
                 padding-top: 30px;
@@ -241,7 +242,7 @@
                 }
 
                 &__container:hover {
-                    background-color: $white;
+                    background-color: $background-grey;
                     border: 2px solid $black-light;
                     transition: 0.5s;
                 }
@@ -280,6 +281,7 @@
         &__introduction {
             &__flexbox {
                 &__right {
+                    border-right: 2px solid $yellow;
                     margin-right: $margin-side-hd;
                     border-radius: 15px;
                     height: 19vh;

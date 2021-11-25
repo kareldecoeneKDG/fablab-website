@@ -29,9 +29,12 @@
                         color: black;
                         text-decoration: none;
                         display: block;
-                        padding: 12px 16px;
+                        width: 100%;
 
                         &__link {
+                            width: 100%;
+                            display: block;
+                            height: 100%;
                             padding: 12px 16px;
                         }
                     }
@@ -41,6 +44,10 @@
                     }
                 }
             }
+
+            /* &__item {
+                width: 100%;
+            } */
         }
     }
 }

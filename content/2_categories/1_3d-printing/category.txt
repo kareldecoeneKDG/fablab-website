@@ -69,17 +69,62 @@ Inspirationlinks:
 
 Creations:
 
-- 3d-1.jpg
-- 3d-2.jpg
-- 3d-4.jpg
-- 3d-3.jpg
-- 3d-5.jpg
-- 3d-6.jpg
-- 3d-7.png
+- 
+  creationimage:
+    - 3d-1.jpg
+  creationstext: >
+    Het is al geruime tijd een bekend
+    gegeven dat een lezer, tijdens het
+    bekijken van de layout van een pagina
+  creationscreator: Karel Decoene
+- 
+  creationimage:
+    - 3d-2.jpg
+  creationstext: >
+    Het is al geruime tijd een bekend
+    gegeven dat een lezer, tijdens het
+    bekijken van de layout van een pagina
+  creationscreator: Denise Pegels
+- 
+  creationimage:
+    - 3d-3.jpg
+  creationstext: Even een ander tekstje
+  creationscreator: Joske Vermeulen
+- 
+  creationimage:
+    - 3d-4.jpg
+  creationstext: Dit is een Kasteel
+  creationscreator: Jules de Meyer
+- 
+  creationimage:
+    - 3d-5.jpg
+  creationstext: >
+    afgeleid wordt door de tekstuele inhoud.
+    Het belangrijke punt van het gebruik van
+    Lorem
+  creationscreator: Jezus Christus
+- 
+  creationimage:
+    - 3d-6.jpg
+  creationstext: >
+    Hier uw tekst, hier uw tekst" wat het
+    tot min of meer leesbaar nederlands
+    maakt. Veel desktop publishing pakketten
+    en web.
+  creationscreator: Joske Vermeulen
+- 
+  creationimage:
+    - 3d-7.png
+  creationstext: >
+    Lorem Ipsum is de standaard proeftekst
+    in deze bedrijfstak sinds de 16e eeuw,
+    toen een onbekende drukker een zethaak
+    met letters.
+  creationscreator: Jan de Melkboer
 
 ----
 
-Materialen: wood-filaments, flex, pte
+Materialen: PLA, Flex, PETG
 
 ----
 

@@ -75,7 +75,7 @@
 
                         <?php //whatIsFablabButtonText ?>
                         <?php if ($page->whatIsFablabButtonText()->isNotEmpty()) : ?>
-                            <a class="home-container__introduction__flexbox__left__button button-small button-home" href="#"><?= $page->whatIsFablabButtonText() ?></a>
+                            <a class="home-container__introduction__flexbox__left__button button-small button-home" href="<?= $pages->find('what-is-fablab')->url() ?>"><?= $page->whatIsFablabButtonText() ?></a>
                         <?php endif; ?>
                     </div>
 
@@ -134,7 +134,7 @@
 
                         <?php //workingFablabButtonText ?>
                         <?php if ($page->workingFablabButtonText()->isNotEmpty()) : ?>
-                            <a class="home-container__working__flexbox__left__button button-small button-home" href="house-rules"><?= $page->workingFablabButtonText() ?></a>
+                            <a class="home-container__working__flexbox__left__button button-small button-home" href="<?= $pages->find('house-rules')->url() ?>"><?= $page->workingFablabButtonText() ?></a>
                         <?php endif; ?>
                     </div>
 

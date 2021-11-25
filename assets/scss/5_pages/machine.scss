@@ -37,7 +37,7 @@
     }
 }
 
-//DESKTOP 1440px
+/*DESKTOP 1440px
 @media screen and (min-width: 1600px) {
     .machine-banner {
         padding-left: $margin-side-desktop+100px;
@@ -48,7 +48,7 @@
         margin-left: $margin-side-desktop+100px;
         margin-right: $margin-side-desktop+100px;
     }
-}
+} */
 
 //DESKTOP 1920px
 @media screen and (min-width: 1920px) {
@@ -80,6 +80,10 @@
 
 //DESKTOP 3840px
 @media screen and (min-width: 3840px) {
+    .container-machine {
+        min-height: calc(100vh - 344px - 140px - 70px);
+    }
+
     .machine-banner {
         padding-left: $margin-side-4k;
         padding-right: $margin-side-4k;

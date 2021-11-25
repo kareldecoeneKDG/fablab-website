@@ -26,11 +26,11 @@ columns:
       info:
         label: Algemene info
         type: writer
-        size: medium
+        inline: true
       technologie:
         label: Technologie
         type: writer
-        size: medium
+        inline: true
 
       designsoftwaretext:
         label: Design Software
@@ -58,10 +58,21 @@ columns:
           link:
             label: url
             type: url
-      
+
       creations:
         label: Creations
-        type: files
+        type: structure
+        fields:
+          creationImage:
+            label: Creatie foto
+            type: files
+            max: 1
+          creationsText:
+            label: Creations text
+            type: text
+          creationsCreator:
+            label: Creations creator
+            type: text
 
   sidebar:
     width: 1/3
@@ -70,10 +81,29 @@ columns:
         label: Materialen
         type: checkboxes
         options: query
-          pla: PLA
-          wood-filaments: Wood filaments
-          flex: Flex
-          pte: PTE
+          - PLA
+          - Wood filaments
+          - Flex
+          - PETG
+          - MDF
+          - Triplex
+          - Plexi XT
+          - Plexi GS
+          - Plexi (cast)
+          - Textiel Transfermedia (vinyl)
+          - Snijfolie
+          - Maskingtape
+          - HP G1 VR Backpack
+          - HP Reverb Pro VR Headset
+          - Fully adjustible haptic striker
+          - Windows mixed reality controller
+          - Arduino
+          - Hout
+          - Kunstof
+          - Leder
+          - Rubber
+          - Plastics
+          - Metaal
       gallery:
         type: files
         layout: cards

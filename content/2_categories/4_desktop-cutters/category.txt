@@ -2,11 +2,38 @@ Title: Desktop Cutters
 
 ----
 
-Info: On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to.
+Info: Snijd designs voor stickers, signalisatie, decoratie voor kleding, branding en gespecialiseerde graphics met de snelle en intelligente snijfuncties van de desktop snijplotters. Maak gebruik van overlapping, perforatie, printerherkenning van snijtekens en andere geavanceerde functies. Perfect voor het snijden van vinyl, verfsjabloon, reflecterende vinyl, twill, hittetransfer, zandstraalmateriaal en meer.
 
 ----
 
-Technologie: and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple.
+Technologie: Vectorbestanden met patronen en letters worden rechtstreeks gesneden op de vinylrol die via een USB- of seriële kabel in de vinylsnijder wordt ingevoerd. Hoewel deze machines zijn ontworpen voor het snijden van vinyl, kunnen ze ook door computer- en speciaal papier snijden, evenals door dikkere items zoals dunne vellen magneet.
+
+----
+
+Designsoftwaretext: 
+
+----
+
+Designsoftwarelinks: 
+
+----
+
+Inspirationlinks: 
+
+----
+
+Creations: 
+
+----
+
+Materialen: Textiel Transfermedia (vinyl)
+
+----
+
+Gallery:
+
+- cutter1.jpg
+- cutter2.jpg
 
 ----
 
@@ -15,14 +42,3 @@ Designsoftware: Tegenstelling tot wat algemeen aangenomen wordt is Lorem Ipsum n
 ----
 
 Inspiratie: Virginia, heeft één van de meer obscure latijnse woorden, consectetur, uit een Lorem Ipsum passage opgezocht, en heeft tijdens het zoeken naar het woord
-
-----
-
-Materialen: wood-filaments
-
-----
-
-Gallery:
-
-- cutter1.jpg
-- cutter2.jpg

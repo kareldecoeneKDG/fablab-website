@@ -125,3 +125,16 @@ tabs:
         label: Vlaggetje taal
         type: files
         max: 1
+
+      faviconApple:
+        label: Apple touch icon
+        type: files
+        max: 1
+      favicon32:
+        label: Favicon 32x32
+        type: files
+        max: 1
+      favicon16:
+        label: Favicon 16x16
+        type: files
+        max: 1

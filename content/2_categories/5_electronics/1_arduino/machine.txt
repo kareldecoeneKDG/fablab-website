@@ -1,0 +1,53 @@
+Title: Arduino
+
+----
+
+Type: Microcontroller
+
+----
+
+Manufactur: Arduino
+
+----
+
+Buildvolume: 
+
+----
+
+Nozzle: 
+
+----
+
+Filament: 
+
+----
+
+Layerheights: 
+
+----
+
+Layerresolution: 
+
+----
+
+Bed: 
+
+----
+
+Software: https://www.arduino.cc/
+
+----
+
+Manual: https://www.arduino.cc/en/software
+
+----
+
+Tutorials: 
+
+----
+
+Creation: 
+
+----
+
+Filetypes: 

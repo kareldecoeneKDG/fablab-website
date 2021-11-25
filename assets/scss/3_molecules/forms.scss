@@ -43,13 +43,15 @@
                     }
 
                     &__submit {
-                        padding: $button-big-padding;
+                        //padding: $button-big-padding;
                         background-color: $yellow;
                         color: $black;
                         font-family: $verdana;
                         font-size: $button-big-font-size-mobile;
                         font-weight: 700;
                         border-radius: $border-radius-small;
+                        margin-left: 0;
+                        cursor: pointer;
                     }
                 }
             }

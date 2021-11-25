@@ -2,8 +2,16 @@
     &__manual-wrapper {
         &__list {
             list-style-type: none;
+
             &__item {
-                padding-bottom: 10px;
+                //padding-bottom: 10px;
+                margin-bottom: 5px;
+            }
+
+            &__item {
+                &__link:hover {
+                    border-bottom: 4px solid $yellow;
+                }
             }
         }
     }

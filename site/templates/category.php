@@ -8,7 +8,7 @@
 
     <?php //BREADCRUMBS ?>
     <div class="breadcrumb sectionOne" itemprop="breadcrumb">
-        <?php foreach($site->breadcrumb()->not('home') AS $crumb): ?>
+        <?php foreach($site->breadcrumb()->not('home')->not('categories') AS $crumb): ?>
             <?php if ($crumb->isActive()): ?>
                 <span typeof="v:Breadcrumb">
                     <span class="breadcrumb_last" property="v:title">
@@ -37,12 +37,12 @@
             <div class="category-wrapper__text-wrapper">
                 <?php if ($page->info()->isNotEmpty()): ?>
                     <h2 class="h2">Algemene Info</h2>
-                    <p class="p"><?= $page->info()->html() ?></p>
+                    <p class="p"><?= $page->info() ?></p>
                 <?php endif ?>
 
                 <?php if ($page->technologie()->isNotEmpty()): ?>
                     <h2 class="h2">Technologie</h2>
-                    <p class="p"><?= $page->technologie()->html()?></p>
+                    <p class="p"><?= $page->technologie() ?></p>
                 <?php endif ?>
             </div>
             
@@ -99,15 +99,17 @@
 
 
         <?php //DESIGN SOFTWARE STRUCTURE ?>
-        <?php $inspirationLinks = $page->InspirationLinks()->toStructure(); ?>
-        <div class="category-wrapper__inspiration-links">
-            <h2 class="category-wrapper__designsoftware-wrapper h2">Inspiratie</h2>
-            <ul class="category-wrapper__inspiration-links__list">
-                <?php foreach($inspirationLinks as $link): ?>
-                    <li class="category-wrapper__inspiration-links__list__item"><a href="<?= $link->url() ?>"><?= $link->anchor() ?></a></li>
-                <?php endforeach; ?>
-            </ul>
-        </div>
+        <?php if($page->InspirationLinks()->isNotEmpty()): ?>
+            <?php $inspirationLinks = $page->InspirationLinks()->toStructure(); ?>
+            <div class="category-wrapper__inspiration-links">
+                <h2 class="category-wrapper__designsoftware-wrapper h2">Inspiratie</h2>
+                <ul class="category-wrapper__inspiration-links__list">
+                    <?php foreach($inspirationLinks as $link): ?>
+                        <li class="category-wrapper__inspiration-links__list__item"><a href="<?= $link->link() ?>" target="_blank"><?= $link->anchor() ?></a></li>
+                    <?php endforeach; ?>
+                </ul>
+            </div>
+        <?php endif; ?>
 
 
         
@@ -154,4 +156,4 @@
 <?php snippet('footer') ?>
 
 <?php //JAVASCRIPT RESPONSIVE NAV ?>
-<?= js('build/js/category-carousel.js') ?>
+<?php //js('build/js/category-carousel.js') ?>

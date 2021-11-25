@@ -6,11 +6,11 @@
 
 
 
-    <main class="main">
+    <main class="container container-machine main">
 
         <?php //BREADCRUMBS ?>
         <div class="breadcrumb" itemprop="breadcrumb">
-            <?php foreach($site->breadcrumb()->not('home') AS $crumb): ?>
+            <?php foreach($site->breadcrumb()->not('home')->not('categories') AS $crumb): ?>
                 <?php if ($crumb->isActive()): ?>
                     <span typeof="v:Breadcrumb">
                         <span class="breadcrumb_last" property="v:title">
@@ -119,7 +119,7 @@
                         <ul class="machine-wrapper__manual-wrapper__list">
                             <?php foreach($page->documents()->filterBy('extension', 'pdf') as $pdf): ?>
                                 <li class="machine-wrapper__manual-wrapper__list__item">
-                                    <a class="machine-wrapper__manual-wrapper__list__item_link" href="<?= $pdf->url() ?>">
+                                    <a class="machine-wrapper__manual-wrapper__list__item__link" href="<?= $pdf->url() ?>" target="_blank">
                                         <?= $pdf->filename() ?> / PDF                                    
                                     </a>
                                 </li>

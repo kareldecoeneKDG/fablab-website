@@ -41,7 +41,7 @@
 
                     <p class="blog-wrapper__blog-overview__text-wrapper__p p"><?= $article->text()->excerpt(70) ?></p>
 
-                    <a class="blog-wrapper__blog-overview__text-wrapper__link button-small" href="<?= $article->url() ?>">Lees meer ></a>
+                    <a class="blog-wrapper__blog-overview__text-wrapper__link button-small" href="<?= $article->url() ?>">Lees artikel</a>
                 </div>
             </article>
         <?php endforeach ?> 
@@ -61,7 +61,7 @@
                 </div>
 
                 <div>
-                    <a class="blog-wrapper__blog-overview__text-wrapper__link button-small" href="<?= $article->url() ?>">Lees meer ></a>
+                    <a class="blog-wrapper__blog-overview__text-wrapper__link button-small" href="<?= $article->url() ?>">Lees artikel</a>
                 </div>
             </article>
         <?php endforeach ?>
