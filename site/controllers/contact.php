@@ -44,7 +44,7 @@
                         'template' => 'email',
                         'from'     => 'fablab@karel.decoene.nxtmediatech.eu',
                         'replyTo'  => $data['email'],
-                        'to'       => 'fablab@studentsandmore.be',
+                        'to'       => 'cedric.lenders@student.kdg.be',
                         'subject'  => esc($data['name']) . ' heeft het Fablab contactformulier ingevuld',
                         'data'     => [
                             'text'   => esc($data['text']),
