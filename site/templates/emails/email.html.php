@@ -1,6 +1,4 @@
-Hello Company,
-
-<p><?= $text ?></p>
+<p><?=$text?></p>
 
 <p>Best,</p>
-<p><?= $sender ?></p>
+<p><?=$sender?></p>
