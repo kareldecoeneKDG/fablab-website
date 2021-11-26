@@ -1,8 +1,8 @@
 <?php //SNIPPET - HEADER ?>
-<?php snippet('header') ?>
-    
+<?php snippet('header')?>
+
     <?php //SNIPPET - MENU WHITE ?>
-    <?php snippet('menu-white') ?>
+    <?php snippet('menu-white')?>
 
     <?php //CATEGORIE WRAPPER ?>
     <section class="categories-wrapper sectionOne">
@@ -13,16 +13,16 @@
 
                 <?php //CATEGORY LIST ITEM ?>
                 <li class="categories-wrapper__machines__category">
-                    <a href="<?= $category->url() ?>">
+                    <a href="<?=$category->url()?>">
                         <figure>
-                                <img class="overview-image" src="<?= $category->image()->url() ?>" alt="Overview image machine category">
-                                <figcaption class="h2-categories"><?= $category->title() ?></figcaption>
+                                <img class="overview-image" src="<?=$category->image()->url()?>" alt="<?=$category->image()->alt()?>">
+                                <figcaption class="h2-categories"><?=$category->title()?></figcaption>
                         </figure>
                     </a>
                 </li>
-            <?php endforeach ?>
+            <?php endforeach?>
         </ul>
-    </section>   
+    </section>
 
 <?php //FOOTER SNIPPET ?>
-<?php snippet('footer') ?>
+<?php snippet('footer')?>
