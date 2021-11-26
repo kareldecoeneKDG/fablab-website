@@ -33,6 +33,8 @@
 
     &__introduction {
         &__flexbox {
+            align-items: center;
+
             &__left {
                 padding-bottom: 30px;
             }
@@ -44,6 +46,10 @@
                 border-radius: $border-radius-big;
                 padding-top: 30px;
                 padding-bottom: 30px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                //align-items: center;
 
                 &__openhours {
                     padding-left: $margin-side-mobile;
@@ -119,7 +125,7 @@
 // DESKTOP - 1280PX
 @media screen and (min-width: $desktop-1280) {
     .home-container {
-        padding-bottom: 50px;
+        padding-bottom: 60px;
 
         &__banner {
             height: 100vh;
@@ -149,7 +155,7 @@
         }
 
         &__introduction {
-            margin-top: 60px;
+            margin-top: 100px;
 
             &__flexbox {
                 display: flex;
