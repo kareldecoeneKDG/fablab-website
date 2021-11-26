@@ -1,4 +1,6 @@
 title: Contact
+options:
+  changeSlug: false
 
 columns:
   - width: 1/2

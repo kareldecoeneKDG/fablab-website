@@ -49,6 +49,12 @@
                     <p class="modal-content__linksection__link"><?= /*"https:".*/ $url ?></p>
 
                     <button id="url" class="modal-content__linksection__link__copy-button" onclick="copyToClipboard()"><i class="fa fa-files-o" aria-hidden="true"></i> Link kopieren</button>
+
+                    <div class="modal-copied">
+                        <div class="modal-content-copied">
+                            <p class="copied-p p">Link gekopieerd</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -101,3 +107,6 @@
 
 <?php //JAVASCRIPT ARTICLE SHARE MODAL ?>
 <?= js('build/js/article-shareModal.js') ?>
+
+<?php //JAVASCRIPT ARTICLE SHARE MODAL ?>
+<?= js('build/js/article-copiedModal.js') ?>

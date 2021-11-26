@@ -7,7 +7,8 @@
         <?php endif; ?>
 
         <!-- SNIPPET - PAGESLIST -->
-        <?php snippet('pages-list2') ?>
+        <?php snippet('pages-list') ?>
+        <?php //snippet('pages-list2') ?>
 
         <a class="header__languagebutton" href="#">
             

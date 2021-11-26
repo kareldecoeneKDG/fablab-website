@@ -18,16 +18,48 @@
     .machine-banner {
         padding-left: $margin-side-desktop;
         padding-right: $margin-side-desktop;
+        margin-bottom: 100px;
     }
 
     .machine-image-wrapper {
         margin-left: $margin-side-desktop;
         margin-right: $margin-side-desktop;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     .machine-wrapper {
         &__info {
             padding-bottom: 30px;
+        }
+
+        &__file-types {
+            margin-top: 100px;
+
+            h2 {
+                margin-top: 0;
+            }
+        }
+
+        &__manual-wrapper {
+            margin-top: 100px;
+
+            h2 {
+                margin-top: 0;
+            }
+        }
+
+        &__tutorial-wrapper {
+            margin-top: 100px;
+            margin-bottom: 60px;
+
+            h2 {
+                margin-top: 0;
+            }
+
+            h3 {
+                margin-bottom: 0 !important;
+            }
         }
     }
 

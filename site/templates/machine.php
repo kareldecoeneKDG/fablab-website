@@ -10,7 +10,7 @@
 
         <?php //BREADCRUMBS ?>
         <div class="breadcrumb" itemprop="breadcrumb">
-            <?php foreach($site->breadcrumb()->not('home')->not('categories') AS $crumb): ?>
+            <?php foreach($site->breadcrumb()->not('home') AS $crumb): ?>
                 <?php if ($crumb->isActive()): ?>
                     <span typeof="v:Breadcrumb">
                         <span class="breadcrumb_last" property="v:title">

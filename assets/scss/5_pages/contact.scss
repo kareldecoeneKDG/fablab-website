@@ -107,7 +107,7 @@
         }
 
         &__general {
-            margin-top: 70px;
+            margin-top: 100px;
             margin-left: $margin-side-desktop;
             margin-right: 222px;
 
@@ -128,6 +128,10 @@
                     margin-top: 0px;
                 }
             }
+        }
+
+        &__tabscontainer {
+            margin-top: 100px;
         }
     }
 }

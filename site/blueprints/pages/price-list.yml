@@ -11,6 +11,26 @@ sections:
         label: Eigen Materialen Tekst
         type: writer
 
+      machineStartUpCost:
+        label: Machine opstart kosten
+        type: structure
+        fields:
+          machine:
+            label: Machine
+            type: text
+          costIntern:
+            label: Opstartkost Intern KdG
+            type: number
+            before: €
+          costExtern:
+            label: Opstartkost Extern KdG
+            type: number
+            before: €
+          costCompany:
+            label: Opstartkost Bedrijf
+            type: number
+            before: €
+
       Materials:
         label: Materiaaltype
         type: structure

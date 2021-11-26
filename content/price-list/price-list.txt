@@ -10,6 +10,27 @@ Ownmaterials: Eigen materialen kunnen meegebracht en gebruikt worden, steeds na 
 
 ----
 
+Machinestartupcost:
+
+- 
+  machine: Laser
+  costintern: 2
+  costextern: 3
+  costcompany: 5
+  cost: "3"
+- 
+  machine: 3D printer
+  costintern: 3
+  costextern: 3
+  costcompany: 3
+- 
+  machine: CNC
+  costintern: 5
+  costextern: 10
+  costcompany: 10
+
+----
+
 Materials:
 
 - 
@@ -17,7 +38,7 @@ Materials:
   materialitem:
     - 
       detail: 3mm
-      color: ""
+      color: /
       size: 30x60cm
       pricekdg: "3"
       priceextern: "4"
@@ -25,12 +46,12 @@ Materials:
       instock: 'true'
     - 
       detail: 4mm
-      color: ""
+      color: /
       size: 30x60cm
       pricekdg: "3"
       priceextern: "4"
       pricecompany: "4"
-      instock: 'false'
+      instock: 'true'
 - 
   name: Triplex
   materialitem:
