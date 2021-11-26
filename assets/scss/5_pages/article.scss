@@ -24,6 +24,6 @@
 
 @media screen and (min-width: $desktop-4k) {
     .article-wrapper {
-        min-height: calc(100vh - 344px - 140px - 70px - 70px);
+        min-height: calc(100vh - 344px - 140px - 70px - 70px); //344px is footer, 140px is menu, 70px is padding top
     }
 }

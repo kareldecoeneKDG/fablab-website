@@ -16,7 +16,7 @@
                 background-color: $white;
 
                 &__item {
-                    width: calc(100% / 2);
+                    width: calc(100% / 2); //2 tabs in accordion
                     text-align: center;
                     color: #888;
                     font-weight: 700;
@@ -35,7 +35,7 @@
 
             &__tabindicator {
                 position: relative;
-                width: calc(100% / 2);
+                width: calc(100% / 2); //2 tabs in accordion
                 height: 5px;
                 background: $yellow;
                 left: 0px;

@@ -86,6 +86,6 @@
     .category-wrapper {
         margin-left: $margin-side-4k;
         margin-right: $margin-side-4k;
-        min-height: calc(100vh - 344px - 210px - 70px - 16px);
+        min-height: calc(100vh - 344px - 140px - 70px - 70px - 16px); //344px is footer, 140px is menu, 70px is padding top, 16px is margin
     }
 }
