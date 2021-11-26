@@ -14,14 +14,16 @@
 
         <img src="<?=$page->image()->url()?>" alt="<?=$page->image()->alt()?>">
 
-        <!-- <div class="content-article__text-wrapper share">
-            <a class="content-article__text-wrapper__icon" href=""><i class="fa fa-share"></i></a>
-            <h3>Delen</h3>
+        <?php
+/*<div class="content-article__text-wrapper share">
+<a class="content-article__text-wrapper__icon" href=""><i class="fa fa-share"></i></a>
+<h3>Delen</h3>
 
-            <a href="#" class="facebook-button"><i class="fa fa-facebook"></i></a>
-            <a href="#" class="twitter-button"><i class="fa fa-twitter"></i></a>
-            <a href="#" class="whatsapp-button"><i class="fa fa-whatsapp"></i></a>
-        </div> -->
+<a href="#" class="facebook-button"><i class="fa fa-facebook"></i></a>
+<a href="#" class="twitter-button"><i class="fa fa-twitter"></i></a>
+<a href="#" class="whatsapp-button"><i class="fa fa-whatsapp"></i></a>
+</div> */
+?>
 
 
 

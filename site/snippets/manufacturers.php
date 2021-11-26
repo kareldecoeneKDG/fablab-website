@@ -10,8 +10,8 @@ $fablabs = $page->fablabs()->toStructure();
     <div class="home-container__tabscontainer-manufacturer__tabs tabs-manufacturer">
         <div class="home-container__tabscontainer-manufacturer__tabs__tabheader tab-header-manufacturer">
 
-            <!-- Tabs -->
-            <div class="home-container__tabscontainer-manufacturer__tabs__tabheader__item active"> <!-- changed -->
+            <?php // Tabs ?>
+            <div class="home-container__tabscontainer-manufacturer__tabs__tabheader__item active"> <?php // changed ?>
                 Manufacturers
             </div>
             <div class="home-container__tabscontainer-manufacturer__tabs__tabheader__item">
@@ -23,7 +23,7 @@ $fablabs = $page->fablabs()->toStructure();
 
         <div class="home-container__tabscontainer-manufacturer__tabs__tabbody tab-body-manufacturer">
 
-            <!-- Tab bodies -->
+            <?php // Tab bodies ?>
             <div class="home-container__tabscontainer-manufacturer__tabs__tabbody__item active">
                 <?php foreach ($manufacturers as $manufacturer): ?>
                     <div>
