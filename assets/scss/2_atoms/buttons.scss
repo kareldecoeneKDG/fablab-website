@@ -1,6 +1,12 @@
 // MOBILE
 
 // GENERAL BUTTONS
+/* button {
+    -webkit-appearance: none;
+   -moz-appearance: none;
+        appearance: none;
+} */
+
 .button-small {
     display: inline-block;
 
@@ -17,6 +23,10 @@
     margin-left: $margin-side-mobile;
     margin-right: $margin-side-mobile;
     padding: $button-small-padding;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 .button-big {

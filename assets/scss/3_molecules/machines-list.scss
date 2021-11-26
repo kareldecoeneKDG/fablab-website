@@ -24,6 +24,12 @@
 @media only screen and (min-width: $desktop-1280) {
     .category-wrapper {
         &__machines-wrapper {
+            margin-top: 100px;
+            
+            &__title {
+                margin-top: 0;
+            }
+
             &__list {
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);

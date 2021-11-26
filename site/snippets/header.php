@@ -31,17 +31,20 @@
             <?php endif; ?>
         <?php endif; ?>
 
-        <?php if($site->favicon32()->isNotEmpty()): ?>
+        <?php /* if($site->favicon32()->isNotEmpty()): ?>
             <?php if($favicon32 = $site->favicon32()->toFile()): ?>
-                <link rel="apple-touch-icon" sizes="180x180" href="<?= $favicon32->url() ?>">
+                <link rel="icon" sizes="32x32" href="<?= $favicon32->url() ?>">
             <?php endif; ?>
         <?php endif; ?>
 
         <?php if($site->favicon16()->isNotEmpty()): ?>
             <?php if($favicon16 = $site->favicon16()->toFile()): ?>
-                <link rel="apple-touch-icon" sizes="180x180" href="<?= $favicon16->url() ?>">
+                <link rel="icon" sizes="16x16" href="<?= $favicon16->url() ?>">
             <?php endif; ?>
-        <?php endif; ?>
+        <?php endif; */ ?>
+
+        <!-- <link rel="icon" type="image/x-icon" href="https://fablab.karel.decoene.nxtmediatech.eu/favicon.ico"> -->
+        <link rel="icon" type="image/png" sizes="32x32" href="https://fablab.karel.decoene.nxtmediatech.eu/favicon-32x32.png">
 
         <link rel="manifest" href="assets/images/favicon/site.webmanifest">
         <link rel="mask-icon" href="assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">

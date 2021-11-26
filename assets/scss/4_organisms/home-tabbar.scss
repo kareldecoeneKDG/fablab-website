@@ -96,7 +96,8 @@
 @media only screen and (min-width: $desktop-1280) {
     .home-container {
         &__tabscontainer-manufacturer {
-            margin-top: 60px;
+            margin-top: 100px;
+
             &__tabs {
                 width: 100%;
                 height: 65vh;
@@ -140,8 +141,6 @@
 @media only screen and (min-width: $desktop-1440) {
     .home-container {
         &__tabscontainer-manufacturer {
-            margin-top: 60px;
-
             &__tabs {
                 width: 100%;
                 height: 47vh;

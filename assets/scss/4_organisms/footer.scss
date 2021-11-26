@@ -20,6 +20,11 @@
                 margin-bottom: 5px;
             }
 
+            &__link:hover {
+                color: $lightergrey;
+                transition: 0.3s;
+            }
+
             &__link-email {
                 //color: $yellow;
                 margin-top: 8px;
@@ -27,6 +32,12 @@
 
             &__socialsflexbox-white {
                 margin-top: 30px;
+
+                a:hover {
+                    i {
+                        color: $lightergrey;
+                    }
+                }
             }
 
             &__socialsflexbox-grey {
@@ -60,6 +71,15 @@
         margin-top: 30px;
         font-size: $p-small-font-size-mobile;
         color: white;
+    }
+}
+
+.footer__content__block .socials-white {
+    a:hover {
+        i {
+            transition: 0.3s;
+            color: $lightergrey;
+        }
     }
 }
 
