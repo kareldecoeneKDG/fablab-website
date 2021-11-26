@@ -5,7 +5,7 @@
 }
 
 //DESKTOP vanaf 1280px
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: $desktop-1280) {
     .container-blog {
         margin: $margin-side-desktop;
         margin-top: 210px;
@@ -39,7 +39,7 @@
 
 
 // DESKTOP - 1920PX
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: $desktop-hd) {
     .container-blog {
         margin-left: $margin-side-hd;
         margin-right: $margin-side-hd;
@@ -48,7 +48,7 @@
 
 
 // DESKTOP - 2560PX
-@media only screen and (min-width: 2560px) {
+@media only screen and (min-width: $desktop-qhd) {
     .container-blog {
         margin-left: $margin-side-qhd;
         margin-right: $margin-side-qhd;
@@ -58,7 +58,7 @@
 
 
 // DESKTOP - 3840px
-@media only screen and (min-width: 3840px) {
+@media only screen and (min-width: $desktop-4k) {
     .container-blog {
         margin-top: 140px;
         margin-left: $margin-side-4k;

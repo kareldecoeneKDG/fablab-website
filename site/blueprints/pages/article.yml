@@ -16,8 +16,22 @@ columns:
   main:
     width: 2/3
     fields:
-      text:
+      blogText:
+        label: Blogtekst
         type: writer
+        inline: true
+
+      workshop:
+        label: Workshop
+        type: structure
+        max: 1
+        fields:
+          anchor:
+            label: Anker
+            type: text
+          link:
+            label: Url
+            type: url
       related:
         label: Related articles
         type: pages

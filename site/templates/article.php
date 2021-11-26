@@ -46,7 +46,7 @@
 
                 <div class="modal-content__linksection">
                     <?php $url = "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>
-                    <p class="modal-content__linksection__link"><?= "https:". $url ?></p>
+                    <p class="modal-content__linksection__link"><?= /*"https:".*/ $url ?></p>
 
                     <button id="url" class="modal-content__linksection__link__copy-button" onclick="copyToClipboard()"><i class="fa fa-files-o" aria-hidden="true"></i> Link kopieren</button>
                 </div>
@@ -55,7 +55,15 @@
 
 
 
-        <p class="content-article__text-wrapper__p p"><?= $page->text()->kti() ?></p>
+        <p class="content-article__text-wrapper__p p"><?= $page->blogText() ?></p>
+
+        <?php if($page->workshop()->isNotEmpty()): ?>
+            <?php $workshop = $page->workshop()->ToStructure(); ?>
+
+            <?php foreach($workshop as $workshopitem): ?>
+                <a class="content-article__text-wrapper__a" href="<?= $workshopitem->link() ?>" target="_blank">Schrijf je in voor de <?= $workshopitem->anchor() ?> <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            <?php endforeach; ?>
+        <?php endif; ?>
 
         <p class="content-article__text-wrapper__p__date p">Gepubliceerd op <?= $page->Date()->toDate('d-m-Y') ?></p>
     </section>
@@ -85,11 +93,11 @@
 
 
 
+<?php //SNIPPET - FOOTER ?>
+<?php snippet('footer') ?>
+
 <?php //JAVASCRIPT SHAREBUTTON ?>
 <?= js('build/js/sharebuttons.js') ?>
 
 <?php //JAVASCRIPT ARTICLE SHARE MODAL ?>
 <?= js('build/js/article-shareModal.js') ?>
-
-<?php //SNIPPET - FOOTER ?>
-<?php snippet('footer') ?>
