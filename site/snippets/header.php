@@ -1,50 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <!-- STANDARD META TAGS -->
+        <?php // STANDARD META TAGS ?>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- PAGE TITLE -->
-        <title><?= $page->title() ?></title>
+        <?php // PAGE TITLE ?>
+        <title><?php $page->title()?></title>
 
-        <!-- LOAD REACT -->
-        <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+        <?php // LOAD REACT ?>
+        <?php // Note: when deploying, replace "development.js" with "production.min.js". ?>
         <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
         <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
 
-        <!-- FONTS - GET PROXIMA NOVA FROM MARK -->
+        <?php // FONTS - GET PROXIMA NOVA FROM MARK ?>
         <link rel="stylesheet" href="https://use.typekit.net/zxe6lkl.css">
 
-        <!-- FONT AWESOME -->
+        <?php // FONT AWESOME ?>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <!-- STYLESHEETS -->
-        <?= css('build/css/style.css') ?>
+        <?php // STYLESHEETS ?>
+        <?php css('build/css/style.css')?>
 
-        <!-- FAVICONS -->
+        <?php // FAVICONS ?>
 
-        <?php if($site->faviconApple()->isNotEmpty()): ?>
-            <?php if($faviconApple = $site->faviconApple()->toFile()): ?>
-                <link rel="apple-touch-icon" sizes="180x180" href="<?= $faviconApple->url() ?>">
-            <?php endif; ?>
-        <?php endif; ?>
+        <?php if ($site->faviconApple()->isNotEmpty()): ?>
+            <?php if ($faviconApple = $site->faviconApple()->toFile()): ?>
+                <link rel="apple-touch-icon" sizes="180x180" href="<?php $faviconApple->url()?>">
+            <?php endif;?>
+        <?php endif;?>
 
+<<<<<<< HEAD
+=======
+        <?php /* if($site->favicon32()->isNotEmpty()): ?>
+<?php if($favicon32 = $site->favicon32()->toFile()): ?>
+<link rel="icon" sizes="32x32" href="<?php $favicon32->url() ?>">
+<?php endif; ?>
+<?php endif; ?>
+
+<?php if($site->favicon16()->isNotEmpty()): ?>
+<?php if($favicon16 = $site->favicon16()->toFile()): ?>
+<link rel="icon" sizes="16x16" href="<?php $favicon16->url() ?>">
+<?php endif; ?>
+<?php endif; */?>
+
+        <?php // <link rel="icon" type="image/x-icon" href="https://fablab.karel.decoene.nxtmediatech.eu/favicon.ico"> ?>
+>>>>>>> 4d57f1b8b05432852a14406747883f23fc8b704a
         <link rel="icon" type="image/png" sizes="32x32" href="https://fablab.karel.decoene.nxtmediatech.eu/favicon-32x32.png">
         <link rel="manifest" href="assets/images/favicon/site.webmanifest">
         <link rel="mask-icon" href="assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
 
-        <!-- SOCIAL MEDIA PREVIEWS -->
+        <?php // SOCIAL MEDIA PREVIEWS ?>
         <meta property="og:url" content="https://fablab.karel.decoene.nxtmediatech.eu">
         <meta property="og:type" content="website">
         <meta property="og:title" content="KdG FabLab - Make | Share | Learn">
         <meta property="og:description" content="Het KdG FabLab is een maakplaats voor iedereen. Komt gerust een keer langs tijdens onze openingsuren!">
         <meta property="og:image" content="https://fablab.karel.decoene.nxtmediatech.eu/assets/images/previewimages/facebook-preview-image.png">
 
-        <!-- TWITTER -->
+        <?php // TWITTER ?>
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="KdG FabLab - Make | Share | Learn" />
         <meta name="twitter:site" content="fablabkareldecoenenxtmediatecheu" />
