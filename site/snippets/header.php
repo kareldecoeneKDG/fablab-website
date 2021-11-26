@@ -43,7 +43,7 @@
             <?php endif; ?>
         <?php endif; */ ?>
 
-        <link rel="icon" sizes="196x196" href="https://fablab.karel.decoene.nxtmediatech.eu/favicon.ico">
+        <link rel="icon" type="image/x-icon" href="https://fablab.karel.decoene.nxtmediatech.eu/favicon.ico">
 
         <link rel="manifest" href="assets/images/favicon/site.webmanifest">
         <link rel="mask-icon" href="assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
