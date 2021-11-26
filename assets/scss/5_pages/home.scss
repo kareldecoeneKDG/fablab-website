@@ -270,6 +270,19 @@
     }
 }
 
+// DESKTOP - 1536PX
+@media screen and (min-width: $desktop-1536) {
+    .home-container {
+        &__introduction {
+            &__flexbox {
+                &__right {
+                    height: 21vh;
+                }
+            }
+        }
+    }
+}
+
 // DESKTOP - 1920PX
 @media only screen and (min-width: $desktop-hd) {
     .home-container {

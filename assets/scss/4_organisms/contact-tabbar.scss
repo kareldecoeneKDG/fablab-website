@@ -24,7 +24,7 @@
                 }
 
                 &__item {
-                    width: calc(100% / 4);
+                    width: calc(100% / 4); //4 tabs in accordion
                     text-align: center;
                     color: #888;
                     font-weight: 700;
@@ -32,6 +32,16 @@
                     font-size: 14px;
                     text-transform: uppercase;
                     outline: none;
+                    width: 100%;
+                    height: 100%;
+
+                    position: relative;
+
+                    i {
+                        position: absolute;
+                        top: 30%;
+                        left: 40%;
+                    }
                 }
             }
 
