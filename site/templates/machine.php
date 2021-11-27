@@ -10,11 +10,7 @@
 
         <?php //BREADCRUMBS ?>
         <div class="breadcrumb" itemprop="breadcrumb">
-<<<<<<< HEAD
             <?php foreach($site->breadcrumb()->not('home') AS $crumb): ?>
-=======
-            <?php foreach ($site->breadcrumb()->not('home')->not('categories') as $crumb): ?>
->>>>>>> 4d57f1b8b05432852a14406747883f23fc8b704a
                 <?php if ($crumb->isActive()): ?>
                     <span typeof="v:Breadcrumb">
                         <span class="breadcrumb_last" property="v:title">
@@ -140,10 +136,10 @@
                         <h2 class="machine-wrapper__tutorial-wrapper__title h2">Tutorials</h2>
                         <div class="machine-wrapper__tutorial-wrapper__video-wrapper">
                             <?php
-// using the `toStructure()` method, we create a structure collection
-$items = $page->tutorials()->toStructure();
-// we can then loop through the entries and render the individual fields
-foreach ($items as $item): ?>
+                                // using the `toStructure()` method, we create a structure collection
+                                $items = $page->tutorials()->toStructure();
+                                // we can then loop through the entries and render the individual fields
+                                foreach ($items as $item): ?>
                                 <div class="machine-wrapper__tutorial-wrapper__video-wrapper__video">
                                     <?=youtube($item->url()->html())?>
                                     <h3 class="machine-wrapper__tutorial-wrapper__h3 h3"><?=$item->title()->html()?></h3>

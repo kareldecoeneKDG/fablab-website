@@ -49,27 +49,27 @@
 
                     <div class="footer__content__block__openhours">
 
-                        <?php // openhoursKdGTitle ?>
+                        <?php //openhoursKdGTitle ?>
                         <?php if ($site->openhoursKdGTitle()->isNotEmpty()): ?>
-                            <h5 class="footer__content__block__openhours__title h5-footer h5"><?php $site->openhoursKdGTitle()?></h5>
+                            <h5 class="footer__content__block__openhours__title h5-footer h5"><?= $site->openhoursKdGTitle() ?></h5>
                         <?php endif;?>
 
-                        <?php // openhoursKdGText ?>
+                        <?php //openhoursKdGText ?>
                         <?php if ($site->openhoursKdGText()->isNotEmpty()): ?>
-                            <p class="footer__content__block__openhours__paragraph"><?=$site->openhoursKdGText()?></p>
+                            <p class="footer__content__block__openhours__paragraph"><?= $site->openhoursKdGText() ?></p>
                         <?php endif;?>
                     </div>
 
                     <div class="footer__content__block__openhours">
 
-                        <?php // openhoursExternTitle ?>
+                        <?php //openhoursExternTitle ?>
                         <?php if ($site->openhoursExternTitle()->isNotEmpty()): ?>
-                            <h5 class="footer__content__block__openhours__title h5-footer h5"><?=$site->openhoursExternTitle()?></h5>
+                            <h5 class="footer__content__block__openhours__title h5-footer h5"><?= $site->openhoursExternTitle()?> </h5>
                         <?php endif;?>
 
-                        <?php // openhoursExternText ?>
+                        <?php //openhoursExternText ?>
                         <?php if ($site->openhoursExternText()->isNotEmpty()): ?>
-                            <p class="footer__content__block__openhours__paragraph"><?=$site->openhoursExternText()?></p>
+                            <p class="footer__content__block__openhours__paragraph"><?= $site->openhoursExternText() ?></p>
                         <?php endif;?>
                     </div>
                 </div>
@@ -119,6 +119,6 @@
 
 
         <?php // JAVASCRIPT RESPONSIVE NAV ?>
-        <?phpjs('build/js/responsive-nav.js')?>
+        <?php js('build/js/responsive-nav.js')?>
     </body>
 </html>

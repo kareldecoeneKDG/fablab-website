@@ -6,11 +6,7 @@
             <a class="header__logo logo" href="<?=$site->url()?>"><img class="header__logo__img" src="<?=$logo->url()?>" alt="Logo Fablab"></a>
         <?php endif;?>
 
-<<<<<<< HEAD
         <?php snippet('pages-list') ?>
-=======
-        <?php snippet('pages-list2')?>
->>>>>>> 4d57f1b8b05432852a14406747883f23fc8b704a
 
         <a class="header__languagebutton" href="#">
 

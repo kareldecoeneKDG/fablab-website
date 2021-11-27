@@ -27,12 +27,12 @@ $transportItems = $page->accessibility()->toStructure();
         <div class="contact-container__tabscontainer__tabs__tabindicator tab-indicator"></div>
 
         <div class="contact-container__tabscontainer__tabs__tabbody tab-body">
-            <?php foreach ($transportItems as $item): ?>
+            <?php foreach($transportItems as $item): ?>
 
                 <?php // Tab bodies ?>
                 <div class="contact-container__tabscontainer__tabs__tabbody__item">
-                    <h3 class="contact-container__tabscontainer__tabs__tabbody__item__title h3"><?php $item->vehicle()?></h3>
-                    <p class="contact-container__tabscontainer__tabs__tabbody__item__paragraph p"><?php $item->description()?></p>
+                    <h3 class="contact-container__tabscontainer__tabs__tabbody__item__title h3"><?php $item->vehicle() ?></h3>
+                    <p class="contact-container__tabscontainer__tabs__tabbody__item__paragraph p"><?php $item->description() ?></p>
                 </div>
             <?php endforeach;?>
         </div>

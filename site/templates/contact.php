@@ -111,7 +111,6 @@
 
         <?php //GENERAL INFO MARK + ESTHER ?>
         <div class="contact-container__general">
-
             <?php if($page->generalTitle()->isNotEmpty()): ?>
                 <h2 class="contact-container__general__title h2"><?= $page->generalTitle() ?></h2>
             <?php endif; ?>
@@ -159,9 +158,7 @@
                                 <a class="contact-container__general__flexbox__left__contact" href="mailto: <?= $employee->email() ?>"><i class="fa fa-envelope" aria-hidden="true"></i> <?=$employee->email()?></a>
                             <?php endif; ?>
                         </div>
-                <?php
-                    endforeach;
-                ?>
+                    <?php endforeach; ?>
             </div>
         </div>
 
@@ -182,4 +179,4 @@
 <?php snippet('footer') ?>
 
 <?php //JAVASCRIPT TAB BAR ?>
-<?= js('build/js/tabbar-accessibility.js') ?>
+<?php js('build/js/tabbar-accessibility.js')?>

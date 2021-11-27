@@ -8,11 +8,7 @@
 
     <?php //BREADCRUMBS ?>
     <div class="breadcrumb sectionOne" itemprop="breadcrumb">
-<<<<<<< HEAD
         <?php foreach($site->breadcrumb()->not('home') AS $crumb): ?>
-=======
-        <?php foreach ($site->breadcrumb()->not('home')->not('categories') as $crumb): ?>
->>>>>>> 4d57f1b8b05432852a14406747883f23fc8b704a
             <?php if ($crumb->isActive()): ?>
                 <span typeof="v:Breadcrumb">
                     <span class="breadcrumb_last" property="v:title">
@@ -31,7 +27,7 @@
 
 
 
-   <?php //CATERGORY WRAPPER ?>
+    <?php //CATERGORY WRAPPER ?>
     <section class="category-wrapper">
         <h1 class="h1"><?=$page->title()->html()?></h1>
 
@@ -141,7 +137,7 @@
 
 
         <?php //CAROUSEL ?>
-        <?php snippet('carousel')?>
+        <?php snippet('carousel') ?>
 
 
 
@@ -157,7 +153,7 @@
 
 
 <?php //SNIPPET - FOOTER ?>
-<?php snippet('footer')?>
+<?php snippet('footer') ?>
 
-<?php //JAVASCRIPT RESPONSIVE NAV ?>
-<?php //js('build/js/category-carousel.js') ?>
+<?php /* //JAVASCRIPT RESPONSIVE NAV ?>
+<?php //js('build/js/category-carousel.js') */ ?>
