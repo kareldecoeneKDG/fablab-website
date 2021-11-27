@@ -1,9 +1,9 @@
 .error-container {
-    height: calc(100vh - calc(12vh + 30px)); //12vh is menu, 30px is extra padding
+    /* height: calc(100vh - calc(12vh + 30px)); //12vh is menu, 30px is extra padding */
     position: relative;
 
     &__text-container {
-        margin-top: calc(12vh + 30px); //12vh is menu, 30px is extra padding
+        /* margin-top: calc(12vh + 30px); //12vh is menu, 30px is extra padding */
         position: absolute;
         top: 25%;
         left: 25%;
@@ -23,9 +23,9 @@
 @media only screen and (min-width: $desktop-1280) {
     .error-container {
         &__text-container {
-            margin-top: 210px;
+            /* margin-top: 210px;
             top: 15%;
-            left: 40%;
+            left: 40%; */
         }
     }
 }
@@ -34,9 +34,9 @@
 @media only screen and (min-width: $desktop-1366) {
     .error-container {
         &__text-container {
-            margin-top: 210px;
+            /* margin-top: 210px;
             top: 18%;
-            left: 46%;
+            left: 46%; */
         }
     }
 }
@@ -45,9 +45,9 @@
 @media only screen and (min-width: $desktop-1536) {
     .error-container {
         &__text-container {
-            margin-top: 210px;
+            /* margin-top: 210px;
             top: 18%;
-            left: 44%;
+            left: 44%; */
         }
     }
 }
@@ -56,9 +56,9 @@
 @media only screen and (min-width: $desktop-hd) {
     .error-container {
         &__text-container {
-            margin-top: 210px;
+            /* margin-top: 210px;
             top: 24%;
-            left: 46%;
+            left: 46%; */
         }
     }
 }
@@ -67,9 +67,9 @@
 @media only screen and (min-width: $desktop-qhd) {
     .error-container {
         &__text-container {
-            margin-top: 210px;
+            /* margin-top: 210px;
             top: 30%;
-            left: 47%;
+            left: 47%; */
         }
     }
 }
@@ -78,9 +78,9 @@
 @media only screen and (min-width: $desktop-4k) {
     .error-container {
         &__text-container {
-            margin-top: 210px;
+            /* margin-top: 210px;
             top: 36%;
-            left: 48%;
+            left: 48%; */
         }
     }
 }

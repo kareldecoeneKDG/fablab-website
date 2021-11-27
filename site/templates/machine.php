@@ -4,9 +4,10 @@
 
 
 
-    <main class="container container-machine main">
-
-        <?php snippet('breadcrumb')?>
+    <div class="container-machine main">
+        <div class="breadcrumb breadcrump-margin" itemprop="breadcrumb">
+            <?php snippet('breadcrumb-content')?>
+        </div>
 
 
 
@@ -136,7 +137,7 @@
                 <img  class="machine-wrapper__img-desktop img" src="<?=$page->images()->first()->url()?>" alt="<?=$page->images()->first()->alt()?>">
             <?php endif?>
         </div>
-    </main>
+    </div>
 
 
 

@@ -1,10 +1,6 @@
 // MOBILE
 .contact-container {
-    background-color: $background-grey;
-
     &__contact {
-        padding-top: calc(12vh + 30px); //12vh is menu, 30px is extra padding
-
         &__flexbox {
             &__data {
                 margin-left: $margin-side-mobile;
@@ -72,7 +68,7 @@
 @media only screen and (min-width: $desktop-1280) {
     .contact-container {
         &__contact {
-            padding-top: 210px;
+            /* padding-top: 210px; */
 
             &__flexbox {
                 display: flex;

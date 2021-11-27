@@ -3,11 +3,11 @@
 
     <div class="flexbox-row">
         <?php
-// Photos partners KdG x Provincie Antwerp
-$featuredImages = $page->partners()->toFiles();
+        // Photos partners KdG x Provincie Antwerp
+        $featuredImages = $page->partners()->toFiles();
 
-foreach ($featuredImages as $img): ?>
-                <img class="home-container__partners__img" src="<?=$img->url()?>" alt="<?=$img->alt()?>">
+        foreach ($featuredImages as $img): ?>
+                        <img class="home-container__partners__img" src="<?=$img->url()?>" alt="<?=$img->alt()?>">
         <?php endforeach;?>
     </div>
 </div>

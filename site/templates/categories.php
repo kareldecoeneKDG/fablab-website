@@ -5,7 +5,7 @@
 
 
     <?php //CATEGORIE WRAPPER ?>
-    <section class="categories-wrapper sectionOne">
+    <div class="container container-categories categories-wrapper sectionOne">
 
         <?php //CATEGORIE LIST ?>
         <ul class="categories-wrapper__machines">
@@ -22,7 +22,7 @@
                 </li>
             <?php endforeach?>
         </ul>
-    </section>
+    </div>
 
 
 

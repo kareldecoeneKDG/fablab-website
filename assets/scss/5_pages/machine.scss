@@ -1,31 +1,33 @@
 .machine-image-wrapper {
-    margin: $margin-side-mobile;
+    margin-top: 30px;
+    margin-left: $margin-side-mobile;
+    margin-right: $margin-side-mobile;
 }
 
 .machine-wrapper {
-    &__info {
+    /* &__info {
         padding-bottom: 30px;
-    }
+    } */
 }
 
 .machine-banner {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    /* margin-top: 30px;
+    margin-bottom: 30px; */
 }
 
 //DESKTOP 1280px
 @media screen and (min-width: 1280px) {
     .machine-banner {
-        padding-left: $margin-side-desktop;
+        /* padding-left: $margin-side-desktop;
         padding-right: $margin-side-desktop;
-        margin-bottom: 100px;
+        margin-bottom: 100px; */
     }
 
     .machine-image-wrapper {
-        margin-left: $margin-side-desktop;
+        /* margin-left: $margin-side-desktop;
         margin-right: $margin-side-desktop;
         margin-top: 0;
-        margin-bottom: 0;
+        margin-bottom: 0; */
     }
 
     .machine-wrapper {

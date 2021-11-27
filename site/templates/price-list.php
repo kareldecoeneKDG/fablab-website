@@ -4,7 +4,7 @@
 
 
 
-<div class="price-list-container">
+<div class="container container-price-list price-list-container">
     <h1 class="price-list-container__title h1"><?= $page->title() ?></h1>
 
     <?php if ($page->StandardMaterials()->isNotEmpty()) : ?>

@@ -4,7 +4,7 @@
 
 
 
-    <main class="faq-wrapper">
+    <div class="container container-faq faq-wrapper">
         <section class="faq-wrapper__section sectionjs">
             <h1 class="faq-wrapper__section__title title h1">FAQs</h2>
 
@@ -29,7 +29,7 @@
                 </div>
             <?php endforeach ?>
         </section>
-    </main>
+    </div>
 
 
 

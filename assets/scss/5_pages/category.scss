@@ -1,5 +1,5 @@
 .category-wrapper {
-    margin: $margin-side-mobile;
+    /* margin: $margin-side-mobile; */
     //margin-top: calc(12vh + 30px); //12vh is menu, 30px is extra padding
 
     &__inspiration-links {
@@ -24,9 +24,9 @@
 // DESKTOP - 1280PX
 @media screen and (min-width: $desktop-1280) {
     .category-wrapper {
-        margin-left: $margin-side-desktop;
+        /* margin-left: $margin-side-desktop;
         margin-right: $margin-side-desktop;
-        margin-bottom: 70px;
+        margin-bottom: 70px; */
 
         &__text-wrapper {
             width: 50%;
@@ -51,8 +51,8 @@
 // DESKTOP - 1920PX
 @media screen and (min-width: $desktop-hd) {
     .category-wrapper {
-        margin-left: $margin-side-hd;
-        margin-right: $margin-side-hd;
+        /* margin-left: $margin-side-hd;
+        margin-right: $margin-side-hd; */
     }
 }
 
@@ -68,16 +68,16 @@
 // DESKTOP - 2560PX
 @media screen and (min-width: $desktop-qhd) {
     .category-wrapper {
-        margin-left: $margin-side-qhd;
-        margin-right: $margin-side-qhd;
+        /* margin-left: $margin-side-qhd;
+        margin-right: $margin-side-qhd; */
     }
 }
 
 // DESKTOP - 3840PX
 @media screen and (min-width: $desktop-4k) {
     .category-wrapper {
-        margin-left: $margin-side-4k;
+        /* margin-left: $margin-side-4k;
         margin-right: $margin-side-4k;
-        min-height: calc(100vh - 344px - 140px - 70px - 70px - 16px); //344px is footer, 140px is menu, 70px is padding top, 16px is margin
+        min-height: calc(100vh - 344px - 140px - 70px - 70px - 16px); //344px is footer, 140px is menu, 70px is padding top, 16px is margin */
     }
 }

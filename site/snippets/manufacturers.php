@@ -1,8 +1,5 @@
 <?php
-// Logos manufacturers
 $manufacturers = $page->manufacturers()->toStructure();
-
-// Logos fablabs
 $fablabs = $page->fablabs()->toStructure();
 ?>
 
@@ -10,7 +7,6 @@ $fablabs = $page->fablabs()->toStructure();
     <div class="home-container__tabscontainer-manufacturer__tabs tabs-manufacturer">
         <div class="home-container__tabscontainer-manufacturer__tabs__tabheader tab-header-manufacturer">
 
-            <?php // Tabs ?>
             <div class="home-container__tabscontainer-manufacturer__tabs__tabheader__item active"> <?php // changed ?>
                 Manufacturers
             </div>
@@ -23,7 +19,6 @@ $fablabs = $page->fablabs()->toStructure();
 
         <div class="home-container__tabscontainer-manufacturer__tabs__tabbody tab-body-manufacturer">
 
-            <?php // Tab bodies ?>
             <div class="home-container__tabscontainer-manufacturer__tabs__tabbody__item active">
                 <?php foreach ($manufacturers as $manufacturer): ?>
                     <div>

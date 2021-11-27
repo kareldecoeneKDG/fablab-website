@@ -1,7 +1,7 @@
 .price-list-container {
-    margin-top: calc(12vh + 30px); //12vh is menu, 30 px is extra padding
+    /* margin-top: calc(12vh + 30px); //12vh is menu, 30 px is extra padding
     padding-left: $margin-side-mobile;
-    padding-right: $margin-side-mobile;
+    padding-right: $margin-side-mobile; */
 
     &__title {
         margin-top: 30px;
@@ -15,12 +15,12 @@
 // DESKTOP - 1280PX
 @media screen and (min-width: $desktop-1280) {
     .price-list-container {
-        padding-left: 0;
+        /* padding-left: 0;
         padding-right: 0;
         margin-left: $margin-side-desktop;
         margin-right: $margin-side-desktop;
         margin-top: 210px;
-        margin-bottom: 70px;
+        margin-bottom: 70px; */
 
         &__machine-start-up {
             margin-top: 100px;
@@ -45,23 +45,23 @@
 // DESKTOP - 1920PX
 @media screen and (min-width: $desktop-hd) {
     .price-list-container {
-        margin-left: $margin-side-hd;
-        margin-right: $margin-side-hd;
+        /* margin-left: $margin-side-hd;
+        margin-right: $margin-side-hd;*/
     }
 }
 
 // DESKTOP - 2560PX
 @media screen and (min-width: $desktop-qhd) {
     .price-list-container {
-        margin-left: $margin-side-qhd;
-        margin-right: $margin-side-qhd;
+        /*margin-left: $margin-side-qhd;
+        margin-right: $margin-side-qhd;*/
     }
 }
 
 // DESKTOP - 3840PX
 @media screen and (min-width: $desktop-4k) {
     .price-list-container {
-        margin-left: $margin-side-4k;
-        margin-right: $margin-side-4k;
+        /*margin-left: $margin-side-4k;
+        margin-right: $margin-side-4k;*/
     }
 }

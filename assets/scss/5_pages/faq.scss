@@ -1,8 +1,8 @@
 .faq-wrapper {
-    margin-top: calc(12vh + 30px); //12vh is menu, 30 px is extra padding
+    /* margin-top: calc(12vh + 30px); //12vh is menu, 30 px is extra padding
     padding-bottom: 30px;
     margin-left: $margin-side-mobile;
-    margin-right: $margin-side-mobile;
+    margin-right: $margin-side-mobile; */
 
     &__section {
         width: 100%;
@@ -59,36 +59,36 @@
 // DESKTOP - 1280PX
 @media screen and (min-width: $desktop-1280) {
     .faq-wrapper {
-        margin-top: 210px;
+        /* margin-top: 210px;
         padding-bottom: 70px;
         margin-left: $margin-side-desktop;
-        margin-right: $margin-side-desktop;
+        margin-right: $margin-side-desktop; */
     }
 }
 
 // DESKTOP - 1920PX
 @media screen and (min-width: $desktop-hd) {
     .faq-wrapper {
-        margin-left: $margin-side-hd;
+        /* margin-left: $margin-side-hd;
         margin-right: $margin-side-hd;
-        min-height: calc(1080px - 344px - 140px - 70px); //344px is footer, 140px is menu, 70px is extra padding top
+        min-height: calc(1080px - 344px - 140px - 70px); //344px is footer, 140px is menu, 70px is extra padding top */
     }
 }
 
 // DESKTOP - 2560PX
 @media screen and (min-width: $desktop-qhd) {
     .faq-wrapper {
-        margin-left: $margin-side-qhd;
+        /* margin-left: $margin-side-qhd;
         margin-right: $margin-side-qhd;
-        min-height: calc(1440px - 344px - 140px - 70px); //344px is footer, 140px is menu, 70px is extra padding top
+        min-height: calc(1440px - 344px - 140px - 70px); //344px is footer, 140px is menu, 70px is extra padding top */
     }
 }
 
 // DESKTOP - 3840PX
 @media screen and (min-width: $desktop-4k) {
     .faq-wrapper {
-        margin-left: $margin-side-4k;
+        /* margin-left: $margin-side-4k;
         margin-right: $margin-side-4k;
-        min-height: calc(100vh - 344px - 140px - 70px); //344px is footer, 140px is menu, 70px is extra padding top
+        min-height: calc(100vh - 344px - 140px - 70px); //344px is footer, 140px is menu, 70px is extra padding top */
     }
 }

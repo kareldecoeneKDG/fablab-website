@@ -2,7 +2,6 @@
     <?php foreach ($site->children()->listed() as $subpage): ?>
         <li class="header__menu__navlinks__item">
             <a class="header__menu__navlinks__item__link <?php if ($subpage->isOpen()) {echo ("active");}?>" href="<?=$subpage->url()?>"><?=$subpage->title()?></a>
-            <?php // hierboven anders doen! ?>
         </li>
     <?php endforeach?>
 </ul>

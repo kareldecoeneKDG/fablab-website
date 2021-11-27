@@ -1,10 +1,10 @@
 .what-is-fablab-container {
-    min-height: calc(100vh - 342px); //342px is height of footer
+    //min-height: calc(100vh - 342px); //342px is height of footer
 
     &__introduction {
-        padding-top: calc(12vh + 30px); //12vh is menu, 30 px is extra padding
-        margin-left: $margin-side-mobile;
-        margin-right: $margin-side-mobile;
+        //padding-top: calc(12vh + 30px); //12vh is menu, 30 px is extra padding
+        //margin-left: $margin-side-mobile;
+        //margin-right: $margin-side-mobile;
 
         &__flexbox {
             &__left {
@@ -63,9 +63,9 @@
 @media screen and (min-width: $desktop-1280) {
     .what-is-fablab-container {
         &__introduction {
-            padding-top: 210px;
-            margin-left: $margin-side-desktop;
-            margin-right: $margin-side-desktop;
+            //padding-top: 210px;
+            //margin-left: $margin-side-desktop;
+            //margin-right: $margin-side-desktop;
 
             &__breadcrumb {
                 margin-left: 0;
@@ -180,8 +180,8 @@
 @media screen and (min-width: $desktop-hd) {
     .what-is-fablab-container {
         &__introduction {
-            margin-left: $margin-side-hd;
-            margin-right: $margin-side-hd;
+            //margin-left: $margin-side-hd;
+            //margin-right: $margin-side-hd;
 
             &__flexbox {
                 &__right {
@@ -198,8 +198,8 @@
 @media screen and (min-width: $desktop-qhd) {
     .what-is-fablab-container {
         &__introduction {
-            margin-left: $margin-side-qhd;
-            margin-right: $margin-side-qhd;
+            //margin-left: $margin-side-qhd;
+            //margin-right: $margin-side-qhd;
 
             &__flexbox {
                 &__right {
@@ -216,8 +216,8 @@
 @media screen and (min-width: $desktop-4k) {
     .what-is-fablab-container {
         &__introduction {
-            margin-left: $margin-side-4k;
-            margin-right: $margin-side-4k;
+            //margin-left: $margin-side-4k;
+            //margin-right: $margin-side-4k;
 
             &__flexbox {
                 &__right {

@@ -4,7 +4,7 @@
 
 
 
-<section class="container container-blog">
+<div class="container container-blog">
     <h1 class="h1"><?=$page->Subtitle()->html()?></h1>
 
     <div class="container-blog__tag-filter">
@@ -65,7 +65,7 @@
             </article>
         <?php endforeach?>
     </div>
-</section>
+</div>
 
 
 

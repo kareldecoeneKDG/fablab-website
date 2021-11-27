@@ -1,6 +1,6 @@
 .container-house-rules {
-    margin: 30px $margin-side-mobile;
-    margin-top: calc(12vh + 30px); //12vh is menu, 30 px is extra padding
+    /*margin: 30px $margin-side-mobile;
+    margin-top: calc(12vh + 30px); //12vh is menu, 30 px is extra padding */
 }
 
 .container {
@@ -32,8 +32,8 @@
 // DESKTOP - 1280PX
 @media screen and (min-width: $desktop-1280) {
     .container-house-rules {
-        margin: 210px $margin-side-desktop;
-        margin-bottom: 70px;
+        /* margin: 210px $margin-side-desktop;
+        margin-bottom: 70px; */
     }
 
     .container {
@@ -46,24 +46,24 @@
 // DESKTOP - 1920PX
 @media screen and (min-width: $desktop-hd) {
     .container-house-rules {
-        margin-left: $margin-side-hd;
-        margin-right: $margin-side-hd;
+        /* margin-left: $margin-side-hd;
+        margin-right: $margin-side-hd; */
     }
 }
 
 // DESKTOP - 2560PX
 @media screen and (min-width: $desktop-qhd) {
     .container-house-rules {
-        margin-left: $margin-side-qhd;
-        margin-right: $margin-side-qhd;
+        /* margin-left: $margin-side-qhd;
+        margin-right: $margin-side-qhd; */
     }
 }
 
 // DESKTOP - 3840PX
 @media screen and (min-width: $desktop-4k) {
     .container-house-rules {
-        margin-left: $margin-side-4k;
+        /* margin-left: $margin-side-4k;
         margin-right: $margin-side-4k;
-        min-height: calc(100vh - 344px - 140px - 70px - 70px); //344px is footer, 140px is menu, 2x 70px is margin top/bottom
+        min-height: calc(100vh - 344px - 140px - 70px - 70px); //344px is footer, 140px is menu, 2x 70px is margin top/bottom */
     }
 }

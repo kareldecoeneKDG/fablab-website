@@ -1,9 +1,37 @@
+.machine-wrapper {
+    &__tutorial-wrapper {
+        &__video-wrapper {
+            &__video {
+                margin-bottom: 30px;
+
+                iframe {
+                    width: 100%;
+                    min-height: 190px;
+                }
+            }
+            
+            &__video:last-of-type {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
 @media only screen and (min-width: $desktop-1280) {
     .machine-wrapper {
         &__tutorial-wrapper {
             &__video-wrapper {
                 display: flex;
                 justify-content: space-between;
+                width: 100%;
+
+                &__video {
+                    width: 100%;
+
+                    iframe {
+                        width: 100% !important;
+                    }
+                }
             }
         }
     }

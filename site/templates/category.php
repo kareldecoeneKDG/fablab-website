@@ -5,8 +5,11 @@
 
 
     <?php //CATERGORY WRAPPER ?>
-    <section class="category-wrapper">
-        <?php snippet('breadcrumb')?>
+    <div class="container container-category category-wrapper">
+
+        <div class="breadcrumb" itemprop="breadcrumb">
+            <?php snippet('breadcrumb-content')?>
+        </div>
 
         <h1 class="h1"><?=$page->title()->html()?></h1>
 
@@ -115,8 +118,7 @@
 
 
 
-        <?php //CAROUSEL ?>
-        <?php snippet('carousel') ?>
+        <?php //snippet('carousel') ?>
 
 
 
@@ -127,7 +129,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
 
 

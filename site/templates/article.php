@@ -17,10 +17,8 @@
         <!-- Trigger/Open The Modal -->
         <button id="myBtn"><i class="fa fa-share"></i> Delen</button>
 
-            <!-- The Modal -->
             <div id="myModal" class="modal">
 
-            <!-- Modal content -->
             <div class="modal-content">
                 <div class="modal-content__header">
                     <span class="close">&times;</span>

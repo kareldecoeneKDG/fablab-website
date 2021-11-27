@@ -4,7 +4,7 @@
 
 
 
-<main class="what-is-fablab-container">
+<div class="container container-what-is-fablab  what-is-fablab-container">
     <div class="what-is-fablab-container__introduction">
 
         <?php if ($page->whatIsFablabTitle()->isNotEmpty()) : ?>
@@ -125,7 +125,7 @@
             </div>
         </div>
     </div>
-</main>
+</div>
 
 
 

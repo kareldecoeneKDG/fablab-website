@@ -41,8 +41,8 @@
 // CATEGORY
 .category-wrapper {
     &__images-wrapper {
-        padding-top: 30px;
-        margin-bottom: -30px;
+        /* padding-top: 30px;
+        margin-bottom: -30px; */
         display: flex;
         flex-direction: column;
 
@@ -85,7 +85,9 @@
 .machine-wrapper {
     &__img {
         border-radius: $border-radius-small;
+        margin-top: 30px;
     }
+
     &__img-desktop {
         display: none;
     }
