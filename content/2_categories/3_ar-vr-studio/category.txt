@@ -36,6 +36,12 @@ Creations:
 
 ----
 
+Thumbnail:
+
+- ar-vr.png
+
+----
+
 Materialen: HP G1 VR Backpack, HP Reverb Pro VR Headset, Fully adjustible haptic striker, Windows mixed reality controller
 
 ----

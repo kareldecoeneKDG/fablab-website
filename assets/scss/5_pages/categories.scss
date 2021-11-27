@@ -4,6 +4,15 @@
     &__machines {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 60px;
+        gap: 30px;
+    }
+}
+
+// DESKTOP - 1920PX
+@media only screen and (min-width: $desktop-hd) {
+    .categories-wrapper {
+        &__machines {
+            gap: 100px;
+        }
     }
 }

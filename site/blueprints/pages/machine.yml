@@ -22,6 +22,10 @@ columns:
             type: text
           bed:
             type: text
+          extraSpecs:
+            label: All extra info
+            type: writer
+            inline: true
           
           software:
             type: url

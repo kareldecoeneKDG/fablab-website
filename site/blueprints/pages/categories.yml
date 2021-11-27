@@ -1,5 +1,30 @@
 title: Machines
 
+tabs:
+  content:
+    icon: text
+    columns:
+      left:
+        width: 1/2
+        sections:
+          drafts:
+            extends: sections/categories
+            headline: Drafts
+            status: draft
+
+          unlisted:
+            extends: sections/categories
+            headline: In Review
+            status: unlisted
+      right:
+        width: 1/2
+        sections:
+          listed:
+            extends: sections/categories
+            headline: Published
+            status: listed
+
+
 # sections:
 #   published:
 #     headline: Published Categories
@@ -34,24 +59,4 @@ title: Machines
 #       ratio: 3/2
 #       cover: true
 
-columns:
-  left:
-    width: 1/2
-    sections:
-      drafts:
-        extends: sections/categories
-        headline: Drafts
-        status: draft
 
-      unlisted:
-        extends: sections/categories
-        headline: In Review
-        status: unlisted
-
-  right:
-    width: 1/2
-    sections:
-      listed:
-        extends: sections/categories
-        headline: Published
-        status: listed

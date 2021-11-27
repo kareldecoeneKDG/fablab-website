@@ -129,6 +129,12 @@ Creations:
 
 ----
 
+Thumbnail:
+
+- 3d-printen.png
+
+----
+
 Materialen: PLA, Flex, PETG
 
 ----

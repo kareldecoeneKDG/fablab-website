@@ -92,6 +92,17 @@
                 <?php endif?>
 
 
+                <?php //MACHINE FILETYPES ?>
+                <?php if ($page->extraSpecs()->isNotEmpty()): ?>
+                    <div class="machine-wrapper__file-types">
+                        <h2 class="machine-wrapper__file-types_title h2">
+                            Extra info
+                        </h2>
+                        <p class="machine-wrapper__file-types_p p"><?= $page->extraSpecs() ?></p>
+                    </div>
+                <?php endif?>
+
+
 
                 <?php //MACHINE MANUALS ?>
                 <?php if ($page->documents()->filterBy('extension', 'pdf')->isNotEmpty()): ?>

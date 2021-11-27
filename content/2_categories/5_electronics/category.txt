@@ -37,6 +37,12 @@ Creations:
 
 ----
 
+Thumbnail:
+
+- electronics.png
+
+----
+
 Materialen: Arduino
 
 ----

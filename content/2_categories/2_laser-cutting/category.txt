@@ -51,6 +51,12 @@ Creations:
 
 ----
 
+Thumbnail:
+
+- lasercutting.png
+
+----
+
 Materialen: Metaal, Plastics, Rubber, Leder, Kunstof, Hout
 
 ----

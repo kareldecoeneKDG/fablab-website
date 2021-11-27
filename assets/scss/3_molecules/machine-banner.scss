@@ -4,8 +4,7 @@
     align-items: center;
     background: $black;
     background-size: cover;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px $margin-side-mobile;
     position: relative;
     text-align: center;
 }
@@ -13,8 +12,13 @@
 @media screen and (min-width: $desktop-1280) {
     .machine-banner {
         flex-direction: unset;
+        text-align: initial;
+        padding-left: $margin-side-desktop;
+        padding-right: $margin-side-desktop;
+
         &__title {
             flex: 1;
+            margin-bottom: 0;
         }
     }
 }

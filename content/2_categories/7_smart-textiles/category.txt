@@ -26,6 +26,12 @@ Creations:
 
 ----
 
+Thumbnail:
+
+- smart-textiles.png
+
+----
+
 Materialen: 
 
 ----

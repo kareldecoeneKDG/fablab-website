@@ -77,6 +77,10 @@ columns:
   sidebar:
     width: 1/3
     fields:
+      thumbnail:
+        label: Thumbnail voor Machines pagina
+        type: files
+        max: 1
       materialen:
         label: Materialen
         type: checkboxes

@@ -26,6 +26,12 @@ Creations:
 
 ----
 
+Thumbnail:
+
+- woodshop.png
+
+----
+
 Materialen: Triplex
 
 ----

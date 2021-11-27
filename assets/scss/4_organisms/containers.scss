@@ -41,11 +41,24 @@
     }
 }
 
+// DESKTOP - 1440PX
+@media screen and (min-width: $desktop-1440) {
+    .container-categories {
+        //margin-top: 240px;
+        padding-top: 50px;
+    }
+}
+
 // DESKTOP - 1920PX
 @media only screen and (min-width: $desktop-hd) {
     .container {
         margin-left: $margin-side-hd;
         margin-right: $margin-side-hd;
+    }
+
+    .container-categories {
+        //margin-top: 300px;
+        padding-top: 90px;
     }
 }
 
@@ -55,6 +68,11 @@
         margin-left: $margin-side-qhd;
         margin-right: $margin-side-qhd;
     }
+
+    .container-categories {
+        //margin-top: 420px;
+        padding-top: 210px;
+    }
 }
 
 // DESKTOP - 3840PX
@@ -62,5 +80,10 @@
     .container {
         margin-left: $margin-side-4k;
         margin-right: $margin-side-4k;
+    }
+
+    .container-categories {
+        //margin-top: 800px;
+        padding-top: 590px;
     }
 }

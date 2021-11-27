@@ -34,6 +34,10 @@ Bed: not heated (encased chamber)
 
 ----
 
+Extraspecs: Dus stel Mark heeft nog specs over machines die nergens past:<br>- dan kan die hier<br>- of hier<br>- en hier kan nog meer info
+
+----
+
 Software: https://www.makerbot.com/3d-printers/apps/makerbot-print/
 
 ----
