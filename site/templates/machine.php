@@ -1,94 +1,74 @@
-<?php //SNIPPET - HEADER ?>
 <?php snippet('header')?>
 
-    <?php //SNIPPET - MENU WHITE ?>
-    <?php snippet('menu-white')?>
+<?php snippet('menu-white')?>
 
 
 
     <main class="container container-machine main">
 
-        <?php //BREADCRUMBS ?>
-        <div class="breadcrumb" itemprop="breadcrumb">
-            <?php foreach($site->breadcrumb()->not('home') AS $crumb): ?>
-                <?php if ($crumb->isActive()): ?>
-                    <span typeof="v:Breadcrumb">
-                        <span class="breadcrumb_last" property="v:title">
-                            <?php echo $crumb->title() ?>
-                        </span>
-                    </span>
-                <?php else: ?>
-                    <span typeof="v:Breadcrumb">
-                        <a href="<?php echo $crumb->url() ?>" rel="v:url" property="v:title">
-                            <?php echo $crumb->title() ?>
-                        </a>
-                    </span> &rsaquo;
-                <?php endif?>
-            <?php endforeach?>
-        </div>
+        <?php snippet('breadcrumb')?>
 
 
 
-        <?php //CONTENT ?>
-
-        <?php //MACHINE BANNER ?>
         <div class="machine-banner">
             <h1 class="machine-banner__title h1"><?=$page->title()?></h1>
             <a class="machine-banner__button button-small button-reserveer" href="#">Reserveer</a>
         </div>
+
+
 
         <?php //MACHINE CONTENT ?>
         <div class="machine-image-wrapper">
             <section class="machine-wrapper">
 
                 <?php //MACHINE TABLE INFO ?>
-                <table class="machine-wrapper__info">
+                <table class="table machine-wrapper__info">
                     <?php if ($page->manufactur()->isNotEmpty()): ?>
-                        <tr class="machine-wrapper__info__row">
-                            <td>Fabrikant</td>
-                            <td><?=$page->manufactur()?></td>
+                        <tr class="table__table-row machine-wrapper__info__row">
+                            <td class="table__table-row__table-data">Fabrikant</td>
+                            <td class="table__table-row__table-data"><?=$page->manufactur()?></td>
                         </tr>
                     <?php endif?>
 
                     <?php if ($page->buildVolume()->isNotEmpty()): ?>
-                        <tr class="machine-wrapper__info__row">
-                            <td>Build Volume</td>
-                            <td><?=$page->buildVolume()?></td>
+                        <tr class="table__table-row machine-wrapper__info__row">
+                            <td class="table__table-row__table-data">Build Volume</td>
+                            <td class="table__table-row__table-data"><?=$page->buildVolume()?></td>
                         </tr>
                     <?php endif?>
 
                     <?php if ($page->nozzle()->isNotEmpty()): ?>
-                        <tr class="machine-wrapper__info__row">
-                            <td>Nozzle</td>
-                            <td><?=$page->nozzle()?></td>
+                        <tr class="table__table-row machine-wrapper__info__row">
+                            <td class="table__table-row__table-data">Nozzle</td>
+                            <td class="table__table-row__table-data"><?=$page->nozzle()?></td>
                         </tr>
                     <?php endif?>
 
                     <?php if ($page->filament()->isNotEmpty()): ?>
-                        <tr class="machine-wrapper__info__row">
-                            <td>Filament</td>
-                            <td><?=$page->filament()?></td>
+                        <tr class="table__table-row machine-wrapper__info__row">
+                            <td class="table__table-row__table-data">Filament</td>
+                            <td class="table__table-row__table-data"><?=$page->filament()?></td>
                         </tr>
                     <?php endif?>
 
                     <?php if ($page->layerHeights()->isNotEmpty()): ?>
-                        <tr class="machine-wrapper__info__row">
-                            <td>Layer Heights</td>
-                            <td><?=$page->layerHeights()?></td>
+                        <tr class="table__table-row machine-wrapper__info__row">
+                            <td class="table__table-row__table-data">Layer Heights</td>
+                            <td class="table__table-row__table-data"><?=$page->layerHeights()?></td>
                         </tr>
                     <?php endif?>
 
                     <?php if ($page->layerResolution()->isNotEmpty()): ?>
-                        <tr class="machine-wrapper__info__row">
-                            <td>Layer Resolution</td>
-                            <td><?=$page->layerResolution()?></td>
+                        <tr class="table__table-row machine-wrapper__info__row">
+                            <td class="table__table-row__table-data">Layer Resolution</td>
+                            <td class="table__table-row__table-data"><?=$page->layerResolution()?></td>
                         </tr>
                     <?php endif?>
 
                     <?php if ($page->bed()->isNotEmpty()): ?>
-                        <tr class="machine-wrapper__info__row">
-                            <td>Bed</td>
-                            <td><?=$page->bed()?></td>
+                        <tr class="table__table-row machine-wrapper__info__row">
+                            <td class="table__table-row__table-data">Bed</td>
+                            <td class="table__table-row__table-data"><?=$page->bed()?></td>
                         </tr>
                     <?php endif?>
                 </table>
@@ -136,9 +116,8 @@
                         <h2 class="machine-wrapper__tutorial-wrapper__title h2">Tutorials</h2>
                         <div class="machine-wrapper__tutorial-wrapper__video-wrapper">
                             <?php
-                                // using the `toStructure()` method, we create a structure collection
                                 $items = $page->tutorials()->toStructure();
-                                // we can then loop through the entries and render the individual fields
+
                                 foreach ($items as $item): ?>
                                 <div class="machine-wrapper__tutorial-wrapper__video-wrapper__video">
                                     <?=youtube($item->url()->html())?>
@@ -161,5 +140,4 @@
 
 
 
-<?php //SNIPPET - FOOTER ?>
 <?php snippet('footer')?>

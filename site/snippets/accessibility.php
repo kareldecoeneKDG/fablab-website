@@ -31,8 +31,8 @@ $transportItems = $page->accessibility()->toStructure();
 
                 <?php // Tab bodies ?>
                 <div class="contact-container__tabscontainer__tabs__tabbody__item">
-                    <h3 class="contact-container__tabscontainer__tabs__tabbody__item__title h3"><?php $item->vehicle() ?></h3>
-                    <p class="contact-container__tabscontainer__tabs__tabbody__item__paragraph p"><?php $item->description() ?></p>
+                    <h3 class="contact-container__tabscontainer__tabs__tabbody__item__title h3"><?= $item->vehicle() ?></h3>
+                    <p class="contact-container__tabscontainer__tabs__tabbody__item__paragraph p"><?= $item->description() ?></p>
                 </div>
             <?php endforeach;?>
         </div>

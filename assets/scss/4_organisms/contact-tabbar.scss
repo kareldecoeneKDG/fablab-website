@@ -26,7 +26,7 @@
                 &__item {
                     width: calc(100% / 4); //4 tabs in accordion
                     text-align: center;
-                    color: #888;
+                    color: $table-title-grey;
                     font-weight: 700;
                     cursor: pointer;
                     font-size: 14px;

@@ -1,8 +1,8 @@
-<?php //SNIPPET - HEADER ?>
 <?php snippet('header')?>
 
-    <?php //SNIPPET - MENU WHITE ?>
-    <?php snippet('menu-white')?>
+<?php snippet('menu-white')?>
+
+
 
     <?php //CATEGORIE WRAPPER ?>
     <section class="categories-wrapper sectionOne">
@@ -24,5 +24,6 @@
         </ul>
     </section>
 
-<?php //FOOTER SNIPPET ?>
+
+
 <?php snippet('footer')?>

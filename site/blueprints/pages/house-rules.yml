@@ -47,7 +47,3 @@ sections:
         label: Machinekost & materialen
         type: writer
         inline: true
-      address:
-        label: Adres KdG Hoboken
-        type: writer
-        inline: true

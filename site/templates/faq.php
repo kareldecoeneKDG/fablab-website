@@ -1,8 +1,8 @@
-<?php //SNIPPET - HEADER ?>
 <?php snippet('header') ?>
 
-    <?php //SNIPPET - MENU WHITE ?>
-    <?php snippet('menu-white') ?>
+<?php snippet('menu-white') ?>
+
+
 
     <main class="faq-wrapper">
         <section class="faq-wrapper__section sectionjs">
@@ -31,7 +31,8 @@
         </section>
     </main>
 
-<?php //SNIPPET - FOOTER ?>
+
+
 <?php snippet('footer') ?>
 
 <?= js('build/js/accordion.js') ?>

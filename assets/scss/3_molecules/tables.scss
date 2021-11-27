@@ -1,0 +1,44 @@
+.table {
+    &__table-row {
+        &__table-header {
+            font-weight: bold;
+        }
+
+        .equal {
+            width: calc(100% / 7); //7 columns
+        }
+
+        &__table-data {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding: 5px 10px;
+        }
+
+        .left {
+            text-align: left;
+        }
+
+        .center {
+            text-align: center;
+        }
+    }
+
+    &__table-row:nth-child(odd) {
+        background-color: $table-lightgrey;
+    }
+}
+
+@media only screen and (min-width: $desktop-1280) {
+    .table {
+        width: 100%;
+
+        &__table-row {
+            width: 100%;
+
+            &__table-header {
+                width: 25%;
+                color: $table-title-grey;
+            }
+        }
+    }
+}

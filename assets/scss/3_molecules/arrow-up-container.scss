@@ -1,0 +1,22 @@
+#arrow-up-container {
+    margin-top: 60px;
+}
+
+#arrow-up-container-category {
+    right: 0;
+}
+
+// DESKTOP - 2560PX
+@media only screen and (min-width: $desktop-qhd) {
+    #arrow-up-container {
+        padding-right: 0;
+    }
+}
+
+// DESKTOP - 3840PX
+@media only screen and (min-width: $desktop-4k) {
+    #arrow-up-container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}

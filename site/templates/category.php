@@ -1,34 +1,13 @@
-<?php //SNIPPET - HEADER ?>
 <?php snippet('header')?>
 
-<?php //SNIPPET - MENU WHITE ?>
 <?php snippet('menu-white')?>
-
-
-
-    <?php //BREADCRUMBS ?>
-    <div class="breadcrumb sectionOne" itemprop="breadcrumb">
-        <?php foreach($site->breadcrumb()->not('home') AS $crumb): ?>
-            <?php if ($crumb->isActive()): ?>
-                <span typeof="v:Breadcrumb">
-                    <span class="breadcrumb_last" property="v:title">
-                        <?php echo $crumb->title() ?>
-                    </span>
-                </span>
-            <?php else: ?>
-                <span typeof="v:Breadcrumb">
-                    <a href="<?php echo $crumb->url() ?>" rel="v:url" property="v:title">
-                        <?php echo $crumb->title() ?>
-                    </a>
-                </span> &rsaquo;
-            <?php endif?>
-        <?php endforeach?>
-    </div>
 
 
 
     <?php //CATERGORY WRAPPER ?>
     <section class="category-wrapper">
+        <?php snippet('breadcrumb')?>
+
         <h1 class="h1"><?=$page->title()->html()?></h1>
 
         <div class="category-wrapper__images-wrapper__text-wrapper">

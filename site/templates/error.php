@@ -1,8 +1,8 @@
-<?php //SNIPPET - HEADER ?>
 <?php snippet('header') ?>
 
-<?php //SNIPPET - HEADER ?>
-    <?php snippet('menu-white') ?>
+<?php snippet('menu-white') ?>
+
+
 
     <div class="error-container">
         <div class="error-container__text-container">
@@ -11,5 +11,6 @@
         </div>
     </div>
 
-<?php //SNIPPET - FOOTER ?>
+
+
 <?php snippet('footer') ?>

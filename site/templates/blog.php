@@ -1,7 +1,5 @@
-<?php //SNIPPET - HEADER ?>
 <?php snippet('header')?>
 
-<?php //SNIPPET - MENU ?>
 <?php snippet('menu-white')?>
 
 
@@ -10,7 +8,6 @@
     <h1 class="h1"><?=$page->Subtitle()->html()?></h1>
 
     <div class="container-blog__tag-filter">
-
         <?php //GET CURRENT URL ?>
         <?php $url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];?>
 
@@ -47,6 +44,8 @@
         <?php endforeach?>
     </div>
 
+
+
     <?php //ALL BLOGS DESKTOP ?>
     <div class="blog-wrapper-desktop">
         <?php foreach ($articles as $article): ?>
@@ -70,8 +69,6 @@
 
 
 
-<?php //SNIPPET - FOOTER ?>
 <?php snippet('footer')?>
 
-<?php //JAVASCRIPT REMOVE ACTIVE TAG ?>
 <?=js('build/js/taginactive.js')?>

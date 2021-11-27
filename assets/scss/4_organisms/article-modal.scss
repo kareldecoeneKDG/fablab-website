@@ -103,6 +103,10 @@
     font-weight: bold;
 }
 
+.close:hover {
+    color: $lightergrey;
+}
+
 .close:hover,
 .close:focus {
     color: $lightergrey;

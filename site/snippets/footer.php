@@ -23,6 +23,8 @@
                     </div>
                 </div>
 
+
+
                 <?php // BLOCK - DESKTOP LAYOUT SITEMAP ?>
                 <div id="sitemap-desktop" class="footer__content__block">
                     <h4 class="footer__content__block__title h4-footer h4">Navigatie</h4>
@@ -31,6 +33,8 @@
                     <?php snippet('sitemap')?>
                 </div>
 
+
+
                 <?php // BLOCK - DESKTOP LAYOUT PAGES ?>
                 <div id="pages-desktop" class="footer__content__block">
                     <h4 class="footer__content__block__title h4-footer h4">Info</h4>
@@ -38,6 +42,8 @@
                     <?php // SNIPPET INFOMAP ?>
                     <?php snippet('infomap')?>
                 </div>
+
+
 
                 <?php // BLOCK ?>
                 <div class="footer__content__block">
@@ -74,6 +80,8 @@
                     </div>
                 </div>
 
+
+
                 <?php // BLOCK - MOBILE LAYOUT SITEMAP + PAGES ?>
                 <div class="footer__content__flexbox">
                     <div class="footer__content__flexbox__block">
@@ -90,6 +98,8 @@
                         <?php snippet('infomap')?>
                     </div>
                 </div>
+
+
 
                 <?php // BLOCK ?>
                 <div class="footer__content__block">
@@ -111,14 +121,14 @@
                 </div>
             </section>
 
+
+
             <?php // COPYRIGHT ?>
             <section class="footer__copyright">
                 &#169; 2021 FabLab KdG.
             </section>
         </footer>
 
-
-        <?php // JAVASCRIPT RESPONSIVE NAV ?>
-        <?php js('build/js/responsive-nav.js')?>
+        <?= js('build/js/responsive-nav.js') ?>
     </body>
 </html>
