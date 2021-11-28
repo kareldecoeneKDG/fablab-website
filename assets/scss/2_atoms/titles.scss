@@ -1,5 +1,4 @@
 // MOBILE
-
 // GENERAL TITLES
 .h1 {
     font-family: $verdana;
@@ -73,7 +72,7 @@
 
     &__introduction {
         &__title {
-            margin-right: 47%;
+            margin-right: 37%;
         }
 
         &__flexbox {
@@ -90,7 +89,7 @@
     &__working {
         &__banner {
             &__title {
-                margin-right: 42%;
+                margin-right: 32%;
             }
         }
     }
@@ -98,7 +97,7 @@
     &__biolab {
         &__banner {
             &__title {
-                margin-right: 69%;
+                margin-right: 64%;
             }
         }
     }
@@ -218,6 +217,33 @@
     }
 }
 
+// MOBILE - 360PX
+@media only screen and (min-width: 360px) {
+    .home-container {
+        &__introduction {
+            &__title {
+                margin-right: 47%;
+            }
+        }
+    
+        &__working {
+            &__banner {
+                &__title {
+                    margin-right: 42%;
+                }
+            }
+        }
+    
+        &__biolab {
+            &__banner {
+                &__title {
+                    margin-right: 69%;
+                }
+            }
+        }
+    }
+}
+
 
 
 // MOBILE MIDDLE TALL
@@ -228,7 +254,7 @@
                 &__left {
                     &__team {
                         &__titlecontainer {
-                            left: 20%;
+                            left: 21% !important;
                         }
 
                         &__container {
@@ -255,7 +281,7 @@
                 &__left {
                     &__team {
                         &__titlecontainer {
-                            left: 24%;
+                            left: 24% !important;
                         }
 
                         &__container {

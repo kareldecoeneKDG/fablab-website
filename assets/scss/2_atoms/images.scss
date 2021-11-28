@@ -130,6 +130,10 @@
     }
 }
 
+.home-img {
+    border-radius: $border-radius-big;
+}
+
 // WHAT IS FABLAB
 .what-is-fablab-container {
     &__introduction {
@@ -146,6 +150,16 @@
                                     border-radius: $border-radius-big;
                                 }
                             }
+                        }
+                    }
+                }
+            }
+
+            &__right {
+                &__flexbox {
+                    &__box {
+                        &__img {
+                            border-radius: $border-radius-big;
                         }
                     }
                 }

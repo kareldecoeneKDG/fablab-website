@@ -79,7 +79,14 @@
                                 <td class="table__table-row__table-data center">€ <?= $item->pricekdg() ?></td>
                                 <td class="table__table-row__table-data center">€ <?= $item->priceextern() ?></td>
                                 <td class="table__table-row__table-data center">€ <?= $item->pricecompany() ?></td>
-                                <td class="table__table-row__table-data center"><?= $item->instock() ?></td>
+
+                                <?php if($item->instock() == "true"): ?>
+                                    <td class="table__table-row__table-data center"><i class="fa fa-check" aria-hidden="true"></i></td>
+                                <?php else: ?>
+                                    <td class="table__table-row__table-data center"><i class="fa fa-times" aria-hidden="true"></i></i></td>
+                                <?php endif; ?>
+
+                                <?php //<td class="table__table-row__table-data center"><?= $item->instock()</td> ?>
                             </tr>
                         <?php endforeach; ?>
                     </table>

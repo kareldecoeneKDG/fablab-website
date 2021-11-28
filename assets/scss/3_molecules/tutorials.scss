@@ -6,12 +6,28 @@
 
                 iframe {
                     width: 100%;
-                    min-height: 190px;
+                    min-height: 160px;
                 }
             }
             
             &__video:last-of-type {
                 margin-bottom: 0;
+            }
+        }
+    }
+}
+
+// MOBILE TALLER
+@media only screen and (min-height: 666px) {
+    .machine-wrapper {
+        &__tutorial-wrapper {
+            &__video-wrapper {
+                &__video {
+                    iframe {
+                        width: 100%;
+                        min-height: 190px;
+                    }
+                }
             }
         }
     }
@@ -27,9 +43,11 @@
 
                 &__video {
                     width: 100%;
+                    margin-right: 30px;
 
                     iframe {
                         width: 100% !important;
+                        min-height: 165px;
                     }
                 }
             }

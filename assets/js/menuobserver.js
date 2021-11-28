@@ -4,7 +4,7 @@ const menuObserver = () => {
 
     // margin on top of sectionOne for when menu goes white on home
     const sectionOneOptions = {
-        rootMargin: "-674px 0px 0px 0px"
+        rootMargin: "-666px 0px 0px 0px"
     };
 
     const sectionOneObserver = new IntersectionObserver(function(

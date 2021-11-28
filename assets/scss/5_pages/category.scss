@@ -6,7 +6,7 @@
         &__list {
             margin-top: 20px;
             margin-left: 16px;
-            width: 50%;
+            width: 100%;
             display: grid;
             grid-template-columns: repeat(2, 1fr);
 
@@ -27,6 +27,12 @@
         /* margin-left: $margin-side-desktop;
         margin-right: $margin-side-desktop;
         margin-bottom: 70px; */
+
+        &__inspiration-links {
+            &__list {
+                width: 50%;
+            }
+        }
 
         &__text-wrapper {
             width: 50%;

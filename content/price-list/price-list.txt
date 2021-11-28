@@ -43,7 +43,7 @@ Materials:
       pricekdg: "3"
       priceextern: "4"
       pricecompany: "4"
-      instock: 'true'
+      instock: 'false'
     - 
       detail: 4mm
       color: /

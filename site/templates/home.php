@@ -128,7 +128,7 @@
                     <?php //workingFablabImage DESKTOP ?>
                     <?php if ($img = $page->workingFablabImage()->toFile()): ?>
                         <div class="home-container__working__flexbox__right">
-                            <img class="home-container__working__flexbox__right__img" src="<?=$img->url()?>" alt="Picture of Mark in Fablab">
+                            <img class="home-container__working__flexbox__right__img home-img" src="<?=$img->url()?>" alt="Picture of Mark in Fablab">
                         </div>
                     <?php endif;?>
                 </div>
@@ -162,7 +162,7 @@
                     <?php //biolabImage DESKTOP ?>
                     <?php if ($img = $page->biolabImage()->toFile()): ?>
                         <div class="home-container__biolab__flexbox__right">
-                            <img class="home-container__biolab__flexbox__right__img" src="<?=$img->url()?>" alt="Picture of students in Biolab">
+                            <img class="home-container__biolab__flexbox__right__img home-img" src="<?=$img->url()?>" alt="Picture of students in Biolab">
                         </div>
                     <?php endif;?>
                 </div>

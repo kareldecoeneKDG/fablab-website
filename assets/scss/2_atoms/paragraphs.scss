@@ -47,9 +47,21 @@
                     }
                 }
             }
+
+            &__right {
+                &__flexbox {
+                    &__box {
+                        &__function {
+                            color: $table-title-grey;
+                        }
+                    }
+                }
+            }
         }
     }
 }
+
+what-is-fablab-container__introduction__flexbox__right__flexbox__box__function p
 
 //BLOG
 .blog-wrapper {
@@ -67,15 +79,6 @@
         &__p {
             margin-top: 10px;
             margin-bottom: 15px;
-        }
-    }
-}
-
-//CATEGORY
-.category-wrapper {
-    &__designsoftware-wrapper {
-        &__paragraph {
-            width: 50%;
         }
     }
 }
@@ -130,6 +133,14 @@
                         }
                     }
                 }
+            }
+        }
+    }
+
+    .category-wrapper {
+        &__designsoftware-wrapper {
+            &__paragraph {
+                width: 50%;
             }
         }
     }
