@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <?php // PAGE TITLE ?>
-        <title><?php $page->title()?></title>
+        <title><?= $page->title() ?> - FabLab KdG</title>
 
         <?php // LOAD REACT ?>
         <?php // Note: when deploying, replace "development.js" with "production.min.js". ?>

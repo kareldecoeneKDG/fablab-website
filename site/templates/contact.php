@@ -45,61 +45,7 @@
 
 
 
-                <?php //CONTACTFORM ?>
-                <div class="contact-container__contact__flexbox__contactform">
-
-                    <?php //alert/succes message ?>
-                    <?php if($success): ?>
-                        <div class="alert success">
-                            <p><?= $success ?></p>
-                        </div>
-
-                    <?php //error message ?>
-                    <?php else: ?>
-                        <?php if(isset($alert['error'])): ?>
-                            <div><?= $alert['error'] ?></div>
-                        <?php endif; ?>
-
-                    <form class="contact-container__contact__flexbox__contactform__form" method="post" action="<?= $page->url() ?>">
-
-                        <?php //honeypot for cybersecurity analysis? ?>
-                        <div class="honeypot">
-                            <label for="website">Website <abbr title="required">*</abbr></label>
-                            <input type="url" id="website" name="website" tabindex="-1">
-                        </div>
-
-                        <div class="contact-container__contact__flexbox__contactform__form__flexbox">
-                            <div class="contact-container__contact__flexbox__contactform__form__flexbox__box field">
-                                <label class="contact-container__contact__flexbox__contactform__form__label" for="name">
-                                    Naam
-                                </label>
-                                <input class="contact-container__contact__flexbox__contactform__form__input" type="text" id="name" name="name" value="<?= esc($data['name'] ?? '', 'attr') ?>" required>
-                                <?= isset($alert['name']) ? '<span class="alert error">' . esc($alert['name']) . '</span>' : '' ?>
-                            </div>
-
-                            <div class="contact-container__contact__flexbox__contactform__form__flexbox__box field">
-                                <label class="contact-container__contact__flexbox__contactform__form__label" for="email">
-                                    Email
-                                </label>
-                                <input class="contact-container__contact__flexbox__contactform__form__input" type="email" id="email" name="email" value="<?= esc($data['email'] ?? '', 'attr') ?>" required>
-                                <?= isset($alert['email']) ? '<span class="alert error">' . esc($alert['email']) . '</span>' : '' ?>
-                            </div>
-                        </div>
-
-                        <div class="field">
-                            <label class="contact-container__contact__flexbox__contactform__form__label" for="text">
-                                Uw bericht
-                            </label>
-                            <textarea id="text" class="contact-container__contact__flexbox__contactform__form__input textarea" name="text" required>
-                                <?= esc($data['text'] ?? '') ?>
-                            </textarea>
-                            <?= isset($alert['text']) ? '<span class="alert error">' . esc($alert['text']) . '</span>' : '' ?>
-                        </div>
-
-                        <input class="contact-container__contact__flexbox__contactform__form__submit button-small" type="submit" name="submit" value="Verzend">
-                    </form>
-                    <?php endif ?>
-                </div>
+                <?php snippet('contact-form') ?>
             </div>
         </div>
 
@@ -157,7 +103,7 @@
 
 
 
-        <?php snippet('accessibility') ?>
+        <?php snippet('tabbar-accessibility') ?>
 
 
 
@@ -170,4 +116,5 @@
     
 <?php snippet('footer') ?>
 
-<?= js('build/js/tabbar-accessibility.js')?>
+<?= js('build/js/tabbar.js') ?>
+<?= js('build/js/contact-form-validation.js') ?>

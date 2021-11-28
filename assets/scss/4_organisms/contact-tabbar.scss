@@ -6,24 +6,24 @@
 
     &__tabscontainer {
         &__tabs {
-            width: 100%;
+            /* width: 100%;
             height: 93.5vh;
             overflow: hidden;
             margin-top: 20px;
             margin-bottom: 30px;
-            border-radius: 15px;
+            border-radius: 15px; */
 
             &__tabheader {
-                height: 60px;
+                /* height: 60px;
                 display: flex;
                 align-items: center;
-                background-color: $white;
+                background-color: $white; */
 
-                .active {
+                /* .active {
                     color: $yellow;
-                }
+                } */
 
-                &__item {
+                /* &__item {
                     width: calc(100% / 4); //4 tabs in accordion
                     text-align: center;
                     color: $table-title-grey;
@@ -34,7 +34,6 @@
                     outline: none;
                     width: 100%;
                     height: 100%;
-
                     position: relative;
 
                     i {
@@ -42,10 +41,10 @@
                         top: 30%;
                         left: 38%;
                     }
-                }
+                } */
             }
 
-            &__tabindicator {
+            /* &__tabindicator {
                 position: relative;
                 width: calc(100% / 4);
                 height: 5px;
@@ -53,24 +52,24 @@
                 left: 0px;
                 border-radius: 5px;
                 transition: all 500ms ease-in-out;
-            }
+            } */
 
             &__tabbody {
-                display: block;
+                /* display: block;
                 position: relative;
                 height: calc(100% - 60px); //60px is padding top
                 padding: 20px 16px;
                 border-radius: 0px 0px 15px 15px;
-                background-color: $white;
+                background-color: $white; */
 
-                .active {
+                /* .active {
                     top: 0px;
                     opacity: 1;
                     transform: scale(1);
                     margin-top: 10px;
-                }
+                } */
 
-                &__item {
+                /* &__item {
                     padding-right: 16px;
                     position: absolute;
                     top: -200%;
@@ -78,7 +77,7 @@
                     margin-top: 5px;
                     transform: scale(0.9);
                     transition: opacity 500ms ease-in-out 0ms, transform 500ms ease-in-out 0ms;
-                }
+                } */
             }
         }
     }

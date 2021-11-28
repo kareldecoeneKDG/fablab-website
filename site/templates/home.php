@@ -170,8 +170,8 @@
 
 
 
-            <?php //SNIPPET - MANUFACTURERES ?>
-            <?php snippet('manufacturers')?>
+            <?php //snippet('tabbar-manufacturers')?>
+            <?php snippet('tabbar-manufacturers') ?>
 
 
 
@@ -191,6 +191,7 @@
 
 <?php snippet('footer')?>
 
-<?=js('build/js/tabbar-manufacturers.js')?>
+<?php //js('build/js/tabbar-manufacturers.js') ?>
+<?= js('build/js/tabbar.js') ?>
 <?=js('build/js/home-animation.js')?>
 <?=js('build/js/menuobserver.js')?>
