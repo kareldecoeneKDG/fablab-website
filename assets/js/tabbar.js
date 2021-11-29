@@ -7,6 +7,7 @@ const tabbar = () => {
     let tabIndicatorHome;
     let tabIndicatorContact;
 
+    //If it finds the home tabbar, else the contact tabbar
     if(indicator.classList.contains('tabscontainer__tabs__tabindicatorhome')) {
         tabIndicatorHome = document.querySelector(".tabscontainer__tabs__tabindicatorhome");
     } else {
@@ -26,7 +27,7 @@ const tabbar = () => {
 
 
 
-    // To change active tab
+    //To change active tab
     for(let i=0; i < tabsPane.length; i++) {
         tabsPane[i].addEventListener("click", function() {
             tabHeader.querySelector("." + activeClass).classList.remove(activeClass);

@@ -1,17 +1,5 @@
-// MOBILE
-.container-blog {
-    /* margin: $margin-side-mobile;
-    margin-top: calc(12vh + 30px); //12vh is menu, 30px is extra padding */
-}
-
 //DESKTOP vanaf 1280px
 @media screen and (min-width: $desktop-1280) {
-    .container-blog {
-        /* margin: $margin-side-desktop;
-        margin-top: 210px;
-        margin-bottom: 70px; */
-    }
-    
     .blog-wrapper {
         display: none;
 
@@ -33,36 +21,5 @@
         grid-template-columns: repeat(4, 1fr);
         gap: 30px;
         margin-top: 30px;
-    }
-}
-
-
-
-// DESKTOP - 1920PX
-@media only screen and (min-width: $desktop-hd) {
-    .container-blog {
-        /* margin-left: $margin-side-hd;
-        margin-right: $margin-side-hd; */
-    }
-}
-
-
-// DESKTOP - 2560PX
-@media only screen and (min-width: $desktop-qhd) {
-    .container-blog {
-        /* margin-left: $margin-side-qhd;
-        margin-right: $margin-side-qhd; */
-    }
-}
-
-
-
-// DESKTOP - 3840px
-@media only screen and (min-width: $desktop-4k) {
-    .container-blog {
-        /* margin-top: 140px;
-        margin-left: $margin-side-4k;
-        margin-right: $margin-side-4k;
-        min-height: calc(100vh - 344px - 140px - 70px); //344px is footer, 140px is menu, 70px is padding top */
     }
 }

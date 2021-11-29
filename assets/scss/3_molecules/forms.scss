@@ -16,14 +16,6 @@
                     padding-top: 30px;
                     padding-bottom: 30px;
 
-                    /* &__label {
-                        display: block;
-                        font-family: $verdana;
-                        font-size: $p-small-font-size-mobile;
-                        font-weight: 700;
-                        margin: $label-margin-mobile;
-                    } */
-
                     &__input {
                         display: block;
                         font-family: $verdana;
@@ -43,7 +35,6 @@
                     }
 
                     &__submit {
-                        //padding: $button-big-padding;
                         background-color: $yellow;
                         color: $black;
                         font-family: $verdana;

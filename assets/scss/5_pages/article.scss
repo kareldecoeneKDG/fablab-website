@@ -1,9 +1,3 @@
-// MOBILE
-.article-wrapper {
-    /* margin: $margin-side-mobile;
-    margin-top: calc(12vh + 30px); //12vh is menu, 30px is extra padding */
-}
-
 .share {
     display: flex;
     margin-top: 10px;
@@ -15,13 +9,5 @@
 @media screen and (min-width: $desktop-1280) {
     .content-article {
         padding-right: 243px;
-    }
-}
-
-
-
-@media screen and (min-width: $desktop-4k) {
-    .article-wrapper {
-        /* min-height: calc(100vh - 344px - 140px - 70px - 70px); //344px is footer, 140px is menu, 70px is padding top */
     }
 }

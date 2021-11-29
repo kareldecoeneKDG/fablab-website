@@ -10,8 +10,6 @@
     min-height: calc(100vh - 12vh - 30px);
     margin-top: calc(12vh + 30px);
     padding-bottom: 30px;
-    //padding-left: $margin-side-mobile;
-    //padding-right: $margin-side-mobile;
 }
 
 .container-contact {
@@ -44,7 +42,6 @@
 // DESKTOP - 1440PX
 @media screen and (min-width: $desktop-1440) {
     .container-categories {
-        //margin-top: 240px;
         padding-top: 50px;
     }
 }
@@ -57,7 +54,6 @@
     }
 
     .container-categories {
-        //margin-top: 300px;
         padding-top: 90px;
     }
 }
@@ -70,7 +66,6 @@
     }
 
     .container-categories {
-        //margin-top: 420px;
         padding-top: 210px;
     }
 }
@@ -83,7 +78,6 @@
     }
 
     .container-categories {
-        //margin-top: 800px;
         padding-top: 590px;
     }
 }

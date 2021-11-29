@@ -1,7 +1,4 @@
 .category-wrapper {
-    /* margin: $margin-side-mobile; */
-    //margin-top: calc(12vh + 30px); //12vh is menu, 30px is extra padding
-
     &__inspiration-links {
         &__list {
             margin-top: 20px;
@@ -24,10 +21,6 @@
 // DESKTOP - 1280PX
 @media screen and (min-width: $desktop-1280) {
     .category-wrapper {
-        /* margin-left: $margin-side-desktop;
-        margin-right: $margin-side-desktop;
-        margin-bottom: 70px; */
-
         &__inspiration-links {
             &__list {
                 width: 50%;
@@ -42,48 +35,5 @@
             display: flex;
             justify-content: space-between;
         }
-    }
-}
-
-/*
-// DESKTOP - 1800PX
-@media screen and (min-width: 1800px) {
-    .category-wrapper {
-        margin-left: $margin-side-desktop+150px;
-        margin-right: $margin-side-desktop+150px;
-    }
-} */
-
-// DESKTOP - 1920PX
-@media screen and (min-width: $desktop-hd) {
-    .category-wrapper {
-        /* margin-left: $margin-side-hd;
-        margin-right: $margin-side-hd; */
-    }
-}
-
-/*
-// DESKTOP - 2250PX
-@media screen and (min-width: 2250px) {
-    .category-wrapper {
-        margin-left: $margin-side-qhd - 100px;
-        margin-right: $margin-side-hd -100px;
-    }
-}*/
-
-// DESKTOP - 2560PX
-@media screen and (min-width: $desktop-qhd) {
-    .category-wrapper {
-        /* margin-left: $margin-side-qhd;
-        margin-right: $margin-side-qhd; */
-    }
-}
-
-// DESKTOP - 3840PX
-@media screen and (min-width: $desktop-4k) {
-    .category-wrapper {
-        /* margin-left: $margin-side-4k;
-        margin-right: $margin-side-4k;
-        min-height: calc(100vh - 344px - 140px - 70px - 70px - 16px); //344px is footer, 140px is menu, 70px is padding top, 16px is margin */
     }
 }
