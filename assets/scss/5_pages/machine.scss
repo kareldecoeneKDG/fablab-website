@@ -4,6 +4,24 @@
     margin-right: $margin-side-mobile;
 }
 
+// TABLET PORTRAIT - 768PX
+@media only screen and (min-width: $tablet-portrait) {
+    .machine-image-wrapper {
+        margin-top: 50px;
+        margin-left: $margin-side-tablet-portrait;
+        margin-right: $margin-side-tablet-portrait;
+    }
+}
+
+// TABLET LANDSCAPE - 1024PX
+@media only screen and (min-width: $tablet-landscape) {
+    .machine-image-wrapper {
+        margin-top: 50px;
+        margin-left: $margin-side-tablet-landscape;
+        margin-right: $margin-side-tablet-landscape;
+    }
+}
+
 //DESKTOP 1280px
 @media screen and (min-width: 1280px) {
     .machine-image-wrapper {

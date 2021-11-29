@@ -73,6 +73,40 @@
     }
 }
 
+// TABLET PORTRAIT - 768PX
+@media only screen and (min-width: $tablet-portrait) {
+    .home-container {
+        &__banner {
+            &__background {
+                &__animation {
+                    .intro {
+                        left: $margin-side-tablet-portrait;
+
+                        .typing {
+                            margin-left: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// TABLET PORTRAIT - 1024PX
+@media only screen and (min-width: $tablet-landscape) {
+    .home-container {
+        &__banner {
+            &__background {
+                &__animation {
+                    .intro {
+                        left: $margin-side-tablet-landscape;
+                    }
+                }
+            }
+        }
+    }
+}
+
 // DESKTOP - 1280PX
 @media only screen and (min-width: $desktop-1280) {
     // HOME TYPING ANIMATION

@@ -53,6 +53,119 @@
     }
 }
 
+// TABLET PORTRAIT - 768PX
+@media only screen and (min-width: $tablet-portrait) {
+    .what-is-fablab-container {
+        &__introduction {
+            &__flexbox {
+                &__left {
+                    &__team {
+                        padding: 70px 30px 30px 30px;
+
+                        &__titlecontainer {
+                            position: absolute;
+                            background-color: $black;
+                            color: $yellow;
+                            top: -25px;
+                            left: 18vw;
+                            transform: skewY(-2deg);
+                        }
+
+                        //what-is-fablab-container__introduction__flexbox__left__team__container__flexbox__box padding-top-what-is-fablab
+
+                        &__container {
+                            &__flexbox {
+                                .padding-top-what-is-fablab {
+                                    padding-top: 65px;
+                                    padding-left: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// TABLET LANDSCAPE - 1024PX
+@media only screen and (min-width: $tablet-landscape) {
+    .what-is-fablab-container {
+        &__introduction {
+            &__flexbox {
+                display: flex;
+
+                &__left {
+                    margin-left: 0;
+                    width: 50%;
+                    padding-right: 37px;
+
+                    &__p {
+                        padding-bottom: 20px;
+                    }
+
+                    &__team {
+                        display: none;
+                    }
+                }
+
+                &__right {
+                    display: inline-block;
+                    width: 50%;
+                    position: relative;
+                    padding-left: 37px;
+
+                    &__titlecontainer {
+                        position: absolute;
+                        background-color: $black;
+                        left: 14vw;
+                        top: -30px;
+                        width: 230px;
+                        height: 50px;
+                        transform: skewY(-2deg);
+                        color: $yellow;
+                        text-align: center;
+
+                        &__title {
+                            margin-top: 13px;
+                        }
+                    }
+
+                    &__flexbox {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        background-color: $white;
+                        border: 2px solid $yellow;
+                        width: 100%;
+                        border-radius: $border-radius-big;
+                        padding: 40px;
+
+                        &__box {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            margin-bottom: 20px;
+
+                            &__title {
+                                margin-top: 27px;
+                            }
+
+                            &__box {
+                                margin-left: 30px;
+                            }
+                        }
+
+                        &__box:last-of-type {
+                            margin-top: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 // DESKTOP - 1280PX
 @media screen and (min-width: $desktop-1280) {
     .what-is-fablab-container {
@@ -88,6 +201,10 @@
                         width: 230px;
                         height: 50px;
                         transform: skewY(-2deg);
+
+                        &__title {
+                            margin-top: 0;
+                        }
                     }
 
                     &__flexbox {
@@ -104,6 +221,7 @@
                             display: flex;
                             flex-direction: row;
                             justify-content: space-between;
+                            margin-bottom: 0px;
 
                             &__box {
                                 margin-left: 30px;

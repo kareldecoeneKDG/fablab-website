@@ -9,6 +9,20 @@
     text-align: center;
 }
 
+// TABLET PORTRAIT - 768PX
+@media only screen and (min-width: $tablet-portrait) {
+    .machine-banner {
+        padding: 20px $margin-side-tablet-portrait;
+    }
+}
+
+// TABLET LANDSCAPE - 1024PX
+@media only screen and (min-width: $tablet-landscape) {
+    .machine-banner {
+        padding: 20px $margin-side-tablet-landscape;
+    }
+}
+
 @media screen and (min-width: $desktop-1280) {
     .machine-banner {
         flex-direction: unset;

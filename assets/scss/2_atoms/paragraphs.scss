@@ -83,6 +83,21 @@ what-is-fablab-container__introduction__flexbox__right__flexbox__box__function p
     }
 }
 
+// TABLET PORTRAIT - 768PX
+@media only screen and (min-width: $tablet-portrait) {
+    .p-home {
+        padding-left: $margin-side-tablet-portrait;
+        padding-right: $margin-side-tablet-portrait;
+    }
+}
+
+// TABLET PORTRAIT - 1024PX
+@media only screen and (min-width: $tablet-landscape) {
+    .p-home {
+        padding-left: $margin-side-tablet-landscape;
+        padding-right: $margin-side-tablet-landscape;
+    }
+}
 
 
 // DESKTOP - 1280PX

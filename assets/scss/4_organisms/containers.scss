@@ -17,6 +17,29 @@
     margin-top: calc(12vh + 30px);
 }
 
+// TABLET PORTRAIT - 768PX
+@media only screen and (min-width: $tablet-portrait) {
+    .container {
+        min-height: calc(100vh - 12vh - 50px);
+        margin-top: calc(12vh + 50px);
+        margin-left: $margin-side-tablet-portrait;
+        margin-right: $margin-side-tablet-portrait;
+        padding-bottom: 50px;
+    }
+}
+
+// TABLET LANDSCAPE - 1024PX
+@media only screen and (min-width: $tablet-landscape) {
+    .container {
+        margin-left: $margin-side-tablet-landscape;
+        margin-right: $margin-side-tablet-landscape;
+    }
+
+    .container-contact {
+        margin-top: calc(12vh + 50px);
+    }
+}
+
 // DESKTOP - 1280PX
 @media screen and (min-width: $desktop-1280) {
     .container {

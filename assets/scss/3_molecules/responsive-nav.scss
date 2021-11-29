@@ -119,8 +119,32 @@
 
 // TABLET PORTRAIT
 @media screen and (min-width: 768px) {
+    .header {
+        &__menu {
+            padding-left: $margin-side-tablet-portrait;
+            padding-right: $margin-side-tablet-portrait;
+            &__navlinks {
+                transform: translateX(-200%);
+            }
+
+            .nav-active {
+                transform: translateX(-100%);
+            }
+        }
+    }
+    
     .nav-links {
         width: 50%;
+    }
+}
+
+// TABLET LANDSCAPE
+@media screen and (min-width: 1024px) {
+    .header {
+        &__menu {
+            padding-left: $margin-side-tablet-landscape;
+            padding-right: $margin-side-tablet-landscape;
+        }
     }
 }
 

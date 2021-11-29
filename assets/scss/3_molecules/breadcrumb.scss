@@ -8,6 +8,20 @@
     margin-left: $margin-side-mobile;
 }
 
+// TABLET PORTRAIT - 768PX
+@media only screen and (min-width: $tablet-portrait) {
+    .breadcrump-margin {
+        margin-left: $margin-side-tablet-portrait;
+    }
+}
+
+// TABLET LANDSCAPE - 1024PX
+@media only screen and (min-width: $tablet-landscape) {
+    .breadcrump-margin {
+        margin-left: $margin-side-tablet-landscape;
+    }
+}
+
 
 
 // DESKTOP - 1280PX

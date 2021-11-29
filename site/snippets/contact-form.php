@@ -44,9 +44,7 @@
 
             <div class="field form-control">
                 <label class="contact-container__contact__flexbox__contactform__form__label" for="message">Uw bericht</label>
-                <textarea id="message" class="contact-container__contact__flexbox__contactform__form__input textarea" name="message" required>
-                    <?= esc($data['text'] ?? '') ?>
-                </textarea>
+                <textarea id="message" class="contact-container__contact__flexbox__contactform__form__input textarea" name="message" required><?= esc($data['text'] ?? '') ?></textarea>
                 <i class="fa fa-check-circle" aria-hidden="true"></i>
                 <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
                 <small>Error message</small>

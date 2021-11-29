@@ -22,14 +22,16 @@
 
 
 
-                <?php //GET INFO FROM CONTACTPAGE ?>
+                <?php //GET INFO FROM CONTACTPAGE 
+                ?>
                 <?php if ($contactpage = page('contact')) : ?>
                     <?php $employees = $contactpage->employees()->toStructure(); ?>
                 <?php endif; ?>
 
 
 
-                <?php //TEAM FABLAB MOBILE ?>
+                <?php //TEAM FABLAB MOBILE 
+                ?>
                 <div class="what-is-fablab-container__introduction__flexbox__left__team">
 
                     <div class="what-is-fablab-container__introduction__flexbox__left__team__titlecontainer">
@@ -49,8 +51,7 @@
                                     <?php endif; ?>
                                 </div>
 
-                                <div class="what-is-fablab-container__introduction__flexbox__left__team__container__flexbox__box">
-
+                                <div class="what-is-fablab-container__introduction__flexbox__left__team__container__flexbox__box padding-top-what-is-fablab">
                                     <?php if ($employee->name()->isNotEmpty()) : ?>
                                         <h3 class="what-is-fablab-container__introduction__flexbox__left__team__container__flexbox__box__title h3"><?= $employee->name() ?></h3>
                                     <?php endif; ?>
@@ -88,7 +89,8 @@
 
 
 
-            <?php //TEAM FABLAB DESKTOP ?>
+            <?php //TEAM FABLAB DESKTOP 
+            ?>
             <div class="what-is-fablab-container__introduction__flexbox__right">
                 <div class="what-is-fablab-container__introduction__flexbox__right__flexbox">
 

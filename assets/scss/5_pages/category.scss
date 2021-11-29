@@ -1,4 +1,8 @@
 .category-wrapper {
+    &__images-wrapper {
+        margin-top: 30px;
+    }
+
     &__inspiration-links {
         &__list {
             margin-top: 20px;
@@ -18,9 +22,36 @@
     }
 }
 
+// TABLET PORTRAIT - 768PX
+@media only screen and (min-width: $tablet-portrait) {
+    .category-wrapper {
+        &__images-wrapper {
+            margin-top: 50px;
+            //display: flex;
+            //justify-content: space-between;
+            width: 50%;
+        }
+    }
+}
+
+// TABLET LANDSCAPE - 1024PX
+@media only screen and (min-width: $tablet-landscape) {
+    .category-wrapper {
+        &__images-wrapper {
+            margin-top: 50px;
+            width: 38%;
+        }
+    }
+}
+
 // DESKTOP - 1280PX
 @media screen and (min-width: $desktop-1280) {
     .category-wrapper {
+        &__images-wrapper {
+            margin-top: 0px;
+            width: auto;
+        }
+
         &__inspiration-links {
             &__list {
                 width: 50%;

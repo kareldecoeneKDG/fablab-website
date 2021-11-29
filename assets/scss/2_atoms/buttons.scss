@@ -131,6 +131,21 @@
 }
 
 
+// TABLET PORTRAIT - 768PX
+@media only screen and (min-width: $tablet-portrait) {
+    .button-small {
+        margin-left: $margin-side-tablet-portrait;
+        margin-right: $margin-side-tablet-portrait;
+    }
+}
+
+// TABLET PORTRAIT - 1024PX
+@media only screen and (min-width: $tablet-landscape) {
+    .button-small {
+        margin-left: $margin-side-tablet-landscape;
+        margin-right: $margin-side-tablet-landscape;
+    }
+}
 
 // DESKTOP - 1280PX
 @media only screen and (min-width: $desktop-1280) {

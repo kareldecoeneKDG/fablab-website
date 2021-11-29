@@ -140,6 +140,40 @@
 }
 
 
+// TABLET PORTRAIT - 768PX
+@media only screen and (min-width: $tablet-portrait) {
+    .contact-container {
+        &__contact {
+            &__flexbox {
+                &__contactform {
+                    margin-top: 50px;
+    
+                    &__form {
+                        padding-left: $margin-side-tablet-portrait;
+                        padding-right: $margin-side-tablet-portrait;
+                        padding-top: 30px;
+                        padding-bottom: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// TABLET LANDSCAPE - 1024PX
+@media only screen and (min-width: $tablet-landscape) {
+    .contact-container {
+        &__contact {
+            &__flexbox {
+                &__contactform {
+                    margin-top: 0px;
+                }
+            }
+        }
+    }
+}
+
+
 
 // DESKTOP - 1280PX
 @media only screen and (min-width: $desktop-1280) {

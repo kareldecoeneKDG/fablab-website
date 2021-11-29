@@ -62,6 +62,76 @@
     font-weight: bold;
 }
 
+// TABLET PORTRAIT - 768PX
+@media only screen and (min-width: $tablet-portrait) {
+    .contact-container {
+        &__contact {
+            &__flexbox {
+                &__data {
+                    margin-left: $margin-side-tablet-portrait;
+                    margin-right: $margin-side-tablet-portrait;
+                }
+            }
+        }
+
+        &__general {
+            margin-left: $margin-side-tablet-portrait;
+            margin-right: $margin-side-tablet-portrait;
+        }
+    }
+}
+
+// TABLET LANDSCAPE - 1024PX
+@media only screen and (min-width: $tablet-landscape) {
+    .contact-container {
+        &__contact {
+            &__flexbox {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-left: $margin-side-tablet-landscape;
+                margin-right: $margin-side-tablet-landscape;
+
+                &__data {
+                    width: 40%;
+                }
+
+                &__contactform {
+                    width: 50%;
+                }
+            }
+        }
+
+        &__general {
+            margin-top: 50px;
+            margin-left: $margin-side-tablet-landscape;
+            margin-right: $margin-side-tablet-landscape;
+
+            &__title {
+                width: 50%;
+            }
+
+            &__paragraph {
+                width: 50%;
+            }
+
+            &__flexbox {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+
+                &__left {
+                    padding-right: 30px;
+                }
+
+                &__left:last-of-type {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}
+
 // DESKTOP - 1280PX
 @media only screen and (min-width: $desktop-1280) {
     .contact-container {

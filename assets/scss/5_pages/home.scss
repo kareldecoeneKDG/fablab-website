@@ -119,6 +119,125 @@
     }
 }
 
+// TABLET PORTRAIT - 768PX
+@media only screen and (min-width: $tablet-portrait) {
+    .home-container {
+        &__message {
+            padding-left: $margin-side-tablet-portrait;
+            padding-right: $margin-side-tablet-portrait;
+        }
+
+        &__introduction {
+            &__flexbox {
+                &__right {
+                    &__openhours {
+                        padding-left: $margin-side-tablet-portrait;
+                        padding-right: $margin-side-tablet-portrait;
+                    }
+                }
+            }
+        }
+
+        &__partnersflexbox {
+            padding-left: $margin-side-tablet-portrait;
+            padding-right: $margin-side-tablet-portrait;
+        }
+
+        &__partners {
+            &__img {
+                display: inline-block;
+            }
+        }
+    }
+}
+
+// TABLET PORTRAIT - 1024PX
+@media only screen and (min-width: $tablet-landscape) {
+    .home-container {
+        &__message {
+            padding-left: $margin-side-tablet-landscape;
+            padding-right: $margin-side-tablet-landscape;
+        }
+
+        &__introduction {
+            &__flexbox {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                &__left {
+                    width: 60%;
+                    padding-bottom: 0;
+                }
+
+                &__right {
+                    border-radius: 15px 0px 0px 15px;
+                    height: 27vh;
+                }
+            }
+        }
+
+        &__working {
+            &__banner {
+                background-image: none;
+            }
+
+            &__flexbox {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 100%;
+
+                &__left {
+                    display: inline-block;
+                    width: 60%;
+                }
+
+                &__right {
+                    display: inline-block;
+                    width: 40%;
+                    margin-right: $margin-side-tablet-landscape;
+                }
+            }
+        }
+
+        &__biolab {
+            &__banner {
+                background-image: none;
+            }
+
+            &__flexbox {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 100%;
+
+                &__left {
+                    display: inline-block;
+                    width: 60%;
+                }
+
+                &__right {
+                    display: inline-block;
+                    width: 40%;
+                    margin-right: $margin-side-tablet-landscape;
+                }
+            }
+        }
+
+        &__partnersflexbox {
+            padding-left: $margin-side-tablet-landscape;
+            padding-right: $margin-side-tablet-landscape;
+        }
+
+        &__partners {
+            &__img {
+                display: inline-block;
+            }
+        }
+    }
+}
+
 // DESKTOP - 1280PX
 @media screen and (min-width: $desktop-1280) {
     .home-container {

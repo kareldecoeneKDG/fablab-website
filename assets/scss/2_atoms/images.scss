@@ -168,6 +168,43 @@
     }
 }
 
+// TABLET PORTRAIT - 768PX
+@media only screen and (min-width: $tablet-portrait) {
+    
+    // WHAT IS FABLAB
+    .what-is-fablab-container {
+        &__introduction {
+            &__flexbox {
+                &__left {
+                    &__team {
+                        &__container {
+                            &__flexbox {
+                                &__box {
+                                    &__img {
+                                        width: 32vw;
+                                        height: 32vw;
+                                        object-fit: cover;
+                                        border-radius: $border-radius-big;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// TABLET LANDSCAPE - 1024PX
+@media only screen and (min-width: $tablet-landscape) {
+    .machine-wrapper {
+        &__img {
+            width: 50%;
+        }
+    }
+}
+
 // DESKTOP - 1280PX
 @media only screen and (min-width: $desktop-1280) {
     // CONTACT

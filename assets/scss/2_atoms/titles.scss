@@ -300,13 +300,120 @@
     }
 }
 
+// TABLET PORTRAIT - 768PX
+@media only screen and (min-width: $tablet-portrait) {
+    .h2-home {
+        padding-left: $margin-side-tablet-portrait;
+    }
+
+    // HOME
+    .home-container {
+        &__introduction {
+            &__title {
+                margin-right: 70%;
+            }
+
+            &__flexbox {
+                &__right {
+                    &__openhours {
+                        &__title:first-of-type {
+                            margin-top: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        &__working {
+            &__banner {
+                &__title {
+                    margin-right: 68%;
+                }
+            }
+        }
+
+        &__biolab {
+            &__banner {
+                &__title {
+                    margin-right: 80%;
+                }
+            }
+        }
+    }
+
+    .what-is-fablab-container {
+        &__introduction {
+            &__flexbox {
+                &__left {
+                    &__team {
+                        &__titlecontainer {
+                            left: 35% !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .h1-what-is-fablab {
+        font-size: $h1-font-size-mobile;
+    }
+}
+
+// TABLET PORTRAIT - 1024PX
+@media only screen and (min-width: $tablet-landscape) {
+    .h2-home {
+        margin-top: 50px;
+        padding-left: $margin-side-tablet-landscape;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    // HOME
+    .home-container {
+        &__introduction {
+            &__title {
+                margin-right: 77%;
+            }
+
+            &__flexbox {
+                &__right {
+                    &__openhours {
+                        &__title:first-of-type {
+                            margin-top: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        &__working {
+            &__banner {
+                &__title {
+                    margin-right: 75%;
+                }
+            }
+        }
+
+        &__biolab {
+            &__banner {
+                &__title {
+                    margin-right: 85%;
+                }
+            }
+        }
+    }
+
+    .h1-what-is-fablab {
+        margin-top: 30px;
+    }
+}
+
 // DESKTOP - 1280PX
 @media only screen and (min-width: $desktop-1280) {
     // GENERAL BUTTONS
     .h2-home {
         padding-left: $margin-side-desktop;
-        padding-top: 15px;
-        padding-bottom: 15px;
         margin-top: 0;
         margin-bottom: 20px;
     }

@@ -23,6 +23,21 @@
 
 
 
+// TABLET PORTRAIT - 768PX
+@media only screen and (min-width: $tablet-portrait) {
+    .blog-wrapper {
+        &__blog-overview {
+            margin-bottom: 0;
+        }
+
+        &__blog-overview:first-of-type {
+            margin-top: 0px;
+        }
+    }
+}
+
+
+
 // DESKTOP - 1280PX
 @media screen and (min-width: $desktop-1280) {
     .blog-container {  

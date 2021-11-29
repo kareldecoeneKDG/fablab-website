@@ -126,6 +126,19 @@
     cursor: pointer;
 }
 
+// TABLET LANDSCAPE - 1024PX
+@media only screen and (min-width: $tablet-landscape) {
+    .modal-content {
+        top: 17%;
+
+        &__linksection {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+}
+
 
 
 // DESKTOP - 1280PX
