@@ -150,18 +150,14 @@
 }
 
 //FAQ
-.faq-wrapper {
-    &__section {
-        &__item {
-            &__questioncontainer {
-                &__icon {
-                    transition: transform 0.5s ease-in;
-                }
+.accordion-item {
+    &__question {
+        &__icon {
+            transition: transform 0.5s ease-in;
+        }
 
-                .icon-min {
-                    opacity: 0;
-                }
-            }
+        .icon-min {
+            opacity: 0;
         }
     }
 }
@@ -183,6 +179,8 @@
     transition: 0.5s ease-in-out;
 }
 
+
+
 // DESKTOP - 1280PX
 @media screen and (min-width: $desktop-1280) {
     // HOME
@@ -192,7 +190,7 @@
                 &__scroll {
                     i {
                         bottom: 52px;
-                        right: 50%; //desktop
+                        right: 50%;
                     }
                 }
             }

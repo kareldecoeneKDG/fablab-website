@@ -1,67 +1,49 @@
-<?php snippet('header') ?>
-
-<?php snippet('menu-white') ?>
-
-
-
-<div class="container container-price-list price-list-container">
-    <h1 class="price-list-container__title h1"><?= $page->title() ?></h1>
-
-    <?php if ($page->StandardMaterials()->isNotEmpty()) : ?>
-        <p class="price-list-container__paragraph p"><?= $page->StandardMaterials() ?></p><br>
-    <?php endif; ?>
-
-    <?php if ($page->OwnMaterials()->isNotEmpty()) : ?>
-        <p class="price-list-container__paragraph p"><?= $page->OwnMaterials() ?></p>
-    <?php endif; ?>
+    <div class="container container-faq">
+        <section class="accordion-wrapper">
+            <h1 class="accordion-wrapper__title title h1">FAQs</h2>
 
 
 
-    <div class="price-list-container__machine-start-up">
-        <h2 class="price-list-container__machine-start-up__title h2">Machine opstartkost / item</h2>
+            <?php $faqs = $page->FAQs()->toStructure(); ?>
+            <?php foreach($faqs as $faq): ?>
+                <div class="accordion-item faq">
+                    <div class="accordion-item__question question">
 
-        <?php $machineStartUpCosts = $page->machineStartUpCost()->ToStructure(); ?>
+                        <?php if($faq->question()->isNotEmpty()): ?>
+                            <h3 class="accordion-item__question__title h3"><?= $faq->question() ?></h3>
+                        <?php endif; ?>
 
-        <table class="table">
-            <tr class="table__table-row">
-                <th class="table__table-row__table-header p">Machine</th>
-                <th class="table__table-row__table-header p">KdG studenten en personeel</th>
-                <th class="table__table-row__table-header p">Privé/extern</th>
-                <th class="table__table-row__table-header p">Bedrijf</th>
-            </tr>
+                        <i class="accordion-item__question__icon fa fa-minus icon-min" aria-hidden="true"></i>
+                        <i class="accordion-item__question__icon fa fa-plus icon" aria-hidden="true"></i>
+                    </div>
 
-            <?php foreach($machineStartUpCosts as $startUpCost): ?>
-                <tr class="table__table-row table-row">
-                    <td class="table__table-row__table-data left"><?= $startUpCost->machine() ?></td>
-                    <td class="table__table-row__table-data center">€ <?= $startUpCost->costIntern() ?></td>
-                    <td class="table__table-row__table-data center">€ <?= $startUpCost->costExtern() ?></td>
-                    <td class="table__table-row__table-data center">€ <?= $startUpCost->costCompany() ?></td>
-                </tr>
-            <?php endforeach; ?>
-        </table>
+
+
+                    <div class="accordion-item__answer answer p">
+                        <?php if($faq->answer()->isNotEmpty()): ?>
+                            <p class="accordion-item__answer__paragraph"><?= $faq->answer() ?></p>
+                        <?php endif; ?>
+                    </div>
+                </div>
+            <?php endforeach ?>
+        </section>
     </div>
-
-
 
     <div class="price-list-container__materials">
         <h2 class="price-list-container__materials__title h2">Materialen</h2>
 
         <?php $materials = $page->materials()->ToStructure(); ?>
 
-
-
         <?php foreach($materials as $material): ?>
-            <div class="accordion-item faq">
-                <div class="accordion-item__question question">
-                    <h3 class="accordion-item__question__title"><?= $material->name() ?></h3>
+            <div class="faq-wrapper__section__item faq">
+                <div class="faq-wrapper__section__item__questioncontainer question">
+                    <h3><?= $material->name() ?></h3>
 
-                    <i class="accordion-item__question__icon fa fa-minus icon-min" aria-hidden="true"></i>
-                    <i class="accordion-item__question__icon fa fa-plus icon" aria-hidden="true"></i>
+                    <i class="faq-wrapper__section__item__questioncontainer__icon fa fa-minus icon-min" aria-hidden="true"></i>
+                    <i class="faq-wrapper__section__item__questioncontainer__icon fa fa-plus icon" aria-hidden="true"></i>
                 </div>
 
-
-
-                <div class="accordion-item__answer answer p answer-materials">
+                <div class="faq-wrapper__section__item__answercontainer answer p answer-materials">
                     <?php $materialsItem = $material->materialitem()->ToStructure(); ?>
 
                     <table class="table">
@@ -74,8 +56,6 @@
                             <th class="table__table-row__table-header p equal">Bedrijf</th>
                             <th class="table__table-row__table-header p equal">In voorraad</th>
                         </tr>
-
-                        
 
                         <?php foreach($materialsItem as $item): ?>
                             <tr class="table__table-row table-row">
@@ -91,6 +71,8 @@
                                 <?php else: ?>
                                     <td class="table__table-row__table-data center"><i class="fa fa-times" aria-hidden="true"></i></i></td>
                                 <?php endif; ?>
+
+                                <?php //<td class="table__table-row__table-data center"><?= $item->instock()</td> ?>
                             </tr>
                         <?php endforeach; ?>
                     </table>
@@ -98,10 +80,3 @@
             </div>
         <?php endforeach ?>
     </div>
-</div>
-
-
-
-<?php snippet('footer') ?>
-
-<?= js('build/js/accordion.js') ?>

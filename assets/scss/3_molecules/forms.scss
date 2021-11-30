@@ -1,69 +1,58 @@
-// MOBILE
-
-// CONTACT
-.contact-container {
-    &__contact {
-        &__flexbox {
-            &__contactform {
-                margin-top: 30px;
-                background-color: $white;
-                border-radius: $border-radius-big;
-                border: 2px solid $yellow;
-
-                &__form {
-                    padding-left: $margin-side-mobile;
-                    padding-right: $margin-side-mobile;
-                    padding-top: 30px;
-                    padding-bottom: 30px;
-
-                    &__input {
-                        display: block;
-                        font-family: $verdana;
-                        font-size: $p-small-font-size-mobile;
-                        font-weight: 500;
-                        margin: $input-margin-mobile;
-                        padding: $input-padding-mobile;
-                        border-radius: $border-radius-small;
-                        border: none;
-                        width: 100%;
-                        background-color: $background-grey;
-                    }
-
-                    .textarea {
-                        resize: none;
-                        height: 300px;
-                    }
-
-                    &__submit {
-                        background-color: $yellow;
-                        color: $black;
-                        font-family: $verdana;
-                        font-size: $button-big-font-size-mobile;
-                        font-weight: 700;
-                        border-radius: $border-radius-small;
-                        margin-left: 0;
-                        cursor: pointer;
-                    }
-                }
-            }
-        }
-    }
+.contactform-container {
+    margin-top: 30px;
+    background-color: $white;
+    border-radius: $border-radius-big;
+    border: 2px solid $yellow;
 }
 
-.form {
-    padding: 30px 40px;
+.contactform {
+    padding-left: $margin-side-mobile;
+    padding-right: $margin-side-mobile;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    &__field {
+        &__label {
+            display: inline-block;
+            margin-bottom: 5px;
+            font-weight: 700;
+        }
+
+        &__input {
+            display: block;
+            font-family: $verdana;
+            font-size: $p-small-font-size-mobile;
+            font-weight: 500;
+            margin: $input-margin-mobile;
+            padding: $input-padding-mobile;
+            border-radius: $border-radius-small;
+            border: none;
+            width: 100%;
+            background-color: $background-grey;
+        }
+
+        .textarea {
+            resize: none;
+            height: 300px;
+        }
+    }
+
+    &__submit {
+        background-color: $yellow;
+        color: $black;
+        font-family: $verdana;
+        font-size: $button-big-font-size-mobile;
+        font-weight: 700;
+        border-radius: $border-radius-small;
+        margin-left: 0;
+        cursor: pointer;
+    }
 }
 
 .form-control {
     margin-bottom: 10px;
     padding-bottom: 5px;
     position: relative;
-}
-
-.form-control label {
-    display: inline-block;
-    margin-bottom: 5px;
-    font-weight: 700;
 }
 
 .form-control input {
@@ -116,7 +105,6 @@
     visibility: hidden;
     position: absolute;
     bottom: 0;
-    //top: 0;
     left: 0;
 }
 
@@ -142,64 +130,17 @@
 
 // TABLET PORTRAIT - 768PX
 @media only screen and (min-width: $tablet-portrait) {
-    .contact-container {
-        &__contact {
-            &__flexbox {
-                &__contactform {
-                    margin-top: 50px;
-    
-                    &__form {
-                        padding-left: $margin-side-tablet-portrait;
-                        padding-right: $margin-side-tablet-portrait;
-                        padding-top: 30px;
-                        padding-bottom: 30px;
-                    }
-                }
-            }
-        }
+    .contactform {
+        padding-left: $margin-side-tablet-portrait;
+        padding-right: $margin-side-tablet-portrait;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 }
 
 // TABLET LANDSCAPE - 1024PX
 @media only screen and (min-width: $tablet-landscape) {
-    .contact-container {
-        &__contact {
-            &__flexbox {
-                &__contactform {
-                    margin-top: 0px;
-                }
-            }
-        }
-    }
-}
-
-
-
-// DESKTOP - 1280PX
-@media only screen and (min-width: $desktop-1280) {
-
-    // CONTACT
-    .contact-container {
-        &__contact {
-            &__flexbox {
-                &__contactform {
-                    margin-top: 0;
-                    width: 50%;
-
-                    &__form {
-                        &__flexbox {
-                            display: flex;
-                            flex-direction: row;
-                            justify-content: space-between;
-                            gap: 10px;
-                
-                            &__box {
-                                width: 100%;
-                            }
-                        }
-                    }
-                }
-            }
-        }
+    .contactform-container {
+        margin-top: 0px;
     }
 }

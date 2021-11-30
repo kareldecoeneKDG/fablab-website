@@ -1,4 +1,4 @@
-/* The Modal (background) */
+//modal background
 .modal {
     display: none;
     position: fixed;
@@ -12,7 +12,6 @@
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-/* Modal Content/Box */
 .modal-content {
     position: absolute;
     top: 25%;
@@ -95,7 +94,6 @@
     }
 }
 
-/* The Close Button */
 .close {
     color: $white;
     float: right;
@@ -126,6 +124,8 @@
     cursor: pointer;
 }
 
+
+
 // TABLET LANDSCAPE - 1024PX
 @media only screen and (min-width: $tablet-landscape) {
     .modal-content {
@@ -143,15 +143,12 @@
 
 // DESKTOP - 1280PX
 @media only screen and (min-width: $desktop-1280) {
-    /* Modal Content/Box */
     .modal-content {
         left: 25%;
-        margin: 5% auto; /* 15% from the top and centered */
-        width: 50%; /* Could be more or less, depending on screen size */
+        margin: 5% auto;
+        width: 50%;
 
         &__linksection {
-            flex-direction: row;
-    
             &__link {
                 padding-bottom: 0px;
             }

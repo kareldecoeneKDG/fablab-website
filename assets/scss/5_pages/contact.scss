@@ -94,9 +94,10 @@
 
                 &__data {
                     width: 40%;
+                    margin-left: 0;
                 }
 
-                &__contactform {
+                .contactform-container {
                     width: 50%;
                 }
             }
