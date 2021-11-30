@@ -3,7 +3,7 @@ const tagInactive = () => {
 
     //When clicking remove tag button, redirect to normal blog page
     tag.addEventListener("click", () => {
-        window.location.href = "http://localhost:4000/fablab-website/blog";
+        window.location.href = "https://fablab.karel.decoene.nxtmediatech.eu/blog";
     })
 }
 

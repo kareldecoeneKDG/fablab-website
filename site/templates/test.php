@@ -1,54 +1,116 @@
-<div class="contactform-container">
-
-    <?php //alert/succes message ?>
-    <?php if ($success) : ?>
-        <div class="alert success">
-            <p><?= $success ?></p>
-        </div>
-
-
-
-    <?php else : ?>
-        <?php //error message ?>
-        <?php if (isset($alert['error'])) : ?>
-            <div><?= $alert['error'] ?></div>
+<div class="container container-what-is-fablab">
+    <div class="flex-row-desktop">
+        <?php if ($page->whatIsFablabTitle()->isNotEmpty()) : ?>
+            <h1 class="title h1"><?= $page->whatIsFablabTitle() ?></h1>
         <?php endif; ?>
 
-        <form id="form" class="contactform" method="post" action="<?= $page->url() ?>" novalidate>
 
-            <?php //honeypot for cybersecurity analysis? ?>
-            <div class="honeypot">
-                <label for="website">Website <abbr title="required">*</abbr></label>
-                <input type="url" id="website" name="website" tabindex="-1">
-            </div>
 
-            <div class="flex-row">
-                <div class="contactform__field field form-control">
-                    <label class="contactform__field__label">Naam</label>
-                    <input id="name" class="contactform__field__input" type="text" name="name" value="<?= esc($data['name'] ?? '', 'attr') ?>" required>
-                    <i class="fa fa-check-circle" aria-hidden="true"></i>
-                    <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
-                    <small>Error message</small>
+        <!-- <div class="flex-row-desktop"> -->
+        <div>
+            <div class="introduction">
+
+                <?php if ($page->whatIsFablabText()->isNotEmpty()) : ?>
+                    <p class="introduction__p p"><?= $page->whatIsFablabText() ?></p>
+                <?php endif; ?>
+
+
+
+                <?php //GET INFO FROM CONTACTPAGE ?>
+                <?php if ($contactpage = page('contact')) : ?>
+                    <?php $employees = $contactpage->employees()->toStructure(); ?>
+                <?php endif; ?>
+
+
+
+                <?php //TEAM FABLAB MOBILE ?>
+                <div class="team">
+                    <div class="team__titlecontainer">
+                        <h2 class="team__titlecontainer__title h2">Team Fablab</h2>
+                    </div>
+
+
+
+                    <div class="team__container">
+                        <?php foreach ($employees as $employee) : ?>
+                            <div class="flex-row">
+
+                                <div>
+                                    <?php if ($employeeImg = $employee->image()->toFile()) : ?>
+                                        <img class="team__container__img" src="<?= $employeeImg->url() ?>" alt="Picture employee FabLab">
+                                    <?php endif; ?>
+                                </div>
+
+                                <div>
+                                    <?php if ($employee->name()->isNotEmpty()) : ?>
+                                        <h3 class="team__container__title h3"><?= $employee->name() ?></h3>
+                                    <?php endif; ?>
+
+                                    <?php if ($employee->function()->isNotEmpty()) : ?>
+                                        <p class="team__container__function p"><?= $employee->function() ?></p>
+                                    <?php endif; ?>
+                                </div>
+                            </div>
+
+                            <?php if ($employee->biography()->isNotEmpty()) : ?>
+                                <p class="team__container__biography p"><?= $employee->biography() ?></p>
+                            <?php endif; ?>
+                        <?php endforeach; ?>
+                    </div>
                 </div>
 
-                <div class="contactform__field field form-control">
-                    <label class="contactform__field__label">Email</label>
-                    <input id="email" class="contactform__field__input" type="email" name="email" value="<?= esc($data['email'] ?? '', 'attr') ?>" required>
-                    <i class="fa fa-check-circle" aria-hidden="true"></i>
-                    <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
-                    <small>Error message</small>
+
+
+                <?php if ($page->wordFablabTitle()->isNotEmpty()) : ?>
+                    <h1 class="h1"><?= $page->wordFablabTitle() ?></h1>
+                <?php endif; ?>
+
+                <?php if ($page->wordFablabText()->isNotEmpty()) : ?>
+                    <p class="p"><?= $page->wordFablabText() ?></p>
+                <?php endif; ?>
+
+
+
+                <h1 class="h1-what-is-fablab">
+                    <span>Fabrication</span>
+                    <span>laboratory</span>
+                </h1>
+            </div>
+
+
+
+
+
+            <?php //TEAM FABLAB DESKTOP ?>
+            <div class="team-desktop">
+                <div class="flex-column-desktop">
+                    <div class="team-desktop__titlecontainer">
+                        <h2 class="team-desktop__titlecontainer__title h2">Team Fablab</h2>
+                    </div>
+
+                    <?php foreach ($employees as $employee) : ?>
+                        <div class="flex-row">
+                            <?php if ($employeeImg = $employee->image()->toFile()) : ?>
+                                <img class="team-desktop__container__img" src="<?= $employeeImg->crop(150)->url() ?>" alt="Picture employee FabLab">
+                            <?php endif; ?>
+
+                            <div>
+                                <?php if ($employee->name()->isNotEmpty()) : ?>
+                                    <h3 class="team-desktop__container__title h3"><?= $employee->name() ?></h3>
+                                <?php endif; ?>
+
+                                <?php if ($employee->function()->isNotEmpty()) : ?>
+                                    <p class="team-desktop__container__function p"><?= $employee->function() ?></p>
+                                <?php endif; ?>
+                            </div>
+                        </div>
+
+                        <?php if ($employee->biography()->isNotEmpty()) : ?>
+                            <p class="team-desktop__container__biography p"><?= $employee->biography() ?></p>
+                        <?php endif; ?>
+                    <?php endforeach; ?>
                 </div>
             </div>
-
-            <div class="contactform__field field form-control">
-                <label class="contactform__field__label">Uw bericht</label>
-                <textarea id="message" class="contactform__field__input textarea" name="message" required><?= esc($data['text'] ?? '') ?></textarea>
-                <i class="fa fa-check-circle" aria-hidden="true"></i>
-                <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
-                <small>Error message</small>
-            </div>
-
-            <input class="contactform__submit button-small" type="submit" name="submit" value="Verzend">
-        </form>
-    <?php endif; ?>
+        </div>
+    </div>
 </div>

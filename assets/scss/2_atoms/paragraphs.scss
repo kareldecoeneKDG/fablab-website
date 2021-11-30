@@ -31,7 +31,7 @@
 }
 
 // WHAT IS FABLAB
-.what-is-fablab-container {
+/*.what-is-fablab-container {
     &__introduction {
         &__flexbox {
             &__left {
@@ -59,9 +59,29 @@
             }
         }
     }
+} */
+
+.introduction {
+    &__p {
+        padding-bottom: 50px;
+    }
+}
+.team {
+    &__container {
+        &__biography {
+            margin-top: 5px;
+        }
+    }
+}
+.team-desktop {
+    &__container {
+        &__function {
+            color: $table-title-grey;
+        }
+    }
 }
 
-what-is-fablab-container__introduction__flexbox__right__flexbox__box__function p
+
 
 //BLOG
 .blog-wrapper {

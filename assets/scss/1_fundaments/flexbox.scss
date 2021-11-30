@@ -3,6 +3,10 @@
     flex-direction: row;
 }
 
+/*.flex-equal {
+    flex: 1 1 0px;
+} */
+
 
 
 // TABLET LANDSCAPE - 1024PX
@@ -12,9 +16,20 @@
         flex-direction: row;
         justify-content: space-between;
         gap: 10px;
+        flex: 1 1 0px;
+
+        > div {
+            width: 100%;
+        }
 
         .form-control {
             width: 50%;
         }
+    }
+
+    .flex-column-desktop {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 }

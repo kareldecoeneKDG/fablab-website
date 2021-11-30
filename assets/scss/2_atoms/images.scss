@@ -135,7 +135,7 @@
 }
 
 // WHAT IS FABLAB
-.what-is-fablab-container {
+/*.what-is-fablab-container {
     &__introduction {
         &__flexbox {
             &__left {
@@ -166,7 +166,26 @@
             }
         }
     }
+} */
+.team {
+    &__container {
+        &__img {
+            width: 27vw;
+            height: 27vw;
+            object-fit: cover;
+            border-radius: $border-radius-big;
+        }
+    }
 }
+.team-desktop {
+    &__container {
+        &__img {
+            border-radius: $border-radius-big;
+        }
+    }
+}
+
+
 
 // TABLET PORTRAIT - 768PX
 @media only screen and (min-width: $tablet-portrait) {
