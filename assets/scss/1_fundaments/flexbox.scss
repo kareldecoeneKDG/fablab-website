@@ -3,6 +3,12 @@
     flex-direction: row;
 }
 
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 /*.flex-equal {
     flex: 1 1 0px;
 } */

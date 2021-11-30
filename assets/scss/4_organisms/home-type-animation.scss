@@ -1,72 +1,46 @@
-// MOBILE
+.home-animations {
+    &__container {
+        height: 100vh;
 
-// HOME TYPING ANIMATION
-.home-container {
-    &__banner {
-        &__background {
+        &__typing-animation {
             height: 100vh;
+            position: relative;
 
-            &__animation {
-                height: 100vh;
-                position: relative;
-
-                .intro {
-                    color: $black;
-                    bottom: 0;
-                    position: absolute;
-                    bottom: 30px;
-                    left: $margin-side-mobile;
-                }
-
-                .typing {
-                    position: relative;
-                    margin-left: 10px;
-                    font-size: 36px;
-                }
-
-                .typing::after {
-                    content: "";
-                    position: absolute;
-                    right: -30px;
-                    width: 25px;
-                    height: 5%;
-                    border-bottom: 5px solid $yellow;
-                    animation: blink 0.9s ease-out infinite; //0.8
-                    bottom: 0;
-                    z-index: 0;
-                }
-
-                @keyframes blink {
-                    0% {
-                        opacity: 0;
-                    }
-                    50% {
-                        opacity: 1;
-                    }
-                    100% {
-                        opacity: 0;
-                    }
-                }
+            .intro {
+                color: $black;
+                bottom: 0;
+                position: absolute;
+                bottom: 30px;
+                left: $margin-side-mobile;
             }
 
-            &__scroll {
-                height: 100vh;
+            .typing {
+                position: relative;
+                //margin-left: 10px;
+                font-size: 36px;
+            }
 
-                i {
-                    animation: bounce 3s ease-out infinite;
-                    //bottom: 50%;
+            .typing::after {
+                content: "";
+                position: absolute;
+                right: -30px;
+                width: 25px;
+                height: 5%;
+                border-bottom: 5px solid $yellow;
+                animation: blink 0.9s ease-out infinite; //0.8
+                bottom: 0;
+                z-index: 0;
+            }
+
+            @keyframes blink {
+                0% {
+                    opacity: 0;
                 }
-
-                @keyframes bounce {
-                    0% {
-                        padding-bottom: 15px;
-                    }
-                    50% {
-                        padding-bottom: 0px;
-                    }
-                    100% {
-                        padding-bottom: 15px;
-                    }
+                50% {
+                    opacity: 1;
+                }
+                100% {
+                    opacity: 0;
                 }
             }
         }
@@ -75,17 +49,15 @@
 
 // TABLET PORTRAIT - 768PX
 @media only screen and (min-width: $tablet-portrait) {
-    .home-container {
-        &__banner {
-            &__background {
-                &__animation {
-                    .intro {
-                        left: $margin-side-tablet-portrait;
+    .home-animations {
+        &__container {
+            &__typing-animation {
+                .intro {
+                    left: $margin-side-tablet-portrait;
+                }
 
-                        .typing {
-                            margin-left: 0;
-                        }
-                    }
+                .typing {
+                    margin-left: 0;
                 }
             }
         }
@@ -94,13 +66,11 @@
 
 // TABLET PORTRAIT - 1024PX
 @media only screen and (min-width: $tablet-landscape) {
-    .home-container {
-        &__banner {
-            &__background {
-                &__animation {
-                    .intro {
-                        left: $margin-side-tablet-landscape;
-                    }
+    .home-animations {
+        &__container {
+            &__typing-animation {
+                .intro {
+                    left: $margin-side-tablet-landscape;
                 }
             }
         }
@@ -109,35 +79,18 @@
 
 // DESKTOP - 1280PX
 @media only screen and (min-width: $desktop-1280) {
-    // HOME TYPING ANIMATION
-    .home-container {
-        &__banner {
-            height: calc(100% - 140px); //140px is menu
+    .home-animations {
+        height: calc(100% - 140px); //140px is menu
 
-            &__background {
+        &__container {
+            height: calc(100% - 140px); //140px is height of menu
+
+            &__typing-animation {
                 height: calc(100% - 140px); //140px is height of menu
 
-                &__animation {
-                    height: calc(100% - 140px); //140px is height of menu
-
-                    .intro {
-                        left: $margin-side-desktop;
-                        bottom: 52px;
-                    }
-                }
-
-                &__scroll {
-                    @keyframes bounce {
-                        0% {
-                            padding-bottom: 25px;
-                        }
-                        50% {
-                            padding-bottom: 0px;
-                        }
-                        100% {
-                            padding-bottom: 25px;
-                        }
-                    }
+                .intro {
+                    left: $margin-side-desktop;
+                    bottom: 52px;
                 }
             }
         }
@@ -146,13 +99,11 @@
 
 // DESKTOP - 1920PX
 @media only screen and (min-width: $desktop-hd) {
-    .home-container {
-        &__banner {
-            &__background {
-                &__animation {
-                    .intro {
-                        left: $margin-side-hd;
-                    }
+    .home-animations {
+        &__container {
+            &__typing-animation {
+                .intro {
+                    left: $margin-side-hd;
                 }
             }
         }
@@ -161,13 +112,11 @@
 
 // DESKTOP - 2560PX
 @media only screen and (min-width: $desktop-qhd) {
-    .home-container {
-        &__banner {
-            &__background {
-                &__animation {
-                    .intro {
-                        left: $margin-side-qhd;
-                    }
+    .home-animations {
+        &__container {
+            &__typing-animation {
+                .intro {
+                    left: $margin-side-qhd;
                 }
             }
         }
@@ -176,13 +125,11 @@
 
 // DESKTOP - 3840PX
 @media only screen and (min-width: $desktop-4k) {
-    .home-container {
-        &__banner {
-            &__background {
-                &__animation {
-                    .intro {
-                        left: $margin-side-4k;
-                    }
+    .home-animations {
+        &__container {
+            &__typing-animation {
+                .intro {
+                    left: $margin-side-4k;
                 }
             }
         }

@@ -1,33 +1,49 @@
-.home-container {
-    &__banner {
-        &__background {
-            &__scroll {
-                &__link {
-                    &__arrowcontainer {
-                        position: absolute;
-                        transform: translate(-50%, -50%);
-                        bottom: 35px;
-                        right: $margin-side-mobile;
+.home-animations {
+    &__container {
+        &__scroll-animation {
+            height: 100vh;
 
-                        &__arrow {
-                            display: block;
-                            width: 20px;
-                            height: 20px;
-                            border-bottom: 5px solid $white;
-                            border-right: 5px solid $white;
-                            transform: rotate(45deg);
-                            margin: 0px;
-                            animation: scroll 2s infinite;
-                        }
+            &__link {
+                &__arrowcontainer {
+                    position: absolute;
+                    transform: translate(-50%, -50%);
+                    bottom: 35px;
+                    right: $margin-side-mobile;
 
-                        &__arrow:nth-child(2) {
-                            animation-delay: -0.2s;
-                        }
-
-                        &__arrow:nth-child(3) {
-                            animation-delay: -0.4s;
-                        }
+                    &__arrow {
+                        display: block;
+                        width: 20px;
+                        height: 20px;
+                        border-bottom: 5px solid $white;
+                        border-right: 5px solid $white;
+                        transform: rotate(45deg);
+                        margin: 0px;
+                        animation: scroll 2s infinite;
                     }
+
+                    &__arrow:nth-child(2) {
+                        animation-delay: -0.2s;
+                    }
+
+                    &__arrow:nth-child(3) {
+                        animation-delay: -0.4s;
+                    }
+                }
+            }
+
+            i {
+                animation: bounce 3s ease-out infinite;
+            }
+
+            @keyframes bounce {
+                0% {
+                    padding-bottom: 15px;
+                }
+                50% {
+                    padding-bottom: 0px;
+                }
+                100% {
+                    padding-bottom: 15px;
                 }
             }
         }
@@ -49,16 +65,16 @@
     }
 }
 
+
+
 // TABLET PORTRAIT - 768PX
 @media only screen and (min-width: $tablet-portrait) {
-    .home-container {
-        &__banner {
-            &__background {
-                &__scroll {
-                    &__link {
-                        &__arrowcontainer {
-                            right: $margin-side-tablet-portrait;
-                        }
+    .home-animations {
+        &__container {
+            &__scroll-animation {
+                &__link {
+                    &__arrowcontainer {
+                        right: $margin-side-tablet-portrait;
                     }
                 }
             }
@@ -68,14 +84,12 @@
 
 // TABLET PORTRAIT - 1024PX
 @media only screen and (min-width: $tablet-landscape) {
-    .home-container {
-        &__banner {
-            &__background {
-                &__scroll {
-                    &__link {
-                        &__arrowcontainer {
-                            right: $margin-side-tablet-landscape;
-                        }
+    .home-animations {
+        &__container {
+            &__scroll-animation {
+                &__link {
+                    &__arrowcontainer {
+                        right: $margin-side-tablet-landscape;
                     }
                 }
             }
@@ -85,15 +99,13 @@
 
 // DESKTOP - 1280PX
 @media only screen and (min-width: $desktop-1280) {
-    .home-container {
-        &__banner {
-            &__background {
-                &__scroll {
-                    &__link {
-                        &__arrowcontainer {
-                            bottom: 62px;
-                            right: $margin-side-desktop;
-                        }
+    .home-animations {
+        &__container {
+            &__scroll-animation {
+                &__link {
+                    &__arrowcontainer {
+                        bottom: 62px;
+                        right: $margin-side-desktop;
                     }
                 }
             }
@@ -103,20 +115,18 @@
 
 // DESKTOP - 1920PX
 @media only screen and (min-width: $desktop-hd) {
-    .home-container {
-        &__banner {
-            &__background {
-                &__scroll {
-                    &__link {
-                        &__arrowcontainer {
-                            bottom: 80px;
-                            right: $margin-side-hd;
+    .home-animations {
+        &__container {
+            &__scroll-animation {
+                &__link {
+                    &__arrowcontainer {
+                        bottom: 80px;
+                        right: $margin-side-hd;
 
-                            &__arrow {
-                                width: 30px;
-                                height: 30px;
-                                margin: -10px;
-                            }
+                        &__arrow {
+                            width: 30px;
+                            height: 30px;
+                            margin: -10px;
                         }
                     }
                 }
@@ -127,14 +137,12 @@
 
 // DESKTOP - 2560PX
 @media only screen and (min-width: $desktop-qhd) {
-    .home-container {
-        &__banner {
-            &__background {
-                &__scroll {
-                    &__link {
-                        &__arrowcontainer {
-                            right: $margin-side-qhd;
-                        }
+    .home-animations {
+        &__container {
+            &__scroll-animation {
+                &__link {
+                    &__arrowcontainer {
+                        right: $margin-side-qhd;
                     }
                 }
             }
@@ -144,14 +152,12 @@
 
 // DESKTOP - 3840PX
 @media only screen and (min-width: $desktop-4k) {
-    .home-container {
-        &__banner {
-            &__background {
-                &__scroll {
-                    &__link {
-                        &__arrowcontainer {
-                            right: $margin-side-4k;
-                        }
+    .home-animations {
+        &__container {
+            &__scroll-animation {
+                &__link {
+                    &__arrowcontainer {
+                        right: $margin-side-4k;
                     }
                 }
             }

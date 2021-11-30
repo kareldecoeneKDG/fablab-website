@@ -20,16 +20,12 @@
             </div>
         <?php endif; ?>
 
-
-
         <?php if($page->introduction()->isNotEmpty()): ?>
             <div class="container__block">
                 <h2 class="container__block__title h2">Openingsuren</h2>
                 <p class="container__p p"><?= $page->openinghours() ?></p>
             </div>
         <?php endif; ?>
-
-
 
         <?php if($page->generalOpeninghours()->isNotEmpty()): ?>
             <div class="container__block">
@@ -38,8 +34,6 @@
             </div>
         <?php endif; ?>
 
-
-
         <?php if($page->openLabMoments()->isNotEmpty()): ?>
             <div class="container__block">
                 <h2 class="container__block__title h2">Open Lab Momenten</h2>
@@ -47,16 +41,12 @@
             </div>
         <?php endif; ?>
 
-
-
         <?php if($page->signin()->isNotEmpty()): ?>
             <div class="container__block">
                 <h2 class="container__block__title h2">Aanmelden</h2>
                 <p class="container__p p"><?= $page->signin() ?></p>
             </div>
         <?php endif; ?>
-
-
 
         <?php if($page->toolsquare()->isNotEmpty()): ?>
             <div class="container__block">
@@ -69,8 +59,6 @@
             </div>
         <?php endif; ?>
 
-
-
         <?php if($page->usageMachines()->isNotEmpty()): ?>
             <div class="container__block">
                 <h2 class="container__block__title h2">Gebruik Machines</h2>
@@ -78,16 +66,12 @@
             </div>
         <?php endif; ?>
 
-
-
         <?php if($page->cleanliness()->isNotEmpty()): ?>
             <div class="container__block">
                 <h2 class="container__block__title h2">Orde, Netheid</h2>
                 <p class="container__p p"><?= $page->cleanliness() ?></p>
             </div>
         <?php endif; ?>
-
-
 
         <?php if($page->machinecost()->isNotEmpty()): ?>
             <div class="container__block">

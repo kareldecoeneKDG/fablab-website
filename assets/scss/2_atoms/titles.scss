@@ -63,29 +63,6 @@
 
 // HOME
 .home-container {
-    &__message {
-        &__title {
-            margin-top: 0;
-            padding-top: 30px;
-        }
-    }
-
-    &__introduction {
-        &__title {
-            margin-right: 37%;
-        }
-
-        &__flexbox {
-            &__right {
-                &__openhours {
-                    &__title:first-of-type {
-                        margin-top: 0;
-                    }
-                }
-            }
-        }
-    }
-
     &__working {
         &__banner {
             &__title {
@@ -102,6 +79,28 @@
         }
     }
 }
+
+.message {
+    &__title {
+        margin-top: 0;
+        padding-top: 30px;
+    }
+}
+
+.introduction {
+    &__title {
+        margin-right: 37%;
+        margin-bottom: 30px;
+    }
+
+    &__openhours {
+        &__title:first-of-type {
+            margin-top: 0;
+        }
+    }
+}
+
+
 
 // CATEGORY-DETAIL
 .category-wrapper {
@@ -211,11 +210,11 @@
 // MOBILE - 360PX
 @media only screen and (min-width: 360px) {
     .home-container {
-        &__introduction {
+        /*&__introduction {
             &__title {
                 margin-right: 47%;
             }
-        }
+        }*/
     
         &__working {
             &__banner {
@@ -231,6 +230,12 @@
                     margin-right: 69%;
                 }
             }
+        }
+    }
+
+    .introduction {
+        &__title {
+            margin-right: 47%;
         }
     }
 }
@@ -279,7 +284,7 @@
 
     // HOME
     .home-container {
-        &__introduction {
+        /*&__introduction {
             &__title {
                 margin-right: 70%;
             }
@@ -293,7 +298,7 @@
                     }
                 }
             }
-        }
+        }*/
 
         &__working {
             &__banner {
@@ -307,6 +312,18 @@
             &__banner {
                 &__title {
                     margin-right: 80%;
+                }
+            }
+        }
+    }
+
+    .introduction {
+        &__title {
+            margin-right: 70%;
+
+            &__openhours {
+                &__title:first-of-type {
+                    margin-top: 0;
                 }
             }
         }
@@ -344,21 +361,11 @@
 
     // HOME
     .home-container {
-        &__introduction {
+        /*&__introduction {
             &__title {
                 margin-right: 77%;
             }
-
-            &__flexbox {
-                &__right {
-                    &__openhours {
-                        &__title:first-of-type {
-                            margin-top: 0;
-                        }
-                    }
-                }
-            }
-        }
+        }*/
 
         &__working {
             &__banner {
@@ -376,6 +383,23 @@
             }
         }
     }
+
+    .introduction {
+        margin-top: 50px;
+
+        &__title {
+            margin-right: 77%;
+        }
+    }
+
+
+
+    // WHAT IS FABLAB
+    .introduction {
+        &__title {
+            margin-top: 0 !important;
+        }
+    }
 }
 
 // DESKTOP - 1280PX
@@ -389,18 +413,6 @@
 
     // HOME
     .home-container {
-        &__message {
-            &__title {
-                width: 50%;
-            }
-        }
-
-        &__introduction {
-            &__title {
-                margin-right: 77%;
-            }
-        }
-
         &__working {
             &__banner {
                 &__title {
@@ -426,6 +438,14 @@
         }
     }
 
+    .introduction {
+        &__title {
+            margin-bottom: 30px;
+        }
+    }
+
+
+
     // CONTACT
     .contact-container {
         &__tabscontainer {
@@ -446,35 +466,6 @@
         }
     }
 
-    // WHAT IS FABLAB
-    .what-is-fablab-container {
-        &__introduction {
-            &__title {
-                margin-left: 0;
-            }
-
-            &__flexbox {
-                &__right {
-                    &__titlecontainer {
-                        &__title {
-                            position: absolute;
-                            left: 20%;
-                            top: 25%;
-                            color: $yellow;
-                            margin: 0;
-                            padding: 0;
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    .h1-what-is-fablab {
-        font-size: $h1-font-size-mobile;
-        margin-top: 40px;
-        margin-bottom: 100px;
-    }
 
     .machine-banner{
         &__title{
@@ -483,27 +474,24 @@
             }
         }
     }
+
+    .message {
+        &__title {
+            width: 50%;
+        }
+    }
 }
 
 // DESKTOP - 1536PX
 @media only screen and (min-width: $desktop-1536) {
     // GENERAL BUTTONS
     .h2-home {
-        padding-left: $margin-side-desktop;
         padding-top: 15px;
         padding-bottom: 15px;
-        margin-top: 0;
-        margin-bottom: 20px;
     }
 
     // HOME
     .home-container {
-        &__introduction {
-            &__title {
-                margin-right: 80%;
-            }
-        }
-
         &__working {
             &__banner {
                 &__title {
@@ -520,6 +508,12 @@
             }
         }
     }
+
+    .introduction {
+        &__title {
+            margin-right: 80%;
+        }
+    }
 }
 
 // DESKTOP - 1920PX
@@ -530,31 +524,7 @@
         background-color: initial;
         color: $black;
         font-size: $h2-home-font-size-hd;
-    }
-
-    // HOME
-    .home-container {
-        &__introduction {
-            &__title {
-                margin-right: $margin-side-desktop;
-            }
-        }
-
-        &__working {
-            &__banner {
-                &__title {
-                    margin-right: $margin-side-desktop;
-                }
-            }
-        }
-
-        &__biolab {
-            &__banner {
-                &__title {
-                    margin-right: $margin-side-desktop;
-                }
-            }
-        }
+        margin-right: $margin-side-desktop;
     }
 }
 
@@ -570,11 +540,11 @@
 
     // HOME
     .home-container {
-        &__introduction {
+        /*&__introduction {
             &__title {
                 margin-right: $margin-side-qhd;
             }
-        }
+        }*/
 
         &__working {
             &__banner {
@@ -590,6 +560,12 @@
                     margin-right: $margin-side-qhd;
                 }
             }
+        }
+    }
+
+    .introduction {
+        &__title {
+            margin-right: $margin-side-qhd;
         }
     }
 }
@@ -605,11 +581,11 @@
 
     // HOME
     .home-container {
-        &__introduction {
+        /*&__introduction {
             &__title {
                 margin-right: $margin-side-4k;
             }
-        }
+        }*/
 
         &__working {
             &__banner {
@@ -627,6 +603,14 @@
             }
         }
     }
+
+    .introduction {
+        &__title {
+            margin-right: $margin-side-4k;
+        }
+    }
+
+
 
     //BLOG
     .container-blog {

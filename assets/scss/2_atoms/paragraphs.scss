@@ -1,5 +1,4 @@
 // MOBILE
-
 // GENERAL PARAGRAPHS
 .p {
     font-family: $verdana;
@@ -9,11 +8,16 @@
     line-height: $p-big-line-height;
 }
 
+
+
+// HOME
 .p-home {
     padding-left: $margin-side-mobile;
     padding-right: $margin-side-mobile;
     padding-bottom: 30px;
 }
+
+
 
 // ARTICLES
 .content-article {
@@ -30,37 +34,9 @@
     }
 }
 
+
+
 // WHAT IS FABLAB
-/*.what-is-fablab-container {
-    &__introduction {
-        &__flexbox {
-            &__left {
-                &__p {
-                    padding-bottom: 50px;
-                }
-
-                &__team {
-                    &__container {
-                        &__biography {
-                            margin-top: 5px;
-                        }
-                    }
-                }
-            }
-
-            &__right {
-                &__flexbox {
-                    &__box {
-                        &__function {
-                            color: $table-title-grey;
-                        }
-                    }
-                }
-            }
-        }
-    }
-} */
-
 .introduction {
     &__p {
         padding-bottom: 50px;
@@ -103,8 +79,12 @@
     }
 }
 
+
+
 // TABLET PORTRAIT - 768PX
 @media only screen and (min-width: $tablet-portrait) {
+
+    // HOME
     .p-home {
         padding-left: $margin-side-tablet-portrait;
         padding-right: $margin-side-tablet-portrait;
@@ -113,6 +93,8 @@
 
 // TABLET PORTRAIT - 1024PX
 @media only screen and (min-width: $tablet-landscape) {
+
+    // HOME
     .p-home {
         padding-left: $margin-side-tablet-landscape;
         padding-right: $margin-side-tablet-landscape;
@@ -122,21 +104,21 @@
 
 // DESKTOP - 1280PX
 @media only screen and (min-width: $desktop-1280) {
+
+    // HOME
+    .message {
+        &__paragraph {
+            width: 50%;
+        }
+    }
     .p-home {
         padding-left: $margin-side-desktop;
         padding-right: $margin-side-desktop;
         padding-bottom: 30px;
     }
 
-    // HOME
-    .home-container {
-        &__message {
-            &__paragraph {
-                width: 50%;
-            }
-        }
-    }
-
+    
+    
     // CONTACT
     .contact-container {
         &__general {
@@ -155,23 +137,9 @@
         }
     }
 
-    // WHAT IS FABLAB
-    .what-is-fablab-container {
-        &__introduction {
-            &__flexbox {
-                &__right {
-                    &__flexbox {
-                        &__box {
-                            &__biography {
-                                margin-top: 20px;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
 
+
+    // MACHINE
     .category-wrapper {
         &__designsoftware-wrapper {
             &__paragraph {
@@ -181,30 +149,34 @@
     }
 }
 
+
+
 // DESKTOP - 1920PX
 @media only screen and (min-width:$desktop-hd) {
-    .p-home {
-        padding-left: $margin-side-hd;
-    }
 
+    // HOME
     .p-home {
         padding-left: $margin-side-hd;
     }
 }
+
+
 
 // DESKTOP - 2560PX
 @media only screen and (min-width: $desktop-qhd) {
+
+    // HOME
     .p-home {
         padding-left: $margin-side-qhd;
-    }
-    .p-home {
-        padding-left: $margin-side-qhd;
-        //padding-right: $margin-side-hd;
     }
 }
 
+
+
 // DESKTOP - 3840PX
 @media only screen and (min-width: $desktop-4k) {
+
+    // HOME
     .p-home {
         padding-left: $margin-side-4k;
     }
