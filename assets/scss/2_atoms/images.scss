@@ -58,6 +58,7 @@
         &__img:nth-child(even) {
             align-self: end;
             bottom: 50px;
+            border: 7px solid $background-grey;
         }
     }
 }

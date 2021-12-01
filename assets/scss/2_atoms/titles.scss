@@ -59,27 +59,7 @@
     color: $yellow;
 }
 
-// PAGES
-
 // HOME
-.home-container {
-    &__working {
-        &__banner {
-            &__title {
-                margin-right: 32%;
-            }
-        }
-    }
-
-    &__biolab {
-        &__banner {
-            &__title {
-                margin-right: 64%;
-            }
-        }
-    }
-}
-
 .message {
     &__title {
         margin-top: 0;
@@ -100,7 +80,19 @@
     }
 }
 
+.info {
+    .banner-fablab {
+        h2 {
+            margin-right: 32%;
+        }
+    }
 
+    .banner-biolab {
+        h2 {
+            margin-right: 64%;
+        }
+    }
+}
 
 // CATEGORY-DETAIL
 .category-wrapper {
@@ -125,7 +117,7 @@
         }
     }
 }
-// MACHINE-DETAIl
+
 .machine-banner {
     &__title {
         color: $white;
@@ -161,6 +153,9 @@
         margin-top: 30px;
     }
 }
+.wif-title {
+    margin-right: $margin-side-mobile !important;
+}
 
 .team {
     &__titlecontainer {
@@ -194,8 +189,6 @@
     }
 }
 
-
-
 //BLOG
 .blog-wrapper {
     &__blog-overview {
@@ -207,35 +200,27 @@
     }
 }
 
+
+
 // MOBILE - 360PX
 @media only screen and (min-width: 360px) {
-    .home-container {
-        /*&__introduction {
-            &__title {
-                margin-right: 47%;
-            }
-        }*/
-    
-        &__working {
-            &__banner {
-                &__title {
-                    margin-right: 42%;
-                }
-            }
-        }
-    
-        &__biolab {
-            &__banner {
-                &__title {
-                    margin-right: 69%;
-                }
-            }
-        }
-    }
-
     .introduction {
         &__title {
             margin-right: 47%;
+        }
+    }
+
+    .info {
+        .banner-fablab {
+            h2 {
+                margin-right: 42%;
+            }
+        }
+    
+        .banner-biolab {
+            h2 {
+                margin-right: 69%;
+            }
         }
     }
 }
@@ -259,6 +244,8 @@
     }
 }
 
+
+
 // MOBILE TALLER
 @media only screen and (min-height: 730px) {
 
@@ -276,6 +263,8 @@
     }
 }
 
+
+
 // TABLET PORTRAIT - 768PX
 @media only screen and (min-width: $tablet-portrait) {
     .h2-home {
@@ -283,40 +272,6 @@
     }
 
     // HOME
-    .home-container {
-        /*&__introduction {
-            &__title {
-                margin-right: 70%;
-            }
-
-            &__flexbox {
-                &__right {
-                    &__openhours {
-                        &__title:first-of-type {
-                            margin-top: 0;
-                        }
-                    }
-                }
-            }
-        }*/
-
-        &__working {
-            &__banner {
-                &__title {
-                    margin-right: 68%;
-                }
-            }
-        }
-
-        &__biolab {
-            &__banner {
-                &__title {
-                    margin-right: 80%;
-                }
-            }
-        }
-    }
-
     .introduction {
         &__title {
             margin-right: 70%;
@@ -329,7 +284,19 @@
         }
     }
 
-
+    .info {
+        .banner-fablab {
+            h2 {
+                margin-right: 68%;
+            }
+        }
+    
+        .banner-biolab {
+            h2 {
+                margin-right: 80%;
+            }
+        }
+    }
 
     // WHAT IS FABLAB
     .team {
@@ -350,6 +317,8 @@
     }
 }
 
+
+
 // TABLET PORTRAIT - 1024PX
 @media only screen and (min-width: $tablet-landscape) {
     .h2-home {
@@ -360,30 +329,6 @@
     }
 
     // HOME
-    .home-container {
-        /*&__introduction {
-            &__title {
-                margin-right: 77%;
-            }
-        }*/
-
-        &__working {
-            &__banner {
-                &__title {
-                    margin-right: 75%;
-                }
-            }
-        }
-
-        &__biolab {
-            &__banner {
-                &__title {
-                    margin-right: 85%;
-                }
-            }
-        }
-    }
-
     .introduction {
         margin-top: 50px;
 
@@ -392,7 +337,19 @@
         }
     }
 
-
+    .info {
+        .banner-fablab {
+            h2 {
+                margin-right: 75%;
+            }
+        }
+    
+        .banner-biolab {
+            h2 {
+                margin-right: 85%;
+            }
+        }
+    }
 
     // WHAT IS FABLAB
     .introduction {
@@ -401,6 +358,8 @@
         }
     }
 }
+
+
 
 // DESKTOP - 1280PX
 @media only screen and (min-width: $desktop-1280) {
@@ -413,24 +372,6 @@
 
     // HOME
     .home-container {
-        &__working {
-            &__banner {
-                &__title {
-                    margin-top: 0;
-                    margin-right: 75%;
-                }
-            }
-        }
-
-        &__biolab {
-            &__banner {
-                &__title {
-                    margin-top: 0;
-                    margin-right: 83%;
-                }
-            }
-        }
-
         &__partners {
             &__title {
                 margin-top: 0;
@@ -438,9 +379,33 @@
         }
     }
 
+    .message {
+        &__title {
+            width: 50%;
+        }
+    }
+
     .introduction {
         &__title {
             margin-bottom: 30px;
+        }
+    }
+
+    .info {
+        .banner-fablab {
+            h2 {
+                margin-right: 75%;
+            }
+        }
+    
+        .banner-biolab {
+            h2 {
+                margin-right: 83%;
+            }
+        }
+
+        &__imagecontainer {
+            width: 75% !important;
         }
     }
 
@@ -466,7 +431,7 @@
         }
     }
 
-
+    //MACHINE
     .machine-banner{
         &__title{
             .h1{
@@ -474,13 +439,9 @@
             }
         }
     }
-
-    .message {
-        &__title {
-            width: 50%;
-        }
-    }
 }
+
+
 
 // DESKTOP - 1536PX
 @media only screen and (min-width: $desktop-1536) {
@@ -491,30 +452,28 @@
     }
 
     // HOME
-    .home-container {
-        &__working {
-            &__banner {
-                &__title {
-                    margin-right: 79%;
-                }
-            }
-        }
-
-        &__biolab {
-            &__banner {
-                &__title {
-                    margin-right: 86%;
-                }
-            }
-        }
-    }
-
     .introduction {
         &__title {
             margin-right: 80%;
         }
     }
+
+    .info {
+        .banner-fablab {
+            h2 {
+                margin-right: 79%;
+            }
+        }
+    
+        .banner-biolab {
+            h2 {
+                margin-right: 86%;
+            }
+        }
+    }
 }
+
+
 
 // DESKTOP - 1920PX
 @media only screen and (min-width: $desktop-hd) {
@@ -524,45 +483,24 @@
         background-color: initial;
         color: $black;
         font-size: $h2-home-font-size-hd;
-        margin-right: $margin-side-desktop;
+        margin-right: 50% !important;
     }
 }
+
+
 
 // DESKTOP - 2560PX
 @media only screen and (min-width: $desktop-qhd) {
     // GENERAL BUTTONS
     .h2-home {
-        //padding-left: $margin-side-qhd;
         margin-left: 600px;
         padding-left: 62px;
         border-radius: 10px;
+        margin-right: $margin-side-qhd;
     }
+
 
     // HOME
-    .home-container {
-        /*&__introduction {
-            &__title {
-                margin-right: $margin-side-qhd;
-            }
-        }*/
-
-        &__working {
-            &__banner {
-                &__title {
-                    margin-right: $margin-side-qhd;
-                }
-            }
-        }
-
-        &__biolab {
-            &__banner {
-                &__title {
-                    margin-right: $margin-side-qhd;
-                }
-            }
-        }
-    }
-
     .introduction {
         &__title {
             margin-right: $margin-side-qhd;
@@ -570,47 +508,23 @@
     }
 }
 
+
+
 // DESKTOP - 3840PX
 @media only screen and (min-width: $desktop-4k) {
     // GENERAL BUTTONS
     .h2-home {
-        //padding-left: $margin-side-qhd;
         margin-left: 1240px;
         padding-left: 62px;
+        margin-right: $margin-side-4k;
     }
 
     // HOME
-    .home-container {
-        /*&__introduction {
-            &__title {
-                margin-right: $margin-side-4k;
-            }
-        }*/
-
-        &__working {
-            &__banner {
-                &__title {
-                    margin-right: $margin-side-4k;
-                }
-            }
-        }
-
-        &__biolab {
-            &__banner {
-                &__title {
-                    margin-right: $margin-side-4k;
-                }
-            }
-        }
-    }
-
     .introduction {
         &__title {
             margin-right: $margin-side-4k;
         }
     }
-
-
 
     //BLOG
     .container-blog {

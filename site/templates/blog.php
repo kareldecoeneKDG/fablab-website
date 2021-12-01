@@ -48,23 +48,6 @@
     </div>
 
 
-    <?php /*
-    <div class="blog-wrapper">
-        <?php foreach ($articles as $article): ?>
-            <article class="blog-wrapper__blog-overview">
-                <img class="blog-wrapper__blog-overview__img img" src="<?=$article->image()->url()?>" alt="<?=$article->image()->alt()?>">
-
-                <div class="blog-wrapper__blog-overview__text-wrapper">
-                    <h2 class="blog-wrapper__blog-overview__text-wrapper__title h2"><?=$article->title()->html()?></h2>
-                    <p class="blog-wrapper__blog-overview__text-wrapper__p p"><?=$article->text()->excerpt(70)?></p>
-
-                    <a class="blog-wrapper__blog-overview__text-wrapper__link button-small" href="<?=$article->url()?>">Lees artikel</a>
-                </div>
-            </article>
-        <?php endforeach?>
-    </div> */ ?>
-
-
 
     <?php //ALL BLOGS DESKTOP ?>
     <div class="blog-wrapper-desktop">

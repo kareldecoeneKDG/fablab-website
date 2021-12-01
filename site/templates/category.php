@@ -52,7 +52,7 @@
                         <li><?=$materiaal?></li>
                     <?php endforeach?>
                 </ul>
-                <a class="category-wrapper__materialen__price-list" href="<?php echo $pages->find('price-list')->url() ?>">Bekijk de prijslijst</a>
+                <a class="margin-left-none button-small" href="<?php echo $pages->find('price-list')->url() ?>">Bekijk de prijslijst</a>
             </div>
         <?php endif?>
 
@@ -136,5 +136,5 @@
 <?php //SNIPPET - FOOTER ?>
 <?php snippet('footer') ?>
 
-<?php /* //JAVASCRIPT RESPONSIVE NAV ?>
+<?php /* //JAVASCRIPT CAROUSEL ?>
 <?php //js('build/js/category-carousel.js') */ ?>

@@ -7,7 +7,7 @@
 <div class="container container-what-is-fablab">
     <div>
         <div class="flex-row-desktop">
-            <div class="introduction">
+            <div class="introduction introduction-wif">
 
                 <?php if ($page->whatIsFablabTitle()->isNotEmpty()) : ?>
                     <h1 class="title h1"><?= $page->whatIsFablabTitle() ?></h1>
@@ -37,7 +37,7 @@
 
 
                     <div class="team__container">
-                        <?php foreach ($employees as $employee) : ?>
+                        <?php foreach ($employees as $employee): ?>
                             <div class="employee flex-row">
 
                                 <div>
@@ -67,7 +67,7 @@
 
 
                 <?php if ($page->wordFablabTitle()->isNotEmpty()) : ?>
-                    <h1 class="introduction__title h1"><?= $page->wordFablabTitle() ?></h1>
+                    <h1 class="introduction__title wif-title h1"><?= $page->wordFablabTitle() ?></h1>
                 <?php endif; ?>
 
                 <?php if ($page->wordFablabText()->isNotEmpty()) : ?>
@@ -95,7 +95,7 @@
 
                     <div class="team-desktop__container">
                         <?php foreach ($employees as $employee) : ?>
-                            <div class="employee flex-row"> <!-- miss employee weg? -->
+                            <div class="employee flex-row">
                                 <?php if ($employeeImg = $employee->image()->toFile()) : ?>
                                     <img class="team-desktop__container__img" src="<?= $employeeImg->crop(150)->url() ?>" alt="Picture employee FabLab">
                                 <?php endif; ?>

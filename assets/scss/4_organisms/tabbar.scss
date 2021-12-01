@@ -8,6 +8,7 @@
 .tabscontainer {
     .tabs-contact {
         height: 93.5vh;
+        margin-top: 10px;
     }
 
     &__tabs {
@@ -122,6 +123,7 @@
                     bottom: 0;
                     margin: auto;
                     opacity: 1;
+                    left: 10px;
                 }
             }
 
@@ -189,6 +191,7 @@
 
         .tabs-contact {
             margin-bottom: 50px;
+            margin-top: 30px;
         }
     }
 
@@ -285,6 +288,7 @@
 
                     &__img {
                         opacity: 0.3;
+                        left: 35px;
                     }
 
                     &__img:hover {
@@ -329,6 +333,7 @@
 
                     &__img {
                         opacity: 0.3;
+                        left: 20px;
                     }
 
                     &__img:hover {
@@ -362,6 +367,10 @@
                         text-align: center;
                         width: 5.5vw;
                         height: 5.5vw;
+                    }
+
+                    &__img {
+                        left: 25px;
                     }
                 }
             }
@@ -409,6 +418,10 @@
                         text-align: center;
                         width: 3.75vw;
                         height: 3.75vw;
+                    }
+
+                    &__img {
+                        left: 15px;
                     }
                 }
             }

@@ -1,4 +1,4 @@
-<section class="carousel-container">
+<?php /* <section class="carousel-container">
     <?php if($page->creations()->isNotEmpty()): ?>
         <h2 class="category-wrapper__machines-wrapper__title h2">Inspiratie</h2>
     <?php endif; ?>
@@ -64,4 +64,4 @@
             </ul>
         </div>
     </div>
-</section>
+</section> */ ?>

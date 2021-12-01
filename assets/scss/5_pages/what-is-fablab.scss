@@ -60,6 +60,10 @@
 
 // TABLET LANDSCAPE - 1024PX
 @media only screen and (min-width: $tablet-landscape) {
+    .introduction-wif {
+        margin-top: 0 !important;
+    }
+    
     .team {
         display: none;
     }

@@ -2,30 +2,6 @@
     background-color: $background-grey;
     padding-bottom: 50px;
 
-    /*&__working {
-        &__banner {
-            background-image: url("../../assets/images/fablab.webp");
-        }
-
-        &__flexbox {
-            &__right {
-                display: none;
-            }
-        }
-    }
-
-    &__biolab {
-        &__banner {
-            background-image: url("../../assets/images/biolab.webp");
-        }
-
-        &__flexbox {
-            &__right {
-                display: none;
-            }
-        }
-    }*/
-
     &__partnersflexbox {
         display: flex;
         flex-direction: row;
@@ -156,54 +132,6 @@
 // TABLET PORTRAIT - 1024PX
 @media only screen and (min-width: $tablet-landscape) {
     .home-container {
-        &__working {
-            &__banner {
-                background-image: none;
-            }
-
-            &__flexbox {
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                width: 100%;
-
-                &__left {
-                    display: inline-block;
-                    width: 60%;
-                }
-
-                &__right {
-                    display: inline-block;
-                    width: 40%;
-                    margin-right: $margin-side-tablet-landscape;
-                }
-            }
-        }
-
-        &__biolab {
-            &__banner {
-                background-image: none;
-            }
-
-            &__flexbox {
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                width: 100%;
-
-                &__left {
-                    display: inline-block;
-                    width: 60%;
-                }
-
-                &__right {
-                    display: inline-block;
-                    width: 40%;
-                    margin-right: $margin-side-tablet-landscape;
-                }
-            }
-        }
-
         &__partnersflexbox {
             padding-left: $margin-side-tablet-landscape;
             padding-right: $margin-side-tablet-landscape;
@@ -232,60 +160,29 @@
             height: 27vh;
         }
     }
+
+    .info {
+        &__imagecontainer {
+            display: inline-block;
+        }
+
+        &__content {
+            display: inline-block;
+            width: 60%;
+        }
+    
+        &__imagecontainer {
+            display: inline-block;
+            width: 40%;
+            margin-right: $margin-side-tablet-landscape;
+        }
+    }
 }
 
 // DESKTOP - 1280PX
 @media screen and (min-width: $desktop-1280) {
     .home-container {
         padding-bottom: 60px;
-
-        &__working {
-            &__banner {
-                background-image: none;
-            }
-
-            &__flexbox {
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                width: 100%;
-
-                &__left {
-                    display: inline-block;
-                    width: 60%;
-                }
-
-                &__right {
-                    display: inline-block;
-                    width: 40%;
-                    margin-right: $margin-side-desktop;
-                }
-            }
-        }
-
-        &__biolab {
-            &__banner {
-                background-image: none;
-            }
-
-            &__flexbox {
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                width: 100%;
-
-                &__left {
-                    display: inline-block;
-                    width: 60%;
-                }
-
-                &__right {
-                    display: inline-block;
-                    width: 40%;
-                    margin-right: $margin-side-desktop;
-                }
-            }
-        }
 
         &__partners {
             margin-top: 60px;
@@ -368,6 +265,12 @@
             width: 50%;
         }
     }
+
+    .info {
+        &__imagecontainer {
+            margin-right: $margin-side-desktop;
+        }
+    }
 }
 
 // DESKTOP - 1440PX
@@ -400,22 +303,6 @@
 // DESKTOP - 1920PX
 @media only screen and (min-width: $desktop-hd) {
     .home-container {
-        &__working {
-            &__flexbox {
-                &__right {
-                    margin-right: $margin-side-hd;
-                }
-            }
-        }
-
-        &__biolab {
-            &__flexbox {
-                &__right {
-                    margin-right: $margin-side-hd;
-                }
-            }
-        }
-
         &__partnersflexbox {
             padding-left: $margin-side-hd;
             padding-right: $margin-side-hd;
@@ -436,7 +323,15 @@
             border-right: 2px solid $yellow;
             margin-right: $margin-side-hd;
             border-radius: 15px;
-            height: 19vh;
+            height: 21vh; //19?
+            width: 30%;
+        }
+    }
+
+    .info {
+        &__imagecontainer {
+            margin-right: $margin-side-hd;
+            width: 50% !important;
         }
     }
 }
@@ -444,24 +339,6 @@
 // DESKTOP - 2560PX
 @media only screen and (min-width: $desktop-qhd) {
     .home-container {
-        &__working {
-            &__flexbox {
-                &__right {
-                    margin-right: $margin-side-qhd;
-                    width: 26%;
-                }
-            }
-        }
-
-        &__biolab {
-            &__flexbox {
-                &__right {
-                    margin-right: $margin-side-qhd;
-                    width: 26%;
-                }
-            }
-        }
-
         &__partnersflexbox {
             padding-left: $margin-side-qhd;
             padding-right: $margin-side-qhd;
@@ -487,6 +364,14 @@
         .flex-column {
             margin-right: $margin-side-qhd;
             height: 15vh;
+            width: 27%;
+        }
+    }
+
+    .info {
+        &__imagecontainer {
+            margin-right: $margin-side-qhd;
+            width: 45% !important; //26
         }
     }
 }
@@ -530,7 +415,15 @@
     .introduction {
         .flex-column {
             margin-right: $margin-side-4k;
-            height: 15vh;
+            height: 10vh;
+            width: 18%;
+        }
+    }
+
+    .info {
+        &__imagecontainer {
+            margin-right: $margin-side-4k;
+            width: 30% !important;
         }
     }
 }
