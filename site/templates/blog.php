@@ -24,8 +24,14 @@
 
 
     <hr class="lineTags">
-
-
+    <?php foreach ($tags as $tag): ?>
+        <?php if (strpos($url, $tag) !== false): ?>
+            <br>
+            <p class="tag-id__p">  Blogposts over
+                <b> <?php echo $tag; ?> </b>
+            </p>
+        <?php endif?>
+    <?php endforeach?>
 
     <?php //ALL BLOGS MOBILE ?>
     <div class="blog-wrapper">
