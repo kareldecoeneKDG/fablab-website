@@ -4,6 +4,7 @@
 
 
 
+
 <div class="container container-blog">
     <h1 class="h1"><?=$page->Subtitle()->html()?></h1>
 
@@ -12,7 +13,8 @@
         <?php $url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];?>
 
         <?php foreach ($tags as $tag): ?>
-            <a class="container-blog__tag-filter__button-tag <?php if (strpos($url, $tag) !== false) {echo ("active-tag");}?>" href="<?=url($page->url(), ['params' => ['tag' => $tag]])?>">
+            <!-- <a class="container-blog__tag-filter__button-tag <?php // if (strpos($url, $tag) !== false) {echo ("active-tag");}?>" href="<? // =url($page->url(), ['params' => ['tag' => $tag]])?>"> -->
+            <a class="container-blog__tag-filter__button-tag <?php if (strpos($url, $tag) !== false) {echo ("active-tag");}?>" href="<?=$url?>/tag;<?php echo $tag?>">
                 <?=html($tag)?>
             </a>
         <?php endforeach?>
