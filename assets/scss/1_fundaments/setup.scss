@@ -29,8 +29,9 @@ body {
     overflow-x: hidden;
     width: 100%;
     background-color: $background-grey;
-    min-height: -webkit-fill-available;
+    //min-height: -webkit-fill-available;
     //min-height: 100vh;
+    height: calc(100vh - calc(100vh - 100%));
 }
 
 body {
