@@ -26,7 +26,7 @@ $fablabs = $page->fablabs()->toStructure();
                     <div>
                         <?php if ($manufacturerimage = $manufacturer->image()->toFile()): ?>
                             <a href="<?=$manufacturer->url()?>" rel="nofollow" target="_blank">
-                                <img class="tabscontainer__tabs__tabbody__item__img" src="<?= $manufacturerimage->url() ?>" alt="Logo manufacturer machines">
+                                <img class="tabscontainer__tabs__tabbody__item__img" src="<?=$manufacturerimage->url()?>" alt="<?=$manufacturerimage->alt()?>">
                             </a>
                         <?php endif;?>
                     </div>
@@ -38,7 +38,7 @@ $fablabs = $page->fablabs()->toStructure();
                     <div>
                         <?php if ($fablabimage = $fablab->image()->toFile()): ?>
                             <a href="<?=$fablab->url()?>" rel="nofollow" target="_blank">
-                                <img class="tabscontainer__tabs__tabbody__item__img" src="<?=$fablabimage->url()?>" alt="Logo other fablab">
+                                <img class="tabscontainer__tabs__tabbody__item__img" src="<?=$fablabimage->url()?>" alt="<?=$fablabimage->alt()?>">
                             </a>
                         <?php endif;?>
                     </div>
