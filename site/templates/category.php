@@ -43,6 +43,29 @@
 
 
 
+        <?php //CATERGORY MACHINES LIST ?>
+        <?php if ($page->children()->isNotEmpty()): ?>
+            <div class="category-wrapper__machines-wrapper">
+                <h2 class="category-wrapper__machines-wrapper__title h2">FabLab machines</h2>
+                <ul class="category-wrapper__machines-wrapper__list">
+                    <?php foreach ($page->children() as $subpage): ?>
+                        <li class="category-wrapper__machines-wrapper__list__item">
+                            <a class="category-wrapper__machines-wrapper__list__item__link"href="<?=$subpage->url()?>">
+                                <img class="category-wrapper__machines-wrapper__list__item__link__img" src="<?=$subpage->image()->url()?>" alt="<?=$subpage->image()->alt()?>">
+
+                                <div>
+                                    <p class="category-wrapper__machines-wrapper__list__item__link__p p"><?=html($subpage->type())?></p>
+                                    <h3 class="category-wrapper__machines-wrapper__list__item__link__title h3"><?=html($subpage->title())?></h3>
+                                </div>
+                            </a>
+                        </li>
+                    <?php endforeach?>
+                </ul>
+            </div>
+        <?php endif?>
+
+
+
         <?php //CATERGORY MATERIALEN ?>
         <?php if ($page->materialen()->isNotEmpty()): ?>
             <div class="category-wrapper__materialen">
@@ -95,40 +118,9 @@
 
 
 
-        <?php //CATERGORY MACHINES LIST ?>
-        <?php if ($page->children()->isNotEmpty()): ?>
-            <div class="category-wrapper__machines-wrapper">
-                <h2 class="category-wrapper__machines-wrapper__title h2">FabLab machines</h2>
-                <ul class="category-wrapper__machines-wrapper__list">
-                    <?php foreach ($page->children() as $subpage): ?>
-                        <li class="category-wrapper__machines-wrapper__list__item">
-                            <a class="category-wrapper__machines-wrapper__list__item__link"href="<?=$subpage->url()?>">
-                                <img class="category-wrapper__machines-wrapper__list__item__link__img" src="<?=$subpage->image()->url()?>" alt="<?=$subpage->image()->alt()?>">
-
-                                <div>
-                                    <p class="category-wrapper__machines-wrapper__list__item__link__p p"><?=html($subpage->type())?></p>
-                                    <h3 class="category-wrapper__machines-wrapper__list__item__link__title h3"><?=html($subpage->title())?></h3>
-                                </div>
-                            </a>
-                        </li>
-                    <?php endforeach?>
-                </ul>
-            </div>
-        <?php endif?>
-
-
-
         <?php //snippet('carousel') ?>
 
 
-
-        <?php /*<div id="arrow-up-container" class="home-container__partnersflexbox">
-            <div id="arrow-up-container-category" class="home-container__partnersflexbox__box">
-                <div class="home-container__partnersflexbox__box__container">
-                    <a class="home-container__partnersflexbox__box__container__link" href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
-                </div>
-            </div>
-        </div> */ ?>
 
         <?php snippet('general/arrow-to-top') ?>
     </div>
