@@ -234,6 +234,6 @@
         </footer>
 
         <?= js('build/js/responsive-nav.js') ?>
-        <?= js('build/js/screenHeight.js') ?>
+        <?php //js('build/js/screenHeight.js') ?>
     </body>
 </html>
