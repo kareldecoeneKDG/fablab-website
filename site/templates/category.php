@@ -5,7 +5,7 @@
 
 
     <?php //CATERGORY WRAPPER ?>
-    <div class="container container-category category-wrapper">
+    <div class="container container-category category-wrapper arrow-watch-item">
 
         <div class="breadcrumb" itemprop="breadcrumb">
             <?php snippet('breadcrumb-content')?>
@@ -122,13 +122,15 @@
 
 
 
-        <div id="arrow-up-container" class="home-container__partnersflexbox">
+        <?php /*<div id="arrow-up-container" class="home-container__partnersflexbox">
             <div id="arrow-up-container-category" class="home-container__partnersflexbox__box">
                 <div class="home-container__partnersflexbox__box__container">
                     <a class="home-container__partnersflexbox__box__container__link" href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
                 </div>
             </div>
-        </div>
+        </div> */ ?>
+
+        <?php snippet('general/arrow-to-top') ?>
     </div>
 
 
@@ -136,5 +138,4 @@
 <?php //SNIPPET - FOOTER ?>
 <?php snippet('footer') ?>
 
-<?php /* //JAVASCRIPT CAROUSEL ?>
-<?php //js('build/js/category-carousel.js') */ ?>
+<?= js('build/js/arrowShower.js') ?>

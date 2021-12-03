@@ -4,7 +4,7 @@
 
 
 
-<div class="home-container">
+<div class="home-container arrow-watch-item">
 
     <?php //if background is set in panel use it as banner background image?>
     <?php if ($homeimg = $page->backgroundimg()->toFile()) : ?>
@@ -61,15 +61,12 @@
 
 
         <div class="home-container__partnersflexbox">
-
             <?php snippet('partners') ?>
-
-            <div class="home-container__partnersflexbox__box">
-                <div class="home-container__partnersflexbox__box__container">
-                    <a class="home-container__partnersflexbox__box__container__link" href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
-                </div>
-            </div>
         </div>
+
+
+
+        <?php snippet('general/arrow-to-top') ?>
     </div>
 
 
@@ -79,3 +76,4 @@
 <?= js('build/js/tabbar.js') ?>
 <?= js('build/js/home-animation.js') ?>
 <?= js('build/js/menuobserver.js') ?>
+<?= js('build/js/arrowShower.js') ?>

@@ -79,8 +79,14 @@
                 <p class="container__p p"><?= $page->machinecost() ?></p>
             </div>
         <?php endif; ?>
+
+
+
+        <?php snippet('general/arrow-to-top') ?>
     </div>
 
 
 
 <?php snippet('footer') ?>
+
+<?= js('build/js/arrowShower.js') ?>

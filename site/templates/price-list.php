@@ -98,6 +98,10 @@
             </div>
         <?php endforeach ?>
     </div>
+
+
+
+    <?php snippet('general/arrow-to-top') ?>
 </div>
 
 
@@ -105,3 +109,4 @@
 <?php snippet('footer') ?>
 
 <?= js('build/js/accordion.js') ?>
+<?= js('build/js/arrowShower.js') ?>

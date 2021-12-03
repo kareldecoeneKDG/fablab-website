@@ -1,15 +1,98 @@
-#arrow-up-container {
+/*#arrow-up-container {
     margin-top: 90px;
 }
 
 #arrow-up-container-category {
     right: 0;
+} */
+
+.arrow-container {
+    position: fixed;
+    bottom: 30px;
+    right: $margin-side-mobile;
+    width: 60px;
+    height: 60px;
+
+    &__link {
+        background-color: $yellow;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        border: 2px solid $yellow;
+        padding: 17px;
+
+        i::before {
+            width: 23px;
+            height: 23px;
+            font-size: 23px;
+            color: $background-grey;
+        }
+    }
+}
+
+/*.arrow-hide {
+    display: none;
+}
+
+.arrow-show {
+    display: block;
+}*/
+
+#myBtn {
+    z-index: 98;
+}
+
+// TABLET PORTRAIT - 768PX
+@media only screen and (min-width: $tablet-portrait) {
+    .arrow-container {
+        right: $margin-side-tablet-portrait;
+        width: 75px;
+        height: 75px;
+        bottom: 50px;
+
+        &__link {
+            width: 75px;
+            height: 75px;
+            padding: 25px;
+        }
+    }
+}
+
+// TABLET PORTRAIT - 1024PX
+@media only screen and (min-width: $tablet-landscape) {
+    .arrow-container {
+        right: $margin-side-tablet-landscape;
+    }
 }
 
 // DESKTOP - 1280PX
 @media screen and (min-width: $desktop-1280) {
     #arrow-up-container {
         margin-top: 130px;
+    }
+
+    .arrow-container {
+        right: $margin-side-desktop;
+
+        &__link:hover {
+            background-color: $background-grey;
+            border: 2px solid $black-light;
+            color: $black-light;
+            cursor: pointer;
+            transition: 0.5s;
+
+            i::before {
+                color: $black-light;
+            }
+        }
+    }
+}
+
+// DESKTOP - 1920PX
+@media only screen and (min-width: $desktop-hd) {
+    .arrow-container {
+        right: $margin-side-hd;
     }
 }
 
@@ -18,6 +101,10 @@
     #arrow-up-container {
         padding-right: 0;
     }
+
+    .arrow-container {
+        right: $margin-side-qhd;
+    }
 }
 
 // DESKTOP - 3840PX
@@ -25,5 +112,9 @@
     #arrow-up-container {
         padding-right: 0;
         padding-left: 0;
+    }
+
+    .arrow-container {
+        right: $margin-side-4k;
     }
 }

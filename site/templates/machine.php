@@ -4,7 +4,7 @@
 
 
 
-    <div class="container-machine main">
+    <div class="container-machine main arrow-watch-item">
         <div class="breadcrumb breadcrump-margin" itemprop="breadcrumb">
             <?php snippet('breadcrumb-content')?>
         </div>
@@ -148,8 +148,14 @@
                 <img  class="machine-wrapper__img-desktop img" src="<?=$page->images()->first()->url()?>" alt="<?=$page->images()->first()->alt()?>">
             <?php endif?>
         </div>
+
+        
+
+        <?php snippet('general/arrow-to-top') ?>
     </div>
 
 
 
 <?php snippet('footer')?>
+
+<?= js('build/js/arrowShower.js') ?>
