@@ -29,7 +29,7 @@ Author:
 
 ----
 
-Tags: test2, testtag, jow
+Tags: testtag, jow
 
 ----
 
