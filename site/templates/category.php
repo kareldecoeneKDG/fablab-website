@@ -1,6 +1,6 @@
-<?php snippet('header')?>
+<?php snippet('general/header') ?>
 
-<?php snippet('menu-white')?>
+<?php snippet('menu/menu-white')?>
 
 
 
@@ -8,7 +8,7 @@
     <div class="container container-category category-wrapper arrow-watch-item">
 
         <div class="breadcrumb" itemprop="breadcrumb">
-            <?php snippet('breadcrumb-content')?>
+            <?php snippet('general/breadcrumb-content')?>
         </div>
 
         <h1 class="h1"><?=$page->title()->html()?></h1>
@@ -128,6 +128,6 @@
 
 
 <?php //SNIPPET - FOOTER ?>
-<?php snippet('footer') ?>
+<?php snippet('general/footer')?>
 
 <?= js('build/js/arrowShower.js') ?>

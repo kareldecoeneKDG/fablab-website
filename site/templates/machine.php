@@ -1,12 +1,12 @@
-<?php snippet('header')?>
+<?php snippet('general/header') ?>
 
-<?php snippet('menu-white')?>
+<?php snippet('menu/menu-white')?>
 
 
 
     <div class="container-machine main arrow-watch-item">
         <div class="breadcrumb breadcrump-margin" itemprop="breadcrumb">
-            <?php snippet('breadcrumb-content')?>
+            <?php snippet('general/breadcrumb-content')?>
         </div>
 
 
@@ -156,6 +156,6 @@
 
 
 
-<?php snippet('footer')?>
+    <?php snippet('general/footer')?>
 
 <?= js('build/js/arrowShower.js') ?>

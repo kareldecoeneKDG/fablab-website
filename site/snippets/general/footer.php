@@ -16,7 +16,7 @@
                     <?php endif;?>
 
                     <div class="footer__content__block__socialsflexbox socials-white">
-                        <?php snippet('socials')?>
+                        <?php snippet('general/socials')?>
                     </div>
                 </div>
 
@@ -26,7 +26,7 @@
                 <div id="sitemap-desktop" class="footer__content__block">
                     <h4 class="footer__content__block__title h4-footer h4">Navigatie</h4>
 
-                    <?php snippet('sitemap')?>
+                    <?php snippet('general/sitemap')?>
                 </div>
 
 
@@ -35,7 +35,7 @@
                 <div id="pages-desktop" class="footer__content__block">
                     <h4 class="footer__content__block__title h4-footer h4">Info</h4>
 
-                    <?php snippet('infomap')?>
+                    <?php snippet('general/infomap')?>
                 </div>
 
 
@@ -77,13 +77,13 @@
                     <div class="footer__content__flexbox__block">
                         <h4 class="footer__content__block__title h4-footer h4">Navigatie</h4>
 
-                        <?php snippet('sitemap')?>
+                        <?php snippet('general/sitemap')?>
                     </div>
 
                     <div class="footer__content__flexbox__block">
                         <h4 class="footer__content__block__title h4-footer h4">Info</h4>
 
-                        <?php snippet('infomap')?>
+                        <?php snippet('general/infomap')?>
                     </div>
                 </div>
 
@@ -135,7 +135,7 @@
                     <?php endif;?>
 
                     <div class="footer__content__block__socialsflexbox socials-white">
-                        <?php snippet('socials')?>
+                        <?php snippet('general/socials')?>
                     </div>
                 </div>
 
@@ -145,7 +145,7 @@
                 <div id="sitemap-desktop" class="footer__content__block">
                     <h4 class="footer__content__block__title h4-footer h4">Navigatie</h4>
 
-                    <?php snippet('sitemap')?>
+                    <?php snippet('general/sitemap')?>
                 </div>
 
 
@@ -154,7 +154,7 @@
                 <div id="pages-desktop" class="footer__content__block">
                     <h4 class="footer__content__block__title h4-footer h4">Info</h4>
 
-                    <?php snippet('infomap')?>
+                    <?php snippet('general/infomap')?>
                 </div>
 
 
@@ -196,13 +196,13 @@
                     <div class="footer__content__flexbox__block">
                         <h4 class="footer__content__block__title h4-footer h4">Navigatie</h4>
 
-                        <?php snippet('sitemap')?>
+                        <?php snippet('general/sitemap')?>
                     </div>
 
                     <div class="footer__content__flexbox__block">
                         <h4 class="footer__content__block__title h4-footer h4">Info</h4>
 
-                        <?php snippet('infomap')?>
+                        <?php snippet('general/infomap')?>
                     </div>
                 </div>
             </section>

@@ -1,11 +1,11 @@
 <header class="header">
-    <nav class="header__menu nav-scrolled">
+    <nav class="header__menu nav-fade"> <?php // nav-scrolled ?>
 
         <?php if ($logo = $site->fablabLogo()->toFile()): ?>
             <a class="header__logo logo" href="<?=$site->url()?>"><img class="header__logo__img" src="<?=$logo->url()?>" alt="Logo Fablab"></a>
         <?php endif;?>
-
-        <?php snippet('pages-list') ?>
+        
+        <?php snippet('menu/pages-list') ?>
 
         <a class="header__languagebutton" href="#">
 

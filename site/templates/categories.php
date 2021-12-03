@@ -1,6 +1,6 @@
-<?php snippet('header')?>
+<?php snippet('general/header') ?>
 
-<?php snippet('menu-white')?>
+<?php snippet('menu/menu-white')?>
 
 
 
@@ -28,4 +28,4 @@
 
 
 
-<?php snippet('footer')?>
+<?php snippet('general/footer')?>

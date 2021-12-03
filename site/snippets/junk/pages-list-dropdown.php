@@ -1,4 +1,5 @@
 <?php // MOBILE MENU ?>
+<?php /*
 <ul class="header__menu__navlinks nav-links nav-links-mobile">
     <?php foreach ($site->children()->listed() as $subpage): ?>
         <li class="header__menu__navlinks__item">
@@ -32,4 +33,4 @@
     <div class="header__menu__burger__line line1"></div>
     <div class="header__menu__burger__line line2"></div>
     <div class="header__menu__burger__line line3"></div>
-</div>
+</div> */ ?>

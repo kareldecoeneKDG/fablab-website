@@ -1,6 +1,6 @@
-<?php snippet('header') ?>
+<?php snippet('general/header') ?>
 
-<?php snippet('menu-white') ?>
+<?php snippet('menu/menu-white') ?>
 
 
 
@@ -24,7 +24,7 @@
 
 
                     <div class="footer__content__block__socialsflexbox socials-grey">
-                        <?php snippet('socials') ?>
+                        <?php snippet('general/socials') ?>
                     </div>
 
 
@@ -45,7 +45,7 @@
 
 
 
-                <?php snippet('contact-form') ?>
+                <?php snippet('contact/contact-form') ?>
             </div>
         </div>
 
@@ -102,14 +102,14 @@
 
 
 
-        <?php snippet('tabbar-accessibility') ?>
+        <?php snippet('contact/tabbar-accessibility') ?>
 
-        <?php snippet('maps') ?>
+        <?php snippet('contact/maps') ?>
     </div>
 
     
     
-<?php snippet('footer') ?>
+<?php snippet('general/footer')?>
 
 <?= js('build/js/tabbar.js') ?>
 <?= js('build/js/contact-form-validation.js') ?>

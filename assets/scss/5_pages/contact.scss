@@ -36,11 +36,16 @@
             &__left {
                 &__function {
                     color: $grey;
+                    margin-bottom: 8px;
                 }
 
                 &__contact {
                     display: block;
                     font-size: $p-big-font-size-mobile;
+                }
+
+                &__contact:first-of-type {
+                    margin-bottom: 8px;
                 }
             }
 

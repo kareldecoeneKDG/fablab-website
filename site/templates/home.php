@@ -1,6 +1,6 @@
-<?php snippet('header') ?>
+<?php snippet('general/header') ?>
 
-<?php snippet('menu') ?>
+<?php snippet('menu/menu') ?>
 
 
 
@@ -52,16 +52,16 @@
 
 
 
-        <?php snippet('home-content') ?>
+        <?php snippet('home/home-content') ?>
 
 
 
-        <?php snippet('tabbar-manufacturers') ?>
+        <?php snippet('home/tabbar-manufacturers') ?>
 
 
 
         <div class="home-container__partnersflexbox">
-            <?php snippet('partners') ?>
+            <?php snippet('home/partners') ?>
         </div>
 
 
@@ -71,7 +71,7 @@
 
 
 
-<?php snippet('footer') ?>
+<?php snippet('general/footer')?>
 
 <?= js('build/js/tabbar.js') ?>
 <?= js('build/js/home-animation.js') ?>
