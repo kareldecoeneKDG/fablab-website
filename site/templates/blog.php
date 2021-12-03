@@ -14,13 +14,13 @@
 
         <?php foreach ($tags as $tag): ?>
             <!-- <a class="container-blog__tag-filter__button-tag <?php // if (strpos($url, $tag) !== false) {echo ("active-tag");}?>" href="<? // =url($page->url(), ['params' => ['tag' => $tag]])?>"> -->
-            <a class="container-blog__tag-filter__button-tag <?php if (strpos($url, $tag) !== false) {echo ("active-tag");}?>" href="<?=$url?>/tag;<?php echo $tag?>">
+            <a class="container-blog__tag-filter__button-tag <?php if (strpos($url, $tag) !== false) {echo ("active-tag");}?>" href="<?=$url?>/tag;<?php echo $tag ?>">
                 <?=html($tag)?>
             </a>
         <?php endforeach?>
 
         <?php //BUTTON TO DELETE ACTIVE TAGS ?>
-        <a id="remove-tag" class="container-blog__tag-filter__button-tag" href="https://fablab.karel.decoene.nxtmediatech.eu/blog">Remove tags</a>
+        <a id="remove-tag" class="container-blog__tag-filter__button-tag" href="http://localhost:4000/fablab-website/blog">Remove tags</a>
     </div>
 
 
