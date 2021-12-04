@@ -1,5 +1,7 @@
+//No dropdown is being used right now
+
 // desktop
-.header {
+/*.header {
     &__menu {
         &__navlinks {
             &__dropdown {
@@ -48,12 +50,10 @@
     }
 }
 
-// show dropdown menu on hover
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
-// border-bottom on machines when dropdown is shown
 .dropdown:hover .dropbtn {
     border-bottom: 3px solid $yellow;
-}
+} */

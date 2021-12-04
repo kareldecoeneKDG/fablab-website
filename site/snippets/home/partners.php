@@ -7,7 +7,7 @@
         $featuredImages = $page->partners()->toFiles();
 
         foreach ($featuredImages as $img): ?>
-                        <img class="home-container__partners__img" src="<?=$img->url()?>" alt="<?=$img->alt()?>">
+            <img class="home-container__partners__img" src="<?=$img->url()?>" alt="<?=$img->alt()?>">
         <?php endforeach;?>
     </div>
 </div>

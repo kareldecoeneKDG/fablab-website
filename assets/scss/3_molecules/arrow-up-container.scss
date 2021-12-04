@@ -1,12 +1,5 @@
-/*#arrow-up-container {
-    margin-top: 90px;
-}
-
-#arrow-up-container-category {
-    right: 0;
-} */
-
 .arrow-container {
+    //display: none;
     position: fixed;
     bottom: 30px;
     right: $margin-side-mobile;
@@ -31,13 +24,6 @@
     }
 }
 
-/*.arrow-hide {
-    display: none;
-}
-
-.arrow-show {
-    display: block;
-}*/
 
 #myBtn-arrow {
     display: none;

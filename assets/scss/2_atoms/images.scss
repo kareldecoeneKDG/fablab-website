@@ -41,8 +41,6 @@
 // CATEGORY
 .category-wrapper {
     &__images-wrapper {
-        /* padding-top: 30px;
-        margin-bottom: -30px; */
         display: flex;
         flex-direction: column;
 
@@ -73,7 +71,6 @@
                     &__img {
                         border-radius: $border-radius-big;
                         width: 50%;
-                        //max-height: 200px;
                         margin-left: auto;
                         margin-right: auto;
                     }
@@ -136,38 +133,6 @@
 }
 
 // WHAT IS FABLAB
-/*.what-is-fablab-container {
-    &__introduction {
-        &__flexbox {
-            &__left {
-                &__team {
-                    &__container {
-                        &__flexbox {
-                            &__box {
-                                &__img {
-                                    width: 27vw;
-                                    height: 27vw;
-                                    object-fit: cover;
-                                    border-radius: $border-radius-big;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-
-            &__right {
-                &__flexbox {
-                    &__box {
-                        &__img {
-                            border-radius: $border-radius-big;
-                        }
-                    }
-                }
-            }
-        }
-    }
-} */
 .team {
     &__container {
         &__img {
@@ -266,10 +231,8 @@
         }
         &__img-desktop {
             display: block;
-            max-width: 560px; /* you can use % */
+            max-width: 560px;
             max-height: 315px;
-            //position: relative;
-            //top: 150px;
         }
     }
     //BLOG

@@ -233,7 +233,12 @@
             </section>
         </footer>
 
+
+
+        <?php snippet('general/arrow-to-top') ?>
+
         <?= js('build/js/responsive-nav.js') ?>
+        <?= js('build/js/arrowShower.js') ?>
         <?php //js('build/js/screenHeight.js') ?>
     </body>
 </html>

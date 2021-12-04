@@ -66,7 +66,7 @@
 
 
 
-        <?php snippet('general/arrow-to-top') ?>
+        <?php //snippet('general/arrow-to-top') ?>
     </div>
 
 
@@ -76,4 +76,4 @@
 <?= js('build/js/tabbar.js') ?>
 <?= js('build/js/home-animation.js') ?>
 <?= js('build/js/menuobserver.js') ?>
-<?= js('build/js/arrowShower.js') ?>
+<?php //js('build/js/arrowShower.js') ?>
