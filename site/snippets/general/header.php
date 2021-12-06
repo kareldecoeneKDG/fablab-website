@@ -9,13 +9,8 @@
         <?php // PAGE TITLE ?>
         <title><?= $page->title() ?> - FabLab KdG</title>
 
-        <?php // LOAD REACT ?>
-        <?php // Note: when deploying, replace "development.js" with "production.min.js". ?>
-        <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
-        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
-
         <?php // FONTS - GET PROXIMA NOVA FROM MARK ?>
-        <link rel="stylesheet" href="https://use.typekit.net/zxe6lkl.css">
+        <!-- <link rel="stylesheet" href="https://use.typekit.net/zxe6lkl.css"> -->
 
         <?php // FONT AWESOME ?>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">

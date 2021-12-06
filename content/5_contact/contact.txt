@@ -54,7 +54,7 @@ Employees:
     meer leesbaar nederlands maakt.
 - 
   image:
-    - esther.jpeg
+    - esther.jpg
   name: Esther van de Poll
   function: 'Digital Designer & Maker, Technisch medewerker Fablab'
   tel: 0458 52 62 32

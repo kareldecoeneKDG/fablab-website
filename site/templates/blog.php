@@ -20,7 +20,7 @@
         <?php endforeach?>
 
         <?php //BUTTON TO DELETE ACTIVE TAGS ?>
-        <a id="remove-tag" class="container-blog__tag-filter__button-tag" href="http://localhost:4000/fablab-website/blog">Remove tags</a>
+        <a id="remove-tag" class="container-blog__tag-filter__button-tag" href="https://fablab.karel.decoene.nxtmediatech.eu">Remove tags</a>
     </div>
 
 
@@ -34,6 +34,8 @@
             </p>
         <?php endif?>
     <?php endforeach?>
+
+
 
     <?php //ALL BLOGS MOBILE ?>
     <div class="blog-wrapper">
