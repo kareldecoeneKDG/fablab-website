@@ -2,7 +2,7 @@
 
 // HOME
 .home-container {
-    background-color: $background-grey;
+    background-color: $neutrals-1;
     padding-bottom: 50px;
 
     &__banner {
@@ -11,7 +11,7 @@
                 i {
                     font-size: 46px;
                     font-weight: bold;
-                    color: $white; //white
+                    color: $neutrals-0;
                     position: absolute;
                     bottom: 22px; //22px
                     right: 30px;
@@ -27,7 +27,7 @@
                     i {
                         font-size: 24px;
                         font-weight: 300;
-                        color: $white;
+                        color: $neutrals-0;
                     }
                 }
             }
@@ -48,17 +48,17 @@
                     i {
                         font-size: 25px;
                         width: 40px;
-                        color: $grey;
+                        color: $neutrals-8;
                     }
                 }
 
                 &__socials {
                     &__item {
                         i {
-                            color: $grey;
+                            color: $neutrals-8;
                             font-size: 25px;
                             width: 30px;
-                            color: $grey;
+                            color: $neutrals-8;
                         }
                     }
                 }
@@ -73,7 +73,7 @@
                     i {
                         font-size: 25px;
                         width: 30px;
-                        color: $grey;
+                        color: $neutrals-8;
                     }
                 }
             }
@@ -112,7 +112,7 @@
                 }
 
                 i {
-                    color: $white;
+                    color: $neutrals-0;
                     font-size: 25px;
                     width: 40px;
                 }
@@ -124,14 +124,14 @@
                         font-size: 25px;
                         width: 30px;
                         margin-top: 30px;
-                        color: $grey;
+                        color: $neutrals-8;
                     }
                 }
             }
 
             .socials-white {
                 .footer__content__block__socialsflexbox__social i {
-                    color: $white;
+                    color: $neutrals-0;
                 }
             }
         }
@@ -203,7 +203,7 @@
                         transition: 0.5s;
 
                         i {
-                            color: $black-light;
+                            color: $neutrals-9;
                             transition: 0.5s;
                         }
                     }

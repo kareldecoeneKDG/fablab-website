@@ -7,19 +7,19 @@
     height: 60px;
 
     &__link {
-        background-color: $yellow;
+        background-color: $primary;
         border-radius: 50%;
         width: 60px;
         height: 60px;
         position: absolute;
-        border: 2px solid $yellow;
+        border: 2px solid $primary;
         padding: 17px;
 
         i::before {
             width: 23px;
             height: 23px;
             font-size: 23px;
-            color: $background-grey;
+            color: $neutrals-1;
         }
     }
 }
@@ -63,14 +63,14 @@
         right: $margin-side-desktop;
 
         &__link:hover {
-            background-color: $background-grey;
-            border: 2px solid $black-light;
-            color: $black-light;
+            background-color: $neutrals-1;
+            border: 2px solid $neutrals-9;
+            color: $neutrals-9;
             cursor: pointer;
             transition: 0.5s;
 
             i::before {
-                color: $black-light;
+                color: $neutrals-9;
             }
         }
     }

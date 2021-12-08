@@ -1,7 +1,7 @@
 // MOBILE
 .footer {
     padding: 30px 26px 20px 26px;
-    background-color: $black-light;
+    background-color: $neutrals-9;
     position: relative;
     z-index: 99;
 
@@ -18,12 +18,12 @@
             &__link {
                 display: block;
                 font-size: $p-small-font-size-mobile;
-                color: $white;
+                color: $neutrals-0;
                 margin-bottom: 5px;
             }
 
             &__link:hover {
-                color: $lightergrey;
+                color: $neutrals-6;
                 transition: 0.3s;
             }
 
@@ -36,7 +36,7 @@
 
                 a:hover {
                     i {
-                        color: $lightergrey;
+                        color: $neutrals-6;
                     }
                 }
             }
@@ -50,7 +50,7 @@
                     font-family: $verdana;
                     font-size: $p-small-font-size-mobile;
                     font-weight: 500;
-                    color: $white;
+                    color: $neutrals-0;
                 }
             }
         }
@@ -71,7 +71,7 @@
         text-align: center;
         margin-top: 30px;
         font-size: $p-small-font-size-mobile;
-        color: white;
+        color: $neutrals-0;
     }
 }
 
@@ -79,7 +79,7 @@
     a:hover {
         i {
             transition: 0.3s;
-            color: $lightergrey;
+            color: $neutrals-6;
         }
     }
 }
@@ -148,7 +148,7 @@
     #footer-tablet-landscape {
         padding: 30px $margin-side-tablet-landscape;
         padding-bottom: 20px;
-        background-color: $black-light;
+        background-color: $neutrals-9;
         display: flex;
         flex-direction: column;
         justify-content: space-between;

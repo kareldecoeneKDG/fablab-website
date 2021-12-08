@@ -38,7 +38,7 @@
     }
 
     &__table-row:nth-child(odd) {
-        background-color: $table-lightgrey;
+        background-color: $neutrals-2;
     }
 }
 
@@ -51,7 +51,7 @@
 
             &__table-header {
                 width: 25%;
-                color: $table-title-grey;
+                color: $neutrals-7;
             }
         }
     }

@@ -16,11 +16,11 @@
 }
 
 .h2-home {
-    background-color: $black;
+    background-color: $neutrals-10;
     padding-left: $margin-side-mobile;
     padding-top: 5px;
     padding-bottom: 5px;
-    color: $white;
+    color: $neutrals-0;
     border-radius: 0px 10px 10px 0px;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .h4-footer {
-    color: $lightergrey;
+    color: $neutrals-6;
 }
 
 .h5 {
@@ -52,11 +52,11 @@
     font-size: $h5-font-size-mobile;
     font-weight: $h5-font-weight;
     margin: $h5-margin-mobile;
-    color: $grey;
+    color: $neutrals-8;
 }
 
 .h5-footer {
-    color: $yellow;
+    color: $primary;
 }
 
 // HOME
@@ -120,7 +120,7 @@
 
 .machine-banner {
     &__title {
-        color: $white;
+        color: $neutrals-0;
     }
 }
 
@@ -181,11 +181,11 @@
     margin-top: 30;
 
     span:first-of-type {
-        color: $yellow;
+        color: $primary;
     }
 
     span:last-of-type {
-        color: $table-title-grey;
+        color: $neutrals-7;
     }
 }
 
@@ -481,7 +481,7 @@
     .h2-home {
         padding-left: $margin-side-hd;
         background-color: initial;
-        color: $black;
+        color: $neutrals-10;
         font-size: $h2-home-font-size-hd;
         margin-right: 50% !important;
     }

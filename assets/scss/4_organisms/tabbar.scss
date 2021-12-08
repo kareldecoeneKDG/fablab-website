@@ -23,7 +23,7 @@
             height: 60px;
             display: flex;
             align-items: center;
-            background-color: $white;
+            background-color: $neutrals-0;
 
             .tabheader-item-contact {
                 height: 100% !important;
@@ -40,7 +40,7 @@
             &__item {
                 width: calc(100% / 2); //2 tabs in accordion
                 text-align: center;
-                color: $table-title-grey;
+                color: $neutrals-7;
                 font-weight: 700;
                 cursor: pointer;
                 font-size: 14px;
@@ -51,14 +51,14 @@
             }
 
             .active {
-                color: $yellow;
+                color: $primary;
             }
         }
 
         .tabindicator {
             position: relative;
             height: 5px;
-            background: $yellow;
+            background: $primary;
             left: 0px;
             border-radius: 5px;
             transition: all 500ms ease-in-out;
@@ -92,7 +92,7 @@
             height: calc(100% - 60px); //60px is padding top
             padding: 20px 16px;
             border-radius: 0px 0px 15px 15px;
-            background-color: $white;
+            background-color: $neutrals-0;
             margin: auto;
 
             &__item {

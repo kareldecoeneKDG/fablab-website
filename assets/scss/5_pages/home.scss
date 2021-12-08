@@ -1,5 +1,5 @@
 .home-container {
-    background-color: $background-grey;
+    background-color: $neutrals-1;
     padding-bottom: 50px;
 
     &__partnersflexbox {
@@ -19,12 +19,12 @@
             right: $margin-side-mobile;
 
             &__container {
-                background-color: $yellow;
+                background-color: $primary;
                 border-radius: 50%;
                 width: 100%;
                 height: 100%;
                 position: relative;
-                border: 2px solid $yellow;
+                border: 2px solid $primary;
 
                 &__link {
                     width: 100%;
@@ -40,9 +40,9 @@
 .message {
     padding-left: $margin-side-mobile;
     padding-right: $margin-side-mobile;
-    background-color: $yellow;
+    background-color: $primary;
     padding-bottom: 30px;
-    color: $black;
+    color: $neutrals-10;
 }
 
 .home-animations {
@@ -64,9 +64,9 @@
     }
 
     .flex-column {
-        border: 2px solid $yellow;
+        border: 2px solid $primary;
         border-right: none;
-        background-color: $white;
+        background-color: $neutrals-0;
         border-radius: $border-radius-big;
         padding-top: 30px;
         padding-bottom: 30px;
@@ -210,8 +210,8 @@
                 }
 
                 &__container:hover {
-                    background-color: $background-grey;
-                    border: 2px solid $black-light;
+                    background-color: $neutrals-1;
+                    border: 2px solid $neutrals-9;
                     transition: 0.5s;
                 }
             }
@@ -314,7 +314,7 @@
 
     .introduction {
         .flex-column {
-            border-right: 2px solid $yellow;
+            border-right: 2px solid $primary;
             margin-right: $margin-side-hd;
             border-radius: 15px;
             height: 21vh; //19?

@@ -1,8 +1,8 @@
 .contactform-container {
     margin-top: 30px;
-    background-color: $white;
+    background-color: $neutrals-0;
     border-radius: $border-radius-big;
-    border: 2px solid $yellow;
+    border: 2px solid $primary;
 }
 
 .contactform {
@@ -28,7 +28,7 @@
             border-radius: $border-radius-small;
             border: none;
             width: 100%;
-            background-color: $background-grey;
+            background-color: $neutrals-1;
         }
 
         .textarea {
@@ -38,8 +38,8 @@
     }
 
     &__submit {
-        background-color: $yellow;
-        color: $black;
+        background-color: $primary;
+        color: $neutrals-10;
         font-family: $verdana;
         font-size: $button-big-font-size-mobile;
         font-weight: 700;

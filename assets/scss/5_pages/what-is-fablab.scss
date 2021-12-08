@@ -1,14 +1,14 @@
 .team {
-    background-color: $white;
-    border: 2px solid $yellow;
+    background-color: $neutrals-0;
+    border: 2px solid $primary;
     padding: 55px 16px 20px 16px;
     position: relative;
     border-radius: $border-radius-small;
 
     &__titlecontainer {
         position: absolute;
-        background-color: $black;
-        color: $yellow;
+        background-color: $neutrals-10;
+        color: $primary;
         top: -25px;
         left: 15%;
         transform: skewY(-2deg);
@@ -28,7 +28,7 @@
         }
 
         &__function {
-            color: $grey;
+            color: $neutrals-8;
             font-size: $p-small-font-size-mobile;
             line-height: 18px;
         }
@@ -77,13 +77,13 @@
 
         &__titlecontainer {
             position: absolute;
-            background-color: $black;
+            background-color: $neutrals-10;
             left: 14vw;
             top: -30px;
             width: 230px;
             height: 50px;
             transform: skewY(-2deg);
-            color: $yellow;
+            color: $primary;
             text-align: center;
 
             &__title {
@@ -92,8 +92,8 @@
         }
 
         &__container {
-            background-color: $white;
-            border: 2px solid $yellow;
+            background-color: $neutrals-0;
+            border: 2px solid $primary;
             width: 100%;
             border-radius: $border-radius-big;
             padding: 40px;

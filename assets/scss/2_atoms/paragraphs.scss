@@ -28,7 +28,7 @@
                 margin-top: 20px;
                 margin-bottom: 40px;
                 font-size: $p-small-font-size-mobile;
-                color: $grey;
+                color: $neutrals-8;
             }
         }
     }
@@ -52,7 +52,7 @@
 .team-desktop {
     &__container {
         &__function {
-            color: $table-title-grey;
+            color: $neutrals-7;
         }
     }
 }

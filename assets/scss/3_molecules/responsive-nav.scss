@@ -32,7 +32,7 @@
             transform: translateX(-150%);
             transition: transform 0.5s ease-in;
             z-index: 1;
-            background-color: $black-light;
+            background-color: $neutrals-9;
 
             &__item {
                 list-style-type: none;
@@ -42,12 +42,12 @@
                     text-decoration: none;
                     font-family: $verdana;
                     font-weight: bold;
-                    color: $white;
+                    color: $neutrals-0;
                 }
 
                 .active {
-                    border-bottom: 3px solid $yellow;
-                    color: $yellow;
+                    border-bottom: 3px solid $primary;
+                    color: $primary;
                 }
             }
         }
@@ -60,7 +60,7 @@
             &__line {
                 width: 25px; //25
                 height: 3px;
-                background-color: $black;
+                background-color: $neutrals-10;
                 margin: 5px;
                 transition: all 0.3s ease;
             }
@@ -73,7 +73,7 @@
 }
 
 .nav-scrolled {
-    background-color: $white;
+    background-color: $neutrals-0;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -96,7 +96,7 @@
 // animate different lines of burger with toggle class
 .toggle .line1 {
     transform: rotate(-45deg) translate(-5px, 6px);
-    background-color: white;
+    background-color: $neutrals-0;
 }
 
 .toggle .line2 {
@@ -105,7 +105,7 @@
 
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
-    background-color: white;
+    background-color: $neutrals-0;
 }
 
 // MOBILE MIDDLE TALL
@@ -170,11 +170,11 @@
                     opacity: 1;
 
                     &__link {
-                        color: $black;
+                        color: $neutrals-10;
                     }
 
                     &__link:hover {
-                        border-bottom: 3px solid $yellow;
+                        border-bottom: 3px solid $primary;
                     }
                 }
             }
