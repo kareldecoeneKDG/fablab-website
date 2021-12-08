@@ -56,3 +56,13 @@
         }
     }
 }
+
+// TABLET PORTRAIT - 1024PX
+@media only screen and (min-width: $tablet-landscape) {
+    .table {
+        width: 100%;
+        display: block;
+        position: initial;
+        overflow-x: hidden;
+    }
+}
