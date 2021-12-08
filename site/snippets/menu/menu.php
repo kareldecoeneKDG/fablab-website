@@ -9,9 +9,9 @@
 
         <a class="header__languagebutton" href="#">
 
-            <?php if ($flag = $site->flagImage()->toFile()): ?>
+            <?php /* if ($flag = $site->flagImage()->toFile()): ?>
                 <img class="header__languagebutton__flag" src="<?=$flag->url()?>" alt="logo Fablab">
-            <?php endif;?>
+            <?php endif; */ ?>
 
             <span class="header__languagebutton__span">NL</span>
         </a>
