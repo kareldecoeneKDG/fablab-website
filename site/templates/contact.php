@@ -111,5 +111,5 @@
     
 <?php snippet('general/footer')?>
 
-<?= js('build/js/tabbar.js') ?>
-<?= js('build/js/contact-form-validation.js') ?>
+<?= js('build/js/general/tabbar.js') ?>
+<?= js('build/js/contact/contact-form-validation.js') ?>

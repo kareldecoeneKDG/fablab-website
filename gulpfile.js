@@ -28,13 +28,13 @@ function css(cb) {
 }
 
 function js(cb) {
-    src(`${origin}/js/*.js`).pipe(dest(`${destination}/js`));
+    src(`${origin}/js/**/*.js`).pipe(dest(`${destination}/js`));
     cb();
 }
 
 function watcher(cb) {
     watch(`${origin}/**/**/*.scss`).on('change', series(css, browserSync.reload))
-    watch(`${origin}/**/*.js`).on('change', series(js, browserSync.reload))
+    watch(`${origin}/**/**/*.js`).on('change', series(js, browserSync.reload))
     cb();
 }
 

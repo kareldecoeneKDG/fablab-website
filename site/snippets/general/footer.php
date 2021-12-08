@@ -237,8 +237,8 @@
 
         <?php snippet('general/arrow-to-top') ?>
 
-        <?= js('build/js/responsive-nav.js') ?>
-        <?= js('build/js/arrowShower.js') ?>
+        <?= js('build/js/general/responsive-nav.js') ?>
+        <?= js('build/js/general/arrowShower.js') ?>
         <?php //js('build/js/screenHeight.js') ?>
     </body>
 </html>

@@ -73,7 +73,7 @@
 
 <?php snippet('general/footer')?>
 
-<?= js('build/js/tabbar.js') ?>
-<?= js('build/js/home-animation.js') ?>
-<?= js('build/js/menuobserver.js') ?>
+<?= js('build/js/general/tabbar.js') ?>
+<?= js('build/js/home/home-animation.js') ?>
+<?= js('build/js/home/menuobserver.js') ?>
 <?php //js('build/js/arrowShower.js') ?>

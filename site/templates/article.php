@@ -88,6 +88,6 @@
 
 <?php snippet('general/footer')?>
 
-<?=js('build/js/sharebuttons.js')?>
-<?= js('build/js/article-shareModal.js') ?>
-<?= js('build/js/article-copiedModal.js') ?>
+<?=js('build/js/blog/sharebuttons.js')?>
+<?= js('build/js/blog/article-shareModal.js') ?>
+<?= js('build/js/blog/article-copiedModal.js') ?>

@@ -108,5 +108,4 @@
 
 <?php snippet('general/footer')?>
 
-<?= js('build/js/accordion.js') ?>
-<?= js('build/js/arrowShower.js') ?>
+<?= js('build/js/general/accordion.js') ?>
