@@ -16,7 +16,7 @@
 
             .typing {
                 position: relative;
-                font-size: 50px;
+                font-size: 36px;
                 color: $white;
             }
 
@@ -104,6 +104,10 @@
             &__typing-animation {
                 .intro {
                     left: $margin-side-hd;
+                }
+
+                .typing {
+                    font-size: 50px;
                 }
             }
         }

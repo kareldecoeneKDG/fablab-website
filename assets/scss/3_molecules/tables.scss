@@ -1,7 +1,21 @@
 .table {
+    /*width: 600px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap; */
+
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+
     &__table-row {
         &__table-header {
             font-weight: bold;
+            padding: 5px;
         }
 
         .equal {
