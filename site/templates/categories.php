@@ -15,9 +15,10 @@
                 <li class="categories-wrapper__machines__category">
                     <a href="<?=$category->url()?>">
                         <figure>
-                            <?php $thumbnail = $category->thumbnail()->ToFile(); ?>
-                            <?php /* <img class="overview-image" src="<?= $thumbnail->url() ?>" alt="<?=$category->image()->alt()?>"> */ ?>
-                            <?= $thumbnail->crop(100) ?>
+                            <?php if($thumbnail = $category->thumbnail()->ToFile()): ?>
+                                <?= $thumbnail->crop(100) ?>
+                            <?php endif; ?>
+
                             <figcaption class="h2-categories"><?=$category->title()?></figcaption>
                         </figure>
                     </a>

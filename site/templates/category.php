@@ -51,7 +51,10 @@
                     <?php foreach ($page->children() as $subpage): ?>
                         <li class="category-wrapper__machines-wrapper__list__item">
                             <a class="category-wrapper__machines-wrapper__list__item__link"href="<?=$subpage->url()?>">
-                                <img class="category-wrapper__machines-wrapper__list__item__link__img" src="<?=$subpage->image()->url()?>" alt="<?=$subpage->image()->alt()?>">
+
+                                <?php if($img = $subpage->image()): ?>
+                                    <img class="category-wrapper__machines-wrapper__list__item__link__img" src="<?=$img->url()?>" alt="<?=$img->alt()?>">
+                                <?php endif; ?>
 
                                 <div>
                                     <p class="category-wrapper__machines-wrapper__list__item__link__p p"><?=html($subpage->type())?></p>

@@ -78,7 +78,7 @@
 
                 <?php //MACHINE IMAGES ?>
                 <?php if ($page->images()->isNotEmpty()): ?>
-                    <img  class="machine-wrapper__img img" src="<?=$page->images()->first()->url()?>" alt="<?=$page->images()->first()->alt()?>">
+                    <img class="machine-wrapper__img img" src="<?=$page->images()->first()->url()?>" alt="<?=$page->images()->first()->alt()?>">
                 <?php endif?>
 
                 <?php //MACHINE FILETYPES ?>

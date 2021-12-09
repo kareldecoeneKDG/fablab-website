@@ -34,6 +34,10 @@ Bed: Heated spring steel sheets
 
 ----
 
+Extraspecs: kabeldikte: 5cm
+
+----
+
 Software: https://www.prusa3d.com/drivers/
 
 ----

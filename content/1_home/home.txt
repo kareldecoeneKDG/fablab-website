@@ -90,7 +90,7 @@ Manufacturers:
 - 
   image:
     - logo-makerbot-1.png
-  url: https://www.makerbot.com/
+  url: https://www.makerbot.com/j,uik
   alt: ""
 - 
   image:

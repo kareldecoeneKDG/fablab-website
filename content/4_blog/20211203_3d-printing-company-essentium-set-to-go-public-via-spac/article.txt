@@ -20,10 +20,8 @@ Date: 2021-12-03
 
 ----
 
-Author:
-
-- uxCUeSwc
+Author: 
 
 ----
 
-Tags: boeken
+Tags: boeken, fablab

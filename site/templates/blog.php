@@ -42,7 +42,9 @@
         <?php foreach ($articles as $article): ?>
             <article class="blog-wrapper__blog-overview">
                 <div>
-                    <img class="blog-wrapper__blog-overview__img img" src="<?=$article->image()->url()?>" alt="<?=$article->image()->alt()?>">
+                    <?php if($img = $article->image()): ?>
+                        <img class="blog-wrapper__blog-overview__img img" src="<?=$img->url()?>" alt="<?=$img->alt()?>">
+                    <?php endif; ?>
 
                     <div class="text-wrapper-mobile">
                         <h2 class="blog-wrapper__blog-overview__text-wrapper__title h2"><?=$article->title()->html()?></h2>
@@ -64,7 +66,9 @@
         <?php foreach ($articles as $article): ?>
             <article class="blog-wrapper__blog-overview">
                 <div>
-                    <img class="blog-wrapper__blog-overview__img img" src="<?=$article->image()->url()?>" alt="<?=$article->image()->alt()?>">
+                    <?php if($img = $article->image()): ?>
+                        <img class="blog-wrapper__blog-overview__img img" src="<?=$img->url()?>" alt="<?=$img->alt()?>">
+                    <?php endif; ?>
 
                     <div class="blog-wrapper__blog-overview__text-wrapper">
                         <h2 class="blog-wrapper__blog-overview__text-wrapper__title h2"><?=$article->title()->html()?></h2>

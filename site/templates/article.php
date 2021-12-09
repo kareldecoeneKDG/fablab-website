@@ -10,7 +10,9 @@
     <section class="content-article">
         <h1 class="content-article__title h1"><?=$page->title()->html()?></h1>
 
-        <img src="<?=$page->image()->url()?>" alt="<?=$page->image()->alt()?>">
+        <?php if($img = $page->image()): ?>
+            <img src="<?=$img->url()?>" alt="<?=$img->alt()?>">
+        <?php endif; ?>
 
 
 
@@ -66,17 +68,23 @@
     <?php //RELATED BLOGPOSTS ?>
     <?php $related = $page->related()->toPages(); ?>
     <?php if($related->count() > 0): ?>
+        
         <section class="related-articles">
             <h2 class="related-articles__title h2">Gerelateerde blogposts</h2>
 
             <div class="related-articles__items blog-wrapper-related">
                 <?php foreach ($related as $article): ?>
+
                     <article class="related-articles__items__blogpost blog-wrapper__blog-overview">
                         <a class="related-articles__items__blogpost__link article-related" href="<?=$article->url()?>">
-                            <img class="related-articles__items__blogpost__link__img img-related" src="<?=$article->image()->url()?>" alt="Article preview image">
+                            <?php if($img = $article->image()): ?>
+                                <img class="related-articles__items__blogpost__link__img img-related" src="<?=$img->url()?>" alt="<?= $img->alt() ?>">
+                            <?php endif; ?>
+
                             <h2 class="related-articles__items__blogpost__link__title h2-related h2"><?=$article->title()->html()?></h2>
                         </a>
                     </article>
+
                 <?php endforeach;?>
             </div>
 
