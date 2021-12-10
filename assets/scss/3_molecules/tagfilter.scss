@@ -33,3 +33,13 @@
     background-color: $neutrals-10;
     color: $primary;
 }
+
+.tag-container {
+    width: 100%;
+    overflow-x: hidden;
+
+    .tags {
+        overflow-x: scroll;
+        margin-right: 10px;
+    }
+}

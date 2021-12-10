@@ -1,3 +1,13 @@
+.content-article {
+    &__text-wrapper {
+        &__p {
+            &__date {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
 .share {
     display: flex;
     margin-top: 10px;

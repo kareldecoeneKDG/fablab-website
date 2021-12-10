@@ -13,6 +13,7 @@
     font-size: $h2-font-size-mobile;
     font-weight: $h2-font-weight;
     margin: $h2-margin-mobile;
+    margin-top: 50px;
 }
 
 .h2-home {
@@ -71,6 +72,7 @@
     &__title {
         margin-right: 37%;
         margin-bottom: 30px;
+        margin-top: 50px !important;
     }
 
     &__openhours {
@@ -83,12 +85,14 @@
 .info {
     .banner-fablab {
         h2 {
+            margin-top: 30px;
             margin-right: 32%;
         }
     }
 
     .banner-biolab {
         h2 {
+            margin-top: 30px;
             margin-right: 64%;
         }
     }
@@ -177,7 +181,7 @@
     font-size: $h2-font-size-mobile;
     font-weight: $h2-font-weight;
     margin: $h2-margin-mobile;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     margin-top: 30;
 
     span:first-of-type {

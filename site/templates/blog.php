@@ -12,15 +12,19 @@
         <?php //GET CURRENT URL ?>
         <?php $url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];?>
 
-        <?php foreach ($tags as $tag): ?>
-            <!-- <a class="container-blog__tag-filter__button-tag <?php // if (strpos($url, $tag) !== false) {echo ("active-tag");}?>" href="<? // =url($page->url(), ['params' => ['tag' => $tag]])?>"> -->
-            <a class="container-blog__tag-filter__button-tag <?php if (strpos($url, $tag) !== false) {echo ("active-tag");}?>" href="<?=$url?>/tag;<?php echo $tag ?>">
-                <?=html($tag)?>
-            </a>
-        <?php endforeach?>
+        <div class="flex-row tag-container">
+            <div class="tags">
+                <?php foreach ($tags as $tag): ?>
+                    <a class="container-blog__tag-filter__button-tag <?php if (strpos($url, $tag) !== false) {echo ("active-tag");}?>" href="<?=$url?>/tag;<?php echo $tag ?>">
+                        <?=html($tag)?>
+                    </a>
+                <?php endforeach?>
+            </div>
 
-        <?php //BUTTON TO DELETE ACTIVE TAGS ?>
-        <a id="remove-tag" class="container-blog__tag-filter__button-tag" href="https://fablab.karel.decoene.nxtmediatech.eu">Remove tags</a>
+            <div>
+                <a id="remove-tag" class="container-blog__tag-filter__button-tag" href="https://fablab.karel.decoene.nxtmediatech.eu/blog">Remove tags</a>
+            </div>
+        </div>
     </div>
 
 
@@ -48,7 +52,7 @@
 
                     <div class="text-wrapper-mobile">
                         <h2 class="blog-wrapper__blog-overview__text-wrapper__title h2"><?=$article->title()->html()?></h2>
-                        <p class="blog-wrapper__blog-overview__text-wrapper__p p"><?=$article->random()->excerpt(70)?></p>
+                        <p class="blog-wrapper__blog-overview__text-wrapper__p p"><?=$article->blogText()->excerpt(70)?></p>
                     </div>
                 </div>
 
