@@ -9,7 +9,7 @@
                     width: 100px;
                     height: 100px;
                     object-fit: cover;
-                    transform: skewY(5deg);
+                    //transform: skewY(5deg);
                     border-radius: $border-radius-big;
                     margin-left: 14px;
                 }
@@ -42,9 +42,13 @@
 .category-wrapper {
     &__images-wrapper {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 100px;
 
         &__img {
+            display: inline-block;
             width: 200px;
             height: 200px;
             object-fit: cover;
@@ -53,10 +57,15 @@
             //margin-left: 14px;
             position: relative;
         }
+
         &__img:nth-child(even) {
-            align-self: end;
-            bottom: 50px;
+            //align-self: end;
+            //bottom: 50px;
             border: 7px solid $neutrals-1;
+            margin-top: 50px;
+            margin-right: $margin-side-mobile;
+            position: absolute;
+            right: 0;
         }
     }
 }
@@ -179,6 +188,29 @@
             }
         }
     }
+
+    // CATEGORY
+    .category-wrapper {
+        &__images-wrapper {
+            margin-bottom: 125px;
+
+            &__img {
+                display: initial;
+            }
+
+            &__img:nth-child(even) {
+                //align-self: end;
+                //bottom: 50px;
+                border: 7px solid $neutrals-1;
+                margin-top: 0px;
+                margin-right: 0;
+                position: relative;
+                right: initial;
+                top: 75px;
+                right: 100px;
+            }
+        }
+    }
 }
 
 // TABLET LANDSCAPE - 1024PX
@@ -209,17 +241,19 @@
     //CATEGORY
     .category-wrapper {
         &__images-wrapper {
-            padding-top: 30px;
+            /*padding-top: 30px;
             margin-bottom: -30px;
             display: flex;
-            flex-direction: column;
+            flex-direction: column; */
+            padding-top: 50px;
 
             &__img {
                 width: 250px;
                 height: 250px;
             }
-            &__img:nth-child(odd) {
-                right: 75%;
+            &__img:nth-child(even) {
+                top: 125px;
+                right: 125px;
             }
         }
     }

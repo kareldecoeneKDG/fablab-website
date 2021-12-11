@@ -34,10 +34,10 @@
                 </div>
 
                 <div class="modal-content__linksection">
-                    <?php $url = "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];?>
+                    <?php $url = "https://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];?>
                     <p class="modal-content__linksection__link"><?= $url ?></p>
 
-                    <button id="url" class="modal-content__linksection__link__copy-button" onclick="copyToClipboard()"><i class="fa fa-files-o" aria-hidden="true"></i> Link kopieren</button>
+                    <button id="url" class="modal-content__linksection__link__copy-button"><i class="fa fa-files-o" aria-hidden="true"></i> Link kopieren</button>
 
                     <div class="modal-copied">
                         <div class="modal-content-copied">
