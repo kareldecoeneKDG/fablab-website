@@ -10,7 +10,8 @@ const formValidation = () => {
 
     form.addEventListener('submit', (e) => {
         e.preventDefault();
-        checkInputs();
+        //checkInputs();
+        dynamicCheckInputs();
     });
 
     
@@ -20,8 +21,6 @@ const formValidation = () => {
         const nameValue = name.value.trim();
         const emailValue = email.value.trim();
         const messageValue = message.value.trim();
-
-        console.log('werkt!!');
 
         if(nameValue !== '') {
             setSuccesFor(name);
@@ -45,9 +44,11 @@ const formValidation = () => {
         } else {
             setErrorFor(message, 'Bericht mag niet leeg zijn');
         }
-    }
 
-    inputs.addEventListener("keydown", dynamicCheckInputs());
+        name.addEventListener('keydown', dynamicCheckInputs);
+        email.addEventListener('keydown', dynamicCheckInputs);
+        message.addEventListener('keydown', dynamicCheckInputs);
+    }
 
     
     
