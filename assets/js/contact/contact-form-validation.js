@@ -45,14 +45,14 @@ const formValidation = () => {
             setErrorFor(message, 'Bericht mag niet leeg zijn');
         }
 
-        name.addEventListener('keydown', dynamicCheckInputs);
-        email.addEventListener('keydown', dynamicCheckInputs);
-        message.addEventListener('keydown', dynamicCheckInputs);
+        name.addEventListener('input', dynamicCheckInputs);
+        email.addEventListener('input', dynamicCheckInputs);
+        message.addEventListener('input', dynamicCheckInputs);
     }
 
     
     
-    function checkInputs() {
+    /* function checkInputs() {
         //get the values of the inputs without any spaces etc.
         const nameValue = name.value.trim();
         const emailValue = email.value.trim();
@@ -77,7 +77,7 @@ const formValidation = () => {
         } else {
             setSuccesFor(message);
         }
-    }
+    } */
 
 
 
