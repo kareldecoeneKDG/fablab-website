@@ -4,11 +4,53 @@ const formValidation = () => {
     const email = document.getElementById("email");
     const message = document.getElementById("message");
 
+    const inputs = document.querySelectorAll('.contactform__field__input');
+
+
+
     form.addEventListener('submit', (e) => {
         e.preventDefault();
         checkInputs();
     });
 
+    
+    
+    function dynamicCheckInputs() {
+        //get the values of the inputs without any spaces etc.
+        const nameValue = name.value.trim();
+        const emailValue = email.value.trim();
+        const messageValue = message.value.trim();
+
+        console.log('werkt!!');
+
+        if(nameValue !== '') {
+            setSuccesFor(name);
+        } else {
+            setErrorFor(name, 'Naam mag niet leeg zijn');
+        }
+
+        if(emailValue !== '') {
+            if(!isEmail(emailValue)) {
+                setErrorFor(email, 'Dit is geen geldig emailadres');
+            }
+            else {
+                setSuccesFor(email);
+            }
+        } else {
+            setErrorFor(email, 'Email mag niet leeg zijn');
+        }
+
+        if(messageValue !== '') {
+            setSuccesFor(message);
+        } else {
+            setErrorFor(message, 'Bericht mag niet leeg zijn');
+        }
+    }
+
+    inputs.addEventListener("keydown", dynamicCheckInputs());
+
+    
+    
     function checkInputs() {
         //get the values of the inputs without any spaces etc.
         const nameValue = name.value.trim();
@@ -35,6 +77,8 @@ const formValidation = () => {
             setSuccesFor(message);
         }
     }
+
+
 
     function setErrorFor(input, message) {
         const formControl = input.parentElement; //.form-control
