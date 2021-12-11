@@ -23,25 +23,7 @@ const showShareModal = () => {
 
     // To copy the url
     function copyToClipboard() {
-        /*var dummy = document.createElement('input'),
-        text = window.location.href;
-
-        document.body.appendChild(dummy);
-        dummy.value = text;
-        dummy.select();
-        document.execCommand('copy');
-        document.body.removeChild(dummy);*/
-
-
-
-        /*var input = document.body.appendChild(document.createElement("input"));
-        input.value = text;
-        input.focus();
-        input.select();
-        document.execCommand('copy');
-        input.parentNode.removeChild(input); */
-
-        var text;
+        var text = window.location.href;
 
         navigator.clipboard.writeText(text).then(function () {
             console.log('Async: Copying to clipboard was successful!');
