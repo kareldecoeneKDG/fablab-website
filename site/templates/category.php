@@ -78,7 +78,7 @@
                         <li><?=$materiaal?></li>
                     <?php endforeach?>
                 </ul>
-                <a class="margin-left-none button-small" href="<?php echo $pages->find('price-list')->url() ?>">Bekijk de prijslijst</a>
+                <a class="price-list-button margin-left-none button-small" href="<?php echo $pages->find('price-list')->url() ?>">Bekijk de prijslijst</a>
             </div>
         <?php endif?>
 

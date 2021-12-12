@@ -11,6 +11,9 @@
 
         <?php // FONTS - GET PROXIMA NOVA FROM MARK ?>
         <!-- <link rel="stylesheet" href="https://use.typekit.net/zxe6lkl.css"> -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;800;900&display=swap" rel="stylesheet">
 
         <?php // FONT AWESOME ?>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">

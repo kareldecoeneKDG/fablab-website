@@ -32,7 +32,7 @@
         &__title {
             font-size: 24px;
             font-weight: 700;
-            font-family: $verdana;
+            font-family: $primary-font;
             color: $neutrals-0;
         }
     }
@@ -118,7 +118,7 @@
     border: none;
     background-color: transparent;
     color: $neutrals-9;
-    font-family: $verdana;
+    font-family: $primary-font;
     font-size: $h2-font-size-mobile;
     font-weight: 700;
     cursor: pointer;

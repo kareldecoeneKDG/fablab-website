@@ -20,7 +20,7 @@
 
         &__input {
             display: block;
-            font-family: $verdana;
+            font-family: $primary-font;
             font-size: $p-small-font-size-mobile;
             font-weight: 500;
             margin: $input-margin-mobile;
@@ -40,7 +40,7 @@
     &__submit {
         background-color: $primary;
         color: $neutrals-10;
-        font-family: $verdana;
+        font-family: $primary-font;
         font-size: $button-big-font-size-mobile;
         font-weight: 700;
         border-radius: $border-radius-small;

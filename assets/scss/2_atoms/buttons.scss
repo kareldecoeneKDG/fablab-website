@@ -10,7 +10,7 @@
 .button-small {
     display: inline-block;
 
-    font-family: $verdana;
+    font-family: $primary-font;
     font-size: $p-big-font-size-mobile;
     font-weight: 700;
 
@@ -23,6 +23,8 @@
     margin-left: $margin-side-mobile;
     margin-right: $margin-side-mobile;
     padding: $button-small-padding;
+
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.35);
 
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -75,6 +77,10 @@
     margin-left: 0;
     margin-right: 0;
     padding: $button-small-padding;
+}
+
+.price-list-button {
+    
 }
 
 
