@@ -54,6 +54,10 @@ Creation: https://www.google.com
 
 ----
 
+Isavailable: yes
+
+----
+
 Filetypes: 
 
 ----

@@ -34,6 +34,10 @@ Bed:
 
 ----
 
+Extraspecs: 
+
+----
+
 Software: https://matterandform.net/download/install/mfstudio
 
 ----
@@ -47,6 +51,10 @@ Tutorials:
 ----
 
 Creation: 
+
+----
+
+Isavailable: no
 
 ----
 

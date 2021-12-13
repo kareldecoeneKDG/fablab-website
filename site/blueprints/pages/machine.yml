@@ -43,6 +43,12 @@ columns:
                 type: url
           creation:
             type: url
+          isAvailable:
+            label: IsAvailable
+            type: radio
+            options:
+              yes: beschikbaar
+              no: niet beschikbaar
 
   - width: 1/2
     sections:
