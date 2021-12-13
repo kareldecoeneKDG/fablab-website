@@ -10,6 +10,7 @@ foreach($data as $machine) {
     }
   $json[] = [
     'name' => (string)$machine->title(),
+    'id' => (string)$machine->id(),
     'url'   => (string)$machine->url(),
     'category' => (string)$machine->parent()->title(),
     'image-source' => (string)$imageSource,
