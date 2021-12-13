@@ -19,3 +19,4 @@ foreach($data as $machine) {
 }
 
 echo json_encode($json);
+return json_encode($json);
