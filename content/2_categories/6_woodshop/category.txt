@@ -28,7 +28,7 @@ Creations:
 
 Thumbnail:
 
-- woodshop.png
+- woodshop-1.png
 
 ----
 

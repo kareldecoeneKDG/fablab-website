@@ -28,7 +28,7 @@ Creations:
 
 Thumbnail:
 
-- desktop-cutters.png
+- desktop-cutter.png
 
 ----
 

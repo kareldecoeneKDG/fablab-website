@@ -28,7 +28,7 @@ Creations:
 
 Thumbnail:
 
-- smart-textiles.png
+- smart-textiles-1.png
 
 ----
 

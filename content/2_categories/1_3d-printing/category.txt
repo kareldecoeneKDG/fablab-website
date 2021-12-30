@@ -131,7 +131,7 @@ Creations:
 
 Thumbnail:
 
-- 3d-printen.png
+- 3d-printing.png
 
 ----
 

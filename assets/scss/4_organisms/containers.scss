@@ -80,12 +80,17 @@
         min-height: calc(100vh - 12vh - 70px);
         margin-top: 210px;
     }
+
+    .container-categories {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
 }
 
 // DESKTOP - 1440PX
 @media screen and (min-width: $desktop-1440) {
     .container-categories {
-        padding-top: 50px;
+        //padding-top: 50px;
     }
 }
 
@@ -97,7 +102,7 @@
     }
 
     .container-categories {
-        padding-top: 90px;
+        //padding-top: 90px;
     }
 }
 
@@ -109,7 +114,7 @@
     }
 
     .container-categories {
-        padding-top: 210px;
+        //padding-top: 210px;
     }
 }
 
@@ -121,6 +126,6 @@
     }
 
     .container-categories {
-        padding-top: 590px;
+        //padding-top: 590px;
     }
 }

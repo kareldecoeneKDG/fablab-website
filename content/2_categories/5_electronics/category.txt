@@ -39,7 +39,7 @@ Creations:
 
 Thumbnail:
 
-- electronics.png
+- electronics-1.png
 
 ----
 

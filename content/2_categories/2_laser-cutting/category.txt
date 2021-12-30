@@ -53,7 +53,7 @@ Creations:
 
 Thumbnail:
 
-- lasercutting.png
+- laser-cutting.png
 
 ----
 

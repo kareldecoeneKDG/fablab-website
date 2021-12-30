@@ -10,6 +10,10 @@
             margin-bottom: 30px;
         }
     }
+
+    &__p {
+        margin-bottom: 30px;
+    }
 }
 
 // DESKTOP - 1280PX
@@ -17,8 +21,12 @@
     .categories-wrapper {
         &__machines {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 30px;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 60px;
+
+            &__category {
+                margin-bottom: 0px;
+            }
         }
     }
 }

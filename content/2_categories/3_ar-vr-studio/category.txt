@@ -38,7 +38,7 @@ Creations:
 
 Thumbnail:
 
-- ar-vr.png
+- ar-vr-studio.png
 
 ----
 
