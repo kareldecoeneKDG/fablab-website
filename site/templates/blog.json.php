@@ -1,8 +1,9 @@
 <?php
 
-$data = $pages->find('categories')->children()->children()->published();
+//index
+$data = $pages->find('categories')->children()->children()->listed();
 $json = [];
-$imageSource;
+$imageSource = null;
 foreach($data as $machine) {
     
     if ($machine->images()->isNotEmpty()){
