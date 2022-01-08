@@ -53,6 +53,10 @@
 // DESKTOP - 1280PX
 @media only screen and (min-width: $desktop-1280) {
     .carousel {
+        &__title {
+            margin-top: 100px;
+        }
+
         &__creations {
             grid-template-columns: repeat(4, 1fr);
     
