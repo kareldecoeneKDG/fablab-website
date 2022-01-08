@@ -68,6 +68,9 @@ columns:
         label: Biolab image
         type: files
 
+  - width: 1/2
+    sections:
+    fields:
       manufacturers:
         label: Manufacturers
         type: structure

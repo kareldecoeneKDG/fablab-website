@@ -77,9 +77,7 @@ Accessibility:
 
 - 
   vehicle: Fiets
-  description: |
-    Fiets je vanuit station Antwerpen-Zuid naar de campus? Dan moet je op ongeveer 15 minuten trappen rekenen. Liever met de Velo? Er is 1 station vlakbij: aan de Coöperatielaan (290) en Den Brem (320).
-    Meer info: www.velo-antwerpen.be
+  description: 'Fiets je vanuit station Antwerpen-Zuid naar de campus? Dan moet je op ongeveer 15 minuten trappen rekenen. Liever met de Velo? Er is 1 station vlakbij: aan de Coöperatielaan (290) en Den Brem (320). Meer info: www.velo-antwerpen.be'
   vehicles: ""
 - 
   vehicle: Trein
@@ -132,6 +130,9 @@ Socials:
 - 
   social: linkedin
   url: https://www.linkedin.com/feed/
+- 
+  social: reddit
+  url: https://www.facebook.com
 
 ----
 

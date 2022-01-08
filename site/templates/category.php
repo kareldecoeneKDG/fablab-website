@@ -121,7 +121,7 @@
 
 
 
-        <?php //snippet('carousel') ?>
+        <?php snippet('junk/carousel') ?>
 
 
 
@@ -133,4 +133,4 @@
 <?php //SNIPPET - FOOTER ?>
 <?php snippet('general/footer')?>
 
-<?php //js('build/js/arrowShower.js') ?>
+<?= js('build/js/general/lightbox-plus-jquery.js') ?>

@@ -20,6 +20,7 @@
 
         <?php // STYLESHEETS ?>
         <?= css('build/css/style.css') ?>
+        <?= css('build/css/lightbox.css') ?>
 
         <?php // FAVICONS ?>
         <?php if ($site->faviconApple()->isNotEmpty()): ?>

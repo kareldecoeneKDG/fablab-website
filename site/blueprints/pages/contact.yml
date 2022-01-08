@@ -2,115 +2,99 @@ title: Contact
 options:
   changeSlug: false
 
-columns:
-  - width: 1/2
-    sections:
-    fields:
-      pageTitle:
-        label: Pagina Titel
-        type: text
-      address:
-        label: Adres
-        type: text
-      email:
-        label: Email
-        type: text
-      
-      reserveTitle:
-        label: Reserveren titel
-        type: text
-      reserveText:
-        label: Reserveren paragraaf
-        type: text
-
-      generalTitle:
-        label: Algemene info & vragen titel
-        type: text
-      generalText:
-        label: Algemene info & vragen paragraaf
-        type: writer
-        inline: true
-        
-      employees:
-        label: Werknemers
-        type: structure
-        columns:
-          image:
-            width: 1/4
-          name:
-            width: 1/4
-          function:
-            width: 1/4
-          tel:
-            width: 1/4
-          email:
-            width: 1/4
-          biography:
-            width: 1/4
-
+tabs:
+  content:
+    label: Content
+    icon: text
+    columns:
+      sections:
         fields:
-          image:
-            type: files
-          name:
+          pageTitle:
+            label: Pagina Titel
             type: text
-          function:
-            type: text
-          tel:
+          address:
+            label: Adres
             type: text
           email:
+            label: Email
             type: text
-          biography:
-            type: writer
-            inline: true
-        
-      accessibility:
-        label: Bereikbaarheid
-        type: structure
-        default:
-          - vehicle: fiets
-          - vehicle: tram
-          - vehicle: bus
-          - vehicle: auto
-        columns:
-          vehicle:
-            width: 1/4
-          description:
-            width: 3/4
-        fields:
-          vehicle:
-            label: Vervoersmiddel
-            type: select
-            options:
-              - Fiets
-              - Trein
-              - Bus
-              - Auto
-          description:
-            label: Beschrijving
-            type: writer
-            inline: true
+          
+          reserveTitle:
+            label: Reserveren titel
+            type: text
+          reserveText:
+            label: Reserveren paragraaf
+            type: text
 
-  - width: 1/2
-    sections:
-    fields:
-      socials:
-        label: Socials
-        type: structure
-        columns:
-          social:
-            width: 1/4
-          url:
-            width: 1/2
+          generalTitle:
+            label: Algemene info & vragen titel
+            type: text
+          generalText:
+            label: Algemene info & vragen paragraaf
+            type: writer
+            inline: true
+            
+          accessibility:
+            label: Bereikbaarheid
+            type: structure
+            default:
+              - vehicle: fiets
+              - vehicle: tram
+              - vehicle: bus
+              - vehicle: auto
+            columns:
+              vehicle:
+                width: 1/4
+              description:
+                width: 3/4
+            fields:
+              vehicle:
+                label: Vervoersmiddel
+                type: select
+                options:
+                  - Fiets
+                  - Trein
+                  - Bus
+                  - Auto
+              description:
+                label: Beschrijving
+                type: writer
+                inline: true
+
+  employees:
+    label: Werknemers
+    icon: users
+    columns:
+      sections:
         fields:
-          social:
-            type: select
-            options:
-              facebook: Facebook
-              instagram: Instagram
-              linkedin: LinkedIn
-              youtube: YouTube
-              pinterest: Pinterest
-              reddit: Reddit
-              kdg: KdG Website
-          url:
-            type: url
+          employees:
+            label: Werknemers
+            type: structure
+            columns:
+              image:
+                width: 1/4
+              name:
+                width: 1/4
+              function:
+                width: 1/4
+              tel:
+                width: 1/4
+              email:
+                width: 1/4
+              biography:
+                width: 2/3
+
+            fields:
+              image:
+                type: files
+              name:
+                type: text
+              function:
+                type: text
+              tel:
+                type: text
+              email:
+                type: text
+              biography:
+                type: writer
+                inline: true

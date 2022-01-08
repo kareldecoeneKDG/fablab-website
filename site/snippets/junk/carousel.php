@@ -65,3 +65,11 @@
         </div>
     </div>
 </section> */ ?>
+
+<section class="carousel">
+    
+</section>
+
+<a href="../assets/images/previewimages/facebook-preview-image.png" data-lightbox="image-1" data-title="My caption" data-alt="test"><img src="../assets/images/previewimages/facebook-preview-image.png" alt="test" style="width: 100px"></a>
+<a href="../assets/images/previewimages/berg.jpg" data-lightbox="image-1" data-title="My caption2" data-alt="test2"><img src="../assets/images/previewimages/berg.jpg" alt="test" style="width: 100px"></a>
+<a href="../assets/images/previewimages/92.jpg" data-lightbox="image-1" data-title="My caption3" data-alt="test3"><img src="../assets/images/previewimages/92.jpg" alt="test" style="width: 100px"></a>

@@ -118,8 +118,3 @@ tabs:
         label: Fablab logo
         type: files
         max: 1
-
-      flagImage:
-        label: Vlaggetje taal
-        type: files
-        max: 1
