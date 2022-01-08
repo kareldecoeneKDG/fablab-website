@@ -281,14 +281,6 @@
     .introduction {
         .flex-column {
             height: 21vh;
-        }
-    }
-}
-
-// DESKTOP - 1536PX
-@media screen and (min-width: $desktop-1536) {
-    .introduction {
-        .flex-column {
             width: 40%;
         }
     }

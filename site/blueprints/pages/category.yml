@@ -62,11 +62,13 @@ columns:
       creations:
         label: Creations
         type: structure
+        max: 8
         fields:
           creationImage:
             label: Creatie foto
             type: files
             max: 1
+            required: true
           creationsText:
             label: Creations text
             type: text
