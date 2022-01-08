@@ -30,6 +30,9 @@ body.lb-disable-scrolling {
   max-width: inherit;
   max-height: none;
   border-radius: 3px;
+  height: 200px !important;
+  width: 100% !important;
+  object-fit: cover;
 
   /* Image border */
   border: 4px solid white;
@@ -201,4 +204,33 @@ body.lb-disable-scrolling {
   cursor: pointer;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
+}
+
+@media only screen and (min-width: 768px){
+  .lightbox .lb-image {
+    height: 400px !important;
+    width: 600px !important;
+    object-fit: cover;
+  }
+}
+
+  @media only screen and (min-width: 1024px){
+    .lightbox .lb-image {
+      height: 500px !important;
+      width: 800px !important;
+    }
+}
+
+@media only screen and (min-width: 1920px){
+  .lightbox .lb-image {
+    height: 700px !important;
+    width: 1000px !important;
+  }
+}
+
+@media only screen and (min-width: 3840px){
+  .lightbox .lb-image {
+    height: 1050px !important;
+    width: 1500px !important;
+  }
 }
