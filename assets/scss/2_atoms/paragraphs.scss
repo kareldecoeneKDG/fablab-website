@@ -3,7 +3,7 @@
 .p {
     font-family: $primary-font;
     font-size: $p-big-font-size-mobile;
-    font-weight: 500;
+    font-weight: normal;
     margin: $p-margin-mobile;
     line-height: $p-big-line-height;
 }
@@ -15,6 +15,7 @@
     padding-left: $margin-side-mobile;
     padding-right: $margin-side-mobile;
     padding-bottom: 30px;
+    font-weight: normal;
 }
 
 
@@ -29,6 +30,7 @@
                 margin-bottom: 40px;
                 font-size: $p-small-font-size-mobile;
                 color: $neutrals-8;
+                font-weight: normal;
             }
         }
     }
@@ -40,12 +42,14 @@
 .introduction {
     &__p {
         padding-bottom: 70px;
+        font-weight: normal;
     }
 }
 .team {
     &__container {
         &__biography {
             margin-top: 5px;
+            font-weight: normal;
         }
     }
 }
@@ -53,6 +57,7 @@
     &__container {
         &__function {
             color: $neutrals-7;
+            font-weight: normal;
         }
     }
 }
@@ -66,6 +71,7 @@
             &__p {
                 padding: 8px 0;
                 white-space: pre-line;
+                font-weight: normal;
             }
         }
     }
@@ -75,6 +81,7 @@
         &__p {
             margin-top: 10px;
             margin-bottom: 15px;
+            font-weight: normal;
         }
     }
 }

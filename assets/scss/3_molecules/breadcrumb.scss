@@ -2,6 +2,14 @@
     margin-bottom: 15px;
     font-weight: 700;
     color: $neutrals-7;
+
+    .breadcrumb-item {
+        font-weight: normal;
+    }
+
+    .breadcrumb_last {
+        font-weight: bold;
+    }
 }
 
 .breadcrump-margin {

@@ -12,7 +12,7 @@ Introduction: In het KdG FabLab is iedereen welkom. Door het betreden van de rui
 
 ----
 
-Openinghours: We zijn steeds aanwezig in het Fablab voor algemene vragen en uitleg. Afhankelijk van de reservaties op dat moment kunnen we bekijken of we je meteen kunnen voorthelpen, of dat we samen beter een ander moment vastleggen.
+Openinghours: We zijn steeds aanwezig in het FabLab voor algemene vragen en uitleg. Afhankelijk van de reservaties op dat moment kunnen we bekijken of we je meteen kunnen voorthelpen, of dat we samen beter een ander moment vastleggen.
 
 ----
 
@@ -28,7 +28,7 @@ Signin: Het KdG FabLab bevindt zich op verdieping -1 van gebouw B, Salesianenlaa
 
 ----
 
-Toolsquare: Quasi elke machine in het KdG Fablab is uitgerust met een gebruiksvriendelijke Toolsquare unit. Om alvast wat tijd te besparen, meld je je voor je eerstvolgende bezoek aan via de Toolsquare registratiepagina.<br><br>in’t kort: Elke machine is voorzien van een digital access point. Je kan op elke unit aanmelden met je KdG-medewerkers of -studentenkaart (RFID), of via een Fablab medewerker. Een gebruiker heeft alleen toegang tot de specifieke machine als hij/zij over de juiste toegangsrechten beschikt (bijv. training, ervaring). De unit communiceert met de gebruiker over de staat van de machine, over veiligheidseisen en over noodzakelijke voorzorgsmaatregelen voor die machine. Via de unit kan de gebruiker feedback geven over de machine en de uitgevoerde taak.
+Toolsquare: Quasi elke machine in het KdG FabLab is uitgerust met een gebruiksvriendelijke Toolsquare unit. Om alvast wat tijd te besparen, meld je je voor je eerstvolgende bezoek aan via de Toolsquare registratiepagina.<br><br>in’t kort: Elke machine is voorzien van een digital access point. Je kan op elke unit aanmelden met je KdG-medewerkers of -studentenkaart (RFID), of via een Fablab medewerker. Een gebruiker heeft alleen toegang tot de specifieke machine als hij/zij over de juiste toegangsrechten beschikt (bijv. training, ervaring). De unit communiceert met de gebruiker over de staat van de machine, over veiligheidseisen en over noodzakelijke voorzorgsmaatregelen voor die machine. Via de unit kan de gebruiker feedback geven over de machine en de uitgevoerde taak.
 
 ----
 
