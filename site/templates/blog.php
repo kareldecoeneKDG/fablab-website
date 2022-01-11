@@ -13,7 +13,7 @@
         ?>
         <?php $url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>
 
-        <div class="flex-row tag-container">
+        <div class="tag-container">
             <div class="tags">
                 <?php foreach ($tags as $tag) : ?>
                     <a class="container-blog__tag-filter__button-tag <?php if (strpos($url, $tag) !== false) {
@@ -24,7 +24,7 @@
                 <?php endforeach ?>
             </div>
 
-            <div>
+            <div class="tag-container__button">
                 <a id="remove-tag" class="container-blog__tag-filter__button-tag" href="https://fablab.karel.decoene.nxtmediatech.eu/blog">Verwijder tags</a>
             </div>
         </div>

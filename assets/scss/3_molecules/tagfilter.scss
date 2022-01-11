@@ -32,6 +32,7 @@
 #remove-tag {
     background-color: $neutrals-10;
     color: $primary;
+    margin-top: 5px;
 }
 
 .tag-container {
@@ -41,5 +42,9 @@
     .tags {
         overflow-x: auto;
         margin-right: 10px;
+    }
+
+    &__button {
+        display: block;
     }
 }
