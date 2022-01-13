@@ -15,13 +15,13 @@
 
         <div class="tag-container">
             <div class="tags">
-                <?php foreach ($tags as $tag) : ?>
-                    <a class="container-blog__tag-filter__button-tag <?php if (strpos($url, $tag) !== false) {
-                                                                            echo ("active-tag");
-                                                                        } ?>" href="<?= $url ?>/tag;<?php echo $tag ?>">
-                        <?= html($tag) ?>
-                    </a>
-                <?php endforeach ?>
+                              
+                    <?php foreach($tags as $tag): ?>
+                        
+                        <a class="container-blog__tag-filter__button-tag" href="<?= url($page->url(), ['params' => ['tag' => $tag]]) ?>">
+                            <?= html($tag) ?>
+                        </a>
+                        <?php endforeach ?>
             </div>
 
             <div class="tag-container__button">
@@ -100,4 +100,3 @@
 
 <?php snippet('general/footer') ?>
 
-<?= js('build/js/blog/taginactive.js') ?>

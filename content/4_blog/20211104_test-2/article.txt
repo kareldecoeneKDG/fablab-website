@@ -2,11 +2,19 @@ Title: Vanalles
 
 ----
 
-Text: test test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test tes
+Blogtext: 
 
 ----
 
-Date: 2021-11-04 00:00:00
+Workshop: 
+
+----
+
+Related: 
+
+----
+
+Date: 2021-11-04
 
 ----
 
@@ -16,4 +24,8 @@ Author:
 
 ----
 
-Tags: test, 3d-printer, vr bril, boeken, laser-cutter
+Tags: test, 3d-printer, boeken, laser-cutter, vr-bril
+
+----
+
+Text: test test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test testest test tes

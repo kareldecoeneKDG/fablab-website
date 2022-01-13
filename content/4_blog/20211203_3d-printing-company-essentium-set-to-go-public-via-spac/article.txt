@@ -24,4 +24,4 @@ Author:
 
 ----
 
-Tags: boeken, fablab
+Tags: boeken
