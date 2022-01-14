@@ -14,7 +14,7 @@ foreach($data as $machine) {
         # code...
         $json[] = [
           'name' => (string)$machine->title() . ' ' .$i,
-          'id' => (string)$machine->id(),
+          'id' => (string)$machine->id()."-".$i,
           'url'   => (string)$machine->url(),
           'category' => (string)$machine->parent()->title(),
           'image-source' => (string)$imageSource,
