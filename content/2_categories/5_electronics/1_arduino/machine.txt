@@ -2,6 +2,10 @@ Title: Arduino
 
 ----
 
+Amount: 10
+
+----
+
 Type: Microcontroller
 
 ----
@@ -34,6 +38,10 @@ Bed:
 
 ----
 
+Extraspecs: 
+
+----
+
 Software: https://www.arduino.cc/
 
 ----
@@ -47,6 +55,10 @@ Tutorials:
 ----
 
 Creation: 
+
+----
+
+Isavailable: 
 
 ----
 

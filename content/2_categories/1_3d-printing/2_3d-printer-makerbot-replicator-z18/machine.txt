@@ -2,6 +2,10 @@ Title: Makerbot Replicator Z18
 
 ----
 
+Amount: 1
+
+----
+
 Type: 3D Printer
 
 ----

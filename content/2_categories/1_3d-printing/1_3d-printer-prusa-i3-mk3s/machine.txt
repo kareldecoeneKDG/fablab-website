@@ -2,6 +2,10 @@ Title: Prusa i3 MK3S
 
 ----
 
+Amount: 1
+
+----
+
 Type: 3D printer
 
 ----

@@ -6,6 +6,10 @@ columns:
       info:
         type: fields
         fields:
+          amount:
+            label: Amount of Machines
+            type: number
+            default: 1
           type:
             type: text
           manufactur:
@@ -49,6 +53,7 @@ columns:
             options:
               yes: beschikbaar
               no: niet beschikbaar
+
 
   - width: 1/2
     sections:
