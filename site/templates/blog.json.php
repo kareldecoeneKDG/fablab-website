@@ -12,14 +12,27 @@ foreach($data as $machine) {
     if((int)(string)$machine->amount()>1){
       for ($i=1; $i <= (int)(string)$machine->amount(); $i++) { 
         # code...
-        $json[] = [
-          'name' => (string)$machine->title() . ' ' .$i,
-          'id' => (string)$machine->id()."-".$i,
-          'url'   => (string)$machine->url(),
-          'category' => (string)$machine->parent()->title(),
-          'image-source' => (string)$imageSource,
-          'available' => (string)$machine->isAvailable()
-        ];
+        if($i>1){
+          $json[] = [
+            'name' => (string)$machine->title() . ' ' .$i,
+            'id' => (string)$machine->id()."-".$i,
+            'url'   => (string)$machine->url(),
+            'category' => (string)$machine->parent()->title(),
+            'image-source' => (string)$imageSource,
+            'available' => (string)$machine->isAvailable()
+          ];
+        }
+        else{
+          $json[] = [
+            'name' => (string)$machine->title() . ' ' .$i,
+            'id' => (string)$machine->id(),
+            'url'   => (string)$machine->url(),
+            'category' => (string)$machine->parent()->title(),
+            'image-source' => (string)$imageSource,
+            'available' => (string)$machine->isAvailable()
+          ];
+        }
+       
       }
     }
     else{
