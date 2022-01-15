@@ -19,7 +19,6 @@ tabs:
             type: pages
             status: draft
 
-
       - width: 2/3
         sections:
         fields:
@@ -85,7 +84,7 @@ tabs:
               page:
                 label: Pagina
                 type: pages
-          
+
           infoTitle:
             label: Info titel
             type: text
@@ -104,7 +103,7 @@ tabs:
               page:
                 label: Pagina
                 type: pages
-          
+
           kdgImage:
             label: KdG logo
             type: files
@@ -114,6 +113,19 @@ tabs:
   settings:
     icon: cog
     fields:
+      admins:
+        label: Admins
+        type: structure
+        fields:
+          email:
+            label: Email
+            type: email
+          adminType:
+            label: Admin-Type
+            type: radio
+            options:
+              bewerker: Bewerker
+              lezer: Lezer
       fablabLogo:
         label: Fablab logo
         type: files

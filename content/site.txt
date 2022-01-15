@@ -127,6 +127,19 @@ Provinceantwerpimage:
 
 ----
 
+Admins:
+
+- 
+  email: ceelenders@hotmail.com
+  admintype: bewerker
+  admin-type: bewerker
+- 
+  email: cedric.lenders@student.kdg.be
+  admintype: lezer
+  admin-type: lezer
+
+----
+
 Fablablogo:
 
 - fablab_logo.svg
