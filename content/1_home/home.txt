@@ -2,7 +2,9 @@ Title: Home
 
 ----
 
-Backgroundimg: 
+Backgroundimg:
+
+- 3d-printing.jpg
 
 ----
 

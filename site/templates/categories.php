@@ -31,7 +31,7 @@
                     </figure>
                 </a>
             </li>
-        <?php endforeach ?>
+        <?php endforeach; ?>
     </ul>
 </div>
 

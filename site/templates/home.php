@@ -8,7 +8,7 @@
 
     <?php //if background is set in panel use it as banner background image?>
     <?php if ($homeimg = $page->backgroundimg()->toFile()) : ?>
-        <div class="home-banner" style="background-image: background-image: linear-gradient(white, transparent), url('<?= $homeimg->url() ?>')">
+        <div class="home-banner" style="background-image: linear-gradient(white, transparent), url('<?= $homeimg->url() ?>')">
     <?php else : ?>
         <div class="home-banner" style="background-image: linear-gradient(white, transparent), url('assets/images/background.webp')">
     <?php endif; ?>
