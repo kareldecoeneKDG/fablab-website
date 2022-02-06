@@ -204,23 +204,20 @@
                 </div>
             </section>
 
-            <section>
-                <?php // BLOCK ?>
-                <div class="footer__content__block">
-                    <h4 class="footer__content__block__title partners-title h4-footer h4">Met steun van</h4>
+            <section class="footer-partners">
+            <?php // BLOCK ?>
+                <?php if($site->partnersFooter()->isNotEmpty()): ?>
+                    <?php $partnersFooter = $site->partnersFooter()->toStructure(); ?>
+                    <div class="footer__content__block">
+                        <h4 class="footer__content__block__title h4-footer h4">Met steun van</h4>
 
-                    <?php if ($img = $site->kdgImage()->toFile()): ?>
-                        <div class="footer__content__block__imageholder">
-                            <img class="footer__content__block__imageholder__img" src="<?=$img->url()?>" alt="KdG logo">
-                        </div>
-                    <?php endif;?>
-
-                    <?php if ($img = $site->provinceAntwerpImage()->toFile()): ?>
-                        <div class="footer__content__block__imageholder">
-                            <img class="footer__content__block__imageholder__img" src="<?=$img->url()?>" alt="Provincie Antwerpen logo">
-                        </div>
-                    <?php endif;?>
-                </div>
+                        <?php foreach($partnersFooter as $partner): ?>
+                            <div class="footer__content__block__imageholder">
+                                <a href="<?= $partner->website() ?>" target="_blank"><img class="footer__content__block__imageholder__img" src="<?= $partner->logo()->toFile()->url() ?>" alt="KdG logo"></a>
+                            </div>
+                        <?php endforeach; ?>
+                    </div>
+                <?php endif; ?>
             </section>
 
 

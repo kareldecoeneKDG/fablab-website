@@ -3,9 +3,6 @@
 
     <div class="flexbox-row">
         <?php
-        // Photos partners KdG x Provincie Antwerp
-        //$featuredImages = $page->partners()->toFiles();
-
         $partners = $page->partners()->toStructure();
 
         foreach ($partners as $partner): ?>
