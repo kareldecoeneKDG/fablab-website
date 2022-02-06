@@ -127,6 +127,19 @@ Provinceantwerpimage:
 
 ----
 
+Partnersfooter:
+
+- 
+  logo:
+    - footer-kdg.png
+  website: https://www.kdg.be/
+- 
+  logo:
+    - footer-provinciea.png
+  website: https://www.provincieantwerpen.be/
+
+----
+
 Admins:
 
 - 

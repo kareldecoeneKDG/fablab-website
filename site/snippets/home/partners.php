@@ -4,10 +4,12 @@
     <div class="flexbox-row">
         <?php
         // Photos partners KdG x Provincie Antwerp
-        $featuredImages = $page->partners()->toFiles();
+        //$featuredImages = $page->partners()->toFiles();
 
-        foreach ($featuredImages as $img): ?>
-            <img class="home-container__partners__img" src="<?=$img->url()?>" alt="<?=$img->alt()?>">
+        $partners = $page->partners()->toStructure();
+
+        foreach ($partners as $partner): ?>
+            <a href="<?= $partner->website() ?>" target="_blank"><img class="home-container__partners__img" src="<?= $partner->logo()->toFile()->url() ?>" alt="Logo partner"></a>
         <?php endforeach;?>
     </div>
 </div>

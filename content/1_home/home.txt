@@ -231,9 +231,15 @@ Fablabs:
 
 Partners:
 
-- kdg_h_closed_black_srgb.png
-- >
-  provincie_antwerpen_logo_rgb_nobackground.png
+- 
+  logo:
+    - kdg_h_closed_black_srgb.png
+  website: https://www.kdg.be/
+- 
+  logo:
+    - >
+      provincie_antwerpen_logo_rgb_nobackground.png
+  website: https://www.provincieantwerpen.be/
 
 ----
 

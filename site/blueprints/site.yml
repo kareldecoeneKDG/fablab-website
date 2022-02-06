@@ -104,12 +104,24 @@ tabs:
                 label: Pagina
                 type: pages
 
-          kdgImage:
-            label: KdG logo
-            type: files
-          provinceAntwerpImage:
-            label: Provincie Antwerp logo
-            type: files
+          partnersFooter:
+            label: Partner logo's
+            type: structure
+            columns:
+              logo:
+                width: 1/6
+              website:
+                width: 5/6
+            fields:
+              logo:
+                label: Logo
+                type: files
+                max: 1
+                required: true
+              website:
+                label: Website partners
+                type: text
+                required: true
   settings:
     icon: cog
     fields:

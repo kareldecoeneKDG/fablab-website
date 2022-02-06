@@ -101,8 +101,22 @@ columns:
             max: 1
           url:
             type: url
-
-
+      
       partners:
         label: Partner logo's
-        type: files
+        type: structure
+        columns:
+          logo:
+            width: 1/6
+          website:
+            width: 5/6
+        fields:
+          logo:
+            label: Logo
+            type: files
+            max: 1
+            required: true
+          website:
+            label: Website partners
+            type: text
+            required: true
